@@ -1,8 +1,9 @@
-module Character( Actor(..)
+module Character( Character(..)
                 ) where
 
-  data Actor = Actor {
-    ws   :: Int
+  data Character = Character {
+    rolls_t :: [Int]
+    , ws :: Int
     , bs :: Int
     , s :: Int
     , t :: Int
@@ -15,6 +16,7 @@ module Character( Actor(..)
     , sb :: Int
     , tb :: Int
     , m :: Int
+    , mag :: Int
     , ip :: Int
     , fp :: Int
     , race :: String
@@ -22,16 +24,14 @@ module Character( Actor(..)
     , archtype :: String
     , place :: String
     , age :: Int
-    , eye :: Int
+    , eye :: String
     , weight :: Int
-    , hair :: Int
+    , hair :: String
     , height :: Int
+    , heightft :: String
     , mark :: String
-    , ws_r :: Int
-    , bs_r :: Int
-    , s_r :: Int
-    , t_r :: Int
-    , ag_r :: Int
-    , int_r :: Int
-    , wp_r :: Int
+    , name :: String
+    , wounds_t :: [Int]
+    , fates_t :: [Int]
+    , heights_t :: [Int]
   } deriving (Show)
