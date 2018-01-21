@@ -22,13 +22,12 @@ module Character( Character(..)
     , fp :: Int
     , race :: String
     , gender :: String
-    , place :: String
     , age :: Int
+    , place :: String
     , eye :: String
-    , weight :: Int
     , hair :: String
     , height :: Int
-    , heightft :: String
+    , weight :: Int
     , mark :: String
     , name :: String
     , wounds_t :: [Int]

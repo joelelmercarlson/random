@@ -15,8 +15,8 @@ module Main where
         dt = dieType ds
         da = dieAmt  ds
         dm = dieMod  ds
-        tens = zModRoll ["30", "d10"]
-        twenties = zModRoll ["10", "d20"]
+        tens = zModRoll ["20", "d10"]
+        twenties = zModRoll ["5", "d20"]
 
     printf "%d%s +/- %d %s = %d\n" da dt dm (show rs) t
 
