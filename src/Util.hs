@@ -18,7 +18,7 @@ module Util ( pick
 
   pn :: Int -> [Int] -> Int
   pn m n = case nth m n of
-             Nothing  -> 0
+             Nothing  -> 1
              (Just y) -> y
 
   -- | nth safe chooser
@@ -27,8 +27,10 @@ module Util ( pick
   nth 1 (x:_)  = Just x
   nth n (x:xs) = nth (n - 1) xs
 
-  genders :: [String]
-  genders = [ "Female", "Male" ]
+  genders :: Int -> String
+  genders n = if n < 5
+              then "Female"
+              else "Male"
 
   heights :: String -> [Int] -> Int
   heights n m = case n of

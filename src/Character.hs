@@ -2,7 +2,8 @@ module Character( Character(..)
                 ) where
 
   data Character = Character {
-    rolls_t :: [Int]
+    d10_rolls_t :: [Int]
+    , d20_rolls_t :: [Int]
     , ws :: Int
     , bs :: Int
     , s :: Int
@@ -21,7 +22,6 @@ module Character( Character(..)
     , fp :: Int
     , race :: String
     , gender :: String
-    , archtype :: String
     , place :: String
     , age :: Int
     , eye :: String
