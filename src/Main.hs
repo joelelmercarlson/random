@@ -6,6 +6,7 @@ module Main where
   import Util (nth)
   import Dwarf
   import Elf
+  import Human
 
   main :: IO ()
   main = do
@@ -22,5 +23,6 @@ module Main where
     case nth 1 xs of
       (Just "dwarf") -> putStrLn $ show $ genDwarf r1 r2
       (Just "elf")   -> putStrLn $ show $ genElf r1 r2
+      (Just "human") -> putStrLn $ show $ genHuman r1 r2
       otherwise      -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
 
