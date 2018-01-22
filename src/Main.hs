@@ -3,26 +3,24 @@ module Main where
   import Text.Printf
 
   import DiceSet
+  import Util (nth)
   import Dwarf
+  import Elf
 
   main :: IO ()
   main = do
     xs <- getArgs
-    let ds = if length xs > 2 then modRoll xs else zModRoll xs
 
-    rs <- roll ds
-    let t  = (sum rs) + dm
-        dt = dieType ds
-        da = dieAmt  ds
-        dm = dieMod  ds
-        tens = zModRoll ["20", "d10"]
-        twenties = zModRoll ["5", "d20"]
+    let x = zModRoll ["20", "d10"]
+        y = zModRoll ["20", "d20"]
+        ds = if length xs > 2 then modRoll xs else zModRoll xs
 
-    printf "%d%s +/- %d %s = %d\n" da dt dm (show rs) t
+    r0 <- roll ds
+    r1 <- roll x
+    r2 <- roll y
 
-    rs1 <- roll tens
-    rs2 <- roll twenties
-
-    putStrLn $ show $ genDwarf rs1 rs2
-
+    case nth 1 xs of
+      (Just "dwarf") -> putStrLn $ show $ genDwarf r1 r2
+      (Just "elf")   -> putStrLn $ show $ genElf r1 r2
+      otherwise      -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
 

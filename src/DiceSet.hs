@@ -108,4 +108,4 @@ module DiceSet ( DiceSet
       "d12"  -> evalRandIO $ d12s  y
       "d20"  -> evalRandIO $ d20s  y
       "d100" -> evalRandIO $ d100s y
-      _      -> evalRandIO $ d1s   1
+      otherwise -> evalRandIO $ d6s 1
