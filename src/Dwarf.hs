@@ -36,7 +36,7 @@ module Dwarf ( genDwarf
       , fp  = fates (pn 18 m) fate_t
       , race      = "Dwarf"
       , gender    = g_b
-      , age       = sum (take 12 m)
+      , age       = sum (take 18 m)
       , place     = worlds (pn 1 m) (pn 2 m) (pn 3 m) places places1 places2
       , eye       = pick (pn 4 m) eyes
       , hair      = pick (pn 5 m) hairs

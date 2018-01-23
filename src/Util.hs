@@ -70,4 +70,3 @@ module Util ( pick
   worlds m n o p0 p1 p2 = case pick m p0 of
               "Human" -> (pick o p2) ++ " in " ++ (pick n p1)
               _       -> pick m p0
-

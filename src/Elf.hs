@@ -37,7 +37,7 @@ module Elf ( genElf
       , fp  = fates (pn 18 m) fate_t
       , race      = "Elf"
       , gender    = g_b
-      , age       = sum (take 12 m)
+      , age       = sum (take 20 m)
       , place     = worlds p_b (pn 2 m) (pn 3 m) places places1 places2
       , eye       = pick (pn 4 m) eyes
       , hair      = pick (pn 5 m) hairs

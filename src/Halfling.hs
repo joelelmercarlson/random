@@ -1,31 +1,31 @@
-module Human ( genHuman
+module Halfling ( genHalfling
              ) where
 
   import Character
   import Util
 
-  -- | human know thy self
+  -- | hobbit know thy self
   -- | require 20 d10 and 5 d20
-  genHuman :: [Int] -> [Int] -> Character
-  genHuman m n = do
-    let wound_t = [10,11,12,13]
-        fate_t = [1,3,3]
-        height_t = [61, 64]
+  genHalfling :: [Int] -> [Int] -> Character
+  genHalfling m n = do
+    let wound_t = [8,9,10,11]
+        fate_t = [2,2,3]
+        height_t = [38, 40]
         g_b = genders (pn 19 m)
-        s_b = 20 + (pn 5 m)  + (pn 6 m)
-        t_b = 20 + (pn 7 m)  + (pn 8 m)
+        s_b = 10 + (pn 5 m)  + (pn 6 m)
+        t_b = 10 + (pn 7 m)  + (pn 8 m)
 
     Character {
       d10_rolls_t = m
       , d20_rolls_t = n
-      , ws  = 20 + (pn 1 m)  + (pn 2 m)
-      , bs  = 20 + (pn 3 m)  + (pn 4 m)
+      , ws  = 10 + (pn 1 m)  + (pn 2 m)
+      , bs  = 30 + (pn 3 m)  + (pn 4 m)
       , s   = s_b
       , t   = t_b
-      , ag  = 20 + (pn 9 m)  + (pn 10 m)
+      , ag  = 30 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
-      , wp  = 20 + (pn 13 m) + (pn 14 m)
-      , fel = 20 + (pn 15 m) + (pn 16 m)
+      , wp  = 30 + (pn 13 m) + (pn 14 m)
+      , fel = 30 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , sb  = s_b `div` 10
@@ -34,14 +34,14 @@ module Human ( genHuman
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
-      , race      = "Human"
+      , race      = "Halfling"
       , gender    = g_b
-      , age       = sum (take 6 m)
+      , age       = sum (take 12 m)
       , place     = worlds 1 (pn 2 m) (pn 3 m) places places1 places2
       , eye       = pick (pn 4 m) eyes
       , hair      = pick (pn 5 m) hairs
       , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 110 + (pn 1 n) * 5
+      , weight    = 75 + (pn 1 n) * 5
       , mark      = pick (pn 2 n) marks
       , name      = names g_b (pn 3 n) female male
       , wounds_t  = wound_t
@@ -51,79 +51,82 @@ module Human ( genHuman
 
   -- | data
   female :: [String]
-  female = [ "Alexa"
-           , "Alfrida"
-           , "Betrix"
-           , "Bianka"
-           , "Carlott"
-           , "Elfrida"
-           , "Elise"
-           , "Gabrielle"
-           , "Gretchen"
+  female = [ "Agnes"
+           , "Alice"
+           , "Elena"
+           , "Eva"
+           , "Frida"
+           , "Greta"
            , "Hanna"
-           , "Ilsa"
-           , "Klara"
-           , "Jarla"
-           , "Ludmilla"
-           , "Mathilde"
-           , "Regina"
-           , "Solveig"
-           , "Theodora"
-           , "Ulrike"
-           , "Wertha"
+           , "Heidi"
+           , "Hilda"
+           , "Janna"
+           , "Karin"
+           , "Leni"
+           , "Marie"
+           , "Petra"
+           , "Silma"
+           , "Sophia"
+           , "Susi"
+           , "Theda"
+           , "Ulla"
+           , "Wanda"
            ]
 
+
   male :: [String]
-  male = [ "Adelbert"
-         , "Albrecht"
-         , "Berthold"
-         , "Dieter"
-         , "Eckhardt"
-         , "Felix"
-         , "Gottfried"
-         , "Gustav"
-         , "Heinz"
-         , "Johann"
-         , "Konrad"
-         , "Leopold"
-         , "Magnus"
-         , "Otto"
-         , "Pieter"
-         , "Rudiger"
-         , "Seigfried"
-         , "Ulrich"
-         , "Waldemar"
-         , "Wolfgang"
+  male = [ "Adam"
+         , "Albert"
+         , "Alfred"
+         , "Axel"
+         , "Carl"
+         , "Edgar"
+         , "Hugo"
+         , "Jakob"
+         , "Ludo"
+         , "Max"
+         , "Niklaus"
+         , "Oskar"
+         , "Paul"
+         , "Ralf"
+         , "Rudi"
+         , "Theo"
+         , "Thomas"
+         , "Udo"
+         , "Viktor"
+         , "Walter"
          ]
 
   eyes :: [String]
-  eyes = [ "Pale Grey"
-         , "Grey Blue"
-         , "Blue"
-         , "Green"
-         , "Copper"
+  eyes = [ "Blue"
+         , "Hazel"
+         , "Hazel"
+         , "Light Brown"
          , "Light Brown"
          , "Brown"
+         , "Brown"
          , "Dark Brown"
-         , "Purple"
-         , "Black"
+         , "Dark Brown"
+         , "Dark Brown"
          ]
 
   hairs :: [String]
   hairs = [ "Ash Blond"
           , "Corn"
           , "Yellow"
+          , "Yellow"
           , "Copper"
           , "Red"
           , "Light Brown"
-          , "Brown"
           , "Brown"
           , "Dark Brown"
           , "Black"
           ]
 
   places :: [String]
-  places = [ "Human" ]
+  places = [ "The Moot"
+           , "Human"
+           ]
 
   places1 :: [String]
   places1 = [ "Averland"
