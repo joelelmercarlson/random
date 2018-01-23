@@ -6,6 +6,7 @@ module Main where
   import Util (nth)
   import Dwarf
   import Elf
+  import Halfling 
   import Human
 
   main :: IO ()
@@ -21,8 +22,9 @@ module Main where
     r2 <- roll y
 
     case nth 1 xs of
-      (Just "dwarf") -> putStrLn $ show $ genDwarf r1 r2
-      (Just "elf")   -> putStrLn $ show $ genElf r1 r2
-      (Just "human") -> putStrLn $ show $ genHuman r1 r2
-      otherwise      -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
+      (Just "dwarf")  -> putStrLn $ show $ genDwarf r1 r2
+      (Just "elf")    -> putStrLn $ show $ genElf r1 r2
+      (Just "hobbit") -> putStrLn $ show $ genHalfling r1 r2
+      (Just "human")  -> putStrLn $ show $ genHuman r1 r2
+      otherwise       -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
 
