@@ -14,8 +14,8 @@ module Main where
   main = do
     xs <- getArgs
 
-    let x = zModRoll ["20", "d10"]
-        y = zModRoll ["20", "d20"]
+    let x  = zModRoll ["20", "d10"]
+        y  = zModRoll ["20", "d20"]
         ds = if length xs > 2 then modRoll xs else zModRoll xs
 
     r0 <- roll ds
@@ -23,10 +23,10 @@ module Main where
     r2 <- roll y
 
     case nth 1 xs of
-      (Just "dwarf")  -> display $ genDwarf r1 r2
-      (Just "elf")    -> display $ genElf r1 r2
+      (Just "dwarf")  -> display $ genDwarf    r1 r2
+      (Just "elf")    -> display $ genElf      r1 r2
       (Just "hobbit") -> display $ genHalfling r1 r2
-      (Just "human")  -> display $ genHuman r1 r2
+      (Just "human")  -> display $ genHuman    r1 r2
       otherwise       -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
 
   display :: Character -> IO ()
