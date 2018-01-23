@@ -34,7 +34,7 @@ module Halfling ( genHalfling
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
-      , race      = "Halfling"
+      , race      = "Hobbit"
       , gender    = g_b
       , age       = sum (take 12 m)
       , place     = worlds 1 (pn 2 m) (pn 3 m) places places1 places2
