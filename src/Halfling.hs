@@ -8,12 +8,13 @@ module Halfling ( genHalfling
   -- | require 20 d10 and 5 d20
   genHalfling :: [Int] -> [Int] -> Character
   genHalfling m n = do
-    let wound_t = [8,9,10,11]
-        fate_t = [2,2,3]
+    let wound_t  = [8,9,10,11]
+        fate_t   = [2,2,3]
         height_t = [38, 40]
         g_b = genders (pn 19 m)
         s_b = 10 + (pn 5 m)  + (pn 6 m)
         t_b = 10 + (pn 7 m)  + (pn 8 m)
+        p_b = pick_birth (pn 1 m)
 
     Character {
       d10_rolls_t = m
@@ -36,12 +37,12 @@ module Halfling ( genHalfling
       , fp  = fates (pn 18 m) fate_t
       , race      = "Hobbit"
       , gender    = g_b
-      , age       = sum (take 12 m)
-      , place     = worlds 1 (pn 2 m) (pn 3 m) places places1 places2
+      , age       = 10 + sum (take 6 m)
+      , place     = worlds p_b (pn 2 m) (pn 3 m) places places1 places2
       , eye       = pick (pn 4 m) eyes
       , hair      = pick (pn 5 m) hairs
       , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 75 + (pn 1 n) * 5
+      , weight    = 75 + (pn 1 n) * 3
       , mark      = pick (pn 2 n) marks
       , name      = names g_b (pn 3 n) female male
       , wounds_t  = wound_t
@@ -49,6 +50,10 @@ module Halfling ( genHalfling
       , heights_t = height_t
     }
 
+  pick_birth :: Int -> Int
+  pick_birth n = if n < 5
+                 then 1
+                 else 2
   -- | data
   female :: [String]
   female = [ "Agnes"
@@ -167,6 +172,7 @@ module Halfling ( genHalfling
           , "Missing Tooth"
           , "Snaggle Teeth"
           , "Lazy Eye"
+          , "Missing Eyebrow(s)"
           , "Missing Digit"
           , "Distinctive Gait"
           , "Curious Smell"

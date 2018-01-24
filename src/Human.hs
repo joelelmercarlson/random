@@ -8,9 +8,9 @@ module Human ( genHuman
   -- | require 20 d10 and 5 d20
   genHuman :: [Int] -> [Int] -> Character
   genHuman m n = do
-    let wound_t = [10,11,12,13]
-        fate_t = [1,3,3]
-        height_t = [61, 64]
+    let wound_t  = [10,11,12,13]
+        fate_t   = [1,3,3]
+        height_t = [60, 64]
         g_b = genders (pn 19 m)
         s_b = 20 + (pn 5 m)  + (pn 6 m)
         t_b = 20 + (pn 7 m)  + (pn 8 m)
@@ -36,12 +36,12 @@ module Human ( genHuman
       , fp  = fates (pn 18 m) fate_t
       , race      = "Human"
       , gender    = g_b
-      , age       = sum (take 6 m)
+      , age       = 10 + sum (take 4 m)
       , place     = worlds 1 (pn 2 m) (pn 3 m) places places1 places2
       , eye       = pick (pn 4 m) eyes
       , hair      = pick (pn 5 m) hairs
       , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 110 + (pn 1 n) * 5
+      , weight    = 100 + (pn 1 n) * 5
       , mark      = pick (pn 2 n) marks
       , name      = names g_b (pn 3 n) female male
       , wounds_t  = wound_t
@@ -164,6 +164,7 @@ module Human ( genHuman
           , "Missing Tooth"
           , "Snaggle Teeth"
           , "Lazy Eye"
+          , "Missing Eyebrow(s)"
           , "Missing Digit"
           , "Distinctive Gait"
           , "Curious Smell"

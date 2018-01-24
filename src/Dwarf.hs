@@ -8,8 +8,8 @@ module Dwarf ( genDwarf
   -- | require 20 d10 and 5 d20
   genDwarf :: [Int] -> [Int] -> Character
   genDwarf m n = do
-    let wound_t = [11,12,13,14]
-        fate_t = [1,2,3]
+    let wound_t  = [11,12,13,14]
+        fate_t   = [1,2,3]
         height_t = [48, 50]
         g_b = genders (pn 19 m)
         s_b = 20 + (pn 5 m)  + (pn 6 m)
@@ -36,7 +36,7 @@ module Dwarf ( genDwarf
       , fp  = fates (pn 18 m) fate_t
       , race      = "Dwarf"
       , gender    = g_b
-      , age       = sum (take 18 m)
+      , age       = 10 + sum (take 10 m)
       , place     = worlds (pn 1 m) (pn 2 m) (pn 3 m) places places1 places2
       , eye       = pick (pn 4 m) eyes
       , hair      = pick (pn 5 m) hairs
