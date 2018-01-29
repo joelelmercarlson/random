@@ -5,36 +5,35 @@ module Elf ( genElf
   import Util
 
   -- | elf know thy self
-  -- | require 20 d10 and 5 d20
+  -- | require 25 d10 and 5 d20
   genElf :: [Int] -> [Int] -> Character
   genElf m n = do
     let wound_t  = [9,10,11,12]
         fate_t   = [1,2,2]
         height_t = [64, 66]
-        g_b = genders (pn 19 m)
-        s_b = 20 + (pn 5 m)  + (pn 6 m)
-        t_b = 20 + (pn 7 m)  + (pn 8 m)
-        p_b = pick_birth (pn 1 n)
+        g_b      = genders (pn 1 m)
+        p_b      = pick_birth (pn 2 n)
 
     Character {
       d10_rolls_t = m
       , d20_rolls_t = n
       , ws  = 20 + (pn 1 m)  + (pn 2 m)
       , bs  = 30 + (pn 3 m)  + (pn 4 m)
-      , s   = s_b
-      , t   = t_b
+      , s   = 20 + (pn 5 m)  + (pn 6 m)
+      , t   = 20 + (pn 7 m)  + (pn 8 m)
       , ag  = 30 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
       , wp  = 20 + (pn 13 m) + (pn 14 m)
       , fel = 20 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
-      , sb  = s_b `div` 10
-      , tb  = t_b `div` 10
       , m   = 5
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
+      , dex = 30 + (pn 19 m) + (pn 20 m)
+      , ld  = 30 + (pn 21 m) + (pn 22 m)
+      , cl  = 40 + (pn 23 m) + (pn 24 m)
       , race      = "Elf"
       , gender    = g_b
       , age       = 20 + sum (take 12 m)

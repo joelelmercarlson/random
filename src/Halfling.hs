@@ -5,36 +5,35 @@ module Halfling ( genHalfling
   import Util
 
   -- | hobbit know thy self
-  -- | require 20 d10 and 5 d20
+  -- | require 25 d10 and 5 d20
   genHalfling :: [Int] -> [Int] -> Character
   genHalfling m n = do
     let wound_t  = [8,9,10,11]
         fate_t   = [2,2,3]
         height_t = [38, 40]
-        g_b = genders (pn 19 m)
-        s_b = 10 + (pn 5 m)  + (pn 6 m)
-        t_b = 10 + (pn 7 m)  + (pn 8 m)
-        p_b = pick_birth (pn 1 m)
+        g_b      = genders (pn 1 m)
+        p_b      = pick_birth (pn 2 m)
 
     Character {
       d10_rolls_t = m
       , d20_rolls_t = n
       , ws  = 10 + (pn 1 m)  + (pn 2 m)
       , bs  = 30 + (pn 3 m)  + (pn 4 m)
-      , s   = s_b
-      , t   = t_b
+      , s   = 10 + (pn 5 m)  + (pn 6 m)
+      , t   = 10 + (pn 7 m)  + (pn 8 m)
       , ag  = 30 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
       , wp  = 30 + (pn 13 m) + (pn 14 m)
       , fel = 30 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
-      , sb  = s_b `div` 10
-      , tb  = t_b `div` 10
       , m   = 4
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
+      , dex = 30 + (pn 19 m) + (pn 20 m)
+      , ld  = 10 + (pn 21 m) + (pn 22 m)
+      , cl  = 10 + (pn 23 m) + (pn 24 m)
       , race      = "Hobbit"
       , gender    = g_b
       , age       = 10 + sum (take 6 m)

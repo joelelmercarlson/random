@@ -5,35 +5,34 @@ module Human ( genHuman
   import Util
 
   -- | human know thy self
-  -- | require 20 d10 and 5 d20
+  -- | require 25 d10 and 5 d20
   genHuman :: [Int] -> [Int] -> Character
   genHuman m n = do
     let wound_t  = [10,11,12,13]
         fate_t   = [1,3,3]
         height_t = [60, 64]
-        g_b = genders (pn 19 m)
-        s_b = 20 + (pn 5 m)  + (pn 6 m)
-        t_b = 20 + (pn 7 m)  + (pn 8 m)
+        g_b      = genders (pn 1 m)
 
     Character {
       d10_rolls_t = m
       , d20_rolls_t = n
       , ws  = 20 + (pn 1 m)  + (pn 2 m)
       , bs  = 20 + (pn 3 m)  + (pn 4 m)
-      , s   = s_b
-      , t   = t_b
+      , s   = 20 + (pn 5 m)  + (pn 6 m)
+      , t   = 20 + (pn 7 m)  + (pn 8 m)
       , ag  = 20 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
       , wp  = 20 + (pn 13 m) + (pn 14 m)
       , fel = 20 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
-      , sb  = s_b `div` 10
-      , tb  = t_b `div` 10
       , m   = 4
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
+      , dex = 20 + (pn 19 m) + (pn 20 m)
+      , ld  = 20 + (pn 21 m) + (pn 22 m)
+      , cl  = 20 + (pn 23 m) + (pn 24 m)
       , race      = "Human"
       , gender    = g_b
       , age       = 10 + sum (take 4 m)

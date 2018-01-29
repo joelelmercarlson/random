@@ -5,35 +5,34 @@ module Dwarf ( genDwarf
   import Util
 
   -- | dwarf know thy self
-  -- | require 20 d10 and 5 d20
+  -- | require 25 d10 and 5 d20
   genDwarf :: [Int] -> [Int] -> Character
   genDwarf m n = do
     let wound_t  = [11,12,13,14]
         fate_t   = [1,2,3]
         height_t = [48, 50]
-        g_b = genders (pn 19 m)
-        s_b = 20 + (pn 5 m)  + (pn 6 m)
-        t_b = 30 + (pn 7 m)  + (pn 8 m)
+        g_b      = genders (pn 1 m)
 
     Character {
       d10_rolls_t = m
       , d20_rolls_t = n
       , ws  = 30 + (pn 1 m)  + (pn 2 m)
       , bs  = 20 + (pn 3 m)  + (pn 4 m)
-      , s   = s_b
-      , t   = t_b
+      , s   = 20 + (pn 5 m)  + (pn 6 m)
+      , t   = 30 + (pn 7 m)  + (pn 8 m)
       , ag  = 10 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
       , wp  = 20 + (pn 13 m) + (pn 14 m)
       , fel = 10 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
-      , sb  = s_b `div` 10
-      , tb  = t_b `div` 10
       , m   = 3
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
+      , dex = 10 + (pn 19 m) + (pn 20 m)
+      , ld  = 40 + (pn 21 m) + (pn 22 m)
+      , cl  = 40 + (pn 23 m) + (pn 24 m)
       , race      = "Dwarf"
       , gender    = g_b
       , age       = 10 + sum (take 10 m)
