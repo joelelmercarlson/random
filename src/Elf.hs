@@ -5,7 +5,7 @@ module Elf ( genElf
   import Util
 
   -- | elf know thy self
-  -- | require 25 d10 and 5 d20
+  -- | require 20 d10 and 5 d20
   genElf :: [Int] -> [Int] -> Character
   genElf m n = do
     let wound_t  = [9,10,11,12]
@@ -31,9 +31,6 @@ module Elf ( genElf
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
-      , dex = 30 + (pn 19 m) + (pn 20 m)
-      , ld  = 30 + (pn 21 m) + (pn 22 m)
-      , cl  = 40 + (pn 23 m) + (pn 24 m)
       , race      = "Elf"
       , gender    = g_b
       , age       = 20 + sum (take 12 m)

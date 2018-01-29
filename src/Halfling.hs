@@ -5,7 +5,7 @@ module Halfling ( genHalfling
   import Util
 
   -- | hobbit know thy self
-  -- | require 25 d10 and 5 d20
+  -- | require 20 d10 and 5 d20
   genHalfling :: [Int] -> [Int] -> Character
   genHalfling m n = do
     let wound_t  = [8,9,10,11]
@@ -23,7 +23,7 @@ module Halfling ( genHalfling
       , t   = 10 + (pn 7 m)  + (pn 8 m)
       , ag  = 30 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
-      , wp  = 30 + (pn 13 m) + (pn 14 m)
+      , wp  = 20 + (pn 13 m) + (pn 14 m)
       , fel = 30 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
@@ -31,9 +31,6 @@ module Halfling ( genHalfling
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
-      , dex = 30 + (pn 19 m) + (pn 20 m)
-      , ld  = 10 + (pn 21 m) + (pn 22 m)
-      , cl  = 10 + (pn 23 m) + (pn 24 m)
       , race      = "Hobbit"
       , gender    = g_b
       , age       = 10 + sum (take 6 m)

@@ -5,7 +5,7 @@ module Human ( genHuman
   import Util
 
   -- | human know thy self
-  -- | require 25 d10 and 5 d20
+  -- | require 20 d10 and 5 d20
   genHuman :: [Int] -> [Int] -> Character
   genHuman m n = do
     let wound_t  = [10,11,12,13]
@@ -30,9 +30,6 @@ module Human ( genHuman
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
-      , dex = 20 + (pn 19 m) + (pn 20 m)
-      , ld  = 20 + (pn 21 m) + (pn 22 m)
-      , cl  = 20 + (pn 23 m) + (pn 24 m)
       , race      = "Human"
       , gender    = g_b
       , age       = 10 + sum (take 4 m)

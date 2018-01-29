@@ -5,7 +5,7 @@ module Dwarf ( genDwarf
   import Util
 
   -- | dwarf know thy self
-  -- | require 25 d10 and 5 d20
+  -- | require 20 d10 and 5 d20
   genDwarf :: [Int] -> [Int] -> Character
   genDwarf m n = do
     let wound_t  = [11,12,13,14]
@@ -30,9 +30,6 @@ module Dwarf ( genDwarf
       , mag = 0
       , ip  = 0
       , fp  = fates (pn 18 m) fate_t
-      , dex = 10 + (pn 19 m) + (pn 20 m)
-      , ld  = 40 + (pn 21 m) + (pn 22 m)
-      , cl  = 40 + (pn 23 m) + (pn 24 m)
       , race      = "Dwarf"
       , gender    = g_b
       , age       = 10 + sum (take 10 m)

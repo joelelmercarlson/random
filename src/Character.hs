@@ -18,9 +18,6 @@ module Character( Character(..)
     , mag :: Int
     , ip :: Int
     , fp :: Int
-    , dex :: Int
-    , ld :: Int
-    , cl :: Int
     , race :: String
     , gender :: String
     , age :: Int
