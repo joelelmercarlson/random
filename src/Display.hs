@@ -34,7 +34,7 @@ module Display ( rpg
         t_b  = (t n)  `div` 10
         i_b  = (ag n) `div` 10
         w_b  = (w n)  `div` 5
-        ld_b = ((wp n + fel n) `div` 2) `div` 10
+        ld_b = (wp n + fel n) `div` 12
     printf "Battle\n"
     printf "   | M  | WS | BS | S  | T  | W  | I  | A  | Ld |\n"
     printf "   | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d |\n" (m n) ws_b bs_b s_b t_b w_b i_b (a n) ld_b

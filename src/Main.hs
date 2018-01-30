@@ -9,6 +9,7 @@ module Main where
   import Elf
   import Halfling
   import Human
+  import ToHit
   import Util (nth)
 
   main :: IO ()
@@ -32,5 +33,7 @@ module Main where
       (Just "hobbit2") -> rpg' $ genHalfling r1 r2
       (Just "human")   -> rpg  $ genHuman    r1 r2
       (Just "human2")  -> rpg' $ genHuman    r1 r2
+      (Just "hit")     -> tohit
+      (Just "wound")   -> towound
       otherwise        -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
 

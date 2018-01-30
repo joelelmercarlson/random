@@ -23,8 +23,8 @@ module Elf ( genElf
       , t   = 20 + (pn 7 m)  + (pn 8 m)
       , ag  = 30 + (pn 9 m)  + (pn 10 m)
       , int = 20 + (pn 11 m) + (pn 12 m)
-      , wp  = 20 + (pn 13 m) + (pn 14 m)
-      , fel = 20 + (pn 15 m) + (pn 16 m)
+      , wp  = 30 + (pn 13 m) + (pn 14 m)
+      , fel = 30 + (pn 15 m) + (pn 16 m)
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , m   = 5
