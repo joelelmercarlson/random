@@ -1,7 +1,5 @@
 #!/usr/bin/env stack
 -- stack script --system-ghc --resolver lts-9.18 --package "MonadRandom" --package "text"
-  {-# LANGUAGE OverloadedStrings #-}
-
   import Data.Char
   import Control.Monad.Random
   import System.Environment

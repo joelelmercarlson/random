@@ -36,4 +36,3 @@ module Main where
       (Just "hit")     -> tohit
       (Just "wound")   -> towound
       otherwise        -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
-
