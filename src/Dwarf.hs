@@ -101,7 +101,7 @@ module Dwarf ( genDwarf
          , "Brown"
          , "Brown"
          , "Dark Brown"
-         , "Dark Bpown"
+         , "Dark Brown"
          , "Purple"
          ]
 

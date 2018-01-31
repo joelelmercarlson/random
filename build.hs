@@ -9,6 +9,9 @@
   main = do
     r <- callCommand "stack build"
     run <- callCommand "stack exec rpg dwarf"
+    run <- callCommand "stack exec rpg elf"
+    run <- callCommand "stack exec rpg human"
+    run <- callCommand "stack exec rpg hobbit"
     run <- callCommand "stack exec rpg hit"
     run <- callCommand "stack exec rpg wound"
     putStrLn $ "build: " ++ show r
