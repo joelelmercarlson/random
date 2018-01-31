@@ -12,7 +12,7 @@ module Display ( rpg
     printf "Main Profile\n"
     printf "  | WS | BS | S  | T  | W  | Ag | Int | Wp | Fel |\n"
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d |\n" (ws n)(bs n)(s n)(t n)(w n)(ag n)(int n)(wp n)(fel n)
-    war n
+    battle n
 
   rpg' :: Character -> IO ()
   rpg' n = do
@@ -25,9 +25,10 @@ module Display ( rpg
     printf "Secondary Profile\n"
     printf "  | A  | W  | SB | TB | M  | Mag | IP | FP  |\n"
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d |\n" (a n)(w n) s_b t_b (m n)(mag n)(ip n)(fp n)
+    printf "\n"
 
-  war :: Character -> IO ()
-  war n = do
+  battle :: Character -> IO ()
+  battle n = do
     let ws_b = (ws n) `div` 10
         bs_b = (bs n) `div` 10
         s_b  = (s n)  `div` 10
@@ -38,11 +39,12 @@ module Display ( rpg
     printf "Battle Profile\n"
     printf "  | M  | WS | BS | S  | T  | W  | I  | A  | Ld |\n"
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d |\n" (m n) ws_b bs_b s_b t_b w_b i_b (a n) ld_b
+    printf "\n"
 
   story :: Character -> IO ()
   story n = do
     let ht = (height_f (height n))
-    printf "%s, the %s from %s\n\n" (name n)(race n)(place n)
+    printf "%s, the %s from %s\n" (name n)(race n)(place n)
     printf "  | Age:    %-8d | Height: %-12s | Weight: %d\n" (age n) ht (weight n)
     printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n" (gender n)(hair n)(eye n)
-    printf "  | Fate:   %-8d | Mark:   %s\n\n" (fp n)(mark n)
+    printf "  | Fate:   %-8d | Mark:   %s\n" (fp n)(mark n)
