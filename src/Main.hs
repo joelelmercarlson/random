@@ -7,7 +7,7 @@ module Main where
   import Display (rpg, rpg')
   import Dwarf
   import Elf
-  import Halfling
+  import Hobbit
   import Human
   import ToHit
   import Util (nth)
