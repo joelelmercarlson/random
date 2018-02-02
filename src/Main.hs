@@ -25,8 +25,9 @@ module Main where
     r2 <- roll y
 
     case nth 1 xs of
-      (Just "dwarf")   -> rpg  $ genDwarf    r1 r2
-      (Just "dwarf2")  -> rpg' $ genDwarf    r1 r2
+      (Just "dwarf")        -> rpg $                genDwarf r1 r2
+      (Just "greybeard")    -> rpg $ greybeard    $ genDwarf r1 r2
+      (Just "dragonseeker") -> rpg $ dragonseeker $ genDwarf r1 r2
       (Just "elf")     -> rpg  $ genElf      r1 r2
       (Just "elf2")    -> rpg' $ genElf      r1 r2
       (Just "hobbit")  -> rpg  $ genHalfling r1 r2

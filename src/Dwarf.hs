@@ -1,4 +1,8 @@
+{-# LANGUAGE RecordWildCards #-}
+
 module Dwarf ( genDwarf
+             , greybeard
+             , dragonseeker
              ) where
 
   import Character
@@ -44,6 +48,13 @@ module Dwarf ( genDwarf
       , fates_t   = fate_t
       , heights_t = height_t
     }
+
+  -- | RecordWildCards syntax
+  greybeard :: Character -> Character
+  greybeard n@Character{..} = n {ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11 }
+
+  dragonseeker :: Character -> Character
+  dragonseeker n@Character{..} = n {ws=ws+31, bs=bs+11, s=s+31, t=t+11, ag=ag+31, wp=wp+21, fel=fel+21, a=a+4, w=w+5 }
 
   -- | data
   female :: [String]
