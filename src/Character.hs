@@ -15,8 +15,6 @@ module Character( Character(..)
     , a :: Int
     , w :: Int
     , m :: Int
-    , mag :: Int
-    , ip :: Int
     , fp :: Int
     , race :: String
     , gender :: String
@@ -31,4 +29,5 @@ module Character( Character(..)
     , wounds_t :: [Int]
     , fates_t :: [Int]
     , heights_t :: [Int]
+    , career :: String
   } deriving (Show)

@@ -1,8 +1,13 @@
 {-# LANGUAGE RecordWildCards #-}
 
 module Dwarf ( genDwarf
-             , greybeard
+             , king
+             , thane
              , dragonseeker
+             , runicsmith
+             , greybeard
+             , elite
+             , veteran
              ) where
 
   import Character
@@ -31,8 +36,6 @@ module Dwarf ( genDwarf
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , m   = 3
-      , mag = 0
-      , ip  = 0
       , fp  = fates (pn 18 m) fate_t
       , race      = "Dwarf"
       , gender    = g_b
@@ -44,19 +47,35 @@ module Dwarf ( genDwarf
       , weight    = 90 + (pn 1 n) * 5
       , mark      = pick (pn 2 n) marks
       , name      = names g_b (pn 3 n) female male
+      , career    = "basic"
       , wounds_t  = wound_t
       , fates_t   = fate_t
       , heights_t = height_t
     }
 
   -- | RecordWildCards syntax
-  greybeard :: Character -> Character
-  greybeard n@Character{..} = n {ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11 }
+  king :: Character -> Character
+  king n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+21, a=a+3, wp=wp+31, fel=fel+21, career="Lords of Stone - King" }
+
+  thane :: Character -> Character
+  thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Lords of Stone - Thane" }
 
   dragonseeker :: Character -> Character
-  dragonseeker n@Character{..} = n {ws=ws+31, bs=bs+11, s=s+31, t=t+11, ag=ag+31, wp=wp+21, fel=fel+21, a=a+4, w=w+5 }
+  dragonseeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=w+5, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Dragon Seeker" }
 
-  -- | data
+  runicsmith :: Character -> Character
+  runicsmith n@Character{..} = n { ws=ws+11, s=s+11, w=w+5, a=a+1, wp=wp+11, fel=fel+11, career="Runic Smith" }
+
+  greybeard :: Character -> Character
+  greybeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Greybeards" }
+
+  elite :: Character -> Character
+  elite n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite" }
+
+  veteran :: Character -> Character
+  veteran n@Character{..} = n { ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran" }
+
+  -- | Data Tables
   female :: [String]
   female = [ "Anika"
            , "Asta"

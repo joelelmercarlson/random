@@ -4,7 +4,7 @@ module Main where
 
   import Character
   import DiceSet
-  import Display (rpg, rpg')
+  import Display (rpg)
   import Dwarf
   import Elf
   import Hobbit
@@ -25,15 +25,17 @@ module Main where
     r2 <- roll y
 
     case nth 1 xs of
-      (Just "dwarf")        -> rpg $                genDwarf r1 r2
-      (Just "greybeard")    -> rpg $ greybeard    $ genDwarf r1 r2
+      (Just "dwarf")        -> rpg $              genDwarf r1 r2
+      (Just "king")         -> rpg $ king       $ genDwarf r1 r2
+      (Just "thane")        -> rpg $ thane      $ genDwarf r1 r2
       (Just "dragonseeker") -> rpg $ dragonseeker $ genDwarf r1 r2
+      (Just "runicsmith")   -> rpg $ runicsmith $ genDwarf r1 r2
+      (Just "greybeard")    -> rpg $ greybeard  $ genDwarf r1 r2
+      (Just "elite")        -> rpg $ elite      $ genDwarf r1 r2
+      (Just "veteran")      -> rpg $ veteran    $ genDwarf r1 r2
       (Just "elf")     -> rpg  $ genElf      r1 r2
-      (Just "elf2")    -> rpg' $ genElf      r1 r2
       (Just "hobbit")  -> rpg  $ genHalfling r1 r2
-      (Just "hobbit2") -> rpg' $ genHalfling r1 r2
       (Just "human")   -> rpg  $ genHuman    r1 r2
-      (Just "human2")  -> rpg' $ genHuman    r1 r2
       (Just "hit")     -> tohit
       (Just "wound")   -> towound
       otherwise        -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))

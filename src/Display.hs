@@ -1,5 +1,4 @@
 module Display ( rpg
-               , rpg'
                ) where
   import Text.Printf
 
@@ -13,19 +12,6 @@ module Display ( rpg
     printf "  | WS | BS | S  | T  | W  | Ag | Int | Wp | Fel |\n"
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d |\n" (ws n)(bs n)(s n)(t n)(w n)(ag n)(int n)(wp n)(fel n)
     battle n
-
-  rpg' :: Character -> IO ()
-  rpg' n = do
-    let s_b = (s n) `div` 10
-        t_b = (t n) `div` 10
-    story n
-    printf "Main Profile\n"
-    printf "  | WS | BS | S  | T  | Ag | Int | Wp | Fel |\n"
-    printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d |\n" (ws n)(bs n)(s n)(t n)(ag n)(int n)(wp n)(fel n)
-    printf "Secondary Profile\n"
-    printf "  | A  | W  | SB | TB | M  | Mag | IP | FP  |\n"
-    printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d |\n" (a n)(w n) s_b t_b (m n)(mag n)(ip n)(fp n)
-    printf "\n"
 
   battle :: Character -> IO ()
   battle n = do
@@ -48,3 +34,4 @@ module Display ( rpg
     printf "  | Age:    %-8d | Height: %-12s | Weight: %d\n" (age n) ht (weight n)
     printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n" (gender n)(hair n)(eye n)
     printf "  | Fate:   %-8d | Mark:   %s\n" (fp n)(mark n)
+    printf "  | Career: %s\n" (career n)

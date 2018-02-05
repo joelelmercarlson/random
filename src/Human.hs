@@ -27,8 +27,6 @@ module Human ( genHuman
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , m   = 4
-      , mag = 0
-      , ip  = 0
       , fp  = fates (pn 18 m) fate_t
       , race      = "Human"
       , gender    = g_b
@@ -43,6 +41,7 @@ module Human ( genHuman
       , wounds_t  = wound_t
       , fates_t   = fate_t
       , heights_t = height_t
+      , career    = "basic"
     }
 
   -- | data

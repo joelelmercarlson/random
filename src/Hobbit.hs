@@ -28,8 +28,6 @@ module Hobbit ( genHalfling
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , m   = 4
-      , mag = 0
-      , ip  = 0
       , fp  = fates (pn 18 m) fate_t
       , race      = "Hobbit"
       , gender    = g_b
@@ -44,6 +42,7 @@ module Hobbit ( genHalfling
       , wounds_t  = wound_t
       , fates_t   = fate_t
       , heights_t = height_t
+      , career    = "basic"
     }
 
   pick_birth :: Int -> Int
