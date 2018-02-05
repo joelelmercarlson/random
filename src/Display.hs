@@ -34,4 +34,4 @@ module Display ( rpg
     printf "  | Age:    %-8d | Height: %-12s | Weight: %d\n" (age n) ht (weight n)
     printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n" (gender n)(hair n)(eye n)
     printf "  | Fate:   %-8d | Mark:   %s\n" (fp n)(mark n)
-    printf "  | Career: %s\n" (career n)
+    printf "  | Rank: %s\n" (career n)

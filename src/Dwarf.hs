@@ -61,19 +61,19 @@ module Dwarf ( genDwarf
   thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Lords of Stone - Thane" }
 
   dragonseeker :: Character -> Character
-  dragonseeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=w+5, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Dragon Seeker" }
+  dragonseeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=w+5, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Hero - Dragon Seeker" }
 
   runicsmith :: Character -> Character
-  runicsmith n@Character{..} = n { ws=ws+11, s=s+11, w=w+5, a=a+1, wp=wp+11, fel=fel+11, career="Runic Smith" }
+  runicsmith n@Character{..} = n { ws=ws+11, s=s+11, w=w+5, a=a+1, wp=wp+11, fel=fel+11, career="Hero - Runic Smith" }
 
   greybeard :: Character -> Character
-  greybeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Greybeards" }
+  greybeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Greybeards" }
 
   elite :: Character -> Character
-  elite n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite" }
+  elite n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite - Deep Watch" }
 
   veteran :: Character -> Character
-  veteran n@Character{..} = n { ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran" }
+  veteran n@Character{..} = n { s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Clan Warriors" }
 
   -- | Data Tables
   female :: [String]
