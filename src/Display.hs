@@ -3,7 +3,7 @@ module Display ( rpg
   import Text.Printf
 
   import Character
-  import Util (height_f)
+  import Util (clamp, height_f)
 
   rpg :: Character -> IO ()
   rpg n = do
@@ -15,13 +15,13 @@ module Display ( rpg
 
   battle :: Character -> IO ()
   battle n = do
-    let ws_b = (ws n) `div` 10
-        bs_b = (bs n) `div` 10
-        s_b  = (s n)  `div` 10
-        t_b  = (t n)  `div` 10
-        i_b  = (ag n) `div` 10
-        w_b  = (w n)  `div` 5
-        ld_b = (wp n + fel n) `div` 12
+    let ws_b = clamp $ (ws n) `div` 10
+        bs_b = clamp $ (bs n) `div` 10
+        s_b  = clamp $ (s n)  `div` 10
+        t_b  = clamp $ (t n)  `div` 10
+        i_b  = clamp $ (ag n) `div` 10
+        w_b  = clamp $ (w n)  `div` 5
+        ld_b = clamp $ (wp n + fel n) `div` 12
     printf "Battle Profile\n"
     printf "  | M  | WS | BS | S  | T  | W  | I  | A  | Ld |\n"
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d |\n" (m n) ws_b bs_b s_b t_b w_b i_b (a n) ld_b
@@ -30,8 +30,8 @@ module Display ( rpg
   story :: Character -> IO ()
   story n = do
     let ht = (height_f (height n))
-    printf "%s, the %s from %s\n" (name n)(race n)(place n)
+    printf "%s, the %s from %s\n"                            (name n)(race n)(place n)
     printf "  | Age:    %-8d | Height: %-12s | Weight: %d\n" (age n) ht (weight n)
-    printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n" (gender n)(hair n)(eye n)
-    printf "  | Fate:   %-8d | Mark:   %s\n" (fp n)(mark n)
-    printf "  | Rank: %s\n" (career n)
+    printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n"   (gender n)(hair n)(eye n)
+    printf "  | Fate:   %-8d | Mark:   %s\n"                 (fp n)(mark n)
+    printf "  | Career: %s\n"                                (career n)

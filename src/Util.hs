@@ -1,6 +1,7 @@
 module Util ( pick
             , pn
             , nth
+            , clamp
             , genders
             , heights
             , height_f
@@ -26,6 +27,9 @@ module Util ( pick
   nth _ []     = Nothing
   nth 1 (x:_)  = Just x
   nth n (x:xs) = nth (n - 1) xs
+
+  clamp :: Int -> Int
+  clamp n = if n > 10 then 10 else n
 
   genders :: Int -> String
   genders n = if n < 5
