@@ -55,10 +55,10 @@ module Dwarf ( genDwarf
 
   -- | RecordWildCards syntax
   king :: Character -> Character
-  king n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+21, a=a+3, wp=wp+31, fel=fel+21, career="Lords of Stone - King" }
+  king n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+21, a=a+3, wp=wp+31, fel=fel+21, career="King - Lords of Stone" }
 
   thane :: Character -> Character
-  thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Lords of Stone - Thane" }
+  thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Thane - Lords of Stone" }
 
   dragonseeker :: Character -> Character
   dragonseeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=w+5, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Hero - Dragon Seeker" }
@@ -70,7 +70,7 @@ module Dwarf ( genDwarf
   greybeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Greybeards" }
 
   elite :: Character -> Character
-  elite n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite - Deep Watch" }
+  elite n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite - Deep Watch or King's Guard" }
 
   veteran :: Character -> Character
   veteran n@Character{..} = n { s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Clan Warriors" }
