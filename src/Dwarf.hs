@@ -3,11 +3,11 @@
 module Dwarf ( genDwarf
              , king
              , thane
-             , dragonseeker
-             , runicsmith
-             , greybeard
-             , elite
-             , veteran
+             , dragonSeeker
+             , runicSmith
+             , greyBeard
+             , deepWatch
+             , clanWarrior
              ) where
 
   import Character
@@ -17,10 +17,10 @@ module Dwarf ( genDwarf
   -- | require lots of d10
   genDwarf :: [Int] -> Character
   genDwarf m = do
-    let fate_t   = [1,2,3]
+    let fate_t   = [1, 2, 3]
         gender_b = genders (average m)
         height_t = [48, 50]
-        wound_t = [6, 7, 8, 9]
+        wound_t  = [6, 7, 8, 9]
 
     Character {
       d10_rolls_t = m
@@ -51,25 +51,25 @@ module Dwarf ( genDwarf
 
   -- | RecordWildCards syntax
   king :: Character -> Character
-  king n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+21, a=a+3, wp=wp+31, fel=fel+21, career="King - Lords of Stone" }
+  king n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+11, t=t+11, w=15, ag=ag+21, a=a+3, wp=wp+31, fel=fel+21, career="King - Lords of Stone" }
 
   thane :: Character -> Character
-  thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=w+5, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Thane - Lords of Stone" }
+  thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=15, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Thane - Lords of Stone" }
 
-  dragonseeker :: Character -> Character
-  dragonseeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=w+5, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Hero - Dragon Seeker" }
+  dragonSeeker :: Character -> Character
+  dragonSeeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=15, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Hero - Dragon Seeker" }
 
-  runicsmith :: Character -> Character
-  runicsmith n@Character{..} = n { ws=ws+11, s=s+11, w=w+5, a=a+1, wp=wp+11, fel=fel+11, career="Hero - Runic Smith" }
+  runicSmith :: Character -> Character
+  runicSmith n@Character{..} = n { ws=ws+11, s=s+11, w=15, a=a+1, wp=wp+11, fel=fel+11, career="Hero - Runic Smith" }
 
-  greybeard :: Character -> Character
-  greybeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Greybeards" }
+  greyBeard :: Character -> Character
+  greyBeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Greybeards" }
 
-  elite :: Character -> Character
-  elite n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite - Deep Watch or King's Guard" }
+  deepWatch :: Character -> Character
+  deepWatch n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite - Deep Watch" }
 
-  veteran :: Character -> Character
-  veteran n@Character{..} = n { s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Clan Warriors" }
+  clanWarrior :: Character -> Character
+  clanWarrior n@Character{..} = n { s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Clan Warriors" }
 
   -- | Data Tables
   female :: [String]

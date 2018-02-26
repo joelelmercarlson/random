@@ -29,11 +29,11 @@ module Main where
       (Just "human")        -> rpg $ genHuman  r1
       (Just "king")         -> rpg $ king         $ genDwarf r1
       (Just "thane")        -> rpg $ thane        $ genDwarf r1
-      (Just "dragonseeker") -> rpg $ dragonseeker $ genDwarf r1
-      (Just "runicsmith")   -> rpg $ runicsmith   $ genDwarf r1
-      (Just "greybeard")    -> rpg $ greybeard    $ genDwarf r1
-      (Just "elite")        -> rpg $ elite        $ genDwarf r1
-      (Just "veteran")      -> rpg $ veteran      $ genDwarf r1
+      (Just "dragonseeker") -> rpg $ dragonSeeker $ genDwarf r1
+      (Just "runicsmith")   -> rpg $ runicSmith   $ genDwarf r1
+      (Just "greybeard")    -> rpg $ greyBeard    $ genDwarf r1
+      (Just "deepwatch")    -> rpg $ deepWatch    $ genDwarf r1
+      (Just "clanwarrior")  -> rpg $ clanWarrior  $ genDwarf r1
       (Just "hit")          -> tohit
       (Just "wound")        -> towound
       otherwise             -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))

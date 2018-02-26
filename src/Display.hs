@@ -19,9 +19,9 @@ module Display ( rpg
         bs_b = clamp $ (bs n) `div` 10
         s_b  = clamp $ (s n)  `div` 10
         t_b  = clamp $ (t n)  `div` 10
-        i_b  = clamp $ (ag n) `div` 10
         w_b  = clamp $ (w n)  `div` 5
-        ld_b = clamp $ (wp n + fel n) `div` 12
+        i_b  = clamp $ (ag n) `div` 10
+        ld_b = clamp $ (wp n + fel n) `div` 10
     printf "Battle Profile\n"
     printf "  | M  | WS | BS | S  | T  | W  | I  | A  | Ld |\n"
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d |\n" (m n) ws_b bs_b s_b t_b w_b i_b (a n) ld_b

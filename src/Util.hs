@@ -42,9 +42,7 @@ module Util ( pick
   clampZ n = if n > 1 then n else 1
 
   genders :: Float -> String
-  genders n = if n < 5.1
-              then "Female"
-              else "Male"
+  genders n = if n < 5.1 then "Female" else "Male"
 
   heights :: String -> [Int] -> Int
   heights n m = case n of
