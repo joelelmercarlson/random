@@ -3,7 +3,6 @@ module Character( Character(..)
 
   data Character = Character {
     d10_rolls_t :: [Int]
-    , d20_rolls_t :: [Int]
     , ws :: Int
     , bs :: Int
     , s :: Int
@@ -26,8 +25,5 @@ module Character( Character(..)
     , weight :: Int
     , mark :: String
     , name :: String
-    , wounds_t :: [Int]
-    , fates_t :: [Int]
-    , heights_t :: [Int]
     , career :: String
   } deriving (Show)

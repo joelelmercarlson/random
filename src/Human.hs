@@ -5,17 +5,16 @@ module Human ( genHuman
   import Util
 
   -- | human know thy self
-  -- | require 20 d10 and 5 d20
-  genHuman :: [Int] -> [Int] -> Character
-  genHuman m n = do
-    let wound_t  = [10,11,12,13]
-        fate_t   = [1,3,3]
+  -- | require lots of d10
+  genHuman :: [Int] -> Character
+  genHuman m = do
+    let fate_t   = [1, 3, 3]
+        gender_b = genders (average m)
         height_t = [60, 64]
-        g_b      = genders (pn 1 m)
+        wound_t  = [5, 6, 7, 8]
 
     Character {
       d10_rolls_t = m
-      , d20_rolls_t = n
       , ws  = 20 + (pn 1 m)  + (pn 2 m)
       , bs  = 20 + (pn 3 m)  + (pn 4 m)
       , s   = 20 + (pn 5 m)  + (pn 6 m)
@@ -29,24 +28,22 @@ module Human ( genHuman
       , m   = 4
       , fp  = fates (pn 18 m) fate_t
       , race      = "Human"
-      , gender    = g_b
+      , gender    = gender_b
       , age       = 10 + sum (take 4 m)
-      , place     = worlds 1 (pn 2 m) (pn 3 m) places places1 places2
-      , eye       = pick (pn 4 m) eyes
-      , hair      = pick (pn 5 m) hairs
-      , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 100 + (pn 1 n) * 5
-      , mark      = pick (pn 2 n) marks
-      , name      = names g_b (pn 3 n) female male
-      , wounds_t  = wound_t
-      , fates_t   = fate_t
-      , heights_t = height_t
+      , place     = worlds 1 (pn 20 m) (pn 21 m) places places1 places2
+      , eye       = pick (pn 23 m) eyes
+      , hair      = pick (pn 24 m) hairs
+      , height    = (heights gender_b height_t) + (pn 25 m)
+      , weight    = 100 + ((pn 26 m) + (pn 27 m)) * 5
+      , mark      = pick ((pn 28 m) + (pn 29 m)) marks
+      , name      = names gender_b ((pn 30 m) + (pn 30 m)) female male
       , career    = "basic"
     }
 
   -- | data
   female :: [String]
-  female = [ "Alexa"
+  female = [ "Nil"
+           , "Alexa"
            , "Alfrida"
            , "Betrix"
            , "Bianka"
@@ -69,7 +66,8 @@ module Human ( genHuman
            ]
 
   male :: [String]
-  male = [ "Adelbert"
+  male = [ "Nil"
+         , "Adelbert"
          , "Albrecht"
          , "Berthold"
          , "Dieter"
@@ -147,7 +145,8 @@ module Human ( genHuman
             ]
 
   marks :: [String]
-  marks = [ "Pox Marks"
+  marks = [ "Nil"
+          , "Pox Marks"
           , "Ruddy Faced"
           , "Scar"
           , "Tattoo"

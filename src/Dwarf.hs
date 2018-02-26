@@ -14,17 +14,16 @@ module Dwarf ( genDwarf
   import Util
 
   -- | dwarf know thy self
-  -- | require 20 d10 and 5 d20
-  genDwarf :: [Int] -> [Int] -> Character
-  genDwarf m n = do
-    let wound_t  = [11,12,13,14]
-        fate_t   = [1,2,3]
+  -- | require lots of d10
+  genDwarf :: [Int] -> Character
+  genDwarf m = do
+    let fate_t   = [1,2,3]
+        gender_b = genders (average m)
         height_t = [48, 50]
-        g_b      = genders (pn 1 m)
+        wound_t = [6, 7, 8, 9]
 
     Character {
       d10_rolls_t = m
-      , d20_rolls_t = n
       , ws  = 30 + (pn 1 m)  + (pn 2 m)
       , bs  = 20 + (pn 3 m)  + (pn 4 m)
       , s   = 20 + (pn 5 m)  + (pn 6 m)
@@ -38,19 +37,16 @@ module Dwarf ( genDwarf
       , m   = 3
       , fp  = fates (pn 18 m) fate_t
       , race      = "Dwarf"
-      , gender    = g_b
+      , gender    = gender_b
       , age       = 10 + sum (take 10 m)
-      , place     = worlds (pn 1 m) (pn 2 m) (pn 3 m) places places1 places2
-      , eye       = pick (pn 4 m) eyes
-      , hair      = pick (pn 5 m) hairs
-      , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 90 + (pn 1 n) * 5
-      , mark      = pick (pn 2 n) marks
-      , name      = names g_b (pn 3 n) female male
+      , place     = worlds (pn 20 m) (pn 21 m) (pn 22 m) places places1 places2
+      , eye       = pick (pn 23 m) eyes
+      , hair      = pick (pn 24 m) hairs
+      , height    = (heights gender_b height_t) + (pn 25 m)
+      , weight    = 90 + ((pn 26 m) + (pn 27 m)) * 5
+      , mark      = pick ((pn 28 m) + (pn 29 m)) marks
+      , name      = names gender_b ((pn 30 m) + (pn 31 m)) female male
       , career    = "basic"
-      , wounds_t  = wound_t
-      , fates_t   = fate_t
-      , heights_t = height_t
     }
 
   -- | RecordWildCards syntax
@@ -77,7 +73,8 @@ module Dwarf ( genDwarf
 
   -- | Data Tables
   female :: [String]
-  female = [ "Anika"
+  female = [ "Nil"
+           , "Anika"
            , "Asta"
            , "Astrid"
            , "Berta"
@@ -100,7 +97,8 @@ module Dwarf ( genDwarf
            ]
 
   male :: [String]
-  male = [ "Bardin"
+  male = [ "Nil"
+         , "Bardin"
          , "Brokk"
          , "Dimzad"
          , "Durak"
@@ -188,7 +186,8 @@ module Dwarf ( genDwarf
             ]
 
   marks :: [String]
-  marks = [ "Pox Marks"
+  marks = [ "Nil"
+          , "Pox Marks"
           , "Ruddy Faced"
           , "Scar"
           , "Tattoo"

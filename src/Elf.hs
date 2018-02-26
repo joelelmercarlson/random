@@ -5,18 +5,16 @@ module Elf ( genElf
   import Util
 
   -- | elf know thy self
-  -- | require 20 d10 and 5 d20
-  genElf :: [Int] -> [Int] -> Character
-  genElf m n = do
-    let wound_t  = [9,10,11,12]
-        fate_t   = [1,2,2]
+  -- | require lots of d10
+  genElf :: [Int] -> Character
+  genElf m = do
+    let fate_t   = [1, 2, 2]
+        gender_b = genders (average m)
         height_t = [64, 66]
-        g_b      = genders (pn 1 m)
-        p_b      = pick_birth (pn 2 n)
+        wound_t  = [4, 5, 6, 6]
 
     Character {
       d10_rolls_t = m
-      , d20_rolls_t = n
       , ws  = 20 + (pn 1 m)  + (pn 2 m)
       , bs  = 30 + (pn 3 m)  + (pn 4 m)
       , s   = 20 + (pn 5 m)  + (pn 6 m)
@@ -30,35 +28,33 @@ module Elf ( genElf
       , m   = 5
       , fp  = fates (pn 18 m) fate_t
       , race      = "Elf"
-      , gender    = g_b
+      , gender    = gender_b
       , age       = 20 + sum (take 12 m)
-      , place     = worlds p_b (pn 2 m) (pn 3 m) places places1 places2
-      , eye       = pick (pn 4 m) eyes
-      , hair      = pick (pn 5 m) hairs
-      , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 75 + (pn 1 n) * 5
-      , mark      = pick (pn 2 n) marks
-      , name      = names g_b (pn 3 n) female male
-      , wounds_t  = wound_t
-      , fates_t   = fate_t
-      , heights_t = height_t
+      , place     = worlds (pick_birth (pn 20 m)) (pn 21 m) (pn 22 m) places places1 places2
+      , eye       = pick (pn 23 m) eyes
+      , hair      = pick (pn 24 m) hairs
+      , height    = (heights gender_b height_t) + (pn 25 m)
+      , weight    = 75 + ((pn 26 m) + (pn 27 m)) * 5
+      , mark      = "Nil"
+      , name      = names gender_b ((pn 28 m) + (pn 29 m)) female male
       , career    = "basic"
     }
 
   pick_birth :: Int -> Int
-  pick_birth n = if n < 4
+  pick_birth n = if n < 2
                  then 1
-                 else if n < 8
+                 else if n < 4
                       then 2
-                      else if n < 12
+                      else if n < 6
                            then 3
-                           else if n < 16
+                           else if n < 8
                                 then 4
                                 else 5
 
   -- | data
   female :: [String]
-  female = [ "Alane"
+  female = [ "Nil"
+           , "Alane"
            , "Altronia"
            , "Davandrel"
            , "Eldril"
@@ -81,7 +77,8 @@ module Elf ( genElf
            ]
 
   male :: [String]
-  male = [ "Aluthol"
+  male = [ "Nil"
+         , "Aluthol"
          , "Aamendil"
          , "Angran"
          , "Cavindel"
@@ -162,16 +159,3 @@ module Elf ( genElf
             , "Arable Farm"
             , "Hovel"
             ]
-
-  marks :: [String]
-  marks = [ "Tattoo"
-          , "Earring"
-          , "Nose Ring"
-          , "Strange Coloured Eye(s)"
-          , "None"
-          , "None"
-          , "None"
-          , "None"
-          , "None"
-          , "None"
-          ]

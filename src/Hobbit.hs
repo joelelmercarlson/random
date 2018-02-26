@@ -1,22 +1,20 @@
-module Hobbit ( genHalfling
+module Hobbit ( genHobbit
              ) where
 
   import Character
   import Util
 
   -- | hobbit know thy self
-  -- | require 20 d10 and 5 d20
-  genHalfling :: [Int] -> [Int] -> Character
-  genHalfling m n = do
-    let wound_t  = [8,9,10,11]
-        fate_t   = [2,2,3]
+  -- | require lots of d10
+  genHobbit :: [Int] -> Character
+  genHobbit m = do
+    let fate_t   = [2, 2, 3]
+        gender_b = genders (average m)
         height_t = [38, 40]
-        g_b      = genders (pn 1 m)
-        p_b      = pick_birth (pn 2 m)
+        wound_t  = [1, 2, 3, 4]
 
     Character {
       d10_rolls_t = m
-      , d20_rolls_t = n
       , ws  = 10 + (pn 1 m)  + (pn 2 m)
       , bs  = 30 + (pn 3 m)  + (pn 4 m)
       , s   = 10 + (pn 5 m)  + (pn 6 m)
@@ -30,18 +28,15 @@ module Hobbit ( genHalfling
       , m   = 4
       , fp  = fates (pn 18 m) fate_t
       , race      = "Hobbit"
-      , gender    = g_b
+      , gender    = gender_b
       , age       = 10 + sum (take 6 m)
-      , place     = worlds p_b (pn 2 m) (pn 3 m) places places1 places2
-      , eye       = pick (pn 4 m) eyes
-      , hair      = pick (pn 5 m) hairs
-      , height    = (heights g_b height_t) + (pn 6 m)
-      , weight    = 75 + (pn 1 n) * 3
-      , mark      = pick (pn 2 n) marks
-      , name      = names g_b (pn 3 n) female male
-      , wounds_t  = wound_t
-      , fates_t   = fate_t
-      , heights_t = height_t
+      , place     = worlds (pick_birth (pn 20 m)) (pn 21 m) (pn 22 m) places places1 places2
+      , eye       = pick (pn 23 m) eyes
+      , hair      = pick (pn 24 m) hairs
+      , height    = (heights gender_b height_t) + (pn 25 m)
+      , weight    = 75 + ((pn 26 m) + (pn 27 m)) * 3
+      , mark      = pick ((pn 28 m) + (pn 29 m)) marks
+      , name      = names gender_b ((pn 30 m) + (pn 31 m)) female male
       , career    = "basic"
     }
 
@@ -51,7 +46,8 @@ module Hobbit ( genHalfling
                  else 2
   -- | data
   female :: [String]
-  female = [ "Cerasta Twofoot"
+  female = [ "Nil"
+           , "Cerasta Twofoot"
            , "Mahonia Fallohide"
            , "Amaryllis Townsend"
            , "Calaminth Rumble"
@@ -75,7 +71,8 @@ module Hobbit ( genHalfling
 
 
   male :: [String]
-  male = [ "Wilcome Gardner"
+  male = [ "Nil"
+         , "Wilcome Gardner"
          , "Brocard Diggle"
          , "Haiduc Brown"
          , "Britius Burrow"

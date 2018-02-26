@@ -1,7 +1,9 @@
 module Util ( pick
             , pn
             , nth
+            , average
             , clamp
+            , clampZ
             , genders
             , heights
             , height_f
@@ -17,6 +19,7 @@ module Util ( pick
               Nothing  -> "Nil"
               (Just y) -> y
 
+  -- | remove Maybe from nth
   pn :: Int -> [Int] -> Int
   pn m n = case nth m n of
              Nothing  -> 1
@@ -28,11 +31,18 @@ module Util ( pick
   nth 1 (x:_)  = Just x
   nth n (x:xs) = nth (n - 1) xs
 
-  clamp :: Int -> Int
-  clamp n = if n > 10 then 10 else n
+  average :: [Int] -> Float
+  average [] = 1
+  average n = fromIntegral (sum n) / fromIntegral (length n)
 
-  genders :: Int -> String
-  genders n = if n < 5
+  clamp :: Int -> Int
+  clamp n = if n > 10 then 10 else clampZ n
+
+  clampZ :: Int -> Int
+  clampZ n = if n > 1 then n else 1
+
+  genders :: Float -> String
+  genders n = if n < 5.1
               then "Female"
               else "Male"
 
@@ -49,9 +59,9 @@ module Util ( pick
       ht_i = m - (ht_f * 12)
 
   names :: String -> Int -> [String] -> [String] -> String
-  names m n o p = case m of
-                "Female" -> pick n o
-                "Male"   -> pick n p
+  names m n female male = case m of
+                "Female" -> pick n female
+                "Male"   -> pick n male
                 _        -> "Nil"
 
   wounds :: Int -> [Int] -> Int
@@ -71,6 +81,6 @@ module Util ( pick
                   else pn 3 n 
 
   worlds :: Int -> Int -> Int -> [String] -> [String] -> [String] -> String
-  worlds m n o p0 p1 p2 = case pick m p0 of
-              "Human" -> (pick o p2) ++ " in " ++ (pick n p1)
-              _       -> pick m p0
+  worlds m n o racial human1 human2 = case pick m racial of
+              "Human" -> (pick o human2) ++ " in " ++ (pick n human1)
+              _       -> pick m racial
