@@ -10,7 +10,6 @@ module Main where
   import Data.Maybe
   import Data.Time.Clock.POSIX
 
-  -- | url = git@github.optum.com:/fecompute/org.git
   main :: IO ()
   main = do
     xs <- getArgs
