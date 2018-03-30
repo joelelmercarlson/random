@@ -1,6 +1,5 @@
 module Main where
   import System.Environment
-  import Text.Printf
 
   import Character
   import DiceSet
@@ -16,24 +15,22 @@ module Main where
   main = do
     xs <- getArgs
 
-    let x  = zModRoll ["100", "d10"]
-        ds = if length xs > 2 then modRoll xs else zModRoll xs
+    let x = zModRoll ["100", "d10"]
 
-    r0 <- roll ds
-    r1 <- roll x
+    r <- roll x
 
     case nth 1 xs of
-      (Just "dwarf")        -> rpg $ genDwarf  r1
-      (Just "elf")          -> rpg $ genElf    r1
-      (Just "hobbit")       -> rpg $ genHobbit r1
-      (Just "human")        -> rpg $ genHuman  r1
-      (Just "king")         -> rpg $ king         $ genDwarf r1
-      (Just "thane")        -> rpg $ thane        $ genDwarf r1
-      (Just "dragonseeker") -> rpg $ dragonSeeker $ genDwarf r1
-      (Just "runicsmith")   -> rpg $ runicSmith   $ genDwarf r1
-      (Just "greybeard")    -> rpg $ greyBeard    $ genDwarf r1
-      (Just "deepwatch")    -> rpg $ deepWatch    $ genDwarf r1
-      (Just "clanwarrior")  -> rpg $ clanWarrior  $ genDwarf r1
-      (Just "hit")          -> tohit
-      (Just "wound")        -> towound
-      otherwise             -> printf "%d %s +/- %d %s = %d\n" (dieAmt ds) (dieType ds) (dieMod ds) (show r0) ((sum r0) + (dieMod ds))
+      Just "dwarf"        -> rpg $ genDwarf  r
+      Just "elf"          -> rpg $ genElf    r
+      Just "hobbit"       -> rpg $ genHobbit r
+      Just "human"        -> rpg $ genHuman  r
+      Just "king"         -> rpg $ king         $ genDwarf r
+      Just "thane"        -> rpg $ thane        $ genDwarf r
+      Just "dragonseeker" -> rpg $ dragonSeeker $ genDwarf r
+      Just "runicsmith"   -> rpg $ runicSmith   $ genDwarf r
+      Just "greybeard"    -> rpg $ greyBeard    $ genDwarf r
+      Just "deepwatch"    -> rpg $ deepWatch    $ genDwarf r
+      Just "clanwarrior"  -> rpg $ clanWarrior  $ genDwarf r
+      Just "hit"          -> tohit
+      Just "wound"        -> towound
+      otherwise           -> do { tohit; towound; rpg $ genDwarf r }
