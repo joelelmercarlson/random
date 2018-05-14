@@ -15,14 +15,14 @@ module Hobbit ( genHobbit
 
     Character {
       d10_rolls_t = m
-      , ws  = 10 + (pn 1 m)  + (pn 2 m)
-      , bs  = 30 + (pn 3 m)  + (pn 4 m)
-      , s   = 10 + (pn 5 m)  + (pn 6 m)
-      , t   = 10 + (pn 7 m)  + (pn 8 m)
-      , ag  = 30 + (pn 9 m)  + (pn 10 m)
-      , int = 20 + (pn 11 m) + (pn 12 m)
-      , wp  = 30 + (pn 13 m) + (pn 14 m)
-      , fel = 30 + (pn 15 m) + (pn 16 m)
+      , ws  = 10 + pn 1 m  + pn 2 m
+      , bs  = 30 + pn 3 m  + pn 4 m
+      , s   = 10 + pn 5 m  + pn 6 m
+      , t   = 10 + pn 7 m  + pn 8 m
+      , ag  = 30 + pn 9 m  + pn 10 m
+      , int = 20 + pn 11 m + pn 12 m
+      , wp  = 30 + pn 13 m + pn 14 m
+      , fel = 30 + pn 15 m + pn 16 m
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , m   = 4
@@ -30,18 +30,18 @@ module Hobbit ( genHobbit
       , race      = "Hobbit"
       , gender    = gender_b
       , age       = 10 + sum (take 6 m)
-      , place     = worlds (pick_birth (pn 20 m)) (pn 21 m) (pn 22 m) places places1 places2
+      , place     = worlds (pickBirth (pn 20 m)) (pn 21 m) (pn 22 m) places places1 places2
       , eye       = pick (pn 23 m) eyes
       , hair      = pick (pn 24 m) hairs
-      , height    = (heights gender_b height_t) + (pn 25 m)
-      , weight    = 75 + ((pn 26 m) + (pn 27 m)) * 3
-      , mark      = pick ((pn 28 m) + (pn 29 m)) marks
-      , name      = names gender_b ((pn 30 m) + (pn 31 m)) female male
+      , height    = heights gender_b height_t + pn 25 m
+      , weight    = 75 + (pn 26 m + pn 27 m) * 3
+      , mark      = pick (pn 28 m + pn 29 m) marks
+      , name      = names gender_b (pn 30 m + pn 31 m) female male
       , career    = "basic"
     }
 
-  pick_birth :: Int -> Int
-  pick_birth n = if n < 5
+  pickBirth :: Int -> Int
+  pickBirth n = if n < 5
                  then 1
                  else 2
   -- | data

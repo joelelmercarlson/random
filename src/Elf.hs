@@ -15,14 +15,14 @@ module Elf ( genElf
 
     Character {
       d10_rolls_t = m
-      , ws  = 20 + (pn 1 m)  + (pn 2 m)
-      , bs  = 30 + (pn 3 m)  + (pn 4 m)
-      , s   = 20 + (pn 5 m)  + (pn 6 m)
-      , t   = 20 + (pn 7 m)  + (pn 8 m)
-      , ag  = 30 + (pn 9 m)  + (pn 10 m)
-      , int = 20 + (pn 11 m) + (pn 12 m)
-      , wp  = 30 + (pn 13 m) + (pn 14 m)
-      , fel = 30 + (pn 15 m) + (pn 16 m)
+      , ws  = 20 + pn 1 m  + pn 2 m
+      , bs  = 30 + pn 3 m  + pn 4 m
+      , s   = 20 + pn 5 m  + pn 6 m
+      , t   = 20 + pn 7 m  + pn 8 m
+      , ag  = 30 + pn 9 m  + pn 10 m
+      , int = 20 + pn 11 m + pn 12 m
+      , wp  = 30 + pn 13 m + pn 14 m
+      , fel = 30 + pn 15 m + pn 16 m
       , a   = 1
       , w   = wounds (pn 17 m) wound_t
       , m   = 5
@@ -30,26 +30,23 @@ module Elf ( genElf
       , race      = "Elf"
       , gender    = gender_b
       , age       = 20 + sum (take 12 m)
-      , place     = worlds (pick_birth (pn 20 m)) (pn 21 m) (pn 22 m) places places1 places2
+      , place     = worlds (pickBirth (pn 20 m)) (pn 21 m) (pn 22 m) places places1 places2
       , eye       = pick (pn 23 m) eyes
       , hair      = pick (pn 24 m) hairs
-      , height    = (heights gender_b height_t) + (pn 25 m)
-      , weight    = 75 + ((pn 26 m) + (pn 27 m)) * 5
+      , height    = heights gender_b height_t + pn 25 m
+      , weight    = 75 + (pn 26 m + pn 27 m) * 5
       , mark      = "Nil"
-      , name      = names gender_b ((pn 28 m) + (pn 29 m)) female male
+      , name      = names gender_b (pn 28 m + pn 29 m) female male
       , career    = "basic"
     }
 
-  pick_birth :: Int -> Int
-  pick_birth n = if n < 2
-                 then 1
-                 else if n < 4
-                      then 2
-                      else if n < 6
-                           then 3
-                           else if n < 8
-                                then 4
-                                else 5
+  pickBirth :: Int -> Int
+  pickBirth n
+    | n < 2 = 1
+    | n < 4 = 2
+    | n < 6 = 3
+    | n < 8 = 4
+    | otherwise = 5
 
   -- | data
   female :: [String]
