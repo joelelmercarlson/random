@@ -33,4 +33,4 @@ module Main where
       Just "clanwarrior"  -> rpg $ clanWarrior  $ genDwarf r
       Just "hit"          -> tohit
       Just "wound"        -> towound
-      otherwise           -> do { tohit; towound; rpg $ genDwarf r }
+      _ -> do { tohit; towound; rpg $ genDwarf r }

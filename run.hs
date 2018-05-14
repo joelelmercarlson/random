@@ -10,6 +10,6 @@ module Main where
   main :: IO ()
   main = do
     xs  <- getArgs
-    let cmd = "stack exec Main " ++ (concat xs)
+    let cmd = "stack exec Main " ++ concat xs
     run <- callCommand cmd
     print run

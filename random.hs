@@ -2,6 +2,7 @@
 -- stack script --system-ghc --resolver lts-9.18 --package "MonadRandom" --package "text"
 module Main where
   import Data.Char
+  import Control.Monad (replicateM)
   import Control.Monad.Random
   import System.Environment
   import Text.Printf
@@ -51,34 +52,34 @@ module Main where
 
   -- | rollers
   d1s :: (RandomGen g) => Int -> Rand g [Int]
-  d1s n = sequence (replicate n d1)
+  d1s n = replicateM n d1
 
   d2s :: (RandomGen g) => Int -> Rand g [Int]
-  d2s n = sequence (replicate n d2)
+  d2s n = replicateM n d2
 
   d3s :: (RandomGen g) => Int -> Rand g [Int]
-  d3s n = sequence (replicate n d3)
+  d3s n = replicateM n d3
 
   d4s :: (RandomGen g) => Int -> Rand g [Int]
-  d4s n = sequence (replicate n d4)
+  d4s n = replicateM n d4
 
   d6s :: (RandomGen g) => Int -> Rand g [Int]
-  d6s n = sequence (replicate n d6)
+  d6s n = replicateM n d6
 
   d8s :: (RandomGen g) => Int -> Rand g [Int]
-  d8s n = sequence (replicate n d8)
+  d8s n = replicateM n d8
 
   d10s :: (RandomGen g) => Int -> Rand g [Int]
-  d10s n = sequence (replicate n d10)
+  d10s n = replicateM n d10
 
   d12s :: (RandomGen g) => Int -> Rand g [Int]
-  d12s n = sequence (replicate n d12)
+  d12s n = replicateM n d12
 
   d20s :: (RandomGen g) => Int -> Rand g [Int]
-  d20s n = sequence (replicate n d20)
+  d20s n = replicateM n d20
 
   d100s :: (RandomGen g) => Int -> Rand g [Int]
-  d100s n = sequence (replicate n d100)
+  d100s n = replicateM n d100
 
   -- | generate roll
   -- | Default = 1 d6 0
@@ -92,8 +93,7 @@ module Main where
   zModRoll []      = DiceSet "d6" 1 0
 
   roll :: DiceSet -> IO [Int]
-  roll (DiceSet x y _) = do
-    case x of
+  roll (DiceSet x y _) = case x of
       "d1"   -> evalRandIO $ d1s   y
       "d2"   -> evalRandIO $ d2s   y
       "d3"   -> evalRandIO $ d3s   y
@@ -112,7 +112,7 @@ module Main where
     let ds = if length xs > 2 then modRoll xs else zModRoll xs
 
     rs <- roll ds
-    let t  = (sum rs) + dm
+    let t  = sum rs + dm
         dt = dieType ds
         da = dieAmt  ds
         dm = dieMod  ds

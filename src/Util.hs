@@ -6,7 +6,7 @@ module Util ( pick
             , clampZ
             , genders
             , heights
-            , height_f
+            , heightF
             , names
             , wounds
             , fates
@@ -50,8 +50,8 @@ module Util ( pick
                "Male"   -> pn 2 m
                _        -> 60
 
-  height_f :: Int -> String
-  height_f m = (show ht_f) ++ "\'" ++ (show ht_i) ++ "\""
+  heightF :: Int -> String
+  heightF m = show ht_f ++ "\'" ++ show ht_i ++ "\""
     where
       ht_f = m `div` 12
       ht_i = m - (ht_f * 12)
@@ -63,22 +63,19 @@ module Util ( pick
                 _        -> "Nil"
 
   wounds :: Int -> [Int] -> Int
-  wounds m n = if m >= 1 && m < 4
-             then pn 1 n
-             else if m >= 4 && m < 7
-                  then pn 2 n
-                  else if m >= 7 && m < 9
-                       then pn 3 n
-                       else pn 4 n
+  wounds m n
+   | m >= 1 && m < 4 = pn 1 n
+   | m >= 4 && m < 7 = pn 2 n
+   | m >= 7 && m < 9 = pn 3 n
+   | otherwise = pn 4 n
 
   fates :: Int -> [Int] -> Int
-  fates m n = if m >= 1 && m < 5
-             then pn 1 n
-             else if m >= 5 && m < 8
-                  then pn 2 n 
-                  else pn 3 n 
+  fates m n
+    | m >= 1 && m < 5 = pn 1 n
+    | m >= 5 && m < 8 = pn 2 n
+    | otherwise = pn 3 n
 
   worlds :: Int -> Int -> Int -> [String] -> [String] -> [String] -> String
   worlds m n o racial human1 human2 = case pick m racial of
-              "Human" -> (pick o human2) ++ " in " ++ (pick n human1)
+              "Human" -> pick o human2 ++ " in " ++ pick n human1
               _       -> pick m racial
