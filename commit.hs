@@ -1,11 +1,11 @@
 #!/usr/bin/env stack
--- stack script --system-ghc --resolver lts-9.18 --package "process" --package "time"
+-- stack script --system-ghc --resolver lts-11.10 --package "process" --package "time"
 module Main where
 
   import System.Environment
   import System.Exit
   import System.IO
-  import System.Process 
+  import System.Process
 
   import Data.Maybe
   import Data.Time.Clock.POSIX
