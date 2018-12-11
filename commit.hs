@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack script --system-ghc --resolver lts-11.10 --package "process" --package "time"
+-- stack script --system-ghc --resolver lts-12.22 --package "process" --package "time"
 module Main where
 
   import System.Environment
