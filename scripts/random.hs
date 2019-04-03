@@ -1,5 +1,8 @@
 #!/usr/bin/env stack
--- stack script --system-ghc --resolver lts-12.22 --package "MonadRandom" --package "text"
+{- stack --system-ghc --resolver lts-13.15 script
+--package "MonadRandom"
+--package "text"
+-}
 module Main where
   import Data.Char
   import Control.Monad (replicateM)
