@@ -1,8 +1,5 @@
-resolver: lts-11.10
+resolver: lts-13.15
 packages: ['.']
 extra-deps: []
 flags: {}
 extra-package-dbs: []
-#nix:
-#  enable: true
-#  packages: [zlib]
