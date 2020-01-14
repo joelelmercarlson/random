@@ -10,16 +10,18 @@ GITDIFF   := $(GIT) diff
 GITLOG    := $(GIT) log
 GITSTATUS := $(GIT) status
 GITPULL   := $(GIT) pull
+GITPUSH   := $(GIT) push
+
+all: build random
+.PHONY: all
 
 build:
 	$(BUILD)
-	$(RANDOM)
 
 commit:
 	$(COMMIT)
 
 random:
-	$(BUILD)
 	$(RANDOM)
 
 diff:
