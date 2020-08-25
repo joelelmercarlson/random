@@ -1,18 +1,21 @@
-module Display ( rpg
-               ) where
+module Display ( rpg ) where
   import Text.Printf
 
   import Character
   import Util (clamp, heightF)
 
+  -- | profile
   rpg :: Character -> IO ()
   rpg n = do
+    let ld = clamp $ (wp n + fel n) `div` 10
+        i  = clamp $ ag n `div` 10
     story n
-    printf "Main Profile\n"
-    printf "  | WS | BS | S  | T  | W  | Ag | Int | Wp | Fel |\n"
-    printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d |\n" (ws n)(bs n)(s n)(t n)(w n)(ag n)(int n)(wp n)(fel n)
-    battle n
+    printf "Profile\n"
+    printf "  | M  | WS | BS | S  | T  | W  | I  | A  | Ag | Int | Wp | Fel | Ld  |\n"
+    printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-3d | %-2d | %-3d | %-3d |\n" (m n) (ws n) (bs n) (s n) (t n) (w n) i (a n) (ag n) (int n) (wp n) (fel n) ld
+    printf "\n"
 
+  -- | lots of `div`
   battle :: Character -> IO ()
   battle n = do
     let ws_b = clamp $ ws n `div` 10
@@ -27,6 +30,7 @@ module Display ( rpg
     printf "  | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d | %-2d |\n" (m n) ws_b bs_b s_b t_b w_b i_b (a n) ld_b
     printf "\n"
 
+  -- | every character has a story...
   story :: Character -> IO ()
   story n = do
     let ht = heightF (height n)

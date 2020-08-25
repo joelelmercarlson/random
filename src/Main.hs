@@ -15,6 +15,7 @@ module Main where
   main = do
     xs <- getArgs
 
+    -- | dice pool
     let x = zModRoll ["100", "d10"]
 
     r <- roll x
