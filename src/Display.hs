@@ -9,7 +9,8 @@ module Display (rpg) where
   rpg n = do
     story n
     printf "Profile\n"
-    printf "| M  | WS | BS | S  | T  | I  | Ag | Dex | Int | Wp | Fel | Wound |\n"
+    printf "| M  | WS | BS | S  | T  | I  | Ag | Dex | Int | Wp | Fel | W    |\n"
+    printf "------------------------------------------------------------------\n"
     printf "| %-2d |" $ movement n
     printf " %-2d |" $ weaponSkill n
     printf " %-2d |" $ ballisticSkill n
@@ -21,8 +22,8 @@ module Display (rpg) where
     printf " %-2d  |" $ intelligence n
     printf " %-2d |" $ willpower n
     printf " %-2d  |" $ fellowship n
-    printf " %-4d  |" $ wounds (race n) (strength n) (toughness n) (willpower n)
-    printf "\n\n"
+    printf " %-4d |\n" $ wounds (race n) (strength n) (toughness n) (willpower n)
+    printf "\n"
 
   -- | every character has a story...
   story :: Character -> IO ()
