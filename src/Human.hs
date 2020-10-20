@@ -1,6 +1,4 @@
-module Human ( genHuman
-             ) where
-
+module Human(genHuman) where
   import Character
   import Util
 
@@ -8,36 +6,31 @@ module Human ( genHuman
   -- | require lots of d10
   genHuman :: [Int] -> Character
   genHuman m = do
-    let fate_t   = [1, 3, 3]
-        gender_b = genders (average m)
-        height_t = [60, 64]
-        wound_t  = [5, 6, 7, 8]
-
     Character {
       d10_rolls_t = m
-      , ws  = 20 + pn 1 m  + pn 2 m
-      , bs  = 20 + pn 3 m  + pn 4 m
-      , s   = 20 + pn 5 m  + pn 6 m
-      , t   = 20 + pn 7 m  + pn 8 m
-      , ag  = 20 + pn 9 m  + pn 10 m
-      , int = 20 + pn 11 m + pn 12 m
-      , wp  = 20 + pn 13 m + pn 14 m
-      , fel = 20 + pn 15 m + pn 16 m
-      , a   = 1
-      , w   = wounds (pn 17 m) wound_t
-      , m   = 4
-      , fp  = fates (pn 18 m) fate_t
-      , race      = "Human"
-      , gender    = gender_b
-      , age       = 10 + sum (take 4 m)
-      , place     = worlds 1 (pn 20 m) (pn 21 m) places places1 places2
-      , eye       = pick (pn 23 m) eyes
-      , hair      = pick (pn 24 m) hairs
-      , height    = heights gender_b height_t + pn 25 m
-      , weight    = 100 + (pn 26 m + pn 27 m) * 5
-      , mark      = pick (pn 28 m + pn 29 m) marks
-      , name      = names gender_b (pn 30 m + pn 30 m) female male
-      , career    = "basic"
+      , weaponSkill = 20 + pn 1 m + pn 2 m
+      , ballisticSkill = 20 + pn 3 m + pn 4 m
+      , strength = 20 + pn 5 m + pn 6 m
+      , toughness = 20 + pn 7 m + pn 8 m
+      , initiative = 20 + pn 9 m + pn 10 m
+      , agility = 20 + pn 11 m + pn 12 m
+      , dexterity = 20 + pn 13 m + pn 14 m
+      , intelligence = 20 + pn 15 m + pn 16 m
+      , willpower = 20 + pn 17 m + pn 18 m
+      , fellowship = 20 + pn 19 m + pn 20 m
+      , movement  = 4
+      , fate = 2
+      , race   = "Human"
+      , gender = genders (average m)
+      , age    = 15 + (pn 1 m)
+      , place  = worlds 1 (pn 21 m) (pn 22 m) places places1 places2
+      , eye    = pick (pn 23 m) eyes
+      , hair   = pick (pn 24 m) hairs
+      , height = 57 + pn 1 m + pn 2 m
+      , weight = 100 + (pn 25 m + pn 26 m) * 5
+      , mark   = pick (pn 27 m + pn 28 m) marks
+      , name   = names (genders (average m)) (pn 29 m + pn 30 m) female male
+      , career = "basic"
     }
 
   -- | data

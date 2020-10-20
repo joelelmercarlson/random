@@ -1,20 +1,19 @@
-module Character( Character(..)
-                ) where
+module Character(Character(..)) where
 
   data Character = Character {
     d10_rolls_t :: [Int]
-    , ws :: Int
-    , bs :: Int
-    , s :: Int
-    , t :: Int
-    , ag :: Int
-    , int :: Int
-    , wp :: Int
-    , fel :: Int
-    , a :: Int
-    , w :: Int
-    , m :: Int
-    , fp :: Int
+    , weaponSkill :: Int
+    , ballisticSkill :: Int
+    , strength :: Int
+    , toughness :: Int
+    , initiative :: Int
+    , agility :: Int
+    , dexterity :: Int
+    , intelligence :: Int
+    , willpower :: Int
+    , fellowship :: Int
+    , movement :: Int
+    , fate :: Int
     , race :: String
     , gender :: String
     , age :: Int

@@ -1,15 +1,4 @@
-{-# LANGUAGE RecordWildCards #-}
-
-module Dwarf ( genDwarf
-             , king
-             , thane
-             , dragonSeeker
-             , runicSmith
-             , greyBeard
-             , deepWatch
-             , clanWarrior
-             ) where
-
+module Dwarf(genDwarf) where
   import Character
   import Util
 
@@ -17,59 +6,32 @@ module Dwarf ( genDwarf
   -- | require lots of d10
   genDwarf :: [Int] -> Character
   genDwarf m = do
-    let fate_t   = [1, 2, 3]
-        gender_b = genders (average m)
-        height_t = [48, 50]
-        wound_t  = [6, 7, 8, 9]
-
     Character {
       d10_rolls_t = m
-      , ws  = 30 + pn 1 m  + pn 2 m
-      , bs  = 20 + pn 3 m  + pn 4 m
-      , s   = 20 + pn 5 m  + pn 6 m
-      , t   = 30 + pn 7 m  + pn 8 m
-      , ag  = 10 + pn 9 m  + pn 10 m
-      , int = 20 + pn 11 m + pn 12 m
-      , wp  = 40 + pn 13 m + pn 14 m
-      , fel = 10 + pn 15 m + pn 16 m
-      , a   = 1
-      , w   = wounds (pn 17 m) wound_t
-      , m   = 3
-      , fp  = fates (pn 18 m) fate_t
-      , race      = "Dwarf"
-      , gender    = gender_b
-      , age       = 10 + sum (take 10 m)
-      , place     = worlds (pn 20 m) (pn 21 m) (pn 22 m) places places1 places2
-      , eye       = pick (pn 23 m) eyes
-      , hair      = pick (pn 24 m) hairs
-      , height    = heights gender_b height_t + pn 25 m
-      , weight    = 90 + (pn 26 m + pn 27 m) * 5
-      , mark      = pick (pn 28 m + pn 29 m) marks
-      , name      = names gender_b (pn 30 m + pn 31 m) female male
-      , career    = "basic"
+      , weaponSkill = 30 + pn 1 m + pn 2 m
+      , ballisticSkill = 20 + pn 3 m + pn 4 m
+      , strength = 20 + pn 5 m + pn 6 m
+      , toughness = 30 + pn 7 m + pn 8 m
+      , initiative = 20 + pn 9 m + pn 10 m
+      , agility = 10 + pn 11 m + pn 12 m
+      , dexterity = 30 + pn 13 m + pn 14 m
+      , intelligence = 20 + pn 15 m + pn 16 m
+      , willpower = 40 + pn 17 m + pn 18 m
+      , fellowship = 10 + pn 19 m + pn 20 m
+      , movement  = 3
+      , fate = 0
+      , race   = "Dwarf"
+      , gender = genders (average m)
+      , age    = 15 + sum (take 10 m)
+      , place  = worlds (pn 21 m) (pn 22 m) (pn 23 m) places places1 places2
+      , eye    = pick (pn 24 m) eyes
+      , hair   = pick (pn 25 m) hairs
+      , height = 51 + pn 1 m
+      , weight = 90 + (pn 26 m + pn 27 m) * 5
+      , mark   = pick (pn 28 m + pn 29 m) marks
+      , name   = names (genders (average m)) (pn 30 m + pn 31 m) female male
+      , career = "basic"
     }
-
-  -- | RecordWildCards syntax
-  king :: Character -> Character
-  king n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+11, t=t+11, w=15, ag=ag+21, a=a+3, wp=wp+31, fel=fel+21, career="King - Lords of Stone" }
-
-  thane :: Character -> Character
-  thane n@Character{..} = n { ws=ws+21, bs=bs+11, s=s+11, t=t+11, w=15, ag=ag+11, a=a+2, wp=wp+21, fel=fel+21, career="Thane - Lords of Stone" }
-
-  dragonSeeker :: Character -> Character
-  dragonSeeker n@Character{..} = n { ws=ws+31, bs=bs+11, s=s+31, t=t+11, w=15, ag=ag+31, a=a+4, wp=wp+21, fel=fel+21, career="Hero - Dragon Seeker" }
-
-  runicSmith :: Character -> Character
-  runicSmith n@Character{..} = n { ws=ws+11, s=s+11, w=15, a=a+1, wp=wp+11, fel=fel+11, career="Hero - Runic Smith" }
-
-  greyBeard :: Character -> Character
-  greyBeard n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Greybeards" }
-
-  deepWatch :: Character -> Character
-  deepWatch n@Character{..} = n { ws=ws+11, s=s+11, ag=ag+11, a=a+1, wp=wp+11, fel=fel+11, career="Elite - Deep Watch" }
-
-  clanWarrior :: Character -> Character
-  clanWarrior n@Character{..} = n { s=s+11, ag=ag+11, wp=wp+11, fel=fel+11, career="Veteran - Clan Warriors" }
 
   -- | Data Tables
   female :: [String]

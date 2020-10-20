@@ -1,17 +1,18 @@
-module Util ( pick
+module Util (pick
             , pn
             , nth
             , average
             , clamp
             , clampZ
             , genders
-            , heights
             , heightF
             , names
-            , wounds
-            , fates
             , worlds
-            ) where
+            , wounds) where
+
+  -- | bonus
+  bonus :: Int -> Int
+  bonus n = clamp $ n `div` 10
 
   -- | pick
   pick :: Int -> [String] -> String
@@ -44,12 +45,6 @@ module Util ( pick
   genders :: Float -> String
   genders n = if n < 5.1 then "Female" else "Male"
 
-  heights :: String -> [Int] -> Int
-  heights n m = case n of
-               "Female" -> pn 1 m
-               "Male"   -> pn 2 m
-               _        -> 60
-
   heightF :: Int -> String
   heightF m = show ht_f ++ "\'" ++ show ht_i ++ "\""
     where
@@ -58,24 +53,16 @@ module Util ( pick
 
   names :: String -> Int -> [String] -> [String] -> String
   names m n female male = case m of
-                "Female" -> pick n female
-                "Male"   -> pick n male
-                _        -> "Nil"
-
-  wounds :: Int -> [Int] -> Int
-  wounds m n
-   | m >= 1 && m < 4 = pn 1 n
-   | m >= 4 && m < 7 = pn 2 n
-   | m >= 7 && m < 9 = pn 3 n
-   | otherwise = pn 4 n
-
-  fates :: Int -> [Int] -> Int
-  fates m n
-    | m >= 1 && m < 5 = pn 1 n
-    | m >= 5 && m < 8 = pn 2 n
-    | otherwise = pn 3 n
+    "Female" -> pick n female
+    "Male"   -> pick n male
+    _        -> "Nil"
 
   worlds :: Int -> Int -> Int -> [String] -> [String] -> [String] -> String
   worlds m n o racial human1 human2 = case pick m racial of
-              "Human" -> pick o human2 ++ " in " ++ pick n human1
-              _       -> pick m racial
+    "Human" -> pick o human2 ++ " in " ++ pick n human1
+    _       -> pick m racial
+
+  wounds :: String -> Int -> Int -> Int -> Int
+  wounds n sb tb wp = case n of
+    "Hobbit" -> (2 * bonus tb) + (bonus wp)
+    _ -> (bonus sb) + (2 * bonus tb) + (bonus wp)

@@ -19,13 +19,6 @@ module Main where
       Just "elf"          -> elf
       Just "hobbit"       -> hobbit
       Just "human"        -> human
-      Just "king"         -> rpg $ king         $ genDwarf r
-      Just "thane"        -> rpg $ thane        $ genDwarf r
-      Just "dragonseeker" -> rpg $ dragonSeeker $ genDwarf r
-      Just "runicsmith"   -> rpg $ runicSmith   $ genDwarf r
-      Just "greybeard"    -> rpg $ greyBeard    $ genDwarf r
-      Just "deepwatch"    -> rpg $ deepWatch    $ genDwarf r
-      Just "clanwarrior"  -> rpg $ clanWarrior  $ genDwarf r
       Just "hit"          -> tohit
       Just "wound"        -> towound
       Just "party"        -> party
@@ -62,4 +55,4 @@ module Main where
 
   -- | dice pool
   rollDice :: DiceSet
-  rollDice = zModRoll["100", "d10"]
+  rollDice = zModRoll["50", "d10"]
