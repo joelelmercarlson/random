@@ -1,5 +1,6 @@
 #!/usr/bin/env stack
-{- stack --system-ghc --resolver lts-14.9 script
+{- stack --system-ghc 
+--resolver lts-16.18 script
 --package "MonadRandom"
 --package "text"
 -}
