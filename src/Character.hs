@@ -1,8 +1,6 @@
-module Character(Character(..)) where
-
+module Character (Character(..)) where
   data Character = Character {
-    d10_rolls_t :: [Int]
-    , weaponSkill :: Int
+    weaponSkill :: Int
     , ballisticSkill :: Int
     , strength :: Int
     , toughness :: Int

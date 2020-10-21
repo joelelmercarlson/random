@@ -1,35 +1,59 @@
 module Elf (genElf) where
+  import Control.Monad.Random
+  import DiceSet
   import Character
   import Util
 
   -- | elf know thy self
   -- | require lots of d10
-  genElf :: [Int] -> Character
-  genElf m = do
-    Character {
-      d10_rolls_t = m
-      , weaponSkill  = 30 + pn 1 m + pn 2 m
-      , ballisticSkill  = 30 + pn 3 m + pn 4 m
-      , strength  = 20 + pn 5 m + pn 6 m
-      , toughness = 20 + pn 7 m + pn 8 m
-      , initiative = 40 + pn 9 m + pn 10 m
-      , agility = 30 + pn 11 m + pn 12 m
-      , dexterity = 30 + pn 13 m + pn 14 m
-      , intelligence = 30 + pn 15 m + pn 16 m
-      , willpower = 30 + pn 17 m + pn 18 m
-      , fellowship = 20 + pn 19 m + pn 20 m
+  genElf :: IO Character
+  genElf = do
+    let die = (1, 10)
+        dice = (2, 10)
+        d100 = (10, 10)
+    ws <- evalRandIO (rollDice dice)
+    bs <- evalRandIO (rollDice dice)
+    s <- evalRandIO (rollDice dice)
+    t <- evalRandIO (rollDice dice)
+    i <- evalRandIO (rollDice dice)
+    ag <- evalRandIO (rollDice dice)
+    dex <- evalRandIO (rollDice dice)
+    int' <- evalRandIO (rollDice dice)
+    wp <- evalRandIO (rollDice dice)
+    fel <- evalRandIO (rollDice dice)
+    age' <- evalRandIO (rollDice d100)
+    r0 <- evalRandIO (rollDice die)
+    r1 <- evalRandIO (rollDice die)
+    r2 <- evalRandIO (rollDice die)
+    r3 <- evalRandIO (rollDice die)
+    r4 <- evalRandIO (rollDice die)
+    r5 <- evalRandIO (rollDice die)
+    r6 <- evalRandIO (rollDice die)
+    r7 <- evalRandIO (rollDice die)
+    r8 <- evalRandIO (rollDice die)
+    return $ Character {
+      weaponSkill = 30 + ws
+      , ballisticSkill = 30 + bs
+      , strength = 20 + s
+      , toughness = 20 + t
+      , initiative = 40 + i
+      , agility = 30 + ag
+      , dexterity = 30 + dex
+      , intelligence = 30 + int'
+      , willpower = 30 + wp
+      , fellowship = 20 + fel
       , movement  = 5
       , fate = 0
       , race   = "Elf"
-      , gender = genders (average m)
-      , age    = 30 + sum (take 10 m)
-      , place  = worlds (pickBirth (pn 21 m)) (pn 22 m) (pn 23 m) places places1 places2
-      , eye    = pick (pn 24 m) eyes
-      , hair   = pick (pn 25 m) hairs
-      , height = 71 + pn 1 m
-      , weight = 75 + (pn 26 m + pn 27 m) * 5
-      , mark   = "Nil"
-      , name   = names (genders (average m)) (pn 28 m + pn 29 m) female male
+      , gender = genders age'
+      , age    = 30 + age'
+      , place  = worlds (pickBirth r0) r1 r2 places places1 places2
+      , eye    = pick r3 eyes
+      , hair   = pick r4 hairs
+      , height = 71 + r5
+      , weight = 75 + (r6 + r7) * 5
+      , mark   = "nil"
+      , name   = names (genders age') r8 female male
       , career = "basic"
     }
 

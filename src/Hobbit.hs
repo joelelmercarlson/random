@@ -1,35 +1,62 @@
 module Hobbit(genHobbit) where
+  import Control.Monad.Random
+  import DiceSet
   import Character
   import Util
 
   -- | hobbit know thy self
   -- | require lots of d10
-  genHobbit :: [Int] -> Character
-  genHobbit m = do
-    Character {
-      d10_rolls_t = m
-      , weaponSkill = 10 + pn 1 m + pn 2 m
-      , ballisticSkill = 30 + pn 3 m + pn 4 m
-      , strength = 10 + pn 5 m + pn 6 m
-      , toughness = 20 + pn 7 m + pn 8 m
-      , initiative = 20 + pn 9 m + pn 10 m
-      , agility = 20 + pn 11 m + pn 12 m
-      , dexterity = 30 + pn 13 m + pn 14 m
-      , intelligence = 20 + pn 15 m + pn 16 m
-      , willpower = 30 + pn 17 m + pn 18 m
-      , fellowship = 30 + pn 19 m + pn 20 m
+  genHobbit :: IO Character
+  genHobbit = do
+    let die = (1, 10)
+        dice = (2, 20)
+        d50 = (5, 10)
+    ws <- evalRandIO (rollDice dice)
+    bs <- evalRandIO (rollDice dice)
+    s <- evalRandIO (rollDice dice)
+    t <- evalRandIO (rollDice dice)
+    i <- evalRandIO (rollDice dice)
+    ag <- evalRandIO (rollDice dice)
+    dex <- evalRandIO (rollDice dice)
+    int' <- evalRandIO (rollDice dice)
+    wp <- evalRandIO (rollDice dice)
+    fel <- evalRandIO (rollDice dice)
+    age' <- evalRandIO (rollDice d50)
+    r0 <- evalRandIO (rollDice die)
+    r1 <- evalRandIO (rollDice die)
+    r2 <- evalRandIO (rollDice die)
+    r3 <- evalRandIO (rollDice die)
+    r4 <- evalRandIO (rollDice die)
+    r5 <- evalRandIO (rollDice die)
+    r6 <- evalRandIO (rollDice die)
+    r7 <- evalRandIO (rollDice die)
+    r8 <- evalRandIO (rollDice die)
+    r9 <- evalRandIO (rollDice die)
+    r10 <- evalRandIO (rollDice die)
+    r11 <- evalRandIO (rollDice die)
+    return $ Character {
+      weaponSkill = 10 + ws
+      , ballisticSkill = 30 + bs
+      , strength = 10 + s
+      , toughness = 20 + t
+      , initiative = 20 + i
+      , agility = 20 + ag
+      , dexterity = 30 + dex
+      , intelligence = 20 + int'
+      , willpower = 30 + wp
+      , fellowship = 30 + fel
       , movement = 3
       , fate = 0
       , race   = "Hobbit"
-      , gender = genders (average m)
-      , age    = 15 + sum (take 5 m)
-      , place  = worlds (pickBirth (pn 21 m)) (pn 22 m) (pn 23 m) places places1 places2
-      , eye    = pick (pn 24 m) eyes
-      , hair   = pick (pn 25 m) hairs
-      , height = 37 + (pn 1 m)
-      , weight = 75 + (pn 26 m + pn 27 m) * 3
-      , mark   = pick (pn 28 m + pn 29 m) marks
-      , name   = names (genders (average m)) (pn 30 m + pn 31 m) female male
+      , gender = genders age'
+      , age    = 15 + age'
+      , place  = worlds (pickBirth r0) r1 r2 places places1 places2
+      , eye    = pick r3 eyes
+      , hair   = pick r4 hairs
+      , height = 37 + r5
+      , weight = 75 + (r6 + r7) * 3
+      , mark   = pick (r8 + r9) marks
+      , name   = names (genders age') (r10 + r11) female male
       , career = "basic"
     }
 

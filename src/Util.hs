@@ -42,8 +42,8 @@ module Util (pick
   clampZ :: Int -> Int
   clampZ n = if n > 1 then n else 1
 
-  genders :: Float -> String
-  genders n = if n < 5.1 then "Female" else "Male"
+  genders :: Int -> String
+  genders n = if n < 5 || n < 50 then "Female" else "Male"
 
   heightF :: Int -> String
   heightF m = show ht_f ++ "\'" ++ show ht_i ++ "\""
