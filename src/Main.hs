@@ -13,7 +13,14 @@ module Main where
     xs <- getArgs
 
     case nth 1 xs of
-       _ -> do {tohit; towound; party}
+      Just "elf" -> do { e <- genElf; rpg e }
+      Just "dwarf" -> do { e <- genDwarf; rpg e }
+      Just "human" -> do { e <- genHuman; rpg e }
+      Just "hobbit" -> do { e <- genHobbit; rpg e }
+      Just "party" -> party
+      Just "hit" -> tohit
+      Just "wound" -> towound
+      _ -> do { party }
 
   party :: IO ()
   party = do
@@ -22,11 +29,7 @@ module Main where
     h <- genHuman
     r <- genHobbit
     putStrLn "A Party of Four Adventurers..."
-    putStrLn "==============================\n"
-    putStrLn $ "result: " ++ show e
-    putStrLn $ "result: " ++ show d
-    putStrLn $ "result: " ++ show h
-    putStrLn $ "result: " ++ show r
+    putStrLn "=============================="
     rpg $ e
     rpg $ d
     rpg $ h

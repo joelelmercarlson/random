@@ -32,8 +32,6 @@ module Dwarf (genDwarf) where
     r7 <- evalRandIO (rollDice die)
     r8 <- evalRandIO (rollDice die)
     r9 <- evalRandIO (rollDice die)
-    r10 <- evalRandIO (rollDice die)
-    r11 <- evalRandIO (rollDice die)
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 20 + bs
@@ -54,9 +52,8 @@ module Dwarf (genDwarf) where
       , eye    = pick r3 eyes
       , hair   = pick r4 hairs
       , height = 51 + r5
-      , weight = 90 + (r6 + r7) * 5
-      , mark   = pick (r8 + r9) marks
-      , name   = names (genders age') (r10 + r11) female male
+      , mark   = pick (r6 + r7) marks
+      , name   = names (genders age') (r8 + r9) female male
       , career = "basic"
     }
 

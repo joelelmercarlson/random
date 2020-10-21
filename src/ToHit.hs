@@ -1,7 +1,4 @@
-module ToHit ( tohit
-             , towound
-             ) where
-
+module ToHit (tohit, towound) where
   import Text.Printf
 
   hitT :: [[String]]

@@ -1,4 +1,4 @@
-module Human(genHuman) where
+module Human (genHuman) where
   import Control.Monad.Random
   import DiceSet
   import Character
@@ -31,8 +31,6 @@ module Human(genHuman) where
     r7 <- evalRandIO (rollDice die)
     r8 <- evalRandIO (rollDice die)
     r9 <- evalRandIO (rollDice die)
-    r10 <- evalRandIO (rollDice die)
-    r11 <- evalRandIO (rollDice die)
     return $ Character {
       weaponSkill = 20 + ws
       , ballisticSkill = 20 + bs
@@ -53,9 +51,8 @@ module Human(genHuman) where
       , eye    = pick r2 eyes
       , hair   = pick r3 hairs
       , height = 57 + r4 + r5
-      , weight = 100 + (r6 + r7) * 5
-      , mark   = pick (r8 + r9) marks
-      , name   = names (genders age') (r10 + r11) female male
+      , mark   = pick (r6 + r7) marks
+      , name   = names (genders age') (r8 + r9) female male
       , career = "basic"
     }
 

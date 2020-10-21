@@ -9,18 +9,18 @@ module Elf (genElf) where
   genElf :: IO Character
   genElf = do
     let die = (1, 10)
-        dice = (2, 10)
+        d20 = (2, 10)
         d100 = (10, 10)
-    ws <- evalRandIO (rollDice dice)
-    bs <- evalRandIO (rollDice dice)
-    s <- evalRandIO (rollDice dice)
-    t <- evalRandIO (rollDice dice)
-    i <- evalRandIO (rollDice dice)
-    ag <- evalRandIO (rollDice dice)
-    dex <- evalRandIO (rollDice dice)
-    int' <- evalRandIO (rollDice dice)
-    wp <- evalRandIO (rollDice dice)
-    fel <- evalRandIO (rollDice dice)
+    ws <- evalRandIO (rollDice d20)
+    bs <- evalRandIO (rollDice d20)
+    s <- evalRandIO (rollDice d20)
+    t <- evalRandIO (rollDice d20)
+    i <- evalRandIO (rollDice d20)
+    ag <- evalRandIO (rollDice d20)
+    dex <- evalRandIO (rollDice d20)
+    int' <- evalRandIO (rollDice d20)
+    wp <- evalRandIO (rollDice d20)
+    fel <- evalRandIO (rollDice d20)
     age' <- evalRandIO (rollDice d100)
     r0 <- evalRandIO (rollDice die)
     r1 <- evalRandIO (rollDice die)
@@ -29,8 +29,6 @@ module Elf (genElf) where
     r4 <- evalRandIO (rollDice die)
     r5 <- evalRandIO (rollDice die)
     r6 <- evalRandIO (rollDice die)
-    r7 <- evalRandIO (rollDice die)
-    r8 <- evalRandIO (rollDice die)
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 30 + bs
@@ -51,9 +49,8 @@ module Elf (genElf) where
       , eye    = pick r3 eyes
       , hair   = pick r4 hairs
       , height = 71 + r5
-      , weight = 75 + (r6 + r7) * 5
       , mark   = "nil"
-      , name   = names (genders age') r8 female male
+      , name   = names (genders age') r6 female male
       , career = "basic"
     }
 

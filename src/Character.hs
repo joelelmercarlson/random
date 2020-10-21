@@ -19,7 +19,6 @@ module Character (Character(..)) where
     , eye :: String
     , hair :: String
     , height :: Int
-    , weight :: Int
     , mark :: String
     , name :: String
     , career :: String

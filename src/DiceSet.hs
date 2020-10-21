@@ -1,16 +1,16 @@
-module DiceSet (rollDice, six, ten) where
+module DiceSet (d6, d10, rollDice) where
   import Control.Monad.Random
 
   type Dice = (Int, Int)
 
   -- | generate roll
-  six :: (RandomGen g) => Rand g Double
-  six = do
+  d6 :: (RandomGen g) => Rand g Double
+  d6 = do
     randomNumber <- getRandomR(0.0, 1.0)
     return $ randomNumber * 6
 
-  ten :: (RandomGen g) => Rand g Double
-  ten = do
+  d10 :: (RandomGen g) => Rand g Double
+  d10 = do
     randomNumber <- getRandomR(0.0, 1.0)
     return $ randomNumber * 10
 
