@@ -9,6 +9,21 @@ module Util where
   bonus :: Int -> Int
   bonus n = clamp $ n `div` 10
 
+  -- | potential
+  classes :: Int -> Int -> Int -> Int -> Int -> Int -> String
+  classes ws bs ag dex int' wp = career
+    where
+      warrior  = average [ws, bs, ag]
+      ranger   = average [bs, ag, int']
+      rogue    = average [bs, ag, dex]
+      academic = average [dex, int', wp]
+      career
+        | warrior > ranger && warrior > rogue && warrior > academic = "Warrior"
+        | ranger > warrior && ranger > rogue && ranger > academic = "Ranger"
+        | rogue > warrior && rogue > ranger && rogue > academic = "Rogue"
+        | academic > warrior && academic > ranger && academic > rogue = "Academic"
+        | otherwise = "Peasant"
+
   -- | clamp
   clamp :: Int -> Int
   clamp n = if n > 10 then 10 else clampZ n

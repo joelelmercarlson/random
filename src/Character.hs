@@ -21,5 +21,4 @@ module Character (Character(..)) where
     , height :: Int
     , mark :: String
     , name :: String
-    , career :: String
   } deriving (Show)

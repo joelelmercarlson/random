@@ -51,7 +51,6 @@ module Elf (genElf) where
       , height = 71 + r5
       , mark   = "nil"
       , name   = names (genders age') r6 female male
-      , career = "basic"
     }
 
   pickBirth :: Int -> Int

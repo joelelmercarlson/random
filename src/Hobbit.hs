@@ -54,7 +54,6 @@ module Hobbit (genHobbit) where
       , height = 37 + r5
       , mark   = pick (r6 + r7) marks
       , name   = names (genders age') (r8 + r9) female male
-      , career = "basic"
     }
 
   pickBirth :: Int -> Int

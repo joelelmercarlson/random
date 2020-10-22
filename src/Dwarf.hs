@@ -54,7 +54,6 @@ module Dwarf (genDwarf) where
       , height = 51 + r5
       , mark   = pick (r6 + r7) marks
       , name   = names (genders age') (r8 + r9) female male
-      , career = "basic"
     }
 
   -- | Data Tables
