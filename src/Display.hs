@@ -8,8 +8,8 @@ module Display where
   rpg n = do
     story n
     printf "Profile\n"
-    printf "| M  | WS | BS | S  | T  | I  | Ag | Dex | Int | Wp | Fel | W    |\n"
-    printf "------------------------------------------------------------------\n"
+    printf "| M  | WS | BS | S  | T  | I  | Ag | Dex | Int | Wp | Fel | Wounds |\n"
+    printf "--------------------------------------------------------------------\n"
     printf "| %-2d |"  $ movement n
     printf " %-2d |"   $ weaponSkill n
     printf " %-2d |"   $ ballisticSkill n
@@ -17,11 +17,11 @@ module Display where
     printf " %-2d |"   $ toughness n
     printf " %-2d |"   $ initiative n
     printf " %-2d |"   $ agility n
-    printf " %-2d  |"  $ dexterity n
-    printf " %-2d  |"  $ intelligence n
+    printf " %-3d |"   $ dexterity n
+    printf " %-3d |"   $ intelligence n
     printf " %-2d |"   $ willpower n
-    printf " %-2d  |"  $ fellowship n
-    printf " %-4d |\n" $ wounds (race n)(strength n)(toughness n)(willpower n)
+    printf " %-3d |"   $ fellowship n
+    printf " %-6d |\n" $ wounds (race n)(strength n)(toughness n)(willpower n)
     printf "\n"
 
   -- | every character has a story...
