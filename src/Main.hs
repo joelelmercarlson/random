@@ -1,5 +1,6 @@
 module Main where
   import System.Environment
+  import DiceSet (d10, d100)
   import Display (rpg)
   import Elf
   import Dwarf
@@ -20,6 +21,8 @@ module Main where
       Just "party" -> party
       Just "hit" -> tohit
       Just "wound" -> towound
+      Just "d10" -> do { d <- d10; print $ d}
+      Just "d100" -> do { d <- d100; print $ d}
       _ -> do { party }
 
   party :: IO ()

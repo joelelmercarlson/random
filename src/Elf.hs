@@ -1,6 +1,5 @@
 module Elf (genElf) where
-  import Control.Monad.Random
-  import DiceSet
+  import DiceSet (d10, twoD10, d100)
   import Character
   import Util
 
@@ -8,27 +7,24 @@ module Elf (genElf) where
   -- | require lots of d10
   genElf :: IO Character
   genElf = do
-    let die = (1, 10)
-        d20 = (2, 10)
-        d100 = (10, 10)
-    ws <- evalRandIO (rollDice d20)
-    bs <- evalRandIO (rollDice d20)
-    s <- evalRandIO (rollDice d20)
-    t <- evalRandIO (rollDice d20)
-    i <- evalRandIO (rollDice d20)
-    ag <- evalRandIO (rollDice d20)
-    dex <- evalRandIO (rollDice d20)
-    int' <- evalRandIO (rollDice d20)
-    wp <- evalRandIO (rollDice d20)
-    fel <- evalRandIO (rollDice d20)
-    age' <- evalRandIO (rollDice d100)
-    r0 <- evalRandIO (rollDice die)
-    r1 <- evalRandIO (rollDice die)
-    r2 <- evalRandIO (rollDice die)
-    r3 <- evalRandIO (rollDice die)
-    r4 <- evalRandIO (rollDice die)
-    r5 <- evalRandIO (rollDice die)
-    r6 <- evalRandIO (rollDice die)
+    ws <- twoD10
+    bs <- twoD10
+    s <- twoD10
+    t <- twoD10
+    i <- twoD10
+    ag <- twoD10
+    dex <- twoD10
+    int' <- twoD10
+    wp <- twoD10
+    fel <- twoD10
+    age' <- d100
+    r0 <- d10
+    r1 <- d10
+    r2 <- d10
+    r3 <- d10
+    r4 <- d10
+    r5 <- d10
+    r6 <- d10
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 30 + bs

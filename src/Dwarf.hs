@@ -1,6 +1,5 @@
 module Dwarf (genDwarf) where
-  import Control.Monad.Random
-  import DiceSet
+  import DiceSet (d10, twoD10, d100)
   import Character
   import Util
 
@@ -8,30 +7,27 @@ module Dwarf (genDwarf) where
   -- | require lots of d10
   genDwarf :: IO Character
   genDwarf = do
-    let die = (1, 10)
-        dice = (2, 10)
-        d100 = (10, 10)
-    ws <- evalRandIO (rollDice dice)
-    bs <- evalRandIO (rollDice dice)
-    s <- evalRandIO (rollDice dice)
-    t <- evalRandIO (rollDice dice)
-    i <- evalRandIO (rollDice dice)
-    ag <- evalRandIO (rollDice dice)
-    dex <- evalRandIO (rollDice dice)
-    int' <- evalRandIO (rollDice dice)
-    wp <- evalRandIO (rollDice dice)
-    fel <- evalRandIO (rollDice dice)
-    age' <- evalRandIO (rollDice d100)
-    r0 <- evalRandIO (rollDice die)
-    r1 <- evalRandIO (rollDice die)
-    r2 <- evalRandIO (rollDice die)
-    r3 <- evalRandIO (rollDice die)
-    r4 <- evalRandIO (rollDice die)
-    r5 <- evalRandIO (rollDice die)
-    r6 <- evalRandIO (rollDice die)
-    r7 <- evalRandIO (rollDice die)
-    r8 <- evalRandIO (rollDice die)
-    r9 <- evalRandIO (rollDice die)
+    ws <- twoD10
+    bs <- twoD10
+    s <- twoD10
+    t <- twoD10
+    i <- twoD10
+    ag <- twoD10
+    dex <- twoD10
+    int' <- twoD10
+    wp <- twoD10
+    fel <- twoD10
+    age' <- d100
+    r0 <- d10
+    r1 <- d10
+    r2 <- d10
+    r3 <- d10
+    r4 <- d10
+    r5 <- d10
+    r6 <- d10
+    r7 <- d10
+    r8 <- d10
+    r9 <- d10
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 20 + bs
