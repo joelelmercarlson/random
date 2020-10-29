@@ -7,10 +7,9 @@ module Display where
   rpg :: Character -> IO ()
   rpg n = do
     story n
-    printf "  | M  | WS | BS | S  | T  | I  | Ag | Dex | Int | Wp | Fel |\n"
-    printf "  -----------------------------------------------------------\n"
-    printf "  | %-2d |" $ movement n
-    printf " %-2d |"    $ weaponSkill n
+    printf "  | WS | BS | S  | T  | I  | Ag | Dex | Int | Wp | Fel |\n"
+    printf "  ------------------------------------------------------\n"
+    printf "  | %-2d |" $ weaponSkill n
     printf " %-2d |"    $ ballisticSkill n
     printf " %-2d |"    $ strength n
     printf " %-2d |"    $ toughness n
