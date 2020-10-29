@@ -45,6 +45,7 @@ module Hobbit (genHobbit) where
       , fellowship = 30 + fel
       , movement = 3
       , fate = 0
+      , resilience = 2
       , race   = "Hobbit"
       , gender = genders age'
       , age    = 15 + age'

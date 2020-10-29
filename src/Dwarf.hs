@@ -45,6 +45,7 @@ module Dwarf (genDwarf) where
       , fellowship = 10 + fel
       , movement  = 3
       , fate = 0
+      , resilience = 2
       , race   = "Dwarf"
       , gender = genders age'
       , age    = 15 + age'

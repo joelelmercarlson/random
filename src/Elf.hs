@@ -42,6 +42,7 @@ module Elf (genElf) where
       , fellowship = 20 + fel
       , movement  = 5
       , fate = 0
+      , resilience = 0
       , race   = "Elf"
       , gender = genders age'
       , age    = 30 + age'

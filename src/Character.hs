@@ -12,6 +12,7 @@ module Character (Character(..)) where
     , fellowship :: Int
     , movement :: Int
     , fate :: Int
+    , resilience :: Int
     , race :: String
     , gender :: String
     , age :: Int

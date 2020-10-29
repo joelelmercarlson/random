@@ -44,6 +44,7 @@ module Human (genHuman) where
       , fellowship = 20 + fel
       , movement  = 4
       , fate = 2
+      , resilience = 1
       , race   = "Human"
       , gender = genders age'
       , age    = 15 + age'
