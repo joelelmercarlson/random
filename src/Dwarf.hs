@@ -1,5 +1,5 @@
 module Dwarf (genDwarf) where
-  import DiceSet (d10, twoD10, d100)
+  import DiceSet (d10, d20, d100, twoD10)
   import Character
   import Util
 
@@ -18,16 +18,15 @@ module Dwarf (genDwarf) where
     wp <- twoD10
     fel <- twoD10
     age' <- d100
+    gender' <- d10
     r0 <- d10
     r1 <- d10
     r2 <- d10
     r3 <- d10
     r4 <- d10
     r5 <- d10
-    r6 <- d10
-    r7 <- d10
-    r8 <- d10
-    r9 <- d10
+    r6 <- d20
+    r7 <- d20
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 20 + bs
@@ -43,20 +42,19 @@ module Dwarf (genDwarf) where
       , fate = 0
       , resilience = 2
       , race   = "Dwarf"
-      , gender = genders age'
+      , gender = genders gender'
       , age    = 15 + age'
       , place  = worlds r0 r1 r2 places places1 places2
-      , eye    = pick r3 eyes
-      , hair   = pick r4 hairs
+      , eye    = eyes r3
+      , hair   = hairs r4
       , height = 51 + r5
-      , mark   = pick (r6 + r7) marks
-      , name   = names (genders age') (r8 + r9) female male
+      , mark   = pick r6 marks
+      , name   = names (genders gender') r7 female male
     }
 
   -- | Data Tables
   female :: [String]
-  female = [ "Nil"
-           , "Anika"
+  female = [ "Anika"
            , "Asta"
            , "Astrid"
            , "Berta"
@@ -79,8 +77,7 @@ module Dwarf (genDwarf) where
            ]
 
   male :: [String]
-  male = [ "Nil"
-         , "Bardin"
+  male = [ "Bardin"
          , "Brokk"
          , "Dimzad"
          , "Durak"
@@ -102,31 +99,37 @@ module Dwarf (genDwarf) where
          , "Urgrim"
          ]
 
-  eyes :: [String]
-  eyes = [ "Pale Grey"
-         , "Blue"
-         , "Copper"
-         , "Light Brown"
-         , "Light Brown"
-         , "Brown"
-         , "Brown"
-         , "Dark Brown"
-         , "Dark Brown"
-         , "Purple"
-         ]
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Coal"
+        | x == 3 = "Lead"
+        | x == 4 = "Steel"
+        | x >= 5 && x <= 7   = "Blue"
+        | x >= 8 && x <= 11  = "Earth Brown"
+        | x >= 12 && x <= 14 = "Dark Brown"
+        | x >= 15 && x <= 17 = "Hazel"
+        | x == 18 = "Green"
+        | x == 19 = "Coper"
+        | x == 20 = "Gold"
+        | otherwise = "nil"
 
-  hairs :: [String]
-  hairs = [ "Ash Blond"
-          , "Yellow"
-          , "Red"
-          , "Copper"
-          , "Light Brown"
-          , "Brown"
-          , "Brown"
-          , "Dark Brown"
-          , "Blue Black"
-          , "Black"
-          ]
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "White"
+        | x == 3 = "Grey"
+        | x == 4 = "Pale Blond"
+        | x >= 5 && x <= 7   = "Golden"
+        | x >= 8 && x <= 11  = "Copper"
+        | x >= 12 && x <= 14 = "Bronze"
+        | x >= 15 && x <= 17 = "Brown"
+        | x == 18 = "Dark Brown"
+        | x == 19 = "Reddish Brown"
+        | x == 20 = "Black"
+        | otherwise = "nil"
 
   places :: [String]
   places = [ "Karak Norn (Grey Mountains)"
@@ -168,8 +171,7 @@ module Dwarf (genDwarf) where
             ]
 
   marks :: [String]
-  marks = [ "Nil"
-          , "Pox Marks"
+  marks = [ "Pox Marks"
           , "Ruddy Faced"
           , "Scar"
           , "Tattoo"

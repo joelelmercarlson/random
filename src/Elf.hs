@@ -18,6 +18,7 @@ module Elf (genElf) where
     wp <- twoD10
     fel <- twoD10
     age' <- d100
+    gender' <- d10
     r0 <- d10
     r1 <- d10
     r2 <- d10
@@ -40,14 +41,14 @@ module Elf (genElf) where
       , fate = 0
       , resilience = 0
       , race   = "Elf"
-      , gender = genders age'
+      , gender = genders gender'
       , age    = 30 + age'
       , place  = worlds (pickBirth r0) r1 r2 places places1 places2
-      , eye    = pick r3 eyes
-      , hair   = pick r4 hairs
+      , eye    = eyes r3
+      , hair   = hairs r4
       , height = 71 + r5
       , mark   = "nil"
-      , name   = names (genders age') r6 female male
+      , name   = names (genders gender') r6 female male
     }
 
   pickBirth :: Int -> Int
@@ -60,8 +61,7 @@ module Elf (genElf) where
 
   -- | data
   female :: [String]
-  female = [ "Nil"
-           , "Alane"
+  female = [ "Alane"
            , "Altronia"
            , "Davandrel"
            , "Eldril"
@@ -84,8 +84,7 @@ module Elf (genElf) where
            ]
 
   male :: [String]
-  male = [ "Nil"
-         , "Aluthol"
+  male = [ "Aluthol"
          , "Aamendil"
          , "Angran"
          , "Cavindel"
@@ -107,31 +106,37 @@ module Elf (genElf) where
          , "Yavandir"
          ]
 
-  eyes :: [String]
-  eyes = [ "Grey Blue"
-         , "Blue"
-         , "Green"
-         , "Copper"
-         , "Light Brown"
-         , "Brown"
-         , "Dark Brown"
-         , "Silver"
-         , "Purple"
-         , "Black"
-         ]
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Jet"
+        | x == 3 = "Amethyst"
+        | x == 4 = "Aquamarine"
+        | x >= 5 && x <= 7   = "Sapphire"
+        | x >= 8 && x <= 11  = "Turquoise"
+        | x >= 12 && x <= 14 = "Emerald"
+        | x >= 15 && x <= 17 = "Amber"
+        | x == 18 = "Copper"
+        | x == 19 = "Citrine"
+        | x == 20 = "Gold"
+        | otherwise = "nil"
 
-  hairs :: [String]
-  hairs = [ "Silver"
-          , "Ash Bond"
-          , "Corn"
-          , "Yellow"
-          , "Copper"
-          , "Light Brown"
-          , "Light Brown"
-          , "Brown"
-          , "Dark Brown"
-          , "Black"
-          ]
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "Silver"
+        | x == 3 = "White"
+        | x == 4 = "Pale Blond"
+        | x >= 5 && x <= 7   = "Blond"
+        | x >= 8 && x <= 11  = "Yellow Blond"
+        | x >= 12 && x <= 14 = "Copper Blond"
+        | x >= 15 && x <= 17 = "Red Blond"
+        | x == 18 = "Auburn"
+        | x == 19 = "Red"
+        | x == 20 = "Black"
+        | otherwise = "nil"
 
   places :: [String]
   places = [ "City of Altdorf"

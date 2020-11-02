@@ -33,7 +33,7 @@ module Util where
 
   -- | adventure genders
   genders :: Int -> String
-  genders n = if n < 4 || n < 40 then "Female" else "Male"
+  genders n = if n < 4 then "Female" else "Male"
 
   -- | height calculator
   heightF :: Int -> String

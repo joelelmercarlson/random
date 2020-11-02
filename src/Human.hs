@@ -1,5 +1,5 @@
 module Human (genHuman) where
-  import DiceSet (d10, twoD10)
+  import DiceSet (d10, d20, twoD10)
   import Character
   import Util
 
@@ -18,16 +18,14 @@ module Human (genHuman) where
     wp <- twoD10
     fel <- twoD10
     age' <- d10
+    gender' <- d10
     r0 <- d10
     r1 <- d10
-    r2 <- d10
-    r3 <- d10
-    r4 <- d10
-    r5 <- d10
-    r6 <- d10
-    r7 <- d10
-    r8 <- d10
-    r9 <- d10
+    r2 <- twoD10
+    r3 <- twoD10
+    r4 <- twoD10
+    r5 <- d20
+    r6 <- d20
     return $ Character {
       weaponSkill = 20 + ws
       , ballisticSkill = 20 + bs
@@ -43,20 +41,19 @@ module Human (genHuman) where
       , fate = 2
       , resilience = 1
       , race   = "Human"
-      , gender = genders age'
+      , gender = genders gender'
       , age    = 15 + age'
       , place  = worlds 1 r0 r1 places places1 places2
-      , eye    = pick r2 eyes
-      , hair   = pick r3 hairs
-      , height = 57 + r4 + r5
-      , mark   = pick (r6 + r7) marks
-      , name   = names (genders age') (r8 + r9) female male
+      , eye    = eyes r2
+      , hair   = hairs r3
+      , height = 57 + r4
+      , mark   = pick r5 marks
+      , name   = names (genders gender') r6 female male
     }
 
   -- | data
   female :: [String]
-  female = [ "Nil"
-           , "Alexa"
+  female = [ "Alexa"
            , "Alfrida"
            , "Betrix"
            , "Bianka"
@@ -79,8 +76,7 @@ module Human (genHuman) where
            ]
 
   male :: [String]
-  male = [ "Nil"
-         , "Adelbert"
+  male = [ "Adelbert"
          , "Albrecht"
          , "Berthold"
          , "Dieter"
@@ -102,31 +98,37 @@ module Human (genHuman) where
          , "Wolfgang"
          ]
 
-  eyes :: [String]
-  eyes = [ "Pale Grey"
-         , "Grey Blue"
-         , "Blue"
-         , "Green"
-         , "Copper"
-         , "Light Brown"
-         , "Brown"
-         , "Dark Brown"
-         , "Purple"
-         , "Black"
-         ]
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Free Choice"
+        | x == 3 = "Green"
+        | x == 4 = "Pale Blue"
+        | x >= 5 && x <= 7   = "Blue"
+        | x >= 8 && x <= 11  = "Pale Grey"
+        | x >= 12 && x <= 14 = "Grey"
+        | x >= 15 && x <= 17 = "Brown"
+        | x == 18 = "Hazel"
+        | x == 19 = "Dark Brown"
+        | x == 20 = "Black"
+        | otherwise = "nil"
 
-  hairs :: [String]
-  hairs = [ "Ash Blond"
-          , "Corn"
-          , "Yellow"
-          , "Copper"
-          , "Red"
-          , "Light Brown"
-          , "Brown"
-          , "Brown"
-          , "Dark Brown"
-          , "Black"
-          ]
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "White Blond"
+        | x == 3 = "Golden Brown"
+        | x == 4 = "Red Blond"
+        | x >= 5 && x <= 7   = "Golden Brown"
+        | x >= 8 && x <= 11  = "Light Brown"
+        | x >= 12 && x <= 14 = "Dark Brown"
+        | x >= 15 && x <= 17 = "Black"
+        | x == 18 = "Auburn"
+        | x == 19 = "Red"
+        | x == 20 = "Grey"
+        | otherwise = "nil"
 
   places :: [String]
   places = [ "Human" ]
@@ -158,8 +160,7 @@ module Human (genHuman) where
             ]
 
   marks :: [String]
-  marks = [ "Nil"
-          , "Pox Marks"
+  marks = [ "Pox Marks"
           , "Ruddy Faced"
           , "Scar"
           , "Tattoo"

@@ -1,5 +1,5 @@
 module Hobbit (genHobbit) where
-  import DiceSet (d10, twoD10, d50)
+  import DiceSet (d10, d20, d50, twoD10)
   import Character
   import Util
 
@@ -18,16 +18,15 @@ module Hobbit (genHobbit) where
     wp <- twoD10
     fel <- twoD10
     age' <- d50
+    gender' <- d10
     r0 <- d10
     r1 <- d10
     r2 <- d10
     r3 <- d10
     r4 <- d10
     r5 <- d10
-    r6 <- d10
-    r7 <- d10
-    r8 <- d10
-    r9 <- d10
+    r6 <- d20
+    r7 <- d20
     return $ Character {
       weaponSkill = 10 + ws
       , ballisticSkill = 30 + bs
@@ -43,14 +42,14 @@ module Hobbit (genHobbit) where
       , fate = 0
       , resilience = 2
       , race   = "Hobbit"
-      , gender = genders age'
+      , gender = genders gender'
       , age    = 15 + age'
       , place  = worlds (pickBirth r0) r1 r2 places places1 places2
-      , eye    = pick r3 eyes
-      , hair   = pick r4 hairs
+      , eye    = eyes r3
+      , hair   = hairs r4
       , height = 37 + r5
-      , mark   = pick (r6 + r7) marks
-      , name   = names (genders age') (r8 + r9) female male
+      , mark   = pick r6 marks
+      , name   = names (genders gender') r7 female male
     }
 
   pickBirth :: Int -> Int
@@ -59,8 +58,7 @@ module Hobbit (genHobbit) where
                  else 2
   -- | data
   female :: [String]
-  female = [ "Nil"
-           , "Cerasta Twofoot"
+  female = [ "Cerasta Twofoot"
            , "Mahonia Fallohide"
            , "Amaryllis Townsend"
            , "Calaminth Rumble"
@@ -84,8 +82,7 @@ module Hobbit (genHobbit) where
 
 
   male :: [String]
-  male = [ "Nil"
-         , "Wilcome Gardner"
+  male = [ "Wilcome Gardner"
          , "Brocard Diggle"
          , "Haiduc Brown"
          , "Britius Burrow"
@@ -107,31 +104,37 @@ module Hobbit (genHobbit) where
          , "Isengar Brownlock"
          ]
 
-  eyes :: [String]
-  eyes = [ "Blue"
-         , "Hazel"
-         , "Hazel"
-         , "Light Brown"
-         , "Light Brown"
-         , "Brown"
-         , "Brown"
-         , "Dark Brown"
-         , "Dark Brown"
-         , "Dark Brown"
-         ]
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Light Grey"
+        | x == 3 = "Grey"
+        | x == 4 = "Pale Blue"
+        | x >= 5 && x <= 7   = "Blue"
+        | x >= 8 && x <= 11  = "Green"
+        | x >= 12 && x <= 14 = "Hazel"
+        | x >= 15 && x <= 17 = "Brown"
+        | x == 18 = "Copper"
+        | x == 19 = "Dark Brown"
+        | x == 20 = "Dark Brown"
+        | otherwise = "nil"
 
-  hairs :: [String]
-  hairs = [ "Ash Blond"
-          , "Corn"
-          , "Yellow"
-          , "Yellow"
-          , "Copper"
-          , "Red"
-          , "Light Brown"
-          , "Brown"
-          , "Dark Brown"
-          , "Black"
-          ]
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "Grey"
+        | x == 3 = "Flazen"
+        | x == 4 = "Russet"
+        | x >= 5 && x <= 7   = "Honey"
+        | x >= 8 && x <= 11  = "Chestnut"
+        | x >= 12 && x <= 14 = "Ginger"
+        | x >= 15 && x <= 17 = "Mustard"
+        | x == 18 = "Almond"
+        | x == 19 = "Chocolate"
+        | x == 20 = "Liquirice"
+        | otherwise = "nil"
 
   places :: [String]
   places = [ "The Moot"
