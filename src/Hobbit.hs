@@ -1,5 +1,5 @@
 module Hobbit (genHobbit) where
-  import DiceSet (d10, d20, d50, twoD10)
+  import DiceSet (d10, d20, d50, d100, twoD10)
   import Character
   import Util
 
@@ -27,6 +27,7 @@ module Hobbit (genHobbit) where
     r5 <- d10
     r6 <- d20
     r7 <- d20
+    r8 <- d100
     return $ Character {
       weaponSkill = 10 + ws
       , ballisticSkill = 30 + bs
@@ -50,13 +51,40 @@ module Hobbit (genHobbit) where
       , height = 37 + r5
       , mark   = pick r6 marks
       , name   = names (genders gender') r7 female male
+      , career = careers r8
     }
 
-  pickBirth :: Int -> Int
-  pickBirth n = if n < 5
-                 then 1
-                 else 2
   -- | data
+  careers :: Int -> String
+  careers x = status
+    where
+      status
+        | x <= 8 = "Academic"
+        | x <= 33 = "Burgher"
+        | x <= 46 = "Courtier"
+        | x <= 57 = "Peasant"
+        | x <= 68 = "Ranger"
+        | x <= 82 = "Riverfolk"
+        | x <= 94 = "Rogue"
+        | x <= 100 = "Warrior"
+        | otherwise = "nil"
+
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Light Grey"
+        | x == 3 = "Grey"
+        | x == 4 = "Pale Blue"
+        | x >= 5 && x <= 7   = "Blue"
+        | x >= 8 && x <= 11  = "Green"
+        | x >= 12 && x <= 14 = "Hazel"
+        | x >= 15 && x <= 17 = "Brown"
+        | x == 18 = "Copper"
+        | x == 19 = "Dark Brown"
+        | x == 20 = "Dark Brown"
+        | otherwise = "nil"
+
   female :: [String]
   female = [ "Cerasta Twofoot"
            , "Mahonia Fallohide"
@@ -80,6 +108,21 @@ module Hobbit (genHobbit) where
            , "Cleoma Hornblower"
            ]
 
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "Grey"
+        | x == 3 = "Flazen"
+        | x == 4 = "Russet"
+        | x >= 5 && x <= 7   = "Honey"
+        | x >= 8 && x <= 11  = "Chestnut"
+        | x >= 12 && x <= 14 = "Ginger"
+        | x >= 15 && x <= 17 = "Mustard"
+        | x == 18 = "Almond"
+        | x == 19 = "Chocolate"
+        | x == 20 = "Liquirice"
+        | otherwise = "nil"
 
   male :: [String]
   male = [ "Wilcome Gardner"
@@ -104,37 +147,33 @@ module Hobbit (genHobbit) where
          , "Isengar Brownlock"
          ]
 
-  eyes :: Int -> String
-  eyes x = color
-    where
-      color
-        | x == 2 = "Light Grey"
-        | x == 3 = "Grey"
-        | x == 4 = "Pale Blue"
-        | x >= 5 && x <= 7   = "Blue"
-        | x >= 8 && x <= 11  = "Green"
-        | x >= 12 && x <= 14 = "Hazel"
-        | x >= 15 && x <= 17 = "Brown"
-        | x == 18 = "Copper"
-        | x == 19 = "Dark Brown"
-        | x == 20 = "Dark Brown"
-        | otherwise = "nil"
+  marks :: [String]
+  marks = [ "Pox Marks"
+          , "Ruddy Faced"
+          , "Scar"
+          , "Tattoo"
+          , "Earring"
+          , "Ragged Ear"
+          , "Nose Ring"
+          , "Wart"
+          , "Broken Nose"
+          , "Missing Tooth"
+          , "Snaggle Teeth"
+          , "Lazy Eye"
+          , "Missing Eyebrow(s)"
+          , "Missing Digit"
+          , "Distinctive Gait"
+          , "Curious Smell"
+          , "Huge Nose"
+          , "Large Mole"
+          , "Small Bald Patch"
+          , "Strange Coloured Eye(s)"
+          ]
 
-  hairs :: Int -> String
-  hairs x = color
-    where
-      color
-        | x == 2 = "Grey"
-        | x == 3 = "Flazen"
-        | x == 4 = "Russet"
-        | x >= 5 && x <= 7   = "Honey"
-        | x >= 8 && x <= 11  = "Chestnut"
-        | x >= 12 && x <= 14 = "Ginger"
-        | x >= 15 && x <= 17 = "Mustard"
-        | x == 18 = "Almond"
-        | x == 19 = "Chocolate"
-        | x == 20 = "Liquirice"
-        | otherwise = "nil"
+  pickBirth :: Int -> Int
+  pickBirth n = if n < 5
+                 then 1
+                 else 2
 
   places :: [String]
   places = [ "The Moot"
@@ -166,26 +205,3 @@ module Hobbit (genHobbit) where
             , "Arable Farm"
             , "Hovel"
             ]
-
-  marks :: [String]
-  marks = [ "Pox Marks"
-          , "Ruddy Faced"
-          , "Scar"
-          , "Tattoo"
-          , "Earring"
-          , "Ragged Ear"
-          , "Nose Ring"
-          , "Wart"
-          , "Broken Nose"
-          , "Missing Tooth"
-          , "Snaggle Teeth"
-          , "Lazy Eye"
-          , "Missing Eyebrow(s)"
-          , "Missing Digit"
-          , "Distinctive Gait"
-          , "Curious Smell"
-          , "Huge Nose"
-          , "Large Mole"
-          , "Small Bald Patch"
-          , "Strange Coloured Eye(s)"
-          ]

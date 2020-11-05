@@ -1,5 +1,5 @@
 module Human (genHuman) where
-  import DiceSet (d10, d20, twoD10)
+  import DiceSet (d10, d20, d100, twoD10)
   import Character
   import Util
 
@@ -26,6 +26,7 @@ module Human (genHuman) where
     r4 <- twoD10
     r5 <- d20
     r6 <- d20
+    r7 <- d100
     return $ Character {
       weaponSkill = 20 + ws
       , ballisticSkill = 20 + bs
@@ -49,9 +50,40 @@ module Human (genHuman) where
       , height = 57 + r4
       , mark   = pick r5 marks
       , name   = names (genders gender') r6 female male
+      , career = careers r7
     }
 
   -- | data
+  careers :: Int -> String
+  careers x = status
+    where
+      status
+        | x <= 14 = "Academic"
+        | x <= 27 = "Burgher"
+        | x <= 37 = "Courtier"
+        | x <= 50 = "Peasant"
+        | x <= 60 = "Ranger"
+        | x <= 74 = "Riverfolk"
+        | x <= 88 = "Rogue"
+        | x <= 100 = "Warrior"
+        | otherwise = "nil"
+
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Free Choice"
+        | x == 3 = "Green"
+        | x == 4 = "Pale Blue"
+        | x >= 5 && x <= 7   = "Blue"
+        | x >= 8 && x <= 11  = "Pale Grey"
+        | x >= 12 && x <= 14 = "Grey"
+        | x >= 15 && x <= 17 = "Brown"
+        | x == 18 = "Hazel"
+        | x == 19 = "Dark Brown"
+        | x == 20 = "Black"
+        | otherwise = "nil"
+
   female :: [String]
   female = [ "Alexa"
            , "Alfrida"
@@ -74,6 +106,22 @@ module Human (genHuman) where
            , "Ulrike"
            , "Wertha"
            ]
+
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "White Blond"
+        | x == 3 = "Golden Brown"
+        | x == 4 = "Red Blond"
+        | x >= 5 && x <= 7   = "Golden Brown"
+        | x >= 8 && x <= 11  = "Light Brown"
+        | x >= 12 && x <= 14 = "Dark Brown"
+        | x >= 15 && x <= 17 = "Black"
+        | x == 18 = "Auburn"
+        | x == 19 = "Red"
+        | x == 20 = "Grey"
+        | otherwise = "nil"
 
   male :: [String]
   male = [ "Adelbert"
@@ -98,37 +146,28 @@ module Human (genHuman) where
          , "Wolfgang"
          ]
 
-  eyes :: Int -> String
-  eyes x = color
-    where
-      color
-        | x == 2 = "Free Choice"
-        | x == 3 = "Green"
-        | x == 4 = "Pale Blue"
-        | x >= 5 && x <= 7   = "Blue"
-        | x >= 8 && x <= 11  = "Pale Grey"
-        | x >= 12 && x <= 14 = "Grey"
-        | x >= 15 && x <= 17 = "Brown"
-        | x == 18 = "Hazel"
-        | x == 19 = "Dark Brown"
-        | x == 20 = "Black"
-        | otherwise = "nil"
-
-  hairs :: Int -> String
-  hairs x = color
-    where
-      color
-        | x == 2 = "White Blond"
-        | x == 3 = "Golden Brown"
-        | x == 4 = "Red Blond"
-        | x >= 5 && x <= 7   = "Golden Brown"
-        | x >= 8 && x <= 11  = "Light Brown"
-        | x >= 12 && x <= 14 = "Dark Brown"
-        | x >= 15 && x <= 17 = "Black"
-        | x == 18 = "Auburn"
-        | x == 19 = "Red"
-        | x == 20 = "Grey"
-        | otherwise = "nil"
+  marks :: [String]
+  marks = [ "Pox Marks"
+          , "Ruddy Faced"
+          , "Scar"
+          , "Tattoo"
+          , "Earring"
+          , "Ragged Ear"
+          , "Nose Ring"
+          , "Wart"
+          , "Broken Nose"
+          , "Missing Tooth"
+          , "Snaggle Teeth"
+          , "Lazy Eye"
+          , "Missing Eyebrow(s)"
+          , "Missing Digit"
+          , "Distinctive Gait"
+          , "Curious Smell"
+          , "Huge Nose"
+          , "Large Mole"
+          , "Small Bald Patch"
+          , "Strange Coloured Eye(s)"
+          ]
 
   places :: [String]
   places = [ "Human" ]
@@ -158,26 +197,3 @@ module Human (genHuman) where
             , "Arable Farm"
             , "Hovel"
             ]
-
-  marks :: [String]
-  marks = [ "Pox Marks"
-          , "Ruddy Faced"
-          , "Scar"
-          , "Tattoo"
-          , "Earring"
-          , "Ragged Ear"
-          , "Nose Ring"
-          , "Wart"
-          , "Broken Nose"
-          , "Missing Tooth"
-          , "Snaggle Teeth"
-          , "Lazy Eye"
-          , "Missing Eyebrow(s)"
-          , "Missing Digit"
-          , "Distinctive Gait"
-          , "Curious Smell"
-          , "Huge Nose"
-          , "Large Mole"
-          , "Small Bald Patch"
-          , "Strange Coloured Eye(s)"
-          ]

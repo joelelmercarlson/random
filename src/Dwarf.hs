@@ -27,6 +27,7 @@ module Dwarf (genDwarf) where
     r5 <- d10
     r6 <- d20
     r7 <- d20
+    r8 <- d100
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 20 + bs
@@ -50,9 +51,40 @@ module Dwarf (genDwarf) where
       , height = 51 + r5
       , mark   = pick r6 marks
       , name   = names (genders gender') r7 female male
+      , career = careers r8
     }
 
   -- | Data Tables
+  careers :: Int -> String
+  careers x = status
+    where
+      status
+        | x <= 9 = "Academic"
+        | x <= 34 = "Burgher"
+        | x <= 45 = "Courtier"
+        | x <= 56 = "Peasant"
+        | x <= 67 = "Ranger"
+        | x <= 78 = "Riverfolk"
+        | x <= 84 = "Rogue"
+        | x <= 100 = "Warrior"
+        | otherwise = "nil"
+
+  eyes :: Int -> String
+  eyes x = color
+    where
+      color
+        | x == 2 = "Coal"
+        | x == 3 = "Lead"
+        | x == 4 = "Steel"
+        | x >= 5 && x <= 7   = "Blue"
+        | x >= 8 && x <= 11  = "Earth Brown"
+        | x >= 12 && x <= 14 = "Dark Brown"
+        | x >= 15 && x <= 17 = "Hazel"
+        | x == 18 = "Green"
+        | x == 19 = "Coper"
+        | x == 20 = "Gold"
+        | otherwise = "nil"
+
   female :: [String]
   female = [ "Anika"
            , "Asta"
@@ -75,6 +107,22 @@ module Dwarf (genDwarf) where
            , "Thylda"
            , "Ulla"
            ]
+
+  hairs :: Int -> String
+  hairs x = color
+    where
+      color
+        | x == 2 = "White"
+        | x == 3 = "Grey"
+        | x == 4 = "Pale Blond"
+        | x >= 5 && x <= 7   = "Golden"
+        | x >= 8 && x <= 11  = "Copper"
+        | x >= 12 && x <= 14 = "Bronze"
+        | x >= 15 && x <= 17 = "Brown"
+        | x == 18 = "Dark Brown"
+        | x == 19 = "Reddish Brown"
+        | x == 20 = "Black"
+        | otherwise = "nil"
 
   male :: [String]
   male = [ "Bardin"
@@ -99,37 +147,28 @@ module Dwarf (genDwarf) where
          , "Urgrim"
          ]
 
-  eyes :: Int -> String
-  eyes x = color
-    where
-      color
-        | x == 2 = "Coal"
-        | x == 3 = "Lead"
-        | x == 4 = "Steel"
-        | x >= 5 && x <= 7   = "Blue"
-        | x >= 8 && x <= 11  = "Earth Brown"
-        | x >= 12 && x <= 14 = "Dark Brown"
-        | x >= 15 && x <= 17 = "Hazel"
-        | x == 18 = "Green"
-        | x == 19 = "Coper"
-        | x == 20 = "Gold"
-        | otherwise = "nil"
-
-  hairs :: Int -> String
-  hairs x = color
-    where
-      color
-        | x == 2 = "White"
-        | x == 3 = "Grey"
-        | x == 4 = "Pale Blond"
-        | x >= 5 && x <= 7   = "Golden"
-        | x >= 8 && x <= 11  = "Copper"
-        | x >= 12 && x <= 14 = "Bronze"
-        | x >= 15 && x <= 17 = "Brown"
-        | x == 18 = "Dark Brown"
-        | x == 19 = "Reddish Brown"
-        | x == 20 = "Black"
-        | otherwise = "nil"
+  marks :: [String]
+  marks = [ "Pox Marks"
+          , "Ruddy Faced"
+          , "Scar"
+          , "Tattoo"
+          , "Earring"
+          , "Ragged Ear"
+          , "Nose Ring"
+          , "Wart"
+          , "Broken Nose"
+          , "Missing Tooth"
+          , "Snaggle Teeth"
+          , "Lazy Eye"
+          , "Missing Eyebrow(s)"
+          , "Missing Digit"
+          , "Distinctive Gait"
+          , "Curious Smell"
+          , "Huge Nose"
+          , "Large Mole"
+          , "Small Bald Patch"
+          , "Strange Coloured Eye(s)"
+          ]
 
   places :: [String]
   places = [ "Karak Norn (Grey Mountains)"
@@ -169,26 +208,3 @@ module Dwarf (genDwarf) where
             , "Arable Farm"
             , "Hovel"
             ]
-
-  marks :: [String]
-  marks = [ "Pox Marks"
-          , "Ruddy Faced"
-          , "Scar"
-          , "Tattoo"
-          , "Earring"
-          , "Ragged Ear"
-          , "Nose Ring"
-          , "Wart"
-          , "Broken Nose"
-          , "Missing Tooth"
-          , "Snaggle Teeth"
-          , "Lazy Eye"
-          , "Missing Eyebrow(s)"
-          , "Missing Digit"
-          , "Distinctive Gait"
-          , "Curious Smell"
-          , "Huge Nose"
-          , "Large Mole"
-          , "Small Bald Patch"
-          , "Strange Coloured Eye(s)"
-          ]

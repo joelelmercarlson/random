@@ -27,8 +27,7 @@ module Display where
   story :: Character -> IO ()
   story n = do
     let ht = heightF (height n)
-        career = classes (weaponSkill n)(ballisticSkill n)(agility n)(dexterity n)(intelligence n)(willpower n)
-    printf "%s, the %s %s from %s\n" (name n)(race n)career(place n)
+    printf "%s, the %s %s from %s\n" (name n)(race n)(career n)(place n)
     printf "  | Age:    %-8d | Height: %-12s\n" (age n) ht
     printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n" (gender n)(hair n)(eye n)
     printf "  | Fate:   %-8d | Resilience: %-8d |" (fate n)(resilience n)
