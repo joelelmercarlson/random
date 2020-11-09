@@ -1,5 +1,5 @@
 module Elf (genElf) where
-  import DiceSet (d10, d100, twoD10)
+  import DiceSet (d10, d20, d100, twoD10)
   import Character
   import Util
 
@@ -20,13 +20,11 @@ module Elf (genElf) where
     age' <- d100
     gender' <- d10
     r0 <- d10
-    r1 <- d10
-    r2 <- d10
+    r1 <- twoD10
+    r2 <- twoD10
     r3 <- d10
-    r4 <- d10
-    r5 <- d10
-    r6 <- d10
-    r7 <- d100
+    r4 <- d20
+    r5 <- d100
     return $ Character {
       weaponSkill = 30 + ws
       , ballisticSkill = 30 + bs
@@ -41,16 +39,16 @@ module Elf (genElf) where
       , movement  = 5
       , fate = 0
       , resilience = 0
-      , race   = "High Elf"
+      , race   = elves r0
       , gender = genders gender'
       , age    = 30 + age'
-      , place  = worlds (pickBirth r0) r1 r2 places places1 places2
-      , eye    = eyes r3
-      , hair   = hairs r4
-      , height = 71 + r5
+      , place  = pick (pickBirth r0) places
+      , eye    = pickEyes r0 r1
+      , hair   = pickHairs r0 r2
+      , height = 71 + r3
       , mark   = "nil"
-      , name   = names (genders gender') r6 female male
-      , career = careers r7
+      , name   = names (genders gender') r4 female male
+      , career = pickCareers r0 r5
     }
 
   -- | data
@@ -65,6 +63,20 @@ module Elf (genElf) where
         | x <= 63 = "Ranger"
         | x <= 80 = "Riverfolk"
         | x <= 88 = "Rogue"
+        | x <= 100 = "Warrior"
+        | otherwise = "nil"
+
+  careers' :: Int -> String
+  careers' x = status
+    where
+      status
+        | x <= 5 = "Academic"
+        | x <= 10 = "Burgher"
+        | x <= 35 = "Courtier"
+        | x <= 68 = "Peasant"
+        | x <= 78 = "Ranger"
+        | x == 79 = "Riverfolk"
+        | x <= 90 = "Rogue"
         | x <= 100 = "Warrior"
         | otherwise = "nil"
 
@@ -83,6 +95,29 @@ module Elf (genElf) where
         | x == 19 = "Citrine"
         | x == 20 = "Gold"
         | otherwise = "nil"
+
+  eyes' :: Int -> String
+  eyes' x = color
+    where
+      color
+        | x == 2 = "Ivory"
+        | x == 3 = "Charcoal"
+        | x == 4 = "Ivy Green"
+        | x >= 5 && x <= 7   = "Mossy Green"
+        | x >= 8 && x <= 11  = "Chestnut"
+        | x >= 12 && x <= 14 = "Chestnut"
+        | x >= 15 && x <= 17 = "Dark Brown"
+        | x == 18 = "Tan"
+        | x == 19 = "Sandy Brown"
+        | x == 20 = "Violet"
+        | otherwise = "nil"
+
+  elves :: Int -> String
+  elves x = elf'
+    where
+      elf'
+        | x < 6 = "High Elf"
+        | otherwise = "Wood Elf"
 
   female :: [String]
   female = [ "Alane"
@@ -123,6 +158,22 @@ module Elf (genElf) where
         | x == 20 = "Black"
         | otherwise = "nil"
 
+  hairs' :: Int -> String
+  hairs' x = color
+    where
+      color
+        | x == 2 = "Birch Silver"
+        | x == 3 = "Ash Blond"
+        | x == 4 = "Rose Gold"
+        | x >= 5 && x <= 7   = "Honey Blond"
+        | x >= 8 && x <= 11  = "Brown"
+        | x >= 12 && x <= 14 = "Mahogany Brown"
+        | x >= 15 && x <= 17 = "Dark Brown"
+        | x == 18 = "Sienna"
+        | x == 19 = "Ebony"
+        | x == 20 = "Blue-Black"
+        | otherwise = "nil"
+
   male :: [String]
   male = [ "Aluthol"
          , "Aamendil"
@@ -147,14 +198,35 @@ module Elf (genElf) where
          ]
 
   pickBirth :: Int -> Int
-  pickBirth n = birth
+  pickBirth x = birth
     where
       birth
-        | n < 2 = 1
-        | n < 4 = 2
-        | n < 6 = 3
-        | n < 8 = 4
+        | x < 4 = 1
+        | x < 6 = 2
+        | x == 7 = 3
+        | x == 8 = 4
         | otherwise = 5
+
+  pickCareers :: Int -> Int -> String
+  pickCareers x y = status
+    where
+      status
+        | x < 6 = careers y
+        | otherwise = careers' y
+
+  pickEyes :: Int -> Int -> String
+  pickEyes x y = color
+    where
+      color
+        | x < 6 = eyes y
+        | otherwise = eyes' y
+
+  pickHairs :: Int -> Int -> String
+  pickHairs x y = color
+    where
+      color
+        | x < 6 = hairs y
+        | otherwise = hairs' y
 
   places :: [String]
   places = [ "City of Altdorf"
@@ -163,29 +235,3 @@ module Elf (genElf) where
            , "The Great Forest"
            , "Reikwald Forest"
            ]
-
-  places1 :: [String]
-  places1 = [ "Averland"
-            , "Hochland"
-            , "Middenland"
-            , "Nordland"
-            , "Ostermark"
-            , "Ostland"
-            , "Reikland"
-            , "Stirland"
-            , "Talabecland"
-            , "Wissenland"
-            ]
-
-  places2 :: [String]
-  places2 = [ "City"
-            , "Prosperous Town"
-            , "Market Town"
-            , "Fortified Town"
-            , "Farming Village"
-            , "Poor Village"
-            , "Small Settlement"
-            , "Pig/Cattle Farm"
-            , "Arable Farm"
-            , "Hovel"
-            ]

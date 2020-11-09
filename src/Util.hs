@@ -47,7 +47,7 @@ module Util where
   names m n female male = case m of
     "Female" -> pick n female
     "Male"   -> pick n male
-    _        -> "Nil"
+    _        -> "nil"
 
   -- | nth safe chooser
   nth :: Int -> [a] -> Maybe a
@@ -58,7 +58,7 @@ module Util where
   -- | pick
   pick :: Int -> [String] -> String
   pick x xs = case nth x xs of
-    Nothing  -> "Nil"
+    Nothing  -> "nil"
     (Just y) -> y
 
   -- | where in the world
