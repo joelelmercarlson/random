@@ -26,13 +26,22 @@ module Display where
   -- | every character has a story...
   story :: Character -> IO ()
   story n = do
-    let ht = heightF (height n)
-    printf "%s, the %s %s from %s\n" (name n)(race n)(career n)(place n)
-    printf "  | Age:    %-8d | Height: %-12s\n" (age n) ht
-    printf "  | Gender: %-8s | Hair:   %-12s | Eyes: %s\n" (gender n)(hair n)(eye n)
-    printf "  | Fate:   %-8d | Resilience: %-8d |" (fate n)(resilience n)
-    printf " Wounds: %d\n" $ wounds (race n)(strength n)(toughness n)(willpower n)
-    printf "  | Mark: %s\n" (mark n)
+    printf "Name: %-16s" (name n)
+    printf " | Species: %-8s" (race n)
+    printf " | Class: %-8s" (career n)
+    printf "\n"
+    printf "From: % -16s" (place n)
+    printf " | Mark: %-8s" (mark n)
+    printf "\n"
+    printf "Age:  %-16d" (age n)
+    printf " | Height:  %-8s" $ heightF (height n)
+    printf " | Hair: %-8s" (hair n)
+    printf " | Eyes: %-8s" (eye n)
+    printf "\n"
+    printf "Fate: %-16d" (fate n)
+    printf " | Resilience:  %-4d" (resilience n)
+    printf " | Wounds: %-8d" $ wounds (strength n)(toughness n)(willpower n)
+    printf "\n"
     printf "\n"
 
   -- | basic skills

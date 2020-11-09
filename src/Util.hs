@@ -33,7 +33,7 @@ module Util where
 
   -- | adventure genders
   genders :: Int -> String
-  genders n = if n < 4 then "Female" else "Male"
+  genders n = if n < 5 then "Female" else "Male"
 
   -- | height calculator
   heightF :: Int -> String
@@ -53,7 +53,7 @@ module Util where
   nth :: Int -> [a] -> Maybe a
   nth _ []     = Nothing
   nth 1 (x:_)  = Just x
-  nth n (x:xs) = nth (n - 1) xs
+  nth n (_:xs) = nth (n - 1) xs
 
   -- | pick
   pick :: Int -> [String] -> String
@@ -68,7 +68,5 @@ module Util where
     _       -> pick m racial
 
   -- | hit points
-  wounds :: String -> Int -> Int -> Int -> Int
-  wounds n sb tb wp = case n of
-    "Hobbit" -> (2 * bonus tb) + (bonus wp)
-    _ -> (bonus sb) + (2 * bonus tb) + (bonus wp)
+  wounds :: Int -> Int -> Int -> Int
+  wounds sb tb wp = (bonus sb) + (2 * bonus tb) + (bonus wp)
