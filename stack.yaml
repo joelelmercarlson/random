@@ -1,5 +1,7 @@
-resolver: lts-16.20
+#
+# For more information about stack's configuration, see
+# http://docs.haskellstack.org/en/stable/yaml_configuration/
+#
 packages: ['.']
 extra-deps: []
-flags: {}
-extra-package-dbs: []
+resolver: lts-16.26
