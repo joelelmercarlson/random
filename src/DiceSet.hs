@@ -1,5 +1,5 @@
 module DiceSet (d4
-               ,d6
+               , d6
                , d8
                , d10
                , d12
