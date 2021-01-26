@@ -4,4 +4,4 @@
 #
 packages: ['.']
 extra-deps: []
-resolver: lts-16.26
+resolver: lts-17.0
