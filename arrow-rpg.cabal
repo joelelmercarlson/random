@@ -1,0 +1,73 @@
+name:                arrow-rpg
+version:             1.4.0.0
+synopsis:            Arrow Character Generator (roguelike)
+license:             MIT
+license-file:        LICENSE.md
+author:              Joel E Carlson
+maintainer:          "Joel E Carlson" <joel.elmer.carlson@gmail.com>
+category:            Game
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs: src
+  exposed-modules: Display
+                   , Save
+                   , Game.Compass
+                   , Game.DiceSet
+                   , Game.Data.Dwarf
+                   , Game.Data.Elf
+                   , Game.Data.Halfling
+                   , Game.Data.Human
+                   , Game.Factory.Character
+                   , Game.Factory.EntityKind
+                   , Game.Factory.Equipment
+                   , Game.Kind.Entity
+                   , Game.Kind.Visual
+                   , ToHit
+                   , Util
+  other-modules: 
+  build-depends: base
+                 , aeson
+                 , containers
+                 , directory
+                 , MonadRandom
+                 , random
+                 , text
+                 , yaml
+  default-language: Haskell2010
+    
+
+executable arrow-rpg
+  hs-source-dirs: app
+                  , src
+  main-is:        Main.hs
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  other-modules: Display
+                 , Save
+                 , Game.Compass
+                 , Game.DiceSet
+                 , Game.Data.Dwarf
+                 , Game.Data.Elf
+                 , Game.Data.Halfling
+                 , Game.Data.Human
+                 , Game.Factory.Character
+                 , Game.Factory.EntityKind
+                 , Game.Factory.Equipment
+                 , Game.Kind.Entity
+                 , Game.Kind.Visual
+                 , ToHit
+                 , Util
+  build-depends: base
+                 , aeson
+                 , containers
+                 , directory
+                 , MonadRandom
+                 , random
+                 , text
+                 , yaml
+  default-language: Haskell2010
+
+source-repository head
+  type: git
+  location: https://github.com/joelelmercarlson/random
