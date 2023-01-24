@@ -1,0 +1,6 @@
+# stack.yaml
+resolver: lts-20.8
+flags: {}
+extra-package-dbs: []
+packages:
+- .
