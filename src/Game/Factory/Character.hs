@@ -9,8 +9,7 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
 -}
 module Game.Factory.Character (
-  archType, manaPoint, hitPoint
-  , genClasses, genRaces
+  manaPoint, hitPoint, genClasses, genRaces
   , Character(..), mkCharacter
   ) where
 
@@ -22,13 +21,11 @@ data Character = Character {
   , rStr :: Int
   , rDex :: Int
   , rCon :: Int
-  , rInt :: Int
   , rWis :: Int
   , rCha :: Int
   , tStr :: Int
   , tDex :: Int
   , tCon :: Int
-  , tInt :: Int
   , tWis :: Int
   , tCha :: Int
   , eAC :: Int
@@ -41,26 +38,6 @@ data Character = Character {
   , mark :: Text
   , name :: Text
 } deriving (Show)
-
--- | archType
-archType :: Character -> Text
-archType n
-  | warrior > academic  && str > dex = "Fighter"
-  | warrior > academic  && dex > str = "Rogue"
-  | academic > warrior  && int > wis = "Wizard"
-  | academic > warrior  && wis > int = "Cleric"
-  | warrior == academic && str > int || str > wis = "Fighter"
-  | warrior == academic && dex > int || dex > wis = "Rogue"
-  | warrior == academic && int > str || int > dex = "Wizard"
-  | warrior == academic && wis > str || wis > dex = "Cleric"
-  | otherwise = "Fighter"
-  where
-    str = rStr n + tStr n
-    dex = rDex n + tDex n
-    int = rInt n + tInt n
-    wis = rWis n + tWis n
-    warrior  = str + dex
-    academic = int + wis
 
 -- | mkCharacter - make '@'
 mkCharacter :: Character -> Character

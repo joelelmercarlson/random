@@ -28,12 +28,11 @@ import Util
 
 abilitySort :: Text -> Character -> Character
 abilitySort x n@Character{..} = let
-  s = sort [rStr, rDex, rCon, rInt, rWis, rCha]
+  s = sort [rStr, rDex, rCon, rWis, rCha]
   ability | x == "Fighter" = strengthSort s n
-          | x `elem` ["Druid", "Monk", "Ranger", "Rogue"] = dexteritySort s n
-          | x == "Wizard" = intelligenceSort s n
-          | x == "Cleric" = wisdomSort s n
-          | x `elem` ["Paladin", "Warlock"] = charismaSort s n
+          | x `elem` [ "Monk", "Ranger", "Rogue" ] = dexteritySort s n
+          | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort s n
+          | x `elem` [ "Paladin", "Warlock" ] = charismaSort s n
           | otherwise = n
   in mkCharacter $ ability
 
@@ -46,7 +45,7 @@ classFmt n = let
 
 mkEntityKind :: Text -> Character -> EntityKind
 mkEntityKind c n = let
-  pCls = if c == "None" then archType n else classFmt c
+  pCls = classFmt c
   character = abilitySort pCls n
   con       = rCon character + tCon character
   hp        = hitPoint pCls + abilityMod con
@@ -76,13 +75,11 @@ mkProperty pClass hp mp Character{..} = let
   str  = T.pack $ show $ rStr + tStr
   dex  = T.pack $ show $ rDex + tDex
   con  = T.pack $ show $ rCon + tCon
-  int  = T.pack $ show $ rInt + tInt
   wis  = T.pack $ show $ rWis + tWis
   cha  = T.pack $ show $ rCha + tCha
   str' = T.pack $ show $ tStr
   dex' = T.pack $ show $ tDex
   con' = T.pack $ show $ tCon
-  int' = T.pack $ show $ tInt
   wis' = T.pack $ show $ tWis
   cha' = T.pack $ show $ tCha
   newPlayer = [ ("Name", name)
@@ -91,7 +88,6 @@ mkProperty pClass hp mp Character{..} = let
               , ("str", str)
               , ("dex", dex)
               , ("con", con)
-              , ("int", int)
               , ("wis", wis)
               , ("cha", cha)
               , ("AC", T.pack $ show eAC)
@@ -100,13 +96,11 @@ mkProperty pClass hp mp Character{..} = let
               , ("Character/Birth/Trait/str", str')
               , ("Character/Birth/Trait/dex", dex')
               , ("Character/Birth/Trait/con", con')
-              , ("Character/Birth/Trait/int", int')
               , ("Character/Birth/Trait/wis", wis')
               , ("Character/Birth/Trait/cha", cha')
               , ("Character/Birth/str", str)
               , ("Character/Birth/dex", dex)
               , ("Character/Birth/con", con)
-              , ("Character/Birth/int", int)
               , ("Character/Birth/wis", wis)
               , ("Character/Birth/cha", cha)
               , ("Character/Eye", eye)
@@ -154,20 +148,16 @@ propertyNLookup x EntityKind{..} =
 
 strengthSort :: [Int] -> Character -> Character
 strengthSort s n =
-  n { rStr=s!!5, rDex=s!!3, rCon=s!!4, rInt=s!!1, rWis=s!!2, rCha=s!!0 }
+  n { rStr=s!!4, rDex=s!!2, rCon=s!!3, rWis=s!!1, rCha=s!!0 }
 
 dexteritySort :: [Int] -> Character -> Character
 dexteritySort s n =
-  n { rStr=s!!2, rDex=s!!5, rCon=s!!3, rInt=s!!1, rWis=s!!4, rCha=s!!0 }
+  n { rStr=s!!1, rDex=s!!4, rCon=s!!2, rWis=s!!3, rCha=s!!0 }
 
 charismaSort :: [Int] -> Character -> Character
 charismaSort s n =
-  n { rStr=s!!5, rDex=s!!2, rCon=s!!3, rInt=s!!0, rWis=s!!1, rCha=s!!4 }
-
-intelligenceSort :: [Int] -> Character -> Character
-intelligenceSort s n =
-  n { rStr=s!!1, rDex=s!!2, rCon=s!!3, rInt=s!!5, rWis=s!!4, rCha=s!!0 }
+  n { rStr=s!!4, rDex=s!!1, rCon=s!!2, rWis=s!!0, rCha=s!!3 }
 
 wisdomSort :: [Int] -> Character -> Character
 wisdomSort s n =
-  n { rStr=s!!1, rDex=s!!2, rCon=s!!3, rInt=s!!4, rWis=s!!5, rCha=s!!0 }
+  n { rStr=s!!1, rDex=s!!3, rCon=s!!2, rWis=s!!4, rCha=s!!0 }

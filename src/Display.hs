@@ -28,7 +28,6 @@ rpg n = do
   let str = propertyNLookup "str" n
       dex = propertyNLookup "dex" n
       con = propertyNLookup "con" n
-      int = propertyNLookup "int" n
       wis = propertyNLookup "wis" n
       cha = propertyNLookup "cha" n
       ac  = propertyNLookup "AC" n
@@ -50,7 +49,6 @@ rpg n = do
   printf "Str=%s, " (abilityFmt str)
   printf "Dex=%s, " (abilityFmt dex)
   printf "Con=%s, " (abilityFmt con)
-  printf "Int=%s, " (abilityFmt int)
   printf "Wis=%s, " (abilityFmt wis)
   printf "Cha=%s\n" (abilityFmt cha)
   printf "\n"
