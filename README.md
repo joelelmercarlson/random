@@ -7,6 +7,9 @@ Create Advanced Characters for Arrow roguelike.
 ## Howto
 ```cp player.yaml $HOME/Documents/Arrow```
 
+## Requirements
+&mdash; Arrow >= 0.4.3.0
+
 ## Usage
 ```
 ❯ stack exec arrow-rpg elf druid
@@ -18,7 +21,7 @@ Armor Class 14 (armor/Leather)
 Hit Points 9
 Mana Points 6
 
-Elf Druid, Str=+0, Dex=+3, Con=+1, Int=-1, Wis=+1, Cha=-1
+Elf Druid, Str=+0, Dex=+3, Con=+1, Wis=+1, Cha=-1
 
 M:melee/Sickle
 S:shoot/Sling
