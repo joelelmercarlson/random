@@ -29,12 +29,12 @@ import Util
 abilitySort :: Text -> Character -> Character
 abilitySort x n@Character{..} = let
   s = sort [rStr, rDex, rCon, rWis, rCha]
-  ability | x == "Fighter" = strengthSort s n
-          | x `elem` [ "Monk", "Ranger", "Rogue" ] = dexteritySort s n
-          | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort s n
-          | x `elem` [ "Paladin", "Warlock" ] = charismaSort s n
-          | otherwise = n
-  in mkCharacter $ ability
+  a0 | x `elem` [ "Barbarian", "Fighter" ] = strengthSort s n
+     | x `elem` [ "Monk", "Ranger", "Rogue" ] = dexteritySort s n
+     | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort s n
+     | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort s n
+     | otherwise = n
+  in mkCharacter $ a0
 
 classFmt :: Text -> Text
 classFmt n = let
@@ -156,7 +156,7 @@ dexteritySort s n =
 
 charismaSort :: [Int] -> Character -> Character
 charismaSort s n =
-  n { rStr=s!!4, rDex=s!!1, rCon=s!!2, rWis=s!!0, rCha=s!!3 }
+  n { rStr=s!!3, rDex=s!!1, rCon=s!!2, rWis=s!!0, rCha=s!!4 }
 
 wisdomSort :: [Int] -> Character -> Character
 wisdomSort s n =

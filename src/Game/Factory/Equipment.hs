@@ -15,6 +15,8 @@ import Data.Text (Text)
 -- | '@' Cast
 weaponCast :: Text -> (Text, Text)
 weaponCast n
+  | n == "Barbarian" = ("CAST", "0")
+  | n == "Bard"      = ("CAST", "1d8")
   | n == "Cleric"    = ("CAST", "1d8")
   | n == "Druid"     = ("CAST", "1d8")
   | n == "Fighter"   = ("CAST", "0")
@@ -22,6 +24,7 @@ weaponCast n
   | n == "Paladin"   = ("CAST", "1d8")
   | n == "Ranger"    = ("CAST", "1d8")
   | n == "Rogue"     = ("CAST", "1d4")
+  | n == "Sorcerer"  = ("CAST", "1d10")
   | n == "Warlock"   = ("CAST", "1d10")
   | n == "Wizard"    = ("CAST", "1d10")
   | otherwise        = ("CAST", "0")
@@ -29,6 +32,8 @@ weaponCast n
 -- | '@' melee
 weaponClass :: Text -> (Text, Text)
 weaponClass n
+  | n == "Barbarian" = ("melee", "melee/Greataxe")
+  | n == "Bard"      = ("melee", "melee/Rapier")
   | n == "Cleric"    = ("melee", "melee/Mace")
   | n == "Druid"     = ("melee", "melee/Sickle")
   | n == "Fighter"   = ("melee", "melee/Longsword")
@@ -36,6 +41,7 @@ weaponClass n
   | n == "Paladin"   = ("melee", "melee/Longsword")
   | n == "Ranger"    = ("melee", "melee/Shortsword")
   | n == "Rogue"     = ("melee", "melee/Shortsword")
+  | n == "Sorcerer"  = ("melee", "melee/Dagger")
   | n == "Warlock"   = ("melee", "melee/Club")
   | n == "Wizard"    = ("melee", "melee/Quarterstaff")
   | otherwise        = ("melee", "melee/Dagger")
@@ -43,6 +49,8 @@ weaponClass n
 -- | '@' shoot
 weaponShoot :: Text -> (Text, Text)
 weaponShoot n
+  | n == "Barbarian" = ("shoot", "shoot/Sling")
+  | n == "Bard"      = ("shoot", "shoot/Sling")
   | n == "Cleric"    = ("shoot", "shoot/Sling")
   | n == "Druid"     = ("shoot", "shoot/Sling")
   | n == "Fighter"   = ("shoot", "melee/Spear")
@@ -50,6 +58,7 @@ weaponShoot n
   | n == "Paladin"   = ("shoot", "melee/Javelin")
   | n == "Ranger"    = ("shoot", "shoot/Longbow")
   | n == "Rogue"     = ("shoot", "melee/Dagger")
+  | n == "Sorcerer"  = ("shoot", "shoot/Dart")
   | n == "Warlock"   = ("shoot", "shoot/Dart")
   | n == "Wizard"    = ("shoot", "shoot/Dart")
   | otherwise        = ("shoot", "None")
