@@ -12,6 +12,7 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 -}
 module Game.Factory.EntityKind (
   EntityKind(..), mkEntityKind, propertyLookup, propertyNLookup
+  , classFmt, speciesFmt
   ) where
 
 import Data.Char
@@ -35,13 +36,6 @@ abilitySort x n@Character{..} = let
      | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort s n
      | otherwise = n
   in mkCharacter $ a0
-
-classFmt :: Text -> Text
-classFmt n = let
-  Just (x, xs) = T.uncons n
-  k = T.cons (toUpper x) (T.toLower xs)
-  pCls = if k `elem` genClasses then k else "Fighter"
-  in pCls
 
 mkEntityKind :: Text -> Character -> EntityKind
 mkEntityKind c n = let
@@ -161,3 +155,17 @@ charismaSort s n =
 wisdomSort :: [Int] -> Character -> Character
 wisdomSort s n =
   n { rStr=s!!1, rDex=s!!3, rCon=s!!2, rWis=s!!4, rCha=s!!0 }
+
+classFmt :: Text -> Text
+classFmt n = let
+  Just (x, xs) = T.uncons n
+  k = T.cons (toUpper x) (T.toLower xs)
+  c = if k `elem` genClasses then k else "Fighter"
+  in c
+
+speciesFmt :: Text -> Text
+speciesFmt n = let
+  Just (x, xs) = T.uncons n
+  k = T.cons (toUpper x) (T.toLower xs)
+  c = if k `elem` genRaces then k else "Human"
+  in c
