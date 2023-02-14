@@ -25,6 +25,7 @@ import Game.Data.Elf
 import Game.Data.Halfling
 import Game.Data.Human
 import Game.DiceSet (d1000)
+import qualified Game.Factory.EntityKind as GFK
 import Util (nth)
 
 main :: IO ()
@@ -32,11 +33,11 @@ main = do
   gen <- getStdGen
   xs <- getArgs
   let (s, _) = d1000 gen
-      action = fromMaybe "None" $ nth 1 xs
-      job    = T.pack $ fromMaybe "None" $ nth 2 xs
+      action = GFK.speciesFmt $ T.pack $ fromMaybe "None" $ nth 1 xs
+      job    = GFK.classFmt   $ T.pack $ fromMaybe "None" $ nth 2 xs
   case action of
-    "dwarf"    -> toEntityKind job $ genDwarf s
-    "elf"      -> toEntityKind job $ genElf s
-    "halfling" -> toEntityKind job $ genHalfling s
-    "human"    -> toEntityKind job $ genHuman s
+    "Dwarf"    -> toEntityKind job $ genDwarf s
+    "Elf"      -> toEntityKind job $ genElf s
+    "Halfling" -> toEntityKind job $ genHalfling s
+    "Human"    -> toEntityKind job $ genHuman s
     _          -> toEntityKind job $ genHuman s

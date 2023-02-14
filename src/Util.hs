@@ -15,13 +15,12 @@ abilityMod :: Int -> Int
 abilityMod n = (n-10) `div` 2
 
 abilityFmt :: Int -> Text
-abilityFmt n = let
-  s = (n-10) `div` 2
-  stat
-    | s > 0 = T.append "+" (T.pack $ show s)
-    | s < 0 = T.pack $ show s
-    | otherwise = "+0"
-  in stat
+abilityFmt n
+  | s > 0 = T.append "+" (T.pack $ show s)
+  | s < 0 = T.pack $ show s
+  | otherwise = "+0"
+  where
+    s = abilityMod n
 
 -- | average
 average :: [Int] -> Float
@@ -35,7 +34,7 @@ clamp n = if n > 0 then n else 0
 -- | adventure genders
 genders :: Int -> Text
 genders n
-  | n < 5 = "Female"
+  | n < 5     = "Female"
   | otherwise = "Male"
 
 -- | height calculator
@@ -49,8 +48,8 @@ heightF x = T.concat [ T.pack $ show ht_f,  "\'", T.pack $ show ht_i, "\"" ]
 names :: Text -> Int -> [Text] -> [Text] -> Text
 names m n female male
   | m == "Female" = pick n female
-  | m == "Male" = pick n male
-  | otherwise = "nil"
+  | m == "Male"   = pick n male
+  | otherwise     = "nil"
 
 -- | nth safe chooser
 nth :: Int -> [a] -> Maybe a
