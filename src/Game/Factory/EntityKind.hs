@@ -29,21 +29,21 @@ import Util
 
 abilitySort :: Text -> Character -> Character
 abilitySort x n@Character{..} = let
-  s = sort [rStr, rDex, rCon, rWis, rCha]
   a0 | x `elem` [ "Barbarian", "Fighter" ] = strengthSort s n
      | x `elem` [ "Monk", "Ranger", "Rogue" ] = dexteritySort s n
      | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort s n
      | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort s n
      | otherwise = n
+  s = sort [rStr, rDex, rCon, rWis, rCha]
   in mkCharacter $ a0
 
 mkEntityKind :: Text -> Character -> EntityKind
 mkEntityKind c n = let
-  pCls = classFmt c
-  character = abilitySort pCls n
-  con       = rCon character + tCon character
-  hp        = hitPoint pCls + abilityMod con
-  mp        = manaPoint pCls
+  pCls  = classFmt c
+  actor = abilitySort pCls n
+  con   = rCon actor + tCon actor
+  hp    = hitPoint pCls + abilityMod con
+  mp    = manaPoint pCls
   in EntityKind {
   coord = originPoint
   , block = True
@@ -52,14 +52,13 @@ mkEntityKind c n = let
   , moveT = []
   , spawn = originPoint
   , inventory = Map.fromList mkInventory
-  , property = Map.fromList $ mkProperty pCls hp mp character
+  , property = Map.fromList $ mkProperty pCls hp mp actor
   , eLvl = 1
   , eHP = hp
   , eMaxHP = hp
   , eMP = mp
   , eMaxMP = mp
-  , eXP = 0
-  }
+  , eXP = 0 }
 
 mkInventory :: [(Text, Int)]
 mkInventory = [("Arrow", 1), ("Coin", 1), ("Mushroom", 1), ("Potion", 1)]
@@ -151,7 +150,7 @@ dexteritySort s n =
 
 charismaSort :: [Int] -> Character -> Character
 charismaSort s n =
-  n { rStr=s!!3, rDex=s!!1, rCon=s!!2, rWis=s!!0, rCha=s!!4 }
+  n { rStr=s!!1, rDex=s!!0, rCon=s!!2, rWis=s!!3, rCha=s!!4 }
 
 wisdomSort :: [Int] -> Character -> Character
 wisdomSort s n =
