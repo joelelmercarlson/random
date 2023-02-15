@@ -102,6 +102,7 @@ mkProperty pClass hp mp Character{..} = let
               , ("Character/Hair", hair)
               , ("Character/Height", T.pack $ show height)
               , ("Character/Mark", mark)
+              , ("Character/Spells", "Zap:Light:Recall")
               , ("Character/Store",
                  T.concat [
                     "Arrow:Mushroom:Potion"
