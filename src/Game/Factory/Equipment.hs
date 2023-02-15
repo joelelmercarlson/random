@@ -23,7 +23,7 @@ weaponCast n
   | n == "Monk"      = ("CAST", "0")
   | n == "Paladin"   = ("CAST", "1d8")
   | n == "Ranger"    = ("CAST", "1d8")
-  | n == "Rogue"     = ("CAST", "1d4")
+  | n == "Rogue"     = ("CAST", "1d8")
   | n == "Sorcerer"  = ("CAST", "1d10")
   | n == "Warlock"   = ("CAST", "1d10")
   | n == "Wizard"    = ("CAST", "1d10")
@@ -49,11 +49,11 @@ weaponClass n
 -- | '@' shoot
 weaponShoot :: Text -> (Text, Text)
 weaponShoot n
-  | n == "Barbarian" = ("shoot", "shoot/Sling")
-  | n == "Bard"      = ("shoot", "shoot/Sling")
+  | n == "Barbarian" = ("shoot", "melee/Javelin")
+  | n == "Bard"      = ("shoot", "shoot/Dart")
   | n == "Cleric"    = ("shoot", "shoot/Sling")
   | n == "Druid"     = ("shoot", "shoot/Sling")
-  | n == "Fighter"   = ("shoot", "melee/Spear")
+  | n == "Fighter"   = ("shoot", "melee/Javelin")
   | n == "Monk"      = ("shoot", "shoot/Dart")
   | n == "Paladin"   = ("shoot", "melee/Javelin")
   | n == "Ranger"    = ("shoot", "shoot/Longbow")
