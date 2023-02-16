@@ -34,15 +34,18 @@ abilitySort x n@Character{..} = let
      | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort s n
      | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort s n
      | otherwise = n
-  s = sort [rStr, rDex, rCon, rWis, rCha]
+  s = sort $ map (min 18) [ rStr + tStr
+                          , rDex + tDex
+                          , rCon + tCon
+                          , rWis + tWis
+                          , rCha + tCha ]
   in mkCharacter $ a0
 
 mkEntityKind :: Text -> Character -> EntityKind
 mkEntityKind c n = let
   pCls  = classFmt c
   actor = abilitySort pCls n
-  con   = rCon actor + tCon actor
-  hp    = hitPoint pCls + abilityMod con
+  hp    = hitPoint pCls + abilityMod (rCon actor)
   mp    = manaPoint pCls
   in EntityKind {
   coord = originPoint
@@ -65,11 +68,11 @@ mkInventory = [("Arrow", 1), ("Coin", 1), ("Mushroom", 1), ("Potion", 1)]
 
 mkProperty :: Text -> Int -> Int -> Character -> [(Text, Text)]
 mkProperty pClass hp mp Character{..} = let
-  str  = T.pack $ show $ rStr + tStr
-  dex  = T.pack $ show $ rDex + tDex
-  con  = T.pack $ show $ rCon + tCon
-  wis  = T.pack $ show $ rWis + tWis
-  cha  = T.pack $ show $ rCha + tCha
+  str  = T.pack $ show $ rStr
+  dex  = T.pack $ show $ rDex
+  con  = T.pack $ show $ rCon
+  wis  = T.pack $ show $ rWis
+  cha  = T.pack $ show $ rCha
   str' = T.pack $ show $ tStr
   dex' = T.pack $ show $ tDex
   con' = T.pack $ show $ tCon
@@ -101,7 +104,7 @@ mkProperty pClass hp mp Character{..} = let
               , ("Character/Hair", hair)
               , ("Character/Height", T.pack $ show height)
               , ("Character/Mark", mark)
-              , ("Character/Spells", "Zap:Light:Recall")
+              , ("Character/Spells", "Zap:Light:Recall:Minor Heal")
               , ("Character/Store",
                  T.concat [
                     "Arrow:Mushroom:Potion"
