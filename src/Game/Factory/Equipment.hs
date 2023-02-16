@@ -12,7 +12,7 @@ module Game.Factory.Equipment where
 
 import Data.Text (Text)
 
--- | '@' Cast
+-- | '@' zap
 weaponCast :: Text -> (Text, Text)
 weaponCast n
   | n == "Barbarian" = ("CAST", "0")
@@ -49,13 +49,13 @@ weaponClass n
 -- | '@' shoot
 weaponShoot :: Text -> (Text, Text)
 weaponShoot n
-  | n == "Barbarian" = ("shoot", "melee/Javelin")
+  | n == "Barbarian" = ("shoot", "shoot/Sling")
   | n == "Bard"      = ("shoot", "shoot/Dart")
   | n == "Cleric"    = ("shoot", "shoot/Sling")
   | n == "Druid"     = ("shoot", "shoot/Sling")
-  | n == "Fighter"   = ("shoot", "melee/Javelin")
+  | n == "Fighter"   = ("shoot", "shoot/Sling")
   | n == "Monk"      = ("shoot", "shoot/Dart")
-  | n == "Paladin"   = ("shoot", "melee/Javelin")
+  | n == "Paladin"   = ("shoot", "shoot/Sling")
   | n == "Ranger"    = ("shoot", "shoot/Longbow")
   | n == "Rogue"     = ("shoot", "melee/Dagger")
   | n == "Sorcerer"  = ("shoot", "shoot/Dart")
