@@ -132,7 +132,6 @@ mkProperty pClass hp mp Character{..} = let
               , ("hands", "None")
               , ("feet", "None")
               , ("rune", "None")
-              , ("rune1", "None")
               ]
   in newPlayer
 
