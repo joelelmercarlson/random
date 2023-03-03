@@ -1,6 +1,8 @@
 # random.hs
 
-Create Advanced Characters for Arrow roguelike.
+Create Advanced Characters for Arrow roguelike. Arrow rogueline is
+currently under second year of development and will be released
+when ready.
 
 &mdash; [Arrow](https://github.com/joelelmercarlson/arrow)
 
@@ -8,7 +10,10 @@ Create Advanced Characters for Arrow roguelike.
 ```cp player.yaml $HOME/Documents/Arrow```
 
 ## Requirements
-&mdash; Arrow >= 0.4.3.0
+&mdash; Arrow >= 0.4.5.0
+
+## Screenshot
+![Screenshot.png](./images/Screenshot.png)
 
 ## Usage
 ```
