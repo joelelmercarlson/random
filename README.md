@@ -1,6 +1,6 @@
 # random.hs
 
-Create Advanced Characters for Arrow roguelike. Arrow rogueline is
+Create Advanced Characters for Arrow roguelike. Arrow roguelike is
 currently under second year of development and will be released
 when ready.
 
