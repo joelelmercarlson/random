@@ -1,8 +1,7 @@
 # random.hs
 
 Create Advanced Characters for Arrow roguelike. Arrow roguelike is
-currently under second year of development and will be released
-when ready.
+currently under second year of development. The plan is to release when ready.
 
 &mdash; [Arrow](https://github.com/joelelmercarlson/arrow)
 
@@ -12,8 +11,18 @@ when ready.
 ## Requirements
 &mdash; Arrow >= 0.4.5.0
 
-## Screenshot
+## Arrow
 ![Screenshot.png](./images/Screenshot.png)
+
+Arrow is a roguelike being developed in Haskell and SDL2. This
+project was inspired by RogueBasin Tutorials. Arrow gameplay comprises
+of the Player '@' and a Generic Fantasy World. The World is complete
+with Magic, Monsters, and Items to challenge '@'. The goal
+is to explore and have Fun!
+
+&mdash; [RogueBasin.com](http://www.roguebasin.com/index.php/How_to_Write_a_Roguelike_in_15_Steps)
+
+&mdash; [Angband](https://github.com/angband/angband)
 
 ## Usage
 ```
