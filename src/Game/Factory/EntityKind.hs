@@ -45,7 +45,7 @@ mkEntityKind :: Text -> Character -> EntityKind
 mkEntityKind c n = let
   pCls  = classFmt c
   actor = abilitySort pCls n
-  hp    = hitPoint pCls + abilityMod (rCon actor)
+  hp    = hitPoint pCls
   mp    = manaPoint pCls
   in EntityKind {
   coord = originPoint
