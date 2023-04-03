@@ -72,7 +72,7 @@ manaPoint n
   | n == "Monk"      = 0
   | n == "Paladin"   = 3
   | n == "Ranger"    = 3
-  | n == "Rogue"     = 3
+  | n == "Rogue"     = 0
   | n == "Sorcerer"  = 6
   | n == "Warlock"   = 6
   | n == "Wizard"    = 6
