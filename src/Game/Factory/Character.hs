@@ -1,4 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE RecordWildCards #-}
 {-
 
 Game.Factory.Character.hs Characters for Arrow.
@@ -21,11 +22,13 @@ data Character = Character {
   , rStr :: Int
   , rDex :: Int
   , rCon :: Int
+  , rInt :: Int
   , rWis :: Int
   , rCha :: Int
   , tStr :: Int
   , tDex :: Int
   , tCon :: Int
+  , tInt :: Int
   , tWis :: Int
   , tCha :: Int
   , eAC :: Int
@@ -41,10 +44,9 @@ data Character = Character {
 
 -- | mkCharacter - make '@'
 mkCharacter :: Character -> Character
-mkCharacter pEntity = let
-  dex = rDex pEntity + tDex pEntity
-  ac = 11 + abilityMod dex
-  in pEntity { eAC = ac }
+mkCharacter x@Character{..} = x { eAC = ac }
+  where
+    ac = 11 + abilityMod rDex
 
 hitPoint :: Text -> Int
 hitPoint n
@@ -77,7 +79,6 @@ manaPoint n
   | n == "Warlock"   = 6
   | n == "Wizard"    = 6
   | otherwise = 0
-
 
 -- | genClasses
 genClasses :: [Text]
