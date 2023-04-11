@@ -19,22 +19,25 @@ import qualified Data.Text as T
 import System.Environment
 
 import Display
-import Game.Factory.Character
+import Save
 import Game.Data.Dwarf
 import Game.Data.Elf
 import Game.Data.Halfling
 import Game.Data.Human
-import Game.DiceSet (d1000)
-import qualified Game.Factory.EntityKind as GFK
+import qualified Game.DiceSet as DS
+import Game.Factory.Character
+import Game.Factory.Player
 import Util (nth)
 
 main :: IO ()
 main = do
   gen <- getStdGen
   xs <- getArgs
-  let (s, _) = d1000 gen
-      action = GFK.speciesFmt $ T.pack $ fromMaybe "None" $ nth 1 xs
-      job    = GFK.classFmt   $ T.pack $ fromMaybe "None" $ nth 2 xs
+  am <- loadFile
+  let (s, _) = DS.d1000 gen
+      action = speciesFmt $ T.pack $ fromMaybe "None" $ nth 1 xs
+      job    = classFmt   $ T.pack $ fromMaybe "None" $ nth 2 xs
+
   case action of
     "Dwarf"    -> toEntityKind job $ genDwarf s
     "Elf"      -> toEntityKind job $ genElf s

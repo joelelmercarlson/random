@@ -9,18 +9,14 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 -}
 module Display (rpg, toEntityKind) where
 
+import Data.Aeson
 import Data.Text (Text)
-import Data.Yaml as Y
 import Text.Printf
 import Game.Factory.Character
-import Game.Factory.EntityKind
+import Game.Factory.Player
+import Game.Library.Kind.Entity
 import Util
 
-toEntityKind :: Text -> Character -> IO ()
-toEntityKind c n = do
-  let r = mkEntityKind c n
-  rpg r
-  Y.encodeFile "player.yaml" r
 
 -- | profile
 rpg :: EntityKind -> IO ()
@@ -73,3 +69,9 @@ story n@EntityKind{..} = do
   printf "| Eyes: %s\n" eye
   printf "Mark: %s " mark
   printf "\n"
+
+toEntityKind :: Text -> Character -> IO ()
+toEntityKind c n = do
+  let r = mkPlayer c n
+  rpg r
+  encodeFile "player.json" r
