@@ -46,9 +46,9 @@ heightF x = T.concat [ T.pack $ show ht_f,  "\'", T.pack $ show ht_i, "\"" ]
 
 -- name picker
 names :: Text -> Int -> [Text] -> [Text] -> Text
-names m n female male
-  | m == "Female" = pick n female
-  | m == "Male"   = pick n male
+names m n xs ys
+  | m == "Female" = pick n xs
+  | m == "Male"   = pick n ys
   | otherwise     = "nil"
 
 -- | nth safe chooser

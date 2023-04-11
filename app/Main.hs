@@ -19,6 +19,7 @@ import qualified Data.Text as T
 import System.Environment
 
 import Display
+import Save
 import Game.Data.Dwarf
 import Game.Data.Elf
 import Game.Data.Halfling
@@ -32,12 +33,14 @@ main :: IO ()
 main = do
   gen <- getStdGen
   xs <- getArgs
+  am <- loadFile
   let (s, _) = DS.d1000 gen
       action = speciesFmt $ T.pack $ fromMaybe "None" $ nth 1 xs
       job    = classFmt   $ T.pack $ fromMaybe "None" $ nth 2 xs
+
   case action of
     "Dwarf"    -> toEntityKind job $ genDwarf s
     "Elf"      -> toEntityKind job $ genElf s
     "Halfling" -> toEntityKind job $ genHalfling s
     "Human"    -> toEntityKind job $ genHuman s
-    _          -> toEntityKind job $ genHuman s
+    _          -> print $ show am
