@@ -167,7 +167,7 @@ classFmt n = if k `elem` genClasses then k else "Fighter"
     k = T.cons (toUpper x) (T.toLower xs)
 
 speciesFmt :: Text -> Text
-speciesFmt n = if k `elem` genRaces then k else "None"
+speciesFmt n = if k `elem` genRaces then k else "Human"
   where
     Just (x, xs) = T.uncons n
     k = T.cons (toUpper x) (T.toLower xs)

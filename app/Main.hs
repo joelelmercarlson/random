@@ -43,4 +43,4 @@ main = do
     "Elf"      -> toEntityKind job $ genElf s
     "Halfling" -> toEntityKind job $ genHalfling s
     "Human"    -> toEntityKind job $ genHuman s
-    _          -> print $ show am
+    _          -> toEntityKind job $ genHuman s
