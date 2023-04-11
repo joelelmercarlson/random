@@ -1,38 +1,40 @@
+{-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE DeriveGeneric #-}
 {-
 
-Game.Kind.Entity.hs
+Game.Library.Kind.Entity.hs
 
 Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
 -}
-module Game.Kind.Entity (AssetMap
-                        , EntityMap
-                        , Entity(..)
-                        , EntityKind(..)
-                        , Inventory
-                        , NameMap
-                        , Properties) where
+module Game.Library.Kind.Entity (
+  AssetMap, EntityMap, NameMap
+  , Entity(..), EntityKind(..), mkEntityKind
+  -- '@' Character
+  , Inventory, Properties
+  ) where
 
 import Prelude hiding (lookup)
 import Data.Aeson (FromJSON, ToJSON)
 import Data.Map (Map)
+import qualified Data.Map.Strict as Map
 import Data.Text (Text)
 import GHC.Generics (Generic)
 import Game.Compass
-import Game.Kind.Visual
+import Game.Library.Kind.Visual
 
 -- | Maps used within the game
-type AssetMap = Map Int EntityKind
-type EntityMap = Map Int EntityKind
-type Inventory = Map Text Int
-type NameMap = Map Text EntityKind
+type AssetMap   = Map Int EntityKind
+type EntityMap  = Map Int EntityKind
+type Inventory  = Map Text Int
+type NameMap    = Map Text EntityKind
 type Properties = Map Text Text
 
 -- | Entity stack sort...
 data Entity
   = Actor
   | Monster
+  | SparkleAim
   | Sparkle
   | StairDown
   | StairUp
@@ -78,7 +80,26 @@ data EntityKind = EntityKind
   , eMP        :: Int
   , eMaxMP     :: Int
   , eXP        :: Int
-  } deriving (Show, Generic)
+  } deriving (Show, Eq, Generic)
 
 instance FromJSON EntityKind
 instance ToJSON EntityKind
+
+-- | default EntityKind
+mkEntityKind :: Text -> Point -> EntityKind
+mkEntityKind n p =
+  EntityKind { coord = p
+             , block = False
+             , kind = Arrow
+             , glyph = VArrow
+             , moveT = []
+             , spawn = p
+             , property = Map.insert "Name" n Map.empty
+             , inventory = Map.empty
+             , eLvl = 0
+             , eHP = 0
+             , eMaxHP = 0
+             , eMP = 0
+             , eMaxMP = 0
+             , eXP = 0
+             }

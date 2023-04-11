@@ -2,7 +2,7 @@
 {-# LANGUAGE RecordWildCards #-}
 {-
 
-Game.Factory.EntityKind.hs for Arrow. Converts Characters into
+Game.Factory.Player.hs for Arrow. Converts Characters into
 EntityKind.
 
 <https://github.com/joelelmercarlson/arrow>
@@ -10,10 +10,8 @@ EntityKind.
 Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
 -}
-module Game.Factory.EntityKind (
-  EntityKind(..), mkEntityKind
-  , propertyLookup, propertyZLookup
-  , classFmt, speciesFmt
+module Game.Factory.Player (
+  mkPlayer, propertyLookup, propertyZLookup, classFmt, speciesFmt
   ) where
 
 import Data.Char
@@ -24,8 +22,8 @@ import qualified Data.Text as T
 import Game.Compass
 import Game.Factory.Character
 import Game.Factory.Equipment
-import Game.Kind.Entity
-import Game.Kind.Visual
+import Game.Library.Kind.Entity
+import Game.Library.Kind.Visual
 import Util
 
 
@@ -43,8 +41,8 @@ abilitySort x n@Character{..}
                             , rWis + tWis
                             , rCha + tCha ]
 
-mkEntityKind :: Text -> Character -> EntityKind
-mkEntityKind x n = let
+mkPlayer :: Text -> Character -> EntityKind
+mkPlayer x n = let
   pCls  = classFmt x
   actor = abilitySort pCls n
   hp    = hitPoint pCls
