@@ -20,3 +20,5 @@ cabal.sandbox.config
 
 # data
 player.json
+
+.DS_Store
