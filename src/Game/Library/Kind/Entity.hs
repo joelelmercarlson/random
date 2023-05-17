@@ -55,7 +55,6 @@ instance ToJSON Entity
 -- block     = Movable Entity
 -- kind      = Kind of Entity
 -- glyph     = VisualKind of Entity
--- moveT     = Where can the Entity move?
 -- spawn     = Where can the Entity spawn?
 -- property  = Textual descriptions of the entity
 -- inventory = Items
@@ -70,7 +69,6 @@ data EntityKind = EntityKind
   , block      :: Bool
   , kind       :: Entity
   , glyph      :: VisualKind
-  , moveT      :: [Point]
   , spawn      :: Point
   , property   :: Properties
   , inventory  :: Inventory
@@ -92,7 +90,6 @@ mkEntityKind n p =
              , block = False
              , kind = Arrow
              , glyph = VArrow
-             , moveT = []
              , spawn = p
              , property = Map.insert "Name" n Map.empty
              , inventory = Map.empty

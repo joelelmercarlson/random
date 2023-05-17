@@ -26,24 +26,9 @@ $  = Coin
 [  = Item
 ~  = Arrow
 &  = Rune
+?  = Magic Device
 +  = Door
 p  = Person
-
-Beasts
-===========
-a         = Ant
-A         = Angel
-c / C     = Canine
-d / D     = Dragon
-h / p / t = Human, Person, Townperson
-j / m     = Jelly, Moss
-k         = Kobold
-O / T     = Giant, Ogre, Troll
-u / U     = Demon
-M / R     = Hydra, Reptile
-S         = Spider
-s / z     = Ghoul, Skeleton, Zombie
-L / W / V = Lich, Wight, Vampire
 
 -}
 module Game.Library.Kind.Visual (VisualKind(..)) where

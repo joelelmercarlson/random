@@ -52,7 +52,6 @@ mkPlayer x n = let
   , block = True
   , kind = Actor
   , glyph = VActor
-  , moveT = []
   , spawn = originPoint
   , inventory = Map.fromList mkInventory
   , property = Map.fromList $ mkProperty pCls hp mp actor
