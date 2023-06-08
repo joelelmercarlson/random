@@ -1,7 +1,8 @@
 # random.hs
 
 Create Advanced Characters for Arrow roguelike. Arrow roguelike is
-currently under second year of development. The plan is to release when ready.
+currently under second year of development. The plan is to release
+when ready.
 
 &mdash; [Arrow](https://github.com/joelelmercarlson/arrow)
 
@@ -9,7 +10,7 @@ currently under second year of development. The plan is to release when ready.
 ```cp player.json $HOME/Documents/Arrow```
 
 ## Requirements
-&mdash; Arrow >= 0.5.3.0
+&mdash; Arrow >= 0.5.8.0
 
 ## Arrow
 ![Screenshot.png](./images/Screenshot.png)
