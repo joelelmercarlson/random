@@ -1,16 +1,21 @@
-# random.hs
+# Random
 
 Create Advanced Characters for Arrow roguelike. Arrow roguelike is
 currently under second year of development. The plan is to release
 when ready.
 
+## Arrow roguelike Design
+&mdash; [Documentation](docs/README.md)
+
+&mdash; [Dice](src/Game/DiceSet.hs)
+
 &mdash; [Arrow](https://github.com/joelelmercarlson/arrow)
 
-## Howto
+## HOWTO
 ```cp player.json $HOME/Documents/Arrow```
 
 ## Requirements
-&mdash; Arrow >= 0.5.8.0
+&mdash; Arrow >= 0.5.10.0
 
 ## Arrow
 ![Screenshot.png](./images/Screenshot.png)
@@ -27,20 +32,21 @@ is to explore and have Fun!
 
 ## Usage
 ```
-❯ stack exec arrow-rpg elf druid
-Name:  Torendil | Gender: Male
-Age: 115 | Height: 5'10" | Hair: Yellow Blond | Eyes: Jet
-Mark: nil 
+❯ stack exec arrow-rpg dwarf paladin
 
-Armor Class 14 (armor/Leather)
-Hit Points 9
-Mana Points 6
+Name:  Silma | Gender: Female
+Age: 115 | Height: 4'8"  | Hair: Brown | Eyes: Dark Brown
+Mark: Huge Nose 
 
-Elf Druid, Str=+0, Dex=+3, Con=+1, Int=+1, Wis=+1, Cha=-1
+Armor Class 11 (armor/Leather)
+Hit Points 10
+Mana Points 3
 
-M:melee/Sickle
+Dwarf Paladin, Str=+2, Dex=+0, Con=+2, Int=-1, Wis=+2, Cha=+4
+
+M:melee/Dagger
 S:shoot/Sling
-Zap:1d8
+Z:0
 ```
 
 ## Requirements
