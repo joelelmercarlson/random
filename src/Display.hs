@@ -33,7 +33,7 @@ rpg n = do
       armor = propertyLookup "armor" n
       melee = propertyLookup "melee" n
       shoot = propertyLookup "shoot" n
-      cast  = propertyLookup "CAST" n
+      cast  = propertyLookup "Zap" n
       pCls  = propertyLookup "Class" n
       race  = propertyLookup "Race" n
   story n
