@@ -15,7 +15,7 @@ when ready.
 ```cp player.json $HOME/Documents/Arrow```
 
 ## Requirements
-&mdash; Arrow >= 0.5.10.0
+&mdash; Arrow >= 0.6.0.0
 
 ## Arrow
 ![Screenshot.png](./images/Screenshot.png)
