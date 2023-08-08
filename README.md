@@ -32,17 +32,15 @@ is to explore and have Fun!
 
 ## Usage
 ```
-❯ stack exec arrow-rpg dwarf paladin
+Name:  Karin | Gender: Female
+Age: 87 | Height: 4'11" | Hair: Black | Eyes: Blue
+Mark: Broken Nose
 
-Name:  Silma | Gender: Female
-Age: 115 | Height: 4'8"  | Hair: Brown | Eyes: Dark Brown
-Mark: Huge Nose 
-
-Armor Class 11 (armor/Leather)
+Armor Class 10 (armor/Leather)
 Hit Points 10
 Mana Points 3
 
-Dwarf Paladin, Str=+2, Dex=+0, Con=+2, Int=-1, Wis=+2, Cha=+4
+Dwarf Paladin, Str=+1, Dex=-1, Con=+2, Int=+1, Wis=+3, Cha=+3
 
 M:melee/Dagger
 S:shoot/Sling
