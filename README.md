@@ -24,8 +24,8 @@ treasures from the `Monster` Dungeon.
 
 Arrow is a roguelike being developed in Haskell and SDL2. This
 project was inspired by RogueBasin Tutorials. Arrow gameplay comprises
-of the Player '@' and a Generic Fantasy World. The World is complete
-with Magic, Monsters, and Items to challenge '@'. The goal is to
+of the Player `@` and a Generic Fantasy World. The World is complete
+with Magic, Monsters, and Items to challenge `@`. The goal is to
 explore and have Fun!
 
 Arrow roguelike is currently under second year of development. The
