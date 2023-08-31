@@ -8,10 +8,12 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
 -}
 module Game.Library.Kind.Entity (
-  AssetMap, EntityMap, NameMap
+  AssetMap
+  , EntityMap
+  , NameMap
   , Entity(..), EntityKind(..), mkEntityKind
-  -- '@' Character
-  , Inventory, Properties
+  , Inventory
+  , Properties
   ) where
 
 import Prelude hiding (lookup)
@@ -24,15 +26,16 @@ import Game.Compass
 import Game.Library.Kind.Visual
 
 -- | Maps used within the game
-type AssetMap   = Map Int EntityKind
+type AssetMap   = EntityMap
 type EntityMap  = Map Int EntityKind
 type Inventory  = Map Text Int
 type NameMap    = Map Text EntityKind
 type Properties = Map Text Text
 
--- | Entity stack sort...
+-- | Entity stack sort.
 data Entity
   = Actor
+  | Corpse
   | Monster
   | SparkleAim
   | Sparkle
@@ -40,11 +43,11 @@ data Entity
   | StairUp
   | Item
   | Coin
-  | Corpse
   | Arrow
   | Mushroom
   | Potion
   | Trap
+  | Flavor
   deriving (Ord, Show, Eq, Generic)
 
 instance FromJSON Entity
