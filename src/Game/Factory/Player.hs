@@ -53,6 +53,7 @@ mkPlayer x n = let
   , kind = Actor
   , glyph = VActor
   , spawn = originPoint
+  , equipment = Map.empty
   , inventory = Map.fromList mkInventory
   , property = Map.fromList $ mkProperty pCls hp mp actor
   , eLvl = 1

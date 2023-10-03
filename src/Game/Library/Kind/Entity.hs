@@ -10,9 +10,11 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 module Game.Library.Kind.Entity (
   AssetMap
   , EntityMap
-  , NameMap
-  , Entity(..), EntityKind(..), mkEntityKind
+  , Entity(..)
+  , EntityKind(..)
+  , Equipment
   , Inventory
+  , mkEntityKind
   , Properties
   ) where
 
@@ -28,8 +30,8 @@ import Game.Library.Kind.Visual
 -- | Maps used within the game
 type AssetMap   = EntityMap
 type EntityMap  = Map Int EntityKind
+type Equipment  = Map Text EntityKind
 type Inventory  = Map Text Int
-type NameMap    = Map Text EntityKind
 type Properties = Map Text Text
 
 -- | Entity stack sort.
@@ -39,13 +41,10 @@ data Entity
   | Monster
   | SparkleAim
   | Sparkle
-  | StairDown
-  | StairUp
   | Item
   | Coin
-  | Arrow
-  | Mushroom
-  | Potion
+  | StairDown
+  | StairUp
   | Trap
   | Flavor
   deriving (Ord, Show, Eq, Generic)
@@ -73,6 +72,7 @@ data EntityKind = EntityKind
   , kind       :: Entity
   , glyph      :: VisualKind
   , spawn      :: Point
+  , equipment  :: Equipment
   , property   :: Properties
   , inventory  :: Inventory
   , eLvl       :: Int
@@ -88,18 +88,18 @@ instance ToJSON EntityKind
 
 -- | default EntityKind
 mkEntityKind :: Text -> Point -> EntityKind
-mkEntityKind n p =
-  EntityKind { coord = p
-             , block = False
-             , kind = Arrow
-             , glyph = VArrow
-             , spawn = p
-             , property = Map.insert "Name" n Map.empty
-             , inventory = Map.empty
-             , eLvl = 0
-             , eHP = 0
-             , eMaxHP = 0
-             , eMP = 0
-             , eMaxMP = 0
-             , eXP = 0
-             }
+mkEntityKind n p = EntityKind { coord = p
+                              , block = False
+                              , kind  = Flavor
+                              , glyph = VArrow
+                              , spawn = p
+                              , equipment = Map.empty
+                              , property  = Map.insert "Name" n Map.empty
+                              , inventory = Map.empty
+                              , eLvl   = 1
+                              , eHP    = 0
+                              , eMaxHP = 0
+                              , eMP    = 0
+                              , eMaxMP = 0
+                              , eXP    = 0
+                              }
