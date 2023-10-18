@@ -53,28 +53,33 @@ instance FromJSON Entity
 instance ToJSON Entity
 
 -- | EntityKind
--- coord     = Entity Position
--- block     = Movable Entity
--- kind      = Kind of Entity
--- glyph     = VisualKind of Entity
--- spawn     = Where can the Entity spawn?
--- property  = Textual descriptions of the entity
--- inventory = Items
--- eLvl      = Level of the entity
--- eHP       = HitPoint
--- eMaxHP    = Max HP
--- eMP       = ManaPoint
--- eMaxMP    = Max MP
--- eXP       = Experience
+-- | coord     = Entity Position
+-- | block     = Movable Entity
+-- | move      = Move blocked
+-- | kind      = Kind of Entity
+-- | glyph     = VisualKind of Entity
+-- | spawn     = Where can the Entity spawn?
+-- | energy    = counters
+-- | equipment = equipped ItemKind
+-- | inventory = items by name and count
+-- | property  = Textual descriptions of the entity
+-- | eLvl      = Level of the entity
+-- | eHP       = HitPoint
+-- | eMaxHP    = Max HP
+-- | eMP       = ManaPoint
+-- | eMaxMP    = Max MP
+-- | eXP       = Experience
 data EntityKind = EntityKind
   { coord      :: Point
   , block      :: Bool
+  , move       :: Bool
   , kind       :: Entity
   , glyph      :: VisualKind
   , spawn      :: Point
+  , energy     :: Inventory
   , equipment  :: Equipment
-  , property   :: Properties
   , inventory  :: Inventory
+  , property   :: Properties
   , eLvl       :: Int
   , eHP        :: Int
   , eMaxHP     :: Int
@@ -90,12 +95,14 @@ instance ToJSON EntityKind
 mkEntityKind :: Text -> Point -> EntityKind
 mkEntityKind n p = EntityKind { coord = p
                               , block = False
+                              , move  = False
                               , kind  = Flavor
                               , glyph = VArrow
                               , spawn = p
+                              , energy = Map.empty
                               , equipment = Map.empty
-                              , property  = Map.insert "Name" n Map.empty
                               , inventory = Map.empty
+                              , property  = Map.insert "Name" n Map.empty
                               , eLvl   = 1
                               , eHP    = 0
                               , eMaxHP = 0
