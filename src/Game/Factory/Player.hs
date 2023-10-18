@@ -35,11 +35,7 @@ abilitySort x n@Character{..}
   | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort s n
   | otherwise = n
   where
-    s = sort $ map (min 18) [ rStr + tStr
-                            , rDex + tDex
-                            , rCon + tCon
-                            , rWis + tWis
-                            , rCha + tCha ]
+    s = reverse $ sort $ map (min 18) [ rStr + tStr, rDex + tDex, rCon + tCon, rInt + tInt, rWis + tWis, rCha + tCha ]
 
 mkPlayer :: Text -> Character -> EntityKind
 mkPlayer x n = let
@@ -50,11 +46,13 @@ mkPlayer x n = let
   in EntityKind {
   coord = originPoint
   , block = True
+  , move = True
   , kind = Actor
   , glyph = VActor
   , spawn = originPoint
+  , energy = Map.fromList [("seed", 0), ("Hunger", 250), ("speed", 100), ("energy", 100)]
   , equipment = Map.empty
-  , inventory = Map.fromList mkInventory
+  , inventory = Map.fromList [("Coin", 5), ("food/gruel", 3), ("ammo/arrow", 5), ("melee/Club", 1)]
   , property = Map.fromList $ mkProperty pCls hp mp actor
   , eLvl = 1
   , eHP = hp
@@ -63,15 +61,12 @@ mkPlayer x n = let
   , eMaxMP = mp
   , eXP = 0 }
 
-mkInventory :: [(Text, Int)]
-mkInventory = [("Arrow", 1), ("Coin", 1), ("Mushroom", 1), ("Potion", 1)]
-
 mkProperty :: Text -> Int -> Int -> Character -> [(Text, Text)]
 mkProperty pCls hp mp Character{..} = let
   str  = T.pack $ show $ rStr
   dex  = T.pack $ show $ rDex
   con  = T.pack $ show $ rCon
-  int  = T.pack $ show $ rInt + tInt
+  int  = T.pack $ show $ rInt
   wis  = T.pack $ show $ rWis
   cha  = T.pack $ show $ rCha
   str' = T.pack $ show $ tStr
@@ -109,13 +104,10 @@ mkProperty pCls hp mp Character{..} = let
        , ("Character/Height", T.pack $ show height)
        , ("Character/Mark", mark)
        , ("Character/Spells", "Zap:Light:Recall:Minor Heal")
-       , ("Character/Store", T.concat [
-             "Arrow:Mushroom:Potion"
-             , ":melee/Dagger:armor/Leather:shoot/Sling"])
+       , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
        , ("Class", pCls)
        , ("HP", T.pack $ show $ hp)
        , ("MP", T.pack $ show $ mp)
-       , ("seed", T.pack $ show seed)
        , ("Condition/awake", "None")
        , ("Dungeon/Zone", "Town")
        , ("Dungeon/Level", "0")
@@ -141,24 +133,19 @@ propertyLookup :: Text -> EntityKind -> Text
 propertyLookup x EntityKind{..} = Map.findWithDefault "None" x property
 
 propertyZLookup :: Text -> EntityKind -> Int
-propertyZLookup x EntityKind{..} =
-  read $ T.unpack $ Map.findWithDefault "0" x property :: Int
+propertyZLookup x EntityKind{..} = read $ T.unpack $ Map.findWithDefault "0" x property :: Int
 
 strengthSort :: [Int] -> Character -> Character
-strengthSort s x = mkCharacter
-  x { rStr=s!!4, rDex=s!!2, rCon=s!!3, rWis=s!!1, rCha=s!!0 }
+strengthSort s x = mkCharacter x { rStr=s!!5, rDex=s!!3, rCon=s!!4, rInt=s!!1, rWis=s!!2, rCha=s!!0 }
 
 dexteritySort :: [Int] -> Character -> Character
-dexteritySort s x = mkCharacter
-  x { rStr=s!!1, rDex=s!!4, rCon=s!!2, rWis=s!!3, rCha=s!!0 }
+dexteritySort s x = mkCharacter x { rStr=s!!2, rDex=s!!5, rCon=s!!4, rInt=s!!1, rWis=s!!3, rCha=s!!0 }
 
 charismaSort :: [Int] -> Character -> Character
-charismaSort s x = mkCharacter
-  x { rStr=s!!1, rDex=s!!0, rCon=s!!2, rWis=s!!3, rCha=s!!4 }
+charismaSort s x = mkCharacter x { rStr=s!!4, rDex=s!!1, rCon=s!!2, rInt=s!!0, rWis=s!!3, rCha=s!!5 }
 
 wisdomSort :: [Int] -> Character -> Character
-wisdomSort s x = mkCharacter
-  x { rStr=s!!1, rDex=s!!3, rCon=s!!2, rWis=s!!4, rCha=s!!0 }
+wisdomSort s x = mkCharacter x { rStr=s!!2, rDex=s!!1, rCon=s!!3, rInt=s!!4, rWis=s!!5, rCha=s!!0 }
 
 classFmt :: Text -> Text
 classFmt n = if k `elem` genClasses then k else "Fighter"
