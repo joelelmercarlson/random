@@ -29,13 +29,13 @@ import Util
 
 abilitySort :: Text -> Character -> Character
 abilitySort x n@Character{..}
-  | x `elem` [ "Barbarian", "Fighter" ] = strengthSort s n
-  | x `elem` [ "Monk", "Ranger", "Rogue" ] = dexteritySort s n
-  | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort s n
-  | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort s n
+  | x `elem` [ "Barbarian", "Fighter" ] = strengthSort xs n
+  | x `elem` [ "Monk", "Ranger", "Rogue" ] = dexteritySort xs n
+  | x `elem` [ "Druid", "Cleric", "Wizard" ] = wisdomSort xs n
+  | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort xs n
   | otherwise = n
   where
-    s = reverse $ sort $ map (min 18) [ rStr + tStr, rDex + tDex, rCon + tCon, rInt + tInt, rWis + tWis, rCha + tCha ]
+    xs = sort $ map (min 18) [ rStr + tStr, rDex + tDex, rCon + tCon, rInt + tInt, rWis + tWis, rCha + tCha ]
 
 mkPlayer :: Text -> Character -> EntityKind
 mkPlayer x n = let
