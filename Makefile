@@ -3,7 +3,7 @@ RANDOMPATH := $(CWD)
 STACK   := stack
 BUILD   := $(STACK) build
 COMMIT  := $(RANDOMPATH)/commit.hs
-RANDOM  := $(STACK) exec arrow-rpg
+RANDOM  := $(STACK) exec random-rpg
 
 GIT       := git
 GITDIFF   := $(GIT) diff

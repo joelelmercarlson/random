@@ -37,12 +37,11 @@ type Properties = Map Text Text
 -- | Entity stack sort.
 data Entity
   = Actor
-  | Corpse
-  | Monster
-  | SparkleAim
   | Sparkle
-  | Item
+  | Monster
+  | Corpse
   | Coin
+  | Item
   | StairDown
   | StairUp
   | Trap
