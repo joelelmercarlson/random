@@ -23,6 +23,7 @@ import Game.Compass
 import Game.Factory.Character
 import Game.Factory.Equipment
 import Game.Library.Kind.Entity
+import Game.Library.Kind.RGB
 import Game.Library.Kind.Visual
 import Util
 
@@ -50,16 +51,17 @@ mkPlayer x n = let
   , kind = Actor
   , glyph = VActor
   , spawn = originPoint
-  , energy = Map.fromList [("seed", 0), ("Hunger", 250), ("speed", 100), ("energy", 100)]
+  , energy = Map.fromList [("seed", 0), ("Hunger", 250), ("speed", 100), ("energy", 100), ("Coin", 13)]
   , equipment = Map.empty
-  , inventory = Map.fromList [("Coin", 5), ("food/gruel", 3), ("ammo/arrow", 5), ("melee/Club", 1)]
+  , inventory = Map.empty
   , property = Map.fromList $ mkProperty pCls hp mp actor
   , eLvl = 1
   , eHP = hp
   , eMaxHP = hp
   , eMP = mp
   , eMaxMP = mp
-  , eXP = 0 }
+  , eXP = 0
+  , ecolor = RGB 0 255 0 }
 
 mkProperty :: Text -> Int -> Int -> Character -> [(Text, Text)]
 mkProperty pCls hp mp Character{..} = let

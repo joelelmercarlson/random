@@ -25,6 +25,7 @@ library
                    , Game.Factory.Equipment
                    , Game.Factory.Player
                    , Game.Library.Kind.Entity
+                   , Game.Library.Kind.RGB
                    , Game.Library.Kind.Visual
                    , ToHit
                    , Util
@@ -60,6 +61,7 @@ executable random-rpg
                  , Game.Factory.Equipment
                  , Game.Factory.Player
                  , Game.Library.Kind.Entity
+                 , Game.Library.Kind.RGB
                  , Game.Library.Kind.Visual
                  , ToHit
                  , Util

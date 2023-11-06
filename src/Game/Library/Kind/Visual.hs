@@ -70,6 +70,17 @@ data VisualKind
   | VCorpse4
   | VCorpse5
   | VCorpse6
+  | VBlood1
+  | VBlood2
+  | VBlood3
+  | VBlood4
+  | VBlood5
+  | VBlood6
+  | VBlood7
+  | VBlood8
+  | VBlood9
+  | VBlood10
+  | VScrap
   | VPerson
   | VDagger
   | VBow
