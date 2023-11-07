@@ -118,16 +118,7 @@ mkProperty pCls hp mp Character{..} = let
        , weaponCast pCls
        , weaponClass
        , weaponShoot
-       , ("rightHand", "None")
-       , ("leftHand", "None")
-       , ("neck", "None")
        , ("armor", "armor/Leather")
-       , ("cloak", "None")
-       , ("shield", "None")
-       , ("head", "None")
-       , ("hands", "None")
-       , ("feet", "None")
-       , ("rune", "None")
        ]
   in xs
 
