@@ -55,41 +55,41 @@ instance FromJSON Entity
 instance ToJSON Entity
 
 -- | EntityKind
--- | coord     = Entity Position
 -- | block     = Movable Entity
--- | move      = Move blocked
--- | kind      = Kind of Entity
--- | glyph     = VisualKind of Entity
--- | spawn     = Where can the Entity spawn?
--- | energy    = counters
--- | equipment = equipped ItemKind
--- | inventory = items by name and count
--- | property  = Textual descriptions of the entity
--- | eLvl      = Level of the entity
--- | eHP       = HitPoint
+-- | coord     = Position
+-- | eHP       = Hit Point
+-- | eLvl      = Level
+-- | eMP       = Mana Point
 -- | eMaxHP    = Max HP
--- | eMP       = ManaPoint
 -- | eMaxMP    = Max MP
 -- | eXP       = Experience
 -- | ecolor    = MiniMap color
+-- | energy    = counters
+-- | equipment = doff/don ItemKind
+-- | glyph     = VisualKind
+-- | inventory = Items by slot
+-- | kind      = Kind of Entity
+-- | move      = Move blocked
+-- | property  = Text Descriptions
+-- | status    = Temporary status positive and negative
 data EntityKind = EntityKind
-  { coord     :: !Point
-  , block     :: !Bool
-  , move      :: !Bool
-  , kind      :: !Entity
-  , glyph     :: !VisualKind
-  , spawn     :: !Point
-  , energy    :: !Energies
-  , equipment :: !Equipment
-  , inventory :: !Inventory
-  , property  :: !Properties
-  , eLvl      :: !Int
+  { block     :: !Bool
+  , coord     :: !Point
   , eHP       :: !Int
-  , eMaxHP    :: !Int
+  , eLvl      :: !Int
   , eMP       :: !Int
+  , eMaxHP    :: !Int
   , eMaxMP    :: !Int
   , eXP       :: !Int
   , ecolor    :: !RGB
+  , energy    :: !Energies
+  , equipment :: !Equipment
+  , glyph     :: !VisualKind
+  , inventory :: !Inventory
+  , kind      :: !Entity
+  , move      :: !Bool
+  , property  :: !Properties
+  , status    :: !Energies
   } deriving (Show, Eq, Generic)
 
 instance FromJSON EntityKind
@@ -97,21 +97,22 @@ instance ToJSON EntityKind
 
 -- | default EntityKind
 mkEntityKind :: Text -> Point -> EntityKind
-mkEntityKind x p = EntityKind { coord = p
-                              , block = False
-                              , move  = False
-                              , kind  = Flavor
-                              , glyph = VArrow
-                              , spawn = p
-                              , energy    = Map.empty
-                              , equipment = Map.empty
-                              , inventory = Map.empty
-                              , property  = Map.insert "Name" x Map.empty
-                              , eLvl   = 1
-                              , eHP    = 0
-                              , eMaxHP = 0
-                              , eMP    = 0
-                              , eMaxMP = 0
-                              , eXP    = 0
-                              , ecolor = RGB 255 255 0
-                              }
+mkEntityKind x p =
+  EntityKind { block = False
+  , coord     = p
+  , eHP       = 0
+  , eLvl      = 1
+  , eMP       = 0
+  , eMaxHP    = 0
+  , eMaxMP    = 0
+  , eXP       = 0
+  , ecolor    = RGB 255 255 0
+  , energy    = Map.insert "speed" 100 Map.empty
+  , equipment = Map.empty
+  , glyph     = VArrow
+  , inventory = Map.empty
+  , kind      = Flavor
+  , move      = False
+  , property  = Map.insert "Name" x Map.empty
+  , status    = Map.empty
+  }
