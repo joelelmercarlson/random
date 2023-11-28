@@ -33,7 +33,6 @@ genHuman s = let
   , tInt = 1
   , tWis = 1
   , tCha = 1
-  , eAC    = 10
   , race   = "Human"
   , age    = 15 + DS.d20 (s+25)
   , eye    = pickEyes (DS.d20 (s+28))

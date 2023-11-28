@@ -27,7 +27,6 @@ rpg n = do
       int = propertyZLookup "int" n
       wis = propertyZLookup "wis" n
       cha = propertyZLookup "cha" n
-      ac  = propertyZLookup "AC" n
       hp  = propertyZLookup "HP" n
       mp  = propertyZLookup "MP" n
       armor = propertyLookup "armor" n
@@ -38,7 +37,6 @@ rpg n = do
       race  = propertyLookup "Race" n
   story n
   printf "\n"
-  printf "Armor Class %d (%s)\n" ac armor
   printf "Hit Points %d\n" hp
   printf "Mana Points %d\n" mp
   printf "\n"
@@ -50,7 +48,7 @@ rpg n = do
   printf "Wis=%s, " (abilityFmt wis)
   printf "Cha=%s\n" (abilityFmt cha)
   printf "\n"
-  printf "M:%s\nS:%s\nZ:%s\n" (melee)(shoot)(cast)
+  printf "M:%s\nS:%s\nA:%s\nZ:%s\n" (melee)(shoot)(armor)(cast)
 
 -- | every character has a story...
 story :: EntityKind -> IO ()

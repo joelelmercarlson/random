@@ -32,7 +32,6 @@ genDwarf s = let
   , tInt = 0
   , tWis = 0
   , tCha = 0
-  , eAC    = 10
   , race   = "Dwarf"
   , age    = 20 + DS.d100 (s+25)
   , eye    = pickEyes (DS.d20 (s+26))

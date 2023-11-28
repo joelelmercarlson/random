@@ -5,7 +5,7 @@
 Game.Factory.Player.hs for Arrow. Converts Characters into
 EntityKind.
 
-<https://github.com/joelelmercarlson/arrow>
+<https://github.com/joelelmercarlson/bifrost>
 
 Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
@@ -77,68 +77,63 @@ mkProperty pCls hp mp Character{..} = let
   int' = T.pack $ show $ tInt
   wis' = T.pack $ show $ tWis
   cha' = T.pack $ show $ tCha
-  xs = [ ("Name", name)
-       , ("Race", race)
-       , ("str", str)
-       , ("dex", dex)
-       , ("con", con)
-       , ("int", int)
-       , ("wis", wis)
-       , ("cha", cha)
-       , ("AC", T.pack $ show eAC)
-       , ("ATTACKS", "1")
-       , ("Character/Age", T.pack $ show age)
-       , ("Character/Birth/Trait/str", str')
-       , ("Character/Birth/Trait/dex", dex')
-       , ("Character/Birth/Trait/con", con')
-       , ("Character/Birth/Trait/int", int')
-       , ("Character/Birth/Trait/wis", wis')
-       , ("Character/Birth/Trait/cha", cha')
-       , ("Character/Birth/str", str)
-       , ("Character/Birth/dex", dex)
-       , ("Character/Birth/con", con)
-       , ("Character/Birth/int", int)
-       , ("Character/Birth/wis", wis)
-       , ("Character/Birth/cha", cha)
-       , ("Character/Eye", eye)
-       , ("Character/Gender", gender)
-       , ("Character/Hair", hair)
-       , ("Character/Height", T.pack $ show height)
-       , ("Character/Mark", mark)
-       , ("Character/Spells", "Zap:Light:Recall:Minor Heal")
-       , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
-       , ("Class", pCls)
-       , ("HP", T.pack $ show $ hp)
-       , ("MP", T.pack $ show $ mp)
-       , ("Condition/awake", "None")
-       , ("Dungeon/Zone", "Town")
-       , ("Dungeon/Level", "0")
-       , ("Dungeon/Depth", "0")
-       , ("Dungeon/Prev", "0")
-       , weaponCast pCls
-       , weaponClass
-       , weaponShoot
-       , ("armor", "armor/Leather")
-       ]
-  in xs
+  in [ ("Name", name)
+     , ("Race", race)
+     , ("str", str)
+     , ("dex", dex)
+     , ("con", con)
+     , ("int", int)
+     , ("wis", wis)
+     , ("cha", cha)
+     , ("Character/Age", T.pack $ show age)
+     , ("Character/Birth/Trait/str", str')
+     , ("Character/Birth/Trait/dex", dex')
+     , ("Character/Birth/Trait/con", con')
+     , ("Character/Birth/Trait/int", int')
+     , ("Character/Birth/Trait/wis", wis')
+     , ("Character/Birth/Trait/cha", cha')
+     , ("Character/Birth/str", str)
+     , ("Character/Birth/dex", dex)
+     , ("Character/Birth/con", con)
+     , ("Character/Birth/int", int)
+     , ("Character/Birth/wis", wis)
+     , ("Character/Birth/cha", cha)
+     , ("Character/Eye", eye)
+     , ("Character/Gender", gender)
+     , ("Character/Hair", hair)
+     , ("Character/Height", T.pack $ show height)
+     , ("Character/Mark", mark)
+     , ("Character/Spells", "Zap:Light:Recall:Minor Heal")
+     , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
+     , ("Class", pCls)
+     , ("HP", T.pack $ show $ hp)
+     , ("MP", T.pack $ show $ mp)
+     , ("Dungeon/Zone", "Town")
+     , ("Extra/AC", "10")
+     , ("Extra/ATTACKS", "1")
+     , weaponCast pCls
+     , weaponClass
+     , weaponShoot
+     , ("armor", "armor/Leather")
+     ]
 
 propertyLookup :: Text -> EntityKind -> Text
-propertyLookup x EntityKind{..} = Map.findWithDefault "None" x property
+propertyLookup n x = Map.findWithDefault "None" n (property x)
 
 propertyZLookup :: Text -> EntityKind -> Int
-propertyZLookup x EntityKind{..} = read $ T.unpack $ Map.findWithDefault "0" x property :: Int
+propertyZLookup n x = read $ T.unpack $ Map.findWithDefault "0" n (property x) :: Int
 
 strengthSort :: [Int] -> Character -> Character
-strengthSort s x = mkCharacter x { rStr=s!!5, rDex=s!!3, rCon=s!!4, rInt=s!!1, rWis=s!!2, rCha=s!!0 }
+strengthSort s x = x { rStr=s!!5, rDex=s!!3, rCon=s!!4, rInt=s!!1, rWis=s!!2, rCha=s!!0 }
 
 dexteritySort :: [Int] -> Character -> Character
-dexteritySort s x = mkCharacter x { rStr=s!!2, rDex=s!!5, rCon=s!!4, rInt=s!!1, rWis=s!!3, rCha=s!!0 }
+dexteritySort s x = x { rStr=s!!2, rDex=s!!5, rCon=s!!4, rInt=s!!1, rWis=s!!3, rCha=s!!0 }
 
 charismaSort :: [Int] -> Character -> Character
-charismaSort s x = mkCharacter x { rStr=s!!4, rDex=s!!1, rCon=s!!2, rInt=s!!0, rWis=s!!3, rCha=s!!5 }
+charismaSort s x = x { rStr=s!!4, rDex=s!!1, rCon=s!!2, rInt=s!!0, rWis=s!!3, rCha=s!!5 }
 
 wisdomSort :: [Int] -> Character -> Character
-wisdomSort s x = mkCharacter x { rStr=s!!2, rDex=s!!1, rCon=s!!3, rInt=s!!4, rWis=s!!5, rCha=s!!0 }
+wisdomSort s x = x { rStr=s!!2, rDex=s!!1, rCon=s!!3, rInt=s!!4, rWis=s!!5, rCha=s!!0 }
 
 classFmt :: Text -> Text
 classFmt n = if k `elem` genClasses then k else "Fighter"

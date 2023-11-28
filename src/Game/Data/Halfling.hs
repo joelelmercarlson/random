@@ -33,7 +33,6 @@ genHalfling s = let
   , tInt = 0
   , tWis = 0
   , tCha = 0
-  , eAC    = 10
   , race   = "Halfling"
   , age    = 15 + DS.d50 (s+25)
   , eye    = pickEyes (DS.d10 (s+26))

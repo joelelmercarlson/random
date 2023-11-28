@@ -10,8 +10,11 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
 -}
 module Game.Factory.Character (
-  manaPoint, hitPoint, genClasses, genRaces
-  , Character(..), mkCharacter
+  Character(..)
+  , genClasses
+  , genRaces
+  , hitPoint
+  , manaPoint
   ) where
 
 import Data.Text (Text)
@@ -31,7 +34,6 @@ data Character = Character {
   , tInt :: Int
   , tWis :: Int
   , tCha :: Int
-  , eAC :: Int
   , race :: Text
   , gender :: Text
   , age :: Int
@@ -41,12 +43,6 @@ data Character = Character {
   , mark :: Text
   , name :: Text
 } deriving (Show)
-
--- | mkCharacter - make '@'
-mkCharacter :: Character -> Character
-mkCharacter x@Character{..} = x { eAC = ac }
-  where
-    ac = 11 + abilityMod rDex
 
 hitPoint :: Text -> Int
 hitPoint n

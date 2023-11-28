@@ -33,7 +33,6 @@ genElf s = let
   , tInt = 1
   , tWis = 0
   , tCha = 0
-  , eAC    = 10
   , race   = "Elf"
   , age    = 30 + DS.d100 (s+25)
   , eye    = pickEyes (DS.d20 (s+26))
