@@ -87,13 +87,25 @@ data VisualKind
   | VRing
   | VAmulet
   | VArmor
-  | VCloak
   | VShield
-  | VHelmet
   | VHafted
   | VPolearm
-  | VGloves
-  | VBoots
+  | VBoots1
+  | VBoots2
+  | VBoots3
+  | VBoots4
+  | VHelmet1
+  | VHelmet2
+  | VHelmet3
+  | VHelmet4
+  | VGloves1
+  | VGloves2
+  | VGloves3
+  | VGloves4
+  | VCloak1
+  | VCloak2
+  | VCloak3
+  | VCloak4
   | VRune
   | VWolf
   | VDire

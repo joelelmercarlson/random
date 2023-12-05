@@ -103,14 +103,11 @@ mkProperty pCls hp mp Character{..} = let
      , ("Character/Hair", hair)
      , ("Character/Height", T.pack $ show height)
      , ("Character/Mark", mark)
-     , ("Character/Spells", "Zap:Light:Recall:Minor Heal")
+     , ("Character/Spells", "Zap:Light:Recall")
      , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
      , ("Class", pCls)
      , ("HP", T.pack $ show $ hp)
      , ("MP", T.pack $ show $ mp)
-     , ("Dungeon/Zone", "Town")
-     , ("Extra/AC", "10")
-     , ("Extra/ATTACKS", "1")
      , weaponCast pCls
      , weaponClass
      , weaponShoot
@@ -136,13 +133,17 @@ wisdomSort :: [Int] -> Character -> Character
 wisdomSort s x = x { rStr=s!!2, rDex=s!!1, rCon=s!!3, rInt=s!!4, rWis=s!!5, rCha=s!!0 }
 
 classFmt :: Text -> Text
-classFmt n = if k `elem` genClasses then k else "Fighter"
+classFmt n
+  | k `elem` genClasses = k
+  | otherwise = "Fighter"
   where
     Just (x, xs) = T.uncons n
     k = T.cons (toUpper x) (T.toLower xs)
 
 speciesFmt :: Text -> Text
-speciesFmt n = if k `elem` genRaces then k else "Human"
+speciesFmt n
+  | k `elem` genRaces = k
+  | otherwise = "Human"
   where
     Just (x, xs) = T.uncons n
     k = T.cons (toUpper x) (T.toLower xs)
