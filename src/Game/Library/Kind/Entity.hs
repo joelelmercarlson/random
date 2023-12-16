@@ -66,6 +66,7 @@ instance ToJSON Entity
 -- | ecolor    = MiniMap color
 -- | energy    = counters
 -- | equipment = doff/don ItemKind
+-- | extra     = Skills
 -- | glyph     = VisualKind
 -- | inventory = Items by slot
 -- | kind      = Kind of Entity
@@ -84,6 +85,7 @@ data EntityKind = EntityKind
   , ecolor    :: !RGB
   , energy    :: !Energies
   , equipment :: !Equipment
+  , extra     :: !Energies
   , glyph     :: !VisualKind
   , inventory :: !Inventory
   , kind      :: !Entity
@@ -109,6 +111,7 @@ mkEntityKind x p =
   , ecolor    = RGB 255 255 0
   , energy    = Map.insert "speed" 100 Map.empty
   , equipment = Map.empty
+  , extra     = Map.empty
   , glyph     = VArrow
   , inventory = Map.empty
   , kind      = Flavor
