@@ -18,7 +18,7 @@ Arrow24 utilizes the Arrow roguelike engine.
 
 ## Abstract
 Arrow24 is a roguelike developed in Haskell with SDL2. This
-project was inspired by RogueBasin Tutorials. Bifrost gameplay comprises
+project was inspired by RogueBasin Tutorials. Arrow gameplay comprises
 of the Player '@' and a Generic Fantasy World. The World is complete
 with Magic, Monsters, and Items to challenge '@'. The goal
 is to explore and have Fun!
@@ -40,7 +40,7 @@ is to explore and have Fun!
 ![Dungeon.png](images/Dungeon.png)
 
 ## Features
-'@' is your character in a classic fantasy world. Bifrost gameplay
+'@' is your character in a classic fantasy world. Arrow gameplay
 is focused on Melee, Shoot, and Zap. The elements of the world 
 are wielded with powerful Magic spells.
 
@@ -69,21 +69,21 @@ are wielded with powerful Magic spells.
 
 &mdash; `i` to `Inventory`
 
-&mdash; `p` to `Pick`, `Dig` in the `Dungeon`
+&mdash; `p` to `Dig` in the `Dungeon`
 
-&mdash; `r` to `Use`, `Read, `Eat`, and `Quaff`
+&mdash; `r` to `Use`, `Read`, `Eat`, and `Quaff`
 
 &mdash; `t` to `Throw`
 
-&mdash; `v` to `Target` for `Fire`, `Throw` or `Zap`
+&mdash; `v` to `Target`
 
-&mdash; `x` to `Examine` the `World`
+&mdash; `x` to `Examine`
 
 &mdash; `z` to `Magic`
 
 &mdash; `7` to `Portal`
 
-&mdash; `8` to `Acquire` in `Town`
+&mdash; `8` to `Store` in `Town`
 
 &mdash; `9` to `Drop`
 
