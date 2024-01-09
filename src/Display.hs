@@ -21,14 +21,9 @@ import Util
 -- | profile
 rpg :: EntityKind -> IO ()
 rpg n = do
-  let str = propertyZLookup "str" n
-      dex = propertyZLookup "dex" n
-      con = propertyZLookup "con" n
-      int = propertyZLookup "int" n
-      wis = propertyZLookup "wis" n
-      cha = propertyZLookup "cha" n
-      hp  = propertyZLookup "HP" n
-      mp  = propertyZLookup "MP" n
+  let str = propertyLookup "str" n
+      dex = propertyLookup "dex" n
+      int = propertyLookup "int" n
       armor = propertyLookup "armor" n
       melee = propertyLookup "melee" n
       shoot = propertyLookup "shoot" n
@@ -37,17 +32,11 @@ rpg n = do
       race  = propertyLookup "Race" n
   story n
   printf "\n"
-  printf "Hit Points %d\n" hp
-  printf "Mana Points %d\n" mp
-  printf "\n"
   printf "%s %s, " race pCls
-  printf "Str=%s, " (abilityFmt str)
-  printf "Dex=%s, " (abilityFmt dex)
-  printf "Con=%s, " (abilityFmt con)
-  printf "Int=%s, " (abilityFmt int)
-  printf "Wis=%s, " (abilityFmt wis)
-  printf "Cha=%s\n" (abilityFmt cha)
-  printf "\n"
+  printf "Str %s, " str
+  printf "Dex %s, " dex
+  printf "Int %s"   int
+  printf "\n\n"
   printf "M:%s\nS:%s\nA:%s\nZ:%s\n" (melee)(shoot)(armor)(cast)
 
 -- | every character has a story...

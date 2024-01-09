@@ -24,16 +24,10 @@ data Character = Character {
   seed :: Int
   , rStr :: Int
   , rDex :: Int
-  , rCon :: Int
   , rInt :: Int
-  , rWis :: Int
-  , rCha :: Int
   , tStr :: Int
   , tDex :: Int
-  , tCon :: Int
   , tInt :: Int
-  , tWis :: Int
-  , tCha :: Int
   , race :: Text
   , gender :: Text
   , age :: Int

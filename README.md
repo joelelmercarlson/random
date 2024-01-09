@@ -1,6 +1,6 @@
-# Bifrost
+# Arrow24
 
-Bifrost utilizes the Arrow roguelike engine.
+Arrow24 utilizes the Arrow roguelike engine.
 
 ## Table of Contents
 - [Abstract](#abstract)
@@ -17,7 +17,7 @@ Bifrost utilizes the Arrow roguelike engine.
 
 
 ## Abstract
-Bifrost is a roguelike developed in Haskell with SDL2. This
+Arrow24 is a roguelike developed in Haskell with SDL2. This
 project was inspired by RogueBasin Tutorials. Bifrost gameplay comprises
 of the Player '@' and a Generic Fantasy World. The World is complete
 with Magic, Monsters, and Items to challenge '@'. The goal
@@ -28,8 +28,16 @@ is to explore and have Fun!
 
 &mdash; [Angband](https://github.com/angband/angband)
 
+&mdash; [Crawl](https://github.com/crawl/crawl)
+
 ### Screenshot
-![Screenshot.png](images/Screenshot.png)
+![Balor.png](images/Balor.png)
+
+### Town
+![Town.png](images/Town.png)
+
+### Dungeon
+![Dungeon.png](images/Dungeon.png)
 
 ## Features
 '@' is your character in a classic fantasy world. Bifrost gameplay
@@ -53,39 +61,33 @@ are wielded with powerful Magic spells.
 
 ## Usage
 
-&mdash; vi keys or Arrow Key Movement
+&mdash; WASD keys or Arrow Key Movement
 
-&mdash; bump `Monster` to attack
-
-&mdash; `a` to `Acquire` in `Town`
-
-&mdash; `d` to `Drop`
-
-&mdash; `e` to `Eat`
+&mdash; `f` to `Fire`
 
 &mdash; `g` to `Get`
 
 &mdash; `i` to `Inventory`
 
-&mdash; `m` to `Magic`
-
-&mdash; `o` to `Open`, `Climb` or `Descend` the `Stairs`
-
 &mdash; `p` to `Pick`, `Dig` in the `Dungeon`
 
-&mdash; `q` to `Quaff`
+&mdash; `r` to `Use`, `Read, `Eat`, and `Quaff`
 
-&mdash; `r` to `Recall` to `Town` or `Dungeon`
+&mdash; `t` to `Throw`
 
-&mdash; `t` to `Throw` an `Arrow`
-
-&mdash; `v` to `Target` for `Throw` or `Zap`
-
-&mdash; `w` to `Wield` `Armor`, `Weapon`, `Shield`
+&mdash; `v` to `Target` for `Fire`, `Throw` or `Zap`
 
 &mdash; `x` to `Examine` the `World`
 
-&mdash; `z` to `Zap`
+&mdash; `z` to `Magic`
+
+&mdash; `7` to `Portal`
+
+&mdash; `8` to `Acquire` in `Town`
+
+&mdash; `9` to `Drop`
+
+&mdash; `0` to `Wield` `Armor`, `Weapon`, `Shield`
 
 ## Requirements
 &mdash; [stack](https://haskellstack.org/)

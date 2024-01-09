@@ -1,6 +1,6 @@
 name:                random-rpg
-version:             0.1.4.0
-synopsis:            Bifrost Character Generator (roguelike)
+version:             0.2.5.0
+synopsis:            Arrow24 Character Generator (roguelike)
 license:             MIT
 license-file:        LICENSE.md
 author:              Joel E Carlson

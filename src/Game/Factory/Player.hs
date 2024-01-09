@@ -5,7 +5,7 @@
 Game.Factory.Player.hs for Arrow. Converts Characters into
 EntityKind.
 
-<https://github.com/joelelmercarlson/bifrost>
+<https://github.com/joelelmercarlson/arrow24>
 
 Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
@@ -36,14 +36,12 @@ abilitySort x n@Character{..}
   | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort xs n
   | otherwise = n
   where
-    xs = sort $ map (min 18) [ rStr + tStr, rDex + tDex, rCon + tCon, rInt + tInt, rWis + tWis, rCha + tCha ]
+    xs = sort $ map (min 18) [ rStr + tStr, rDex + tDex, rInt + tInt ]
 
 mkPlayer :: Text -> Character -> EntityKind
 mkPlayer x n = let
   pCls  = classFmt x
   actor = abilitySort pCls n
-  hp    = hitPoint pCls
-  mp    = manaPoint pCls
   in EntityKind {
   coord = originPoint
   , block = True
@@ -52,52 +50,38 @@ mkPlayer x n = let
   , glyph = VActor
   , energy = Map.fromList [("seed", 0), ("Hunger", 500), ("speed", 100), ("energy", 100), ("Coin", 13)]
   , equipment = Map.empty
+  , extra = Map.empty
   , inventory = Map.empty
-  , property = Map.fromList $ mkProperty pCls hp mp actor
+  , property = Map.fromList $ mkProperty pCls actor
   , status = Map.empty
   , eLvl = 1
-  , eHP = hp
-  , eMaxHP = hp
-  , eMP = mp
-  , eMaxMP = mp
+  , eHP = 8
+  , eMaxHP = 8
+  , eMP = 1
+  , eMaxMP = 1
   , eXP = 0
   , ecolor = RGB 0 255 0 }
 
-mkProperty :: Text -> Int -> Int -> Character -> [(Text, Text)]
-mkProperty pCls hp mp Character{..} = let
+mkProperty :: Text -> Character -> [(Text, Text)]
+mkProperty pCls Character{..} = let
   str  = T.pack $ show $ rStr
   dex  = T.pack $ show $ rDex
-  con  = T.pack $ show $ rCon
   int  = T.pack $ show $ rInt
-  wis  = T.pack $ show $ rWis
-  cha  = T.pack $ show $ rCha
   str' = T.pack $ show $ tStr
   dex' = T.pack $ show $ tDex
-  con' = T.pack $ show $ tCon
   int' = T.pack $ show $ tInt
-  wis' = T.pack $ show $ tWis
-  cha' = T.pack $ show $ tCha
   in [ ("Name", name)
      , ("Race", race)
      , ("str", str)
      , ("dex", dex)
-     , ("con", con)
      , ("int", int)
-     , ("wis", wis)
-     , ("cha", cha)
      , ("Character/Age", T.pack $ show age)
      , ("Character/Birth/Trait/str", str')
      , ("Character/Birth/Trait/dex", dex')
-     , ("Character/Birth/Trait/con", con')
      , ("Character/Birth/Trait/int", int')
-     , ("Character/Birth/Trait/wis", wis')
-     , ("Character/Birth/Trait/cha", cha')
      , ("Character/Birth/str", str)
      , ("Character/Birth/dex", dex)
-     , ("Character/Birth/con", con)
      , ("Character/Birth/int", int)
-     , ("Character/Birth/wis", wis)
-     , ("Character/Birth/cha", cha)
      , ("Character/Eye", eye)
      , ("Character/Gender", gender)
      , ("Character/Hair", hair)
@@ -106,8 +90,6 @@ mkProperty pCls hp mp Character{..} = let
      , ("Character/Spells", "Zap:Light:Recall")
      , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
      , ("Class", pCls)
-     , ("HP", T.pack $ show $ hp)
-     , ("MP", T.pack $ show $ mp)
      , weaponCast pCls
      , weaponClass
      , weaponShoot
@@ -121,16 +103,16 @@ propertyZLookup :: Text -> EntityKind -> Int
 propertyZLookup n x = read $ T.unpack $ Map.findWithDefault "0" n (property x) :: Int
 
 strengthSort :: [Int] -> Character -> Character
-strengthSort s x = x { rStr=s!!5, rDex=s!!3, rCon=s!!4, rInt=s!!1, rWis=s!!2, rCha=s!!0 }
+strengthSort s x = x { rStr=s!!2, rDex=s!!1, rInt=s!!0 }
 
 dexteritySort :: [Int] -> Character -> Character
-dexteritySort s x = x { rStr=s!!2, rDex=s!!5, rCon=s!!4, rInt=s!!1, rWis=s!!3, rCha=s!!0 }
+dexteritySort s x = x { rStr=s!!1, rDex=s!!2, rInt=s!!0 }
 
 charismaSort :: [Int] -> Character -> Character
-charismaSort s x = x { rStr=s!!4, rDex=s!!1, rCon=s!!2, rInt=s!!0, rWis=s!!3, rCha=s!!5 }
+charismaSort s x = x { rStr=s!!1, rDex=s!!0, rInt=s!!2 }
 
 wisdomSort :: [Int] -> Character -> Character
-wisdomSort s x = x { rStr=s!!2, rDex=s!!1, rCon=s!!3, rInt=s!!4, rWis=s!!5, rCha=s!!0 }
+wisdomSort s x = x { rStr=s!!0, rDex=s!!1, rInt=s!!2 }
 
 classFmt :: Text -> Text
 classFmt n
