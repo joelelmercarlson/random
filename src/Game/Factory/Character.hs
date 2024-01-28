@@ -13,8 +13,6 @@ module Game.Factory.Character (
   Character(..)
   , genClasses
   , genRaces
-  , hitPoint
-  , manaPoint
   ) where
 
 import Data.Text (Text)
@@ -37,38 +35,6 @@ data Character = Character {
   , mark :: Text
   , name :: Text
 } deriving (Show)
-
-hitPoint :: Text -> Int
-hitPoint n
-  | n == "Barbarian" = 12
-  | n == "Bard"      = 8
-  | n == "Cleric"    = 8
-  | n == "Druid"     = 8
-  | n == "Fighter"   = 10
-  | n == "Monk"      = 8
-  | n == "Paladin"   = 10
-  | n == "Ranger"    = 10
-  | n == "Rogue"     = 8
-  | n == "Sorcerer"  = 6
-  | n == "Warlock"   = 8
-  | n == "Wizard"    = 6
-  | otherwise = 8
-
-manaPoint :: Text -> Int
-manaPoint n
-  | n == "Barbarian" = 0
-  | n == "Bard"      = 6
-  | n == "Cleric"    = 6
-  | n == "Druid"     = 6
-  | n == "Fighter"   = 0
-  | n == "Monk"      = 0
-  | n == "Paladin"   = 3
-  | n == "Ranger"    = 3
-  | n == "Rogue"     = 0
-  | n == "Sorcerer"  = 6
-  | n == "Warlock"   = 6
-  | n == "Wizard"    = 6
-  | otherwise = 0
 
 -- | genClasses
 genClasses :: [Text]

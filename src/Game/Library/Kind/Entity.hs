@@ -30,7 +30,7 @@ import Game.Library.Kind.RGB
 import Game.Library.Kind.Visual
 
 -- | Maps used within the game
-type AssetMap   = EntityMap
+type AssetMap   = Map Text EntityKind
 type Energies   = Map Text Int
 type EntityMap  = Map Int EntityKind
 type Equipment  = Map Text EntityKind

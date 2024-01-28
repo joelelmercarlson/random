@@ -90,10 +90,10 @@ mkProperty pCls Character{..} = let
      , ("Character/Spells", "Zap:Light:Recall")
      , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
      , ("Class", pCls)
+     , ("SPEED", "10")
      , weaponCast pCls
      , weaponClass
      , weaponShoot
-     , ("armor", "armor/Leather")
      ]
 
 propertyLookup :: Text -> EntityKind -> Text

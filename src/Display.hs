@@ -24,10 +24,9 @@ rpg n = do
   let str = propertyLookup "str" n
       dex = propertyLookup "dex" n
       int = propertyLookup "int" n
-      armor = propertyLookup "armor" n
       melee = propertyLookup "melee" n
       shoot = propertyLookup "shoot" n
-      cast  = propertyLookup "Zap" n
+      zap   = propertyLookup "Zap" n
       pCls  = propertyLookup "Class" n
       race  = propertyLookup "Race" n
   story n
@@ -37,7 +36,7 @@ rpg n = do
   printf "Dex %s, " dex
   printf "Int %s"   int
   printf "\n\n"
-  printf "M:%s\nS:%s\nA:%s\nZ:%s\n" (melee)(shoot)(armor)(cast)
+  printf "M:%s\nS:%s\nZ:%s\n" (melee)(shoot)(zap)
 
 -- | every character has a story...
 story :: EntityKind -> IO ()

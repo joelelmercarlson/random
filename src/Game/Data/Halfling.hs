@@ -28,12 +28,12 @@ genHalfling s = let
   , tDex = 2
   , tInt = 0
   , race   = "Halfling"
-  , age    = 15 + DS.d50 (s+25)
-  , eye    = pickEyes (DS.d10 (s+26))
-  , hair   = pickHairs (DS.d10 (s+27))
-  , height = 35 + DS.d10 (s+28)
-  , mark   = pick (DS.d20 (s+29)) marks
-  , name   = names gen (DS.d20 (s+30)) female male
+  , age    = 15 + DS.d20 (s+25) + DS.d20 (s+26)
+  , eye    = pickEyes (DS.d10 (s+27))
+  , hair   = pickHairs (DS.d10 (s+28))
+  , height = 35 + DS.d10 (s+29)
+  , mark   = pick (DS.d20 (s+30)) marks
+  , name   = names gen (DS.d20 (s+31)) female male
   }
 
 pickEyes :: Int -> Text
