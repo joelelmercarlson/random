@@ -18,7 +18,7 @@ import Game.Compass
 import Game.Library.Kind.Entity
 
 -- | loadFile
-loadFile :: IO EntityMap
+loadFile :: IO AssetMap
 loadFile = do
   homeDir <- getHomeDirectory
   let dest = homeDir ++ "/Documents/Arrow"
@@ -37,8 +37,8 @@ loadFile = do
         Right x -> x
   return $ case a of
     Left _ -> Map.empty
-    Right xs -> Map.insert 0 player xs
+    Right xs -> Map.insert "player" player xs
 
 -- | loadAsset -- all the Items, Monsters, Traps and more...
-loadAsset :: FilePath -> IO (Either Y.ParseException EntityMap)
+loadAsset :: FilePath -> IO (Either Y.ParseException AssetMap)
 loadAsset = Y.decodeFileEither
