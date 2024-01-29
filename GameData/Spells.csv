@@ -25,7 +25,6 @@ spell,evoke,spell/Cold9,0,spell,16,0,"cold,Cold9"
 spell,evoke,spell/Cold10,0,spell,8,0,"cold,Cold10"
 spell,evoke,spell/Deafened,0,spell,4,0,"deafened,Deafened"
 spell,evoke,spell/DetectStair,0,spell,1,0,DetectStair
-spell,evoke,spell/Eat,0,spell,1000,0,Eat
 spell,evoke,spell/Eat1,0,spell,500,0,Eat1
 spell,evoke,spell/Eat2,0,spell,250,0,Eat2
 spell,evoke,spell/Eat3,0,spell,100,0,Eat3
@@ -55,7 +54,6 @@ spell,evoke,spell/Force9,0,spell,20,0,"force,Force9"
 spell,evoke,spell/Force10,0,spell,10,0,"force,Force10"
 spell,evoke,spell/Frightened,0,spell,4,0,"frightened,Frightened"
 spell,evoke,spell/Grappled,0,spell,4,0,"grappled,Grappled"
-spell,evoke,spell/Heal,0,spell,48,0,Heal
 spell,evoke,spell/Heal1,0,spell,32,0,Heal1
 spell,evoke,spell/Heal2,0,spell,24,0,Heal2
 spell,evoke,spell/Heal3,0,spell,16,0,Heal3
