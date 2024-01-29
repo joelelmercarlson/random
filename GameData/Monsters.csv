@@ -480,12 +480,12 @@ npc,rogue,Medium human (@),20,6,300,3,10,10,4:melee/Dagger,,4:melee/Dagger,,"NPC
 npc,sorcerer,Medium human (@),20,6,300,2,10,10,4:melee/Scimitar,,,,"NPC,NoXP",spell/Force10,
 npc,warlock,Medium human (@),20,6,300,2,10,10,4:melee/Flail,,,,"NPC,NoXP",spell/Force10,
 npc,wizard,Medium human (@),20,6,300,2,10,10,6:melee/Staff,,,,"NPC,NoXP",spell/Force10,
-npc,Heinz the Weaponsmith,Medium human (@),40,6,350,3,10,10,8:melee/Longsword,,,,"NPC,NoMove,NoXP",,
-npc,Felix the Fletcher,Medium elf (@),40,6,350,3,10,10,,6:shoot/Shortbow,,,"NPC,NoMove,NoXP",,
-npc,Stori the Blacksmith,Medium dwarf (@),40,6,350,8,10,10,18:melee/Greataxe,,,,"NPC,NoMove,NoXP",,
-npc,Rolf the Runesmith,Medium gnome (@),40,6,350,2,10,10,4:melee/Falchion,,,,"NPC,NoMove,NoXP",,
-npc,Bruno's General Store,Medium human (@),40,6,350,2,10,10,4:melee/Club,,,,"NPC,NoMove,NoXP",,
-npc,Wilder the Haberdasher,Medium human (@),40,6,350,2,10,10,6:melee/Rapier,,,,"NPC,NoMove,NoXP",,
+npc,Heinz the Weaponsmith,Medium human (@),40,6,350,3,10,10,8:melee/Longsword,,,,"NPC,NoMove,NoXP,Shop",,
+npc,Felix the Fletcher,Medium elf (@),40,6,350,3,10,10,,6:shoot/Shortbow,,,"NPC,NoMove,NoXP,Shop",,
+npc,Stori the Blacksmith,Medium dwarf (@),40,6,350,8,10,10,18:melee/Greataxe,,,,"NPC,NoMove,NoXP,Shop",,
+npc,Rolf the Runesmith,Medium gnome (@),40,6,350,2,10,10,4:melee/Falchion,,,,"NPC,NoMove,NoXP,Shop",,
+npc,Bruno's General Store,Medium human (@),40,6,350,2,10,10,4:melee/Club,,,,"NPC,NoMove,NoXP,Shop",,
+npc,Wilder the Haberdasher,Medium human (@),40,6,350,2,10,10,6:melee/Rapier,,,,"NPC,NoMove,NoXP,Shop",,
 player,Player,Medium hero (@),10,1,100,2,10,10,4:melee/Dagger,,,,,,
 boss,Balor,Large Boss (&),200,22,2620,15,6,12,25:melee/Demon blade,,25:melee/Demon blade,12:melee/Demon whip,,,spell/Lightning6
 boss,Pit Fiend,Large Boss (&),180,20,3000,6,6,10,21:melee/Demon blade,,21:melee/Demon blade,12:melee/Claw,,,spell/Fire6
