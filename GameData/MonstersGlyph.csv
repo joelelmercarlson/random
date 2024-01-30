@@ -1,0 +1,496 @@
+﻿Base,Name,TileX,TileY
+ancient,imperial myrmdion,61,58
+ancient,servant of whispers,62,58
+ancient,ragged hierophant,63,58
+bat,bat,0,94
+bat,butterfly,0,63
+bat,vampire bat,33,63
+bat,fire bat,28,63
+bat,bennu,30,63
+bat,caustic shrike,31,63
+bat,shard shrike,32,63
+centaur,centaur,4,59
+centaur,centaur warrior,5,59
+centaur,yaktaur,6,59
+centaur,yaktaur captain,7,59
+centaur,faun,10,60
+centaur,satyr,47,59
+draconian,draconian,53,66
+draconian,black draconian,54,66
+draconian,yellow draconian,55,66
+draconian,pale draconian,56,66
+draconian,green draconian,57,66
+draconian,purple draconian,58,66
+draconian,red draconian,59,66
+draconian,white draconian,60,66
+draconian,grey draconian,61,66
+draconian,draconian stormcaller,62,66
+draconian,draconian monk,63,66
+draconian,draconian shifter,0,67
+draconian,draconian annihilator,1,67
+draconian,draconian knight,2,67
+draconian,draconian scorcher,3,67
+elf,elf,17,59
+elf,deep elf knight,18,59
+elf,deep elf archer,19,59
+elf,deep elf blademaster,20,59
+elf,deep elf master archer,21,59
+elf,deep elf zephyrmancer,22,59
+elf,deep elf pyromancer,23,59
+elf,deep elf high priest,24,59
+elf,deep elf demonologist,25,59
+elf,deep elf annihilator,26,59
+elf,deep elf sorcerer,27,59
+elf,deep elf death mage,28,59
+elf,deep elf elementalist,29,59
+plant,sleepcap,7,68
+plant,wandering mushroom,8,68
+plant,deathcap,14,94
+plant,thorn hunter,22,94
+plant,shambling mangrove,63,67
+plant,vine stalker,60,67
+goblin,goblin,1,60
+goblin,hobgoblin,2,60
+goblin,gnoll,19,60
+goblin,gnoll bouda,20,60
+goblin,gnoll sergeant,20,60
+goblin,boggart,21,60
+goblin,dwarf,0,60
+goblin,deep dwarf,0,60
+quadruped,jackal,6,64
+quadruped,hound,7,64
+quadruped,howler monkey,7,64
+quadruped,warg,56,64
+quadruped,wolf,57,64
+quadruped,inugami,60,63
+quadruped,hog,61,63
+quadruped,hell hound,62,63
+quadruped,doom hound,63,63
+quadruped,raiju,59,63
+quadruped,hell hog,61,63
+quadruped,holy swine,2,64
+quadruped,felid,41,84
+quadruped,polar bear,21,64
+quadruped,black bear,21,64
+spriggan,spriggan,52,59
+spriggan,spriggan rider,52,59
+spriggan,spriggan druid,53,59
+spriggan,spriggan berserker,53,59
+spriggan,spriggan air mage,53,59
+spriggan,spriggan defender,53,59
+drake,wyvern,0,62
+drake,swamp drake,21,67
+drake,rime drake,22,67
+drake,wind drake,33,67
+drake,lindwurm,36,67
+drake,death drake,39,67
+lizard,frilled lizard,38,62
+lizard,iguana,46,63
+lizard,crocodile,39,62
+lizard,basilisk,36,67
+lizard,komodo gdragon,55,63
+lizard,alligator,40,62
+merfolk,merfolk,50,60
+merfolk,merfolk impaler,51,60
+merfolk,merfolk javelineer,52,60
+merfolk,merfolk aquamancer,53,60
+merfolk,merfolk siren,54,60
+merfolk,sickly merfolk siren,55,60
+merfolk,merfolk avatar,56,60
+merfolk,malarious merfolk avatar,57,60
+merfolk,water nymph,48,60
+undead,bog body,49,75
+undead,necrophage,58,74
+undead,bloated husk,41,75
+undead,ghoul,34,59
+undead,searing wretch,36,59
+orc,orc,23,61
+orc,orc wizard,24,61
+orc,orc priest,25,61
+orc,orc warrior,26,61
+orc,orc knight,27,61
+orc,orc warlord,28,61
+orc,orc sorcerer,29,61
+orc,orc high priest,30,61
+human,human,40,76
+human,burial acolyte,41,76
+human,hell knight,42,76
+human,death knight,43,76
+human,necromancer,44,76
+human,arcanist,45,76
+human,occultist,46,76
+human,vault guard,47,76
+human,vault sentinel,48,76
+human,vault warden,49,76
+human,ironbound convoker,50,76
+human,ironbound frostheart,51,76
+human,ironbound preserver,52,76
+human,shapeshifter,53,76
+human,glowing shapeshifter,54,76
+human,killer klown,55,76
+human,demigod,56,76
+human,halfling,57,76
+human,metoeran,58,76
+human,spectator,59,76
+rat,rat,19,64
+rat,quokka,28,64
+rat,river rat,56,63
+rat,hell rat,45,65
+rat,crystal echidna,27,64
+spider,scorpion,27,63
+spider,emperor scorpion,51,63
+spider,tarantella,61,64
+spider,jumping spider,62,64
+spider,wolf spider,63,64
+spider,redback,50,65
+spider,demonic crawler,51,64
+spider,orb spider,29,64
+spider,broodmother,30,64
+spider,culicivora,52,64
+testudine,snapping turtle,41,62
+testudine,alligator snapping turtle,42,62
+testudine,fire crab,29,63
+testudine,ghost crab,56,75
+testudine,apocalypse crab,23,62
+ugly,ugly thing,20,62
+ugly,very ugly thing,21,62
+vortice,fire vortex,33,68
+vortice,spatial vortex,35,68
+vortice,spatial maelstrom,36,68
+vortice,will-o-the-wisp,27,68
+vortice,twister,25,68
+worm,ribbon worm,29,61
+worm,brain worm,30,61
+worm,swamp worm,31,61
+worm,tyrant leech,32,61
+worm,dart slug,33,61
+worm,torpor snail,34,61
+worm,steelbarb worm,35,61
+worm,elephant slug,36,61
+horror,unseen horror,37,61
+horror,small abomination,38,61
+horror,ancient zyme,39,61
+horror,worldbinder,40,61
+horror,bunyip,41,61
+octopode,octopode,42,61
+insect,killer bee,43,61
+insect,queen bee,44,61
+insect,vampire mosquito,45,61
+insect,hornet,46,61
+insect,meliai,47,61
+insect,spark wasp,48,61
+insect,ghost moth,49,61
+insect,moth of wrath,50,61
+insect,sun moth,51,61
+undead,wight,52,61
+undead,skeletal warrior,53,61
+undead,ancient champion,54,61
+undead,weeping skull,55,61
+undead,laughing skull,56,61
+undead,curse skull,57,61
+undead,curse toe,58,61
+undead,death cob,59,61
+undead,revenant,60,61
+angelic,angel,9,68
+angelic,cherub,10,68
+angelic,seraph,11,68
+angelic,daeva,13,68
+angelic,profane servitor,12,68
+beetle,giant cockroach,2,62
+beetle,bombardier beetle,3,62
+beetle,radroach,4,62
+beetle,formicid,5,62
+beetle,entropy weaver,6,62
+beetle,boulder beetle,7,62
+beetle,pharaoh ant,8,62
+beetle,death scarab,9,62
+giant,cyclops,10,62
+giant,ettin,11,62
+giant,fire giant,12,62
+giant,frost giant,13,62
+giant,stone giant,14,62
+giant,titan,15,62
+giant,juggernaut,16,62
+giant,iron giant,17,62
+giant,cactus giant,18,62
+giant,tainted leviathan,19,62
+giant,protean progenitor,20,62
+dragon,fire dragon,21,62
+dragon,hydra,22,62
+dragon,ice dragon,23,62
+dragon,steam dragon,24,62
+dragon,swamp dragon,25,62
+dragon,acid dragon,26,62
+dragon,quicksilver dragon,27,62
+dragon,iron dragon,28,62
+dragon,storm dragon,29,62
+dragon,golden dragon,30,62
+dragon,shadow dragon,31,62
+dragon,bone dragon,32,62
+dragon,pearl dragon,33,62
+elemental,earth elemental,34,62
+elemental,quicksilver elemental,35,62
+elemental,fire elemental,36,62
+elemental,water elemental,37,62
+elemental,air elemental,38,62
+elemental,iron elemental,39,62
+elemental,elemental wellspring,40,62
+frog,bullfrog,41,62
+frog,cane toad,42,62
+frog,blink frog,43,62
+frog,goliath frog,44,62
+frog,skyshark,45,62
+frog,barachi,46,62
+eye,glass eye,47,62
+eye,glowing orange brain,48,62
+eye,great orb of eyes,49,62
+eye,shining eye,50,62
+eye,eye of devastation,51,62
+eye,golden eye,52,62
+eye,orphan,53,62
+hybrid,manticore,54,62
+hybrid,minotaur,55,62
+hybrid,fenstrider witch,56,62
+hybrid,sphinx,57,62
+hybrid,harpy,58,62
+hybrid,jorogumo,59,62
+hybrid,armataur,60,62
+hybrid,mutant beast,61,62
+jelly,endoplasm,62,62
+jelly,jelly,63,62
+jelly,slime creature,0,63
+jelly,formless jellyfish,1,63
+jelly,rockslime,2,63
+jelly,quicksilver ooze,3,63
+jelly,azure jelly,4,63
+jelly,acid blob,5,63
+kobold,kobold,6,63
+kobold,kobold brigand,7,63
+kobold,kobold demonologist,8,63
+kobold,kobold blastminer,9,63
+lich,lich,10,63
+lich,ancient lich,11,63
+lich,dread lich,12,63
+lich,halazid warlock,13,63
+lich,stoker,14,63
+mummy,mummy,15,63
+mummy,guardian mummy,16,63
+mummy,royal mummy,17,63
+mummy,mummy priest,18,63
+naga,naga,19,63
+naga,naga mage,20,63
+naga,naga sharpshooter,21,63
+naga,naga ritualist,22,63
+naga,naga warrior,23,63
+naga,nagaraja,24,63
+naga,salamander,25,63
+naga,salamander mystic,26,63
+naga,salamander tyrant,27,63
+ogre,ogre,28,63
+ogre,two-headed ogre,29,63
+ogre,ogre mage,30,63
+ogre,ironbound thunderhulk,31,63
+ogre,oni,32,63
+plant,plant,33,63
+plant,demonic plant,34,63
+plant,withered plant,35,63
+plant,oklob sapling,36,63
+plant,oklob plant,37,63
+plant,starflower,38,63
+plant,bush,39,63
+plant,burning bush,40,63
+plant,toadstool,41,63
+plant,fungus,42,63
+plant,ballistomycete,43,63
+plant,briar patch,44,63
+tengu,tengu,45,63
+tengu,tengu conjurer,46,63
+tengu,tengu warrior,47,63
+tengu,tengu reaver,48,63
+spiritual,djinni,49,63
+spiritual,ancestor,50,63
+spiritual,knight,51,63
+spiritual,battlemage,52,63
+spiritual,hexer,53,63
+spiritual,efreet,54,63
+spiritual,rakshasa,55,63
+spiritual,eleionoma,56,63
+spiritual,wendigo,57,63
+spiritual,dryad,58,63
+spiritual,snaplasher vine,59,63
+spiritual,snaplasher vine segment,60,63
+snake,ball python,61,63
+snake,adder,62,63
+snake,water moccasin,63,63
+snake,black mamba,0,64
+snake,sea snake,1,64
+snake,anaconda,2,64
+snake,guardian serpent,3,64
+snake,shock serpent,4,64
+snake,mana viper,5,64
+snake,electric eel,6,64
+snake,lava snake,7,64
+troll,troll,8,64
+troll,iron troll,9,64
+troll,deep troll,10,64
+troll,deep troll earth mage,11,64
+vampire,vampire,12,64
+vampire,vampire knight,13,64
+vampire,vampire mage,14,64
+vampire,jiangshi,15,64
+wraith,ghost,16,64
+wraith,phantom,17,64
+wraith,martyred shade,18,64
+wraith,flayed ghost,19,64
+wraith,player ghost,20,64
+wraith,shadow,21,64
+wraith,silent spectre,22,64
+wraith,drowned soul,23,64
+wraith,wraith,24,64
+wraith,shadow wraith,25,64
+wraith,putrid mouth,26,64
+wraith,freezing wraith,27,64
+wraith,eidolon,28,64
+wraith,phantasmal warrior,29,64
+horror,large abomination,30,64
+horror,thrashing horror,31,64
+horror,tentacled monstrosity,32,64
+horror,orb guardian,33,64
+horror,tentacled starspawn,34,64
+horror,starspawn tentacle,35,64
+horror,starspawn tentacle segment,36,64
+horror,starcursed mass,37,64
+horror,nameless horror,38,64
+horror,kraken,39,64
+horror,tentacle,40,64
+horror,tentacle segment,41,64
+horror,eldritch tentacle,42,64
+horror,eldritch tentacle segment,43,64
+yak,dream sheep,44,64
+yak,yak,45,64
+yak,death yak,46,64
+yak,catoblepas,47,64
+yak,elephant,48,64
+yak,dire elephant,49,64
+yak,hellphant,50,64
+yak,apis,51,64
+yak,ice breast,52,64
+yak,sky beast,53,64
+zombie,zombie,54,64
+zombie,skeleton,55,64
+zombie,simulacrum,56,64
+zombie,small zombie,57,64
+zombie,small skeleton,58,64
+zombie,small simulacrum,59,64
+zombie,large zombie,60,64
+zombie,large skeleton,61,64
+zombie,large simulacrum,62,64
+zombie,spectral thing,63,64
+zombie,bound soul,0,65
+demon,demonspawn,1,65
+demon,demonspawn blood saint,2,65
+demon,demonspawn warmonger,3,65
+demon,demonspawn corrupter,4,65
+demon,demonspawn black sun,5,65
+demon,crimson imp,6,65
+demon,cerulean imp,7,65
+demon,quasit,8,65
+demon,white imp,9,65
+demon,ufetubus,10,65
+demon,iron imp,11,65
+demon,shadow imp,12,65
+demon,lemure,13,65
+demon,rust devil,14,65
+demon,orange demon,15,65
+demon,bone devil,16,65
+demon,red devil,17,65
+demon,hellwing,18,65
+demon,ice devil,19,65
+demon,chaos spawn,20,65
+demon,sun demon,21,65
+demon,soul eater,22,65
+demon,smoke demon,23,65
+demon,neqoxec,24,65
+demon,ynoxinul,25,65
+demon,sixfirhy,26,65
+demon,shadow demon,27,65
+demon,green death,28,65
+demon,blizzard demon,29,65
+demon,balrug,30,65
+demon,cacodemon,31,65
+demon,hell beast,32,65
+demon,hellion,33,65
+demon,reaper,34,65
+demon,lorocyproca,35,65
+demon,tormentor,36,65
+demon,Brimstone Fiend,37,65
+demon,Ice Fiend,38,65
+demon,Tzitzimitl,39,65
+demon,Hell Sentinel,40,65
+demon,Executioner,41,65
+construct,ice statue,42,65
+construct,obsidian statue,43,65
+construct,orange crytstal statue,44,65
+construct,training dummy,45,65
+construct,pillar of salt,46,65
+construct,block of ice,47,65
+construct,diamond obelisk,48,65
+construct,lightning spire,49,65
+construct,strange machine,50,65
+construct,saltling,51,65
+construct,peacekeeper,52,65
+construct,iron golem,53,65
+construct,crystal guardian,54,65
+construct,toenail golem,55,65
+construct,electric golem,56,65
+construct,nargun,57,65
+construct,ushabti,58,65
+construct,gargoyle,59,65
+construct,molten gargoyle,60,65
+construct,war gargoyle,61,65
+construct,blazeheart golem,62,65
+construct,spellforged servitor,63,65
+spell,ball lightning,56,68
+spell,ballistomycete spore,56,68
+spell,lost soul,56,68
+spell,lurking horror,56,68
+spell,orb of fire,56,68
+spell,creeping inferno,56,68
+spell,orb of destruction,56,68
+spell,foxfire,56,68
+spell,fulminant prism,56,68
+spell,wretched star,56,68
+spell,battlesphere,57,68
+spell,boulder,58,68
+spell,aspiring flesh,59,68
+spell,blazeheart core,60,68
+npc,scrawny cat,42,84
+npc,scruffy dog,6,64
+npc,horse,12,68
+npc,sheep,18,63
+npc,barbarian,21,59
+npc,bard,22,59
+npc,cleric,23,59
+npc,druid,24,59
+npc,fighter,25,59
+npc,monk,26,59
+npc,paladin,27,59
+npc,ranger,28,59
+npc,rogue,29,59
+npc,sorcerer,30,59
+npc,warlock,31,59
+npc,wizard,32,59
+npc,Heinz the Weaponsmith,0,12
+npc,Felix the Fletcher,1,12
+npc,Stori the Blacksmith,0,12
+npc,Rolf the Runesmith,1,12
+npc,Bruno's General Store,1,12
+npc,Wilder the Haberdasher,1,12
+player,Player,23,60
+boss,Balor,8,94
+boss,Pit Fiend,2,94
+boss,Tarrasque,1,94
+boss,Witch-King,17,94
+boss,Vampire King,12,94
+item,Stair Down,53,11
+item,Stair Up,54,11
