@@ -492,5 +492,202 @@ boss,Pit Fiend,2,94
 boss,Tarrasque,1,94
 boss,Witch-King,17,94
 boss,Vampire King,12,94
-item,Stair Down,53,11
-item,Stair Up,54,11
+arrow,Stair Down,53,11
+arrow,Stair Up,54,11
+ShortBlade,melee/Dagger,17,45
+ShortBlade,melee/Quick blade,18,45
+ShortBlade,melee/Shortsword,4,45
+ShortBlade,melee/Rapier,8,47
+LongBlade,melee/Falchion,0,45
+LongBlade,melee/Longsword,5,45
+LongBlade,melee/Scimitar,6,45
+LongBlade,melee/Demon blade,7,45
+LongBlade,melee/Zweihander,8,45
+LongBlade,melee/Bastard Sword,9,45
+LongBlade,melee/Greatsword,10,45
+LongBlade,melee/Executioner Sword,11,45
+Hafted,melee/Club,12,45
+Hafted,melee/Whip,13,45
+Hafted,melee/Mace,14,45
+Hafted,melee/Flail,15,45
+Hafted,melee/Morningstar,16,45
+Hafted,melee/Demon whip,17,45
+Hafted,melee/Sacred scourge,18,45
+Hafted,melee/Dire flail,19,45
+Hafted,melee/Eveningstar,20,45
+Hafted,melee/Great mace,21,45
+Hafted,melee/Giant club,22,45
+Hafted,melee/Giant spiked club,23,45
+Axe,melee/Handaxe,24,45
+Axe,melee/War axe,25,45
+Axe,melee/Broad axe,26,45
+Axe,melee/Battleaxe,27,45
+Axe,melee/Greataxe,28,45
+Polearm,melee/Spear,29,45
+Polearm,melee/Trident,30,45
+Polearm,melee/Halberd,31,45
+Polearm,melee/Demon trident,32,45
+Polearm,melee/Fork,33,45
+Polearm,melee/Glaive,34,45
+Polearm,melee/Bardache,35,45
+Staff,melee/Staff,36,45
+Staff,melee/Quarterstaff,37,45
+Staff,melee/Lajatang,38,45
+Bow,shoot/Sling,43,49
+Bow,shoot/Shortbow,40,45
+Bow,shoot/Longbow,41,45
+Bow,"shoot/Crossbow, light",42,45
+Bow,"shoot/Crossbow, hand",43,45
+Bow,"shoot/Crossbow, heavy",44,45
+Throw,throw/stone,0,46
+Throw,throw/poisoned dart,1,46
+Throw,throw/basilisk dart,2,46
+Throw,throw/stun dart,3,46
+Throw,throw/smokepowder bomb,4,46
+Throw,throw/fey arrow,5,46
+Throw,throw/boomerang,6,46
+Throw,throw/javelin,7,46
+Throw,throw/large rock,8,46
+Throw,throw/net,9,46
+armor,armor/Robe,10,46
+armor,armor/Leather,0,38
+armor,armor/Ring mail,1,38
+armor,armor/Scale mail,2,38
+armor,armor/Chain mail,3,38
+armor,armor/Plate,4,38
+armor,armor/Crystal plate armor,5,38
+armor,armor/Animal skin,6,38
+armor,armor/Troll leather armor,7,38
+armor,armor/Steam dragon scales,8,38
+armor,armor/Acid dragon scales,9,38
+armor,armor/Swamp dragon scales,10,38
+armor,armor/Quicksilver dragon scales,11,38
+armor,armor/Fire dragon scales,12,38
+armor,armor/Ice dragon scales,13,38
+armor,armor/Pearl dragon scales,14,38
+armor,armor/Storm dragon scales,15,38
+armor,armor/Shadow dragon scales,16,38
+armor,armor/Gold dragon scales,17,38
+armor,shield/Buckler,29,37
+armor,shield/Shield,20,37
+armor,shield/Tower,19,37
+armor,feet/Leather Boots,23,36
+armor,feet/Mail Chausses,24,36
+armor,feet/Plate Leggings,25,36
+armor,feet/Dragonhide Boots,26,36
+armor,hands/Bracers,29,36
+armor,hands/Fine Leather,30,36
+armor,hands/Gauntlets,31,36
+armor,hands/Vambraces,32,36
+armor,head/Leather Skullcap,0,37
+armor,head/Helm,1,37
+armor,head/Mail Coif,2,37
+armor,head/Wide Brimmed Hat,3,37
+armor,cloak/Cloak,9,36
+armor,cloak/Fur Cloak,10,36
+armor,cloak/Elven Cloak,11,36
+armor,cloak/Dragonscale Cloak,12,36
+food,food/baguette,1,40
+food,food/blushcap mushroom,2,40
+food,food/bonecap mushroom,3,40
+food,food/cabbage,4,40
+food,food/carafe of wine,5,40
+food,food/carrot,6,40
+food,food/cheese wedge,7,40
+food,food/cheese wheel,8,40
+food,food/chicken,9,40
+food,food/courgette,10,40
+food,food/dried fish,11,40
+food,food/egg,12,40
+food,food/fey mushroom,13,40
+food,food/fish head,14,40
+food,food/fungus stew,15,40
+food,food/garlic,16,40
+food,food/grilled pork belly,17,40
+food,food/grilled ribs,18,40
+food,food/gruel,31,40
+food,food/half eaten apple,32,40
+food,food/ham,33,40
+food,food/healing herbs,34,40
+food,food/lemon,35,40
+food,food/mushroom,36,40
+food,food/orange,37,40
+food,food/pear,38,40
+food,food/pig's head,39,40
+food,food/pitcher of beer,11,47
+food,food/pork shoulder,12,47
+food,food/potato,13,47
+food,food/pumpkin,14,47
+food,food/raw steak,15,47
+food,food/red apple,16,47
+food,food/rum,17,47
+food,food/sausage,18,47
+food,food/sourdough bread,19,47
+food,food/supply pack,20,47
+food,food/toadstool,21,47
+ring,jewelry/Ring,34,42
+ring,jewelry/Ring of Acid,35,42
+ring,jewelry/Ring of Alchemy,36,42
+ring,jewelry/Ring of Cold,37,42
+ring,jewelry/Ring of Darkness,38,42
+ring,jewelry/Ring of Dexterity,39,42
+ring,jewelry/Ring of Fire,40,42
+ring,jewelry/Ring of Flight,41,42
+ring,jewelry/Ring of Intelligence,42,42
+ring,jewelry/Ring of Light,43,42
+ring,jewelry/Ring of Lightning,44,42
+ring,jewelry/Ring of Poison,45,42
+ring,jewelry/Ring of Stealth,46,42
+ring,jewelry/Ring of Strength,47,42
+ring,jewelry/Ring of Thunder,48,42
+ring,jewelry/Ring of Venom,49,42
+ring,jewelry/Ring of Willpower,50,42
+amulet,neck/Amulet,0,35
+amulet,neck/Amulet of Elements,1,35
+amulet,neck/Amulet of Flight,2,35
+amulet,neck/Amulet of Nature,3,35
+amulet,neck/Amulet of Sky,4,35
+amulet,neck/Amulet of Stealth,5,35
+amulet,neck/Amulet of Storms,6,35
+amulet,neck/Amulet of Willpower,7,35
+amulet,neck/Pendant of Death,8,35
+amulet,neck/Pendant of Life,9,35
+potion,potion/Elixir of Silvanus,0,42
+potion,potion/Goodberry Potion,1,42
+potion,potion/Potion of ambrosia,2,42
+potion,potion/Potion of attraction,3,42
+potion,potion/Potion of berserk rage,4,42
+potion,potion/Potion of brilliance,5,42
+potion,potion/Potion of cancellation,6,42
+potion,potion/Potion of curing,7,42
+potion,potion/Potion of degeneration,8,42
+potion,potion/Potion of enlightenment,9,42
+potion,potion/Potion of experience,10,42
+potion,potion/Potion of haste,11,42
+potion,potion/Potion of heal wounds,12,42
+potion,potion/Potion of Healing,13,42
+potion,potion/Potion of invisibility,14,42
+potion,potion/Potion of lignification,15,42
+potion,potion/Potion of magic,16,42
+potion,potion/Potion of might,17,42
+potion,potion/Potion of mutation,18,42
+potion,potion/Potion of resistance,19,42
+scroll,scroll/Scroll of acquirement,0,39
+scroll,scroll/Scroll of amnesia,1,39
+scroll,scroll/Scroll of blinking,2,39
+scroll,scroll/Scroll of brand weapon,3,39
+scroll,scroll/Scroll of butterflies,4,39
+scroll,scroll/Scroll of enchant armor,5,39
+scroll,scroll/Scroll of enchant weapon,6,39
+scroll,scroll/Scroll of fear,7,39
+scroll,scroll/Scroll of fog,8,39
+scroll,scroll/Scroll of identify,9,39
+scroll,scroll/Scroll of immolation,10,39
+scroll,scroll/Scroll of noise,11,39
+scroll,scroll/Scroll of poison,12,39
+scroll,scroll/Scroll of revelation,13,39
+scroll,scroll/Scroll of silence,14,39
+scroll,scroll/Scroll of summoning,15,39
+scroll,scroll/Scroll of teleportation,16,39
+scroll,scroll/Scroll of torment,17,39
+scroll,scroll/Scroll of vulnerability,18,39
