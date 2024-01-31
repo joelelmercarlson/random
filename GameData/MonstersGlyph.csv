@@ -45,10 +45,10 @@ elf,deep elf death mage,28,59
 elf,deep elf elementalist,29,59
 plant,sleepcap,7,68
 plant,wandering mushroom,8,68
-plant,deathcap,14,94
-plant,thorn hunter,22,94
-plant,shambling mangrove,63,67
-plant,vine stalker,60,67
+plant,deathcap,4,68
+plant,thorn hunter,5,68
+plant,shambling mangrove,6,68
+plant,vine stalker,22,94
 goblin,goblin,1,60
 goblin,hobgoblin,2,60
 goblin,gnoll,19,60
@@ -180,8 +180,8 @@ insect,hornet,26,64
 insect,meliai,27,64
 insect,spark wasp,28,64
 insect,ghost moth,29,64
-insect,moth of wrath,30,61
-insect,sun moth,31,61
+insect,moth of wrath,30,63
+insect,sun moth,31,63
 undead,wight,52,61
 undead,skeletal warrior,53,61
 undead,ancient champion,54,61
@@ -392,42 +392,42 @@ demon,demonspawn blood saint,38,78
 demon,demonspawn warmonger,39,78
 demon,demonspawn corrupter,40,78
 demon,demonspawn black sun,41,78
-demon,crimson imp,16,56
-demon,cerulean imp,17,56
-demon,quasit,18,56
-demon,white imp,19,56
-demon,ufetubus,20,56
-demon,iron imp,21,56
-demon,shadow imp,22,56
-demon,lemure,23,56
-demon,rust devil,24,56
-demon,orange demon,25,56
-demon,bone devil,26,56
-demon,red devil,27,56
-demon,hellwing,28,56
-demon,ice devil,29,56
-demon,chaos spawn,30,56
-demon,sun demon,31,56
-demon,soul eater,32,56
-demon,smoke demon,33,56
-demon,neqoxec,34,56
-demon,ynoxinul,35,56
-demon,sixfirhy,36,56
-demon,shadow demon,37,56
-demon,green death,38,56
-demon,blizzard demon,39,56
-demon,balrug,40,56
-demon,cacodemon,41,56
-demon,hell beast,42,56
-demon,hellion,43,56
-demon,reaper,44,56
-demon,lorocyproca,45,56
-demon,tormentor,46,56
-demon,Brimstone Fiend,47,56
-demon,Ice Fiend,48,56
-demon,Tzitzimitl,49,56
-demon,Hell Sentinel,50,56
-demon,Executioner,51,56
+demon,crimson imp,16,65
+demon,cerulean imp,17,65
+demon,quasit,18,65
+demon,white imp,19,65
+demon,ufetubus,20,65
+demon,iron imp,21,65
+demon,shadow imp,22,65
+demon,lemure,23,65
+demon,rust devil,24,65
+demon,orange demon,25,65
+demon,bone devil,26,65
+demon,red devil,27,65
+demon,hellwing,28,65
+demon,ice devil,29,65
+demon,chaos spawn,30,65
+demon,sun demon,31,65
+demon,soul eater,32,65
+demon,smoke demon,33,65
+demon,neqoxec,34,65
+demon,ynoxinul,35,65
+demon,sixfirhy,36,65
+demon,shadow demon,37,65
+demon,green death,38,65
+demon,blizzard demon,39,65
+demon,balrug,40,65
+demon,cacodemon,41,65
+demon,hell beast,42,65
+demon,hellion,43,65
+demon,reaper,44,65
+demon,lorocyproca,45,65
+demon,tormentor,46,65
+demon,Brimstone Fiend,47,65
+demon,Ice Fiend,48,65
+demon,Tzitzimitl,49,65
+demon,Hell Sentinel,50,65
+demon,Executioner,51,65
 construct,ice statue,6,71
 construct,obsidian statue,7,71
 construct,orange crytstal statue,8,71
@@ -448,8 +448,8 @@ construct,ushabti,51,66
 construct,gargoyle,52,66
 construct,molten gargoyle,53,66
 construct,war gargoyle,54,66
-construct,blazeheart golem,55,66
-construct,spellforged servitor,56,66
+construct,blazeheart golem,28,71
+construct,spellforged servitor,29,71
 spell,ball lightning,56,68
 spell,ballistomycete spore,56,68
 spell,lost soul,56,68
@@ -468,15 +468,15 @@ npc,scrawny cat,42,84
 npc,scruffy dog,6,64
 npc,horse,12,68
 npc,sheep,18,63
-npc,barbarian,21,59
+npc,barbarian,23,59
 npc,bard,22,59
-npc,cleric,23,59
-npc,druid,24,59
+npc,cleric,29,59
+npc,druid,19,59
 npc,fighter,4,79
 npc,monk,5,79
 npc,paladin,6,79
 npc,ranger,7,79
-npc,rogue,29,59
+npc,rogue,28,59
 npc,sorcerer,30,59
 npc,warlock,31,59
 npc,wizard,32,59
