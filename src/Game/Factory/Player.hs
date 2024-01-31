@@ -60,7 +60,13 @@ mkPlayer x n = let
   , eMP = 1
   , eMaxMP = 1
   , eXP = 0
-  , ecolor = RGB 0 255 0 }
+  , ecolor = RGB 0 255 0
+  , eFeral = False
+  , eTunnel = False
+  , eIncorporeal = False
+  , eSpeed = 10
+  , tid = (8,38)
+  }
 
 mkProperty :: Text -> Character -> [(Text, Text)]
 mkProperty pCls Character{..} = let
