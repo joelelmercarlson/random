@@ -43,18 +43,21 @@ instance ToJSON VisualKind
 data VisualKind
   = VActor
   | VWall
-  | VOpen
   | VLWall
+  | VOpen
+  | VLOpen
   | VWater
+  | VLWater
   | VWater2
+  | VLWater2
   | VRubble
-  | VRock
   | VMagma
   | VDoor
-  | VStairDn
-  | VStairUp
   | VTrap
-  | VCoin
+  | VLit
+  | VLit1
+  | VLit2
+  | VLit3
   | VArrow
   | VAcid
   | VCold
