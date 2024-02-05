@@ -40,33 +40,10 @@ abilitySort x n@Character{..}
 
 mkPlayer :: Text -> Character -> EntityKind
 mkPlayer x n = let
-  pCls  = classFmt x
-  actor = abilitySort pCls n
-  in EntityKind {
-  coord = originPoint
-  , block = True
-  , move = True
-  , kind = Actor
-  , glyph = VActor
-  , energy = Map.fromList [("seed", 0), ("Hunger", 500), ("speed", 100), ("energy", 100), ("Coin", 13)]
-  , equipment = Map.empty
-  , extra = Map.empty
-  , inventory = Map.empty
-  , property = Map.fromList $ mkProperty pCls actor
-  , status = Map.empty
-  , eLvl = 1
-  , eHP = 8
-  , eMaxHP = 8
-  , eMP = 1
-  , eMaxMP = 1
-  , eXP = 0
-  , ecolor = RGB 0 255 0
-  , eFeral = False
-  , eTunnel = False
-  , eIncorporeal = False
-  , eSpeed = 10
-  , tid = (8,38)
-  }
+  cls = classFmt x
+  actor = abilitySort cls n
+  newEntity = mkEntityKind "Player" originPoint
+  in newEntity { property = Map.fromList $ mkProperty cls actor }
 
 mkProperty :: Text -> Character -> [(Text, Text)]
 mkProperty pCls Character{..} = let

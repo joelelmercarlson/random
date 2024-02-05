@@ -84,7 +84,7 @@ drake,rime drake,22,67
 drake,wind drake,33,67
 drake,lindwurm,36,67
 drake,death drake,39,67
-lizard,frilled lizard,38,62
+lizard,frilled lizard,55,63
 lizard,iguana,46,63
 lizard,crocodile,39,62
 lizard,basilisk,36,67
@@ -256,14 +256,14 @@ hybrid,harpy,56,61
 hybrid,jorogumo,56,61
 hybrid,armataur,56,61
 hybrid,mutant beast,56,61
-jelly,endoplasm,56,59
-jelly,jelly,57,59
-jelly,slime creature,58,59
-jelly,formless jellyfish,8,64
-jelly,rockslime,33,66
-jelly,quicksilver ooze,34,66
-jelly,azure jelly,35,66
-jelly,acid blob,36,66
+jelly,endoplasm,36,62
+jelly,jelly,37,62
+jelly,slime creature,33,62
+jelly,formless jellyfish,32,62
+jelly,rockslime,20,62
+jelly,quicksilver ooze,31,62
+jelly,azure jelly,35,62
+jelly,acid blob,34,62
 kobold,kobold,1,62
 kobold,kobold brigand,2,62
 kobold,kobold demonologist,3,62
