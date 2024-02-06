@@ -12,9 +12,12 @@ module Game.Library.Kind.Entity (
   , Energies
   , EntityMap
   , Entity(..)
+  , EntityEmote(..)
   , EntityKind(..)
   , EntityHoly(..)
   , EntitySize(..)
+  , EntitySmart(..)
+  , EntityUse(..)
   , Equipment
   , Inventory
   , mkEntityKind
@@ -79,6 +82,34 @@ data EntitySize
 instance FromJSON EntitySize
 instance ToJSON EntitySize
 
+data EntitySmart
+  = Mindless
+  | Animal
+  | Human
+  deriving (Ord, Show, Eq, Generic)
+
+instance FromJSON EntitySmart
+instance ToJSON EntitySmart
+
+data EntityUse
+  = MonNone
+  | MonDoor
+  | MonEquipment
+  deriving (Ord, Show, Eq, Generic)
+
+instance FromJSON EntityUse
+instance ToJSON EntityUse
+
+data EntityEmote
+  = Silent
+  | Howl
+  | Shout
+  | Roar
+  deriving (Ord, Show, Eq, Generic)
+
+instance FromJSON EntityEmote
+instance ToJSON EntityEmote
+
 -- | EntityKind
 -- | eHP       : Hit Point
 -- | eLvl      : Level
@@ -96,7 +127,11 @@ instance ToJSON EntitySize
 -- | tid       : xy in glyph
 -- | coord     : Position
 -- | '@' and 'M' data
+-- | eAC          : ArmorClass
+-- | eEV          : Evasion
+-- | eWP          : WillPower
 -- | eBlock       : Movable Entity
+-- | eCorpse      : Corpse tid
 -- | eFeral       : Mindless?
 -- | eFly         : Fly?
 -- | eIncorporeal : Ghost?
@@ -111,6 +146,23 @@ instance ToJSON EntitySize
 -- | eSize        : Size
 -- | eSpeed       : Speed
 -- | eTunnel      : Digger?
+-- | Item data
+-- | eValue : Damage, Value...
+-- | eHit   : plus/minus accuracy
+-- | eEn    : encumbrance
+-- | 'M' natural resistance
+-- | eResAcid      : acid
+-- | eResCold      : cold
+-- | eResFire      : fire
+-- | eResLightning : lightning
+-- | eResNecrotic  : necrotic
+-- | eResPoison    : poison
+-- | eResHoly      : silver, radiant
+-- | eResPain      : slashing, piercing, bludgeoning
+-- | 'M' flavor
+-- | eSmart : smart?
+-- | eUse   : equipment?
+-- | eEmote : shout?
 data EntityKind = EntityKind
   { eHP       :: !Int
   , eLvl      :: !Int
@@ -131,6 +183,7 @@ data EntityKind = EntityKind
   , eEV          :: Maybe Int
   , eWP          :: Maybe Int
   , eBlock       :: Maybe Bool
+  , eCorpse      :: Maybe (Int,Int)
   , eFeral       :: Maybe Bool
   , eFly         :: Maybe Bool
   , eHoly        :: Maybe EntityHoly
@@ -146,6 +199,20 @@ data EntityKind = EntityKind
   , eSize        :: Maybe EntitySize
   , eSpeed       :: Int
   , eTunnel      :: Maybe Bool
+  , eValue :: Maybe Int
+  , eHit   :: Maybe Int
+  , eEn    :: Maybe Int
+  , eResAcid      :: Maybe Int
+  , eResCold      :: Maybe Int
+  , eResFire      :: Maybe Int
+  , eResLightning :: Maybe Int
+  , eResNecrotic  :: Maybe Int
+  , eResPoison    :: Maybe Int
+  , eResHoly      :: Maybe Int
+  , eResPain      :: Maybe Int
+  , eSmart :: Maybe EntitySmart
+  , eUse   :: Maybe EntityUse
+  , eEmote :: Maybe EntityEmote
   } deriving (Show, Eq, Generic)
 
 instance FromJSON EntityKind
@@ -171,10 +238,11 @@ mkEntityKind x p =
   , tid       = (24,49)
   , coord     = p
   -- | '@' and 'M'
-  , eAC          = Just 0
-  , eEV          = Just 0
-  , eWP          = Just 0
+  , eAC = Just 0
+  , eEV = Just 0
+  , eWP = Just 0
   , eBlock       = Just False
+  , eCorpse      = Just (0,0)
   , eFeral       = Nothing
   , eFly         = Nothing
   , eHoly        = Nothing
@@ -190,4 +258,18 @@ mkEntityKind x p =
   , eSize        = Nothing
   , eSpeed       = 10
   , eTunnel      = Nothing
+  , eValue = Just 0
+  , eHit   = Just 0
+  , eEn    = Just 0
+  , eResAcid      = Just 0
+  , eResCold      = Just 0
+  , eResFire      = Just 0
+  , eResLightning = Just 0
+  , eResNecrotic  = Just 0
+  , eResPoison    = Just 0
+  , eResHoly      = Just 0
+  , eResPain      = Just 0
+  , eSmart = Nothing
+  , eUse   = Nothing
+  , eEmote = Nothing
   }

@@ -132,11 +132,11 @@ human,demigod,NoSpawn,Medium,Natural,Human,MonEquipment,Shout
 human,halfling,,Small,Natural,Human,MonEquipment,Shout
 human,metoeran,NoSpawn,Medium,Natural,Human,MonEquipment,Shout
 human,spectator,"NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-rat,rat,,Tiny,Natural,Animal,MonNone,Squeek
-rat,quokka,,Small,Natural,Animal,MonNone,Shout
-rat,river rat,,Tiny,Natural,Animal,MonNone,Shout
-rat,hell rat,,Small,Demonic,Animal,MonNone,Shout
-rat,crystal echidna,,Small,NonLiving,Animal,MonNone,Shout
+rat,rat,,Tiny,Natural,Animal,MonNone,Howl
+rat,quokka,,Small,Natural,Animal,MonNone,Howl
+rat,river rat,,Tiny,Natural,Animal,MonNone,Howl
+rat,hell rat,,Small,Demonic,Animal,MonNone,Howl
+rat,crystal echidna,,Small,NonLiving,Animal,MonNone,Howl
 spider,scorpion,,Small,Natural,Animal,MonNone,Shout
 spider,emperor scorpion,,Giant,Natural,Animal,MonNone,Shout
 spider,tarantella,,Small,Natural,Animal,MonNone,Shout
@@ -486,7 +486,7 @@ npc,Stori the Blacksmith,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Sho
 npc,Rolf the Runesmith,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
 npc,Bruno's General Store,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
 npc,Wilder the Haberdasher,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-player,Player,,Medium,Natural,Human,MonEquipment,Shout
+player,Player,NoSpawn,Medium,Natural,Human,MonEquipment,Shout
 boss,Balor,,Large,Demonic,Human,MonNone,Shout
 boss,Tarrasque,,Giant,Natural,Human,MonNone,Shout
 boss,Witch-King,,Medium,Undead,Human,MonEquipment,Shout

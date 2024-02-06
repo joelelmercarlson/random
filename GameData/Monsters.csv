@@ -482,12 +482,12 @@ npc,warlock,Medium human (@),20,6,300,2,10,10,4:melee/Flail,,,,,spell/Force10,
 npc,wizard,Medium human (@),20,6,300,2,10,10,6:melee/Staff,,,,,spell/Force10,
 npc,Heinz the Weaponsmith,Medium human (@),40,6,350,3,10,10,8:melee/Longsword,,,,,,
 npc,Felix the Fletcher,Medium elf (@),40,6,350,3,10,10,,6:shoot/Shortbow,,,,,
-npc,Stori the Blacksmith,Medium dwarf (@),40,6,350,8,10,10,18:melee/Greataxe,,,,,,
-npc,Rolf the Runesmith,Medium gnome (@),40,6,350,2,10,10,4:melee/Falchion,,,,,,
-npc,Bruno's General Store,Medium human (@),40,6,350,2,10,10,4:melee/Club,,,,,,
-npc,Wilder the Haberdasher,Medium human (@),40,6,350,2,10,10,6:melee/Rapier,,,,,,
+npc,Stori the Blacksmith,Medium dwarf (@),40,6,350,8,10,10,18:melee/Greataxe,,,,"lightning,fire,cold",,
+npc,Rolf the Runesmith,Medium gnome (@),40,6,350,2,10,10,4:melee/Falchion,,,,"lightning,fire,cold",,
+npc,Bruno's General Store,Medium human (@),40,6,350,2,10,10,4:melee/Club,,,,"lightning,fire,cold",,
+npc,Wilder the Haberdasher,Medium human (@),40,6,350,2,10,10,6:melee/Rapier,,,,"lightning,fire,cold",,
 player,Player,Medium hero (@),10,1,100,2,10,10,4:melee/Dagger,,,,,,
 boss,Balor,Large Boss (&),200,20,2620,15,6,12,25:melee/Demon blade,,25:melee/Demon blade,12:melee/Demon whip,"lightning,fire,cold",,spell/Lightning6
-boss,Tarrasque,Giant Boss  (R),160,19,3000,20,6,10,48:melee/Trample,,32:melee/Claw,32:melee/Claw,,,spell/Fire6
-boss,Witch-King,Medium Boss (L),140,18,1500,10,15,12,50:melee/Touch,,12:melee/Shortsword,,,,spell/Paralyzed
-boss,Vampire King,Medium Boss (V),120,17,2250,6,13,12,36:melee/Vampire Fang,,8:melee/Claw,6:melee/Shortsword,,,spell/Cold4
+boss,Tarrasque,Giant Boss  (R),160,19,3000,20,6,10,48:melee/Trample,,32:melee/Claw,32:melee/Claw,"lightning,fire,cold",,spell/Fire6
+boss,Witch-King,Medium Boss (L),140,18,1500,10,15,12,50:melee/Touch,,12:melee/Shortsword,,cold,,spell/Paralyzed
+boss,Vampire King,Medium Boss (V),120,17,2250,6,13,12,36:melee/Vampire Fang,,8:melee/Claw,6:melee/Shortsword,cold,,spell/Cold4

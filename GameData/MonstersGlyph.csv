@@ -3,9 +3,9 @@ ancient,imperial myrmdion,61,58,36,91
 ancient,servant of whispers,62,58,36,91
 ancient,ragged hierophant,63,58,36,91
 bat,bat,0,94,36,91
-bat,butterfly,0,63,36,91
-bat,vampire bat,33,63,36,91
-bat,fire bat,28,63,36,91
+bat,butterfly,0,63,0,0
+bat,vampire bat,33,63,0,0
+bat,fire bat,28,63,0,0
 bat,bennu,30,63,36,91
 bat,caustic shrike,31,63,36,91
 bat,shard shrike,32,63,36,91
