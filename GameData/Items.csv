@@ -1,4 +1,4 @@
-﻿Base,Skill,Name,Type,Value,Hit,WT,Detail
+﻿Base,Skill,Name,Type,Value,Hit,En,Detail
 item,arrow,Stair Down,StairDown,100,100,100,Exit
 item,arrow,Stair Up,StairUp,100,100,100,Exit
 item,ShortBlade,melee/Dagger,melee,4,6,10,"finesse,light,piercing"
@@ -165,32 +165,32 @@ item,ring,jewelry/Ring of Strength,jewelry,0,0,0,Strength
 item,ring,jewelry/Ring of Thunder,jewelry,0,0,0,thunder
 item,ring,jewelry/Ring of Venom,jewelry,0,0,0,"acid,poison"
 item,ring,jewelry/Ring of Willpower,jewelry,0,0,0,WP
-item,monster,melee/Bite,melee,4,0,13,piercing
-item,monster,melee/Claw,melee,4,0,13,slashing
+item,monster,melee/Bite,melee,4,0,14,piercing
+item,monster,melee/Claw,melee,4,0,14,slashing
 item,monster,melee/Constrict,melee,4,0,14,bludgeoning
-item,monster,melee/Corrosion,melee,4,0,13,acid
-item,monster,melee/Electrocution,melee,4,0,13,lightning
-item,monster,melee/Flame,melee,4,0,13,fire
-item,monster,melee/Frost,melee,4,0,13,cold
+item,monster,melee/Corrosion,melee,4,0,14,acid
+item,monster,melee/Electrocution,melee,4,0,14,lightning
+item,monster,melee/Flame,melee,4,0,14,fire
+item,monster,melee/Frost,melee,4,0,14,cold
 item,monster,melee/Gore,melee,4,0,14,piercing
 item,monster,melee/Headbutt,melee,4,0,14,bludgeoning
-item,monster,melee/Hit,melee,4,0,13,bludgeoning
-item,monster,melee/Kick,melee,4,0,13,bludgeoning
+item,monster,melee/Hit,melee,4,0,14,bludgeoning
+item,monster,melee/Kick,melee,4,0,14,bludgeoning
 item,monster,melee/Peck,melee,4,0,14,piercing
-item,monster,melee/Pounce,melee,4,0,13,bludgeoning
-item,monster,melee/Random,melee,4,0,15,bludgeoning
-item,monster,melee/Reach,melee,4,0,13,"bludgeoning,25"
+item,monster,melee/Pounce,melee,4,0,14,bludgeoning
+item,monster,melee/Random,melee,4,0,14,bludgeoning
+item,monster,melee/Reach,melee,4,0,14,"bludgeoning,25"
 item,monster,melee/Reach Tongue,melee,4,0,14,"bludgeoning,25"
 item,monster,melee/Spore,melee,4,0,14,piercing
-item,monster,melee/Sting,melee,4,0,13,poison
-item,monster,melee/Swoop,melee,4,0,12,bludgeoning
+item,monster,melee/Sting,melee,4,0,14,poison
+item,monster,melee/Swoop,melee,4,0,14,bludgeoning
 item,monster,melee/Tail Slap,melee,4,0,14,bludgeoning
 item,monster,melee/Tentacle Slap,melee,4,0,14,bludgeoning
-item,monster,melee/Touch,melee,4,0,13,cold
+item,monster,melee/Touch,melee,4,0,14,cold
 item,monster,melee/Trample,melee,4,0,14,bludgeoning
 item,monster,melee/Trunk Slap,melee,4,0,14,bludgeoning
-item,monster,melee/Vampire Fang,melee,4,0,10,necrotic
-item,monster,melee/Venom,melee,4,0,13,poison
+item,monster,melee/Vampire Fang,melee,4,0,14,necrotic
+item,monster,melee/Venom,melee,4,0,14,poison
 item,amulet,neck/Amulet,neck,0,0,0,
 item,amulet,neck/Amulet of Elements,neck,0,0,0,"acid,fire,cold,lightning"
 item,amulet,neck/Amulet of Flight,neck,0,0,0,Fly
@@ -252,7 +252,7 @@ item,scroll,scroll/Scroll of identify,scroll,0,0,0,Identify
 item,scroll,scroll/Scroll of immolation,scroll,0,0,0,ApplyFire
 item,scroll,scroll/Scroll of noise,scroll,0,0,0,Noise
 item,scroll,scroll/Scroll of poison,scroll,0,0,0,Poisoned
-item,scroll,scroll/Scroll of revelation,scroll,0,0,0,ESP
+item,scroll,scroll/Scroll of revelation,scroll,0,0,0,MagicMap
 item,scroll,scroll/Scroll of silence,scroll,0,0,0,Silence
 item,scroll,scroll/Scroll of summoning,scroll,0,0,0,Summon
 item,scroll,scroll/Scroll of teleportation,scroll,0,0,0,Teleport

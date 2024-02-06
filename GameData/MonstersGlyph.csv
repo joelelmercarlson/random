@@ -1,693 +1,692 @@
-﻿Base,Name,TileX,TileY
-ancient,imperial myrmdion,61,58
-ancient,servant of whispers,62,58
-ancient,ragged hierophant,63,58
-bat,bat,0,94
-bat,butterfly,0,63
-bat,vampire bat,33,63
-bat,fire bat,28,63
-bat,bennu,30,63
-bat,caustic shrike,31,63
-bat,shard shrike,32,63
-centaur,centaur,4,59
-centaur,centaur warrior,5,59
-centaur,yaktaur,6,59
-centaur,yaktaur captain,7,59
-centaur,faun,10,60
-centaur,satyr,47,59
-draconian,draconian,53,66
-draconian,black draconian,54,66
-draconian,yellow draconian,55,66
-draconian,pale draconian,56,66
-draconian,green draconian,57,66
-draconian,purple draconian,58,66
-draconian,red draconian,59,66
-draconian,white draconian,60,66
-draconian,grey draconian,61,66
-draconian,draconian stormcaller,62,66
-draconian,draconian monk,63,66
-draconian,draconian shifter,0,67
-draconian,draconian annihilator,1,67
-draconian,draconian knight,2,67
-draconian,draconian scorcher,3,67
-elf,elf,17,59
-elf,deep elf knight,18,59
-elf,deep elf archer,19,59
-elf,deep elf blademaster,20,59
-elf,deep elf master archer,21,59
-elf,deep elf zephyrmancer,22,59
-elf,deep elf pyromancer,23,59
-elf,deep elf high priest,24,59
-elf,deep elf demonologist,25,59
-elf,deep elf annihilator,26,59
-elf,deep elf sorcerer,27,59
-elf,deep elf death mage,28,59
-elf,deep elf elementalist,29,59
-plant,sleepcap,7,68
-plant,wandering mushroom,8,68
-plant,deathcap,4,68
-plant,thorn hunter,5,68
-plant,shambling mangrove,6,68
-plant,vine stalker,22,94
-goblin,goblin,1,60
-goblin,hobgoblin,2,60
-goblin,gnoll,19,60
-goblin,gnoll bouda,20,60
-goblin,gnoll sergeant,20,60
-goblin,boggart,21,60
-goblin,dwarf,0,60
-goblin,deep dwarf,0,60
-quadruped,jackal,6,64
-quadruped,hound,7,64
-quadruped,howler monkey,7,64
-quadruped,warg,56,64
-quadruped,wolf,57,64
-quadruped,inugami,60,63
-quadruped,hog,61,63
-quadruped,hell hound,62,63
-quadruped,doom hound,63,63
-quadruped,raiju,59,63
-quadruped,hell hog,61,63
-quadruped,holy swine,2,64
-quadruped,felid,41,84
-quadruped,polar bear,21,64
-quadruped,black bear,21,64
-spriggan,spriggan,52,59
-spriggan,spriggan rider,52,59
-spriggan,spriggan druid,53,59
-spriggan,spriggan berserker,53,59
-spriggan,spriggan air mage,53,59
-spriggan,spriggan defender,53,59
-drake,wyvern,0,62
-drake,swamp drake,21,67
-drake,rime drake,22,67
-drake,wind drake,33,67
-drake,lindwurm,36,67
-drake,death drake,39,67
-lizard,frilled lizard,55,63
-lizard,iguana,46,63
-lizard,crocodile,39,62
-lizard,basilisk,36,67
-lizard,komodo gdragon,55,63
-lizard,alligator,40,62
-merfolk,merfolk,50,60
-merfolk,merfolk impaler,51,60
-merfolk,merfolk javelineer,52,60
-merfolk,merfolk aquamancer,53,60
-merfolk,merfolk siren,54,60
-merfolk,sickly merfolk siren,55,60
-merfolk,merfolk avatar,56,60
-merfolk,malarious merfolk avatar,57,60
-merfolk,water nymph,48,60
-undead,bog body,49,75
-undead,necrophage,58,74
-undead,bloated husk,41,75
-undead,ghoul,34,59
-undead,searing wretch,36,59
-orc,orc,23,61
-orc,orc wizard,24,61
-orc,orc priest,25,61
-orc,orc warrior,26,61
-orc,orc knight,27,61
-orc,orc warlord,28,61
-orc,orc sorcerer,29,61
-orc,orc high priest,30,61
-human,human,40,76
-human,burial acolyte,41,76
-human,hell knight,42,76
-human,death knight,43,76
-human,necromancer,44,76
-human,arcanist,45,76
-human,occultist,46,76
-human,vault guard,47,76
-human,vault sentinel,48,76
-human,vault warden,49,76
-human,ironbound convoker,50,76
-human,ironbound frostheart,51,76
-human,ironbound preserver,52,76
-human,shapeshifter,53,76
-human,glowing shapeshifter,54,76
-human,killer klown,55,76
-human,demigod,56,76
-human,halfling,57,76
-human,metoeran,58,76
-human,spectator,59,76
-rat,rat,19,64
-rat,quokka,28,64
-rat,river rat,56,63
-rat,hell rat,45,65
-rat,crystal echidna,27,64
-spider,scorpion,27,63
-spider,emperor scorpion,51,63
-spider,tarantella,61,64
-spider,jumping spider,62,64
-spider,wolf spider,63,64
-spider,redback,50,65
-spider,demonic crawler,51,64
-spider,orb spider,29,64
-spider,broodmother,30,64
-spider,culicivora,52,64
-testudine,snapping turtle,41,62
-testudine,alligator snapping turtle,42,62
-testudine,fire crab,29,63
-testudine,ghost crab,56,75
-testudine,apocalypse crab,23,62
-ugly,ugly thing,20,62
-ugly,very ugly thing,21,62
-vortice,fire vortex,25,66
-vortice,spatial vortex,26,66
-vortice,spatial maelstrom,27,66
-vortice,will-o-the-wisp,28,66
-vortice,twister,29,66
-worm,ribbon worm,12,64
-worm,brain worm,14,72
-worm,swamp worm,15,72
-worm,tyrant leech,16,72
-worm,dart slug,17,72
-worm,torpor snail,18,72
-worm,steelbarb worm,19,72
-worm,elephant slug,20,72
-horror,unseen horror,13,65
-horror,small abomination,14,65
-horror,ancient zyme,15,65
-horror,worldbinder,16,65
-horror,bunyip,17,65
-octopode,octopode,8,65
-insect,killer bee,23,64
-insect,queen bee,24,64
-insect,vampire mosquito,25,64
-insect,hornet,26,64
-insect,meliai,27,64
-insect,spark wasp,28,64
-insect,ghost moth,29,64
-insect,moth of wrath,30,63
-insect,sun moth,31,63
-undead,wight,52,61
-undead,skeletal warrior,53,61
-undead,ancient champion,54,61
-undead,weeping skull,55,61
-undead,laughing skull,56,61
-undead,curse skull,57,61
-undead,curse toe,58,61
-undead,death cob,59,61
-undead,revenant,60,61
-angelic,angel,9,68
-angelic,cherub,10,68
-angelic,seraph,11,68
-angelic,daeva,13,68
-angelic,profane servitor,12,68
-beetle,giant cockroach,9,64
-beetle,bombardier beetle,10,64
-beetle,radroach,11,64
-beetle,formicid,12,64
-beetle,entropy weaver,13,64
-beetle,boulder beetle,14,64
-beetle,pharaoh ant,15,64
-beetle,death scarab,16,64
-giant,cyclops,17,61
-giant,ettin,18,61
-giant,fire giant,19,61
-giant,frost giant,20,61
-giant,stone giant,21,61
-giant,titan,6,61
-giant,juggernaut,5,62
-giant,iron giant,6,62
-giant,cactus giant,7,62
-giant,tainted leviathan,5,68
-giant,protean progenitor,6,68
-dragon,fire dragon,1,94
-dragon,hydra,2,94
-dragon,ice dragon,3,94
-dragon,steam dragon,4,94
-dragon,swamp dragon,5,94
-dragon,acid dragon,6,94
-dragon,quicksilver dragon,7,94
-dragon,iron dragon,8,94
-dragon,storm dragon,9,94
-dragon,golden dragon,10,94
-dragon,shadow dragon,11,94
-dragon,bone dragon,12,94
-dragon,pearl dragon,13,94
-elemental,earth elemental,32,66
-elemental,quicksilver elemental,33,66
-elemental,fire elemental,34,66
-elemental,water elemental,35,66
-elemental,air elemental,36,66
-elemental,iron elemental,37,66
-elemental,elemental wellspring,38,66
-frog,bullfrog,41,62
-frog,cane toad,42,62
-frog,blink frog,43,62
-frog,goliath frog,44,62
-frog,skyshark,45,62
-frog,barachi,46,62
-eye,glass eye,47,67
-eye,glowing orange brain,48,67
-eye,great orb of eyes,49,67
-eye,shining eye,50,67
-eye,eye of devastation,51,67
-eye,golden eye,52,67
-eye,orphan,53,67
-hybrid,manticore,56,61
-hybrid,minotaur,56,61
-hybrid,fenstrider witch,56,61
-hybrid,sphinx,56,61
-hybrid,harpy,56,61
-hybrid,jorogumo,56,61
-hybrid,armataur,56,61
-hybrid,mutant beast,56,61
-jelly,endoplasm,36,62
-jelly,jelly,37,62
-jelly,slime creature,33,62
-jelly,formless jellyfish,32,62
-jelly,rockslime,20,62
-jelly,quicksilver ooze,31,62
-jelly,azure jelly,35,62
-jelly,acid blob,34,62
-kobold,kobold,1,62
-kobold,kobold brigand,2,62
-kobold,kobold demonologist,3,62
-kobold,kobold blastminer,4,62
-lich,lich,23,74
-lich,ancient lich,24,74
-lich,dread lich,25,74
-lich,halazid warlock,26,74
-lich,stoker,27,74
-mummy,mummy,28,74
-mummy,guardian mummy,29,74
-mummy,royal mummy,30,74
-mummy,mummy priest,31,74
-naga,naga,7,60
-naga,naga mage,8,60
-naga,naga sharpshooter,9,60
-naga,naga ritualist,10,60
-naga,naga warrior,11,60
-naga,nagaraja,12,60
-naga,salamander,13,60
-naga,salamander mystic,14,60
-naga,salamander tyrant,15,60
-ogre,ogre,5,60
-ogre,two-headed ogre,6,60
-ogre,ogre mage,7,60
-ogre,ironbound thunderhulk,8,60
-ogre,oni,9,60
-plant,plant,14,13
-plant,demonic plant,15,13
-plant,withered plant,16,13
-plant,oklob sapling,17,13
-plant,oklob plant,18,13
-plant,starflower,19,13
-plant,bush,56,67
-plant,burning bush,57,67
-plant,toadstool,58,67
-plant,fungus,59,67
-plant,ballistomycete,60,67
-plant,briar patch,61,67
-tengu,tengu,35,60
-tengu,tengu conjurer,36,60
-tengu,tengu warrior,37,60
-tengu,tengu reaver,38,60
-spiritual,djinni,49,59
-spiritual,ancestor,50,59
-spiritual,knight,51,59
-spiritual,battlemage,52,59
-spiritual,hexer,53,59
-spiritual,efreet,54,59
-spiritual,rakshasa,55,59
-spiritual,eleionoma,56,59
-spiritual,wendigo,57,59
-spiritual,dryad,58,59
-spiritual,snaplasher vine,32,73
-spiritual,snaplasher vine segment,28,73
-snake,ball python,53,62
-snake,adder,62,63
-snake,water moccasin,63,63
-snake,black mamba,58,63
-snake,sea snake,59,64
-snake,anaconda,55,64
-snake,guardian serpent,58,64
-snake,shock serpent,36,64
-snake,mana viper,37,64
-snake,electric eel,38,64
-snake,lava snake,39,64
-troll,troll,33,59
-troll,iron troll,34,59
-troll,deep troll,35,59
-troll,deep troll earth mage,36,59
-vampire,vampire,27,74
-vampire,vampire knight,28,74
-vampire,vampire mage,29,74
-vampire,jiangshi,30,74
-wraith,ghost,6,74
-wraith,phantom,7,74
-wraith,martyred shade,8,74
-wraith,flayed ghost,9,74
-wraith,player ghost,10,74
-wraith,shadow,11,74
-wraith,silent spectre,12,74
-wraith,drowned soul,13,74
-wraith,wraith,14,74
-wraith,shadow wraith,15,74
-wraith,putrid mouth,16,74
-wraith,freezing wraith,17,74
-wraith,eidolon,18,74
-wraith,phantasmal warrior,19,74
-horror,large abomination,20,74
-horror,thrashing horror,31,64
-horror,tentacled monstrosity,32,64
-horror,orb guardian,33,64
-horror,tentacled starspawn,34,64
-horror,starspawn tentacle,0,72
-horror,starspawn tentacle segment,1,72
-horror,starcursed mass,59,75
-horror,nameless horror,11,66
-horror,kraken,7,65
-horror,tentacle,13,72
-horror,tentacle segment,20,72
-horror,eldritch tentacle,2,72
-horror,eldritch tentacle segment,3,72
-yak,dream sheep,18,63
-yak,yak,19,63
-yak,death yak,20,63
-yak,catoblepas,21,63
-yak,elephant,22,63
-yak,dire elephant,23,63
-yak,hellphant,24,63
-yak,apis,25,63
-yak,ice breast,4,64
-yak,sky beast,12,65
-zombie,zombie,59,74
-zombie,skeleton,60,74
-zombie,simulacrum,56,64
-zombie,small zombie,63,74
-zombie,small skeleton,62,74
-zombie,small simulacrum,61,74
-zombie,large zombie,60,74
-zombie,large skeleton,59,74
-zombie,large simulacrum,58,74
-zombie,spectral thing,0,74
-zombie,bound soul,1,74
-demon,demonspawn,37,78
-demon,demonspawn blood saint,38,78
-demon,demonspawn warmonger,39,78
-demon,demonspawn corrupter,40,78
-demon,demonspawn black sun,41,78
-demon,crimson imp,16,65
-demon,cerulean imp,17,65
-demon,quasit,18,65
-demon,white imp,19,65
-demon,ufetubus,20,65
-demon,iron imp,21,65
-demon,shadow imp,22,65
-demon,lemure,23,65
-demon,rust devil,24,65
-demon,orange demon,25,65
-demon,bone devil,26,65
-demon,red devil,27,65
-demon,hellwing,28,65
-demon,ice devil,29,65
-demon,chaos spawn,30,65
-demon,sun demon,31,65
-demon,soul eater,32,65
-demon,smoke demon,33,65
-demon,neqoxec,34,65
-demon,ynoxinul,35,65
-demon,sixfirhy,36,65
-demon,shadow demon,37,65
-demon,green death,38,65
-demon,blizzard demon,39,65
-demon,balrug,40,65
-demon,cacodemon,41,65
-demon,hell beast,42,65
-demon,hellion,43,65
-demon,reaper,44,65
-demon,lorocyproca,45,65
-demon,tormentor,46,65
-demon,Brimstone Fiend,47,65
-demon,Ice Fiend,48,65
-demon,Tzitzimitl,49,65
-demon,Hell Sentinel,50,65
-demon,Executioner,51,65
-construct,ice statue,6,71
-construct,obsidian statue,7,71
-construct,orange crytstal statue,8,71
-construct,training dummy,9,71
-construct,pillar of salt,10,71
-construct,block of ice,11,71
-construct,diamond obelisk,12,71
-construct,lightning spire,13,71
-construct,strange machine,14,71
-construct,saltling,44,66
-construct,peacekeeper,45,66
-construct,iron golem,46,66
-construct,crystal guardian,47,66
-construct,toenail golem,48,66
-construct,electric golem,49,66
-construct,nargun,50,66
-construct,ushabti,51,66
-construct,gargoyle,52,66
-construct,molten gargoyle,53,66
-construct,war gargoyle,54,66
-construct,blazeheart golem,28,71
-construct,spellforged servitor,29,71
-spell,ball lightning,56,68
-spell,ballistomycete spore,56,68
-spell,lost soul,56,68
-spell,lurking horror,56,68
-spell,orb of fire,56,68
-spell,creeping inferno,56,68
-spell,orb of destruction,56,68
-spell,foxfire,56,68
-spell,fulminant prism,56,68
-spell,wretched star,56,68
-spell,battlesphere,57,68
-spell,boulder,58,68
-spell,aspiring flesh,59,68
-spell,blazeheart core,60,68
-npc,scrawny cat,42,84
-npc,scruffy dog,6,64
-npc,horse,12,68
-npc,sheep,18,63
-npc,barbarian,23,59
-npc,bard,22,59
-npc,cleric,29,59
-npc,druid,19,59
-npc,fighter,4,79
-npc,monk,5,79
-npc,paladin,6,79
-npc,ranger,7,79
-npc,rogue,28,59
-npc,sorcerer,30,59
-npc,warlock,31,59
-npc,wizard,32,59
-npc,Heinz the Weaponsmith,0,12
-npc,Felix the Fletcher,1,12
-npc,Stori the Blacksmith,0,12
-npc,Rolf the Runesmith,1,12
-npc,Bruno's General Store,1,12
-npc,Wilder the Haberdasher,1,12
-player,Player,23,60
-boss,Balor,8,94
-boss,Pit Fiend,2,94
-boss,Tarrasque,1,94
-boss,Witch-King,17,94
-boss,Vampire King,12,94
-arrow,Stair Down,53,11
-arrow,Stair Up,54,11
-ShortBlade,melee/Dagger,17,45
-ShortBlade,melee/Quick blade,18,45
-ShortBlade,melee/Shortsword,4,45
-ShortBlade,melee/Rapier,8,47
-LongBlade,melee/Falchion,0,45
-LongBlade,melee/Longsword,1,45
-LongBlade,melee/Scimitar,2,45
-LongBlade,melee/Demon blade,3,45
-LongBlade,melee/Zweihander,4,45
-LongBlade,melee/Bastard Sword,5,45
-LongBlade,melee/Greatsword,6,45
-LongBlade,melee/Executioner Sword,7,45
-Hafted,melee/Club,19,45
-Hafted,melee/Whip,20,45
-Hafted,melee/Mace,21,45
-Hafted,melee/Flail,22,45
-Hafted,melee/Morningstar,23,45
-Hafted,melee/Demon whip,24,45
-Hafted,melee/Sacred scourge,25,45
-Hafted,melee/Dire flail,26,45
-Hafted,melee/Eveningstar,27,45
-Hafted,melee/Great mace,28,45
-Hafted,melee/Giant club,29,45
-Hafted,melee/Giant spiked club,30,45
-Axe,melee/Handaxe,41,44
-Axe,melee/War axe,42,44
-Axe,melee/Broad axe,43,44
-Axe,melee/Battleaxe,44,44
-Axe,melee/Greataxe,45,44
-Polearm,melee/Spear,27,47
-Polearm,melee/Trident,28,47
-Polearm,melee/Halberd,29,47
-Polearm,melee/Demon trident,30,47
-Polearm,melee/Fork,31,47
-Polearm,melee/Glaive,32,47
-Polearm,melee/Bardache,33,47
-Staff,melee/Staff,42,47
-Staff,melee/Quarterstaff,3,47
-Staff,melee/Lajatang,0,48
-Bow,shoot/Sling,43,49
-Bow,shoot/Shortbow,20,49
-Bow,shoot/Longbow,21,49
-Bow,"shoot/Crossbow, light",28,49
-Bow,"shoot/Crossbow, hand",27,49
-Bow,"shoot/Crossbow, heavy",28,49
-Throw,throw/stone,45,49
-Throw,throw/poisoned dart,34,49
-Throw,throw/basilisk dart,34,49
-Throw,throw/stun dart,34,49
-Throw,throw/smokepowder bomb,46,49
-Throw,throw/fey arrow,41,49
-Throw,throw/boomerang,49,49
-Throw,throw/javelin,19,25
-Throw,throw/large rock,48,49
-Throw,throw/net,55,25
-armor,armor/Robe,10,46
-armor,armor/Leather,0,38
-armor,armor/Ring mail,1,38
-armor,armor/Scale mail,2,38
-armor,armor/Chain mail,3,38
-armor,armor/Plate,4,38
-armor,armor/Crystal plate armor,5,38
-armor,armor/Animal skin,6,38
-armor,armor/Troll leather armor,7,38
-armor,armor/Steam dragon scales,8,38
-armor,armor/Acid dragon scales,9,38
-armor,armor/Swamp dragon scales,10,38
-armor,armor/Quicksilver dragon scales,11,38
-armor,armor/Fire dragon scales,12,38
-armor,armor/Ice dragon scales,13,38
-armor,armor/Pearl dragon scales,14,38
-armor,armor/Storm dragon scales,15,38
-armor,armor/Shadow dragon scales,16,38
-armor,armor/Gold dragon scales,17,38
-armor,shield/Buckler,29,37
-armor,shield/Shield,20,37
-armor,shield/Tower,19,37
-armor,feet/Leather Boots,23,36
-armor,feet/Mail Chausses,24,36
-armor,feet/Plate Leggings,25,36
-armor,feet/Dragonhide Boots,26,36
-armor,hands/Bracers,29,36
-armor,hands/Fine Leather,30,36
-armor,hands/Gauntlets,31,36
-armor,hands/Vambraces,32,36
-armor,head/Leather Skullcap,0,37
-armor,head/Helm,1,37
-armor,head/Mail Coif,2,37
-armor,head/Wide Brimmed Hat,3,37
-armor,cloak/Cloak,9,36
-armor,cloak/Fur Cloak,10,36
-armor,cloak/Elven Cloak,11,36
-armor,cloak/Dragonscale Cloak,12,36
-food,food/baguette,1,40
-food,food/blushcap mushroom,2,40
-food,food/bonecap mushroom,3,40
-food,food/cabbage,4,40
-food,food/carafe of wine,5,40
-food,food/carrot,6,40
-food,food/cheese wedge,7,40
-food,food/cheese wheel,8,40
-food,food/chicken,9,40
-food,food/courgette,10,40
-food,food/dried fish,11,40
-food,food/egg,12,40
-food,food/fey mushroom,13,40
-food,food/fish head,14,40
-food,food/fungus stew,15,40
-food,food/garlic,16,40
-food,food/grilled pork belly,17,40
-food,food/grilled ribs,18,40
-food,food/gruel,31,40
-food,food/half eaten apple,32,40
-food,food/ham,33,40
-food,food/healing herbs,34,40
-food,food/lemon,35,40
-food,food/mushroom,36,40
-food,food/orange,37,40
-food,food/pear,38,40
-food,food/pig's head,39,40
-food,food/pitcher of beer,1,40
-food,food/pork shoulder,2,40
-food,food/potato,3,40
-food,food/pumpkin,4,40
-food,food/raw steak,5,40
-food,food/red apple,6,40
-food,food/rum,7,40
-food,food/sausage,8,40
-food,food/sourdough bread,9,40
-food,food/supply pack,10,40
-food,food/toadstool,11,40
-ring,jewelry/Ring,34,42
-ring,jewelry/Ring of Acid,35,42
-ring,jewelry/Ring of Alchemy,36,42
-ring,jewelry/Ring of Cold,37,42
-ring,jewelry/Ring of Darkness,38,42
-ring,jewelry/Ring of Dexterity,39,42
-ring,jewelry/Ring of Fire,40,42
-ring,jewelry/Ring of Flight,41,42
-ring,jewelry/Ring of Intelligence,42,42
-ring,jewelry/Ring of Light,43,42
-ring,jewelry/Ring of Lightning,44,42
-ring,jewelry/Ring of Poison,45,42
-ring,jewelry/Ring of Stealth,46,42
-ring,jewelry/Ring of Strength,47,42
-ring,jewelry/Ring of Thunder,48,42
-ring,jewelry/Ring of Venom,49,42
-ring,jewelry/Ring of Willpower,50,42
-amulet,neck/Amulet,0,35
-amulet,neck/Amulet of Elements,1,35
-amulet,neck/Amulet of Flight,2,35
-amulet,neck/Amulet of Nature,3,35
-amulet,neck/Amulet of Sky,4,35
-amulet,neck/Amulet of Stealth,5,35
-amulet,neck/Amulet of Storms,6,35
-amulet,neck/Amulet of Willpower,7,35
-amulet,neck/Pendant of Death,8,35
-amulet,neck/Pendant of Life,9,35
-potion,potion/Elixir of Silvanus,8,42
-potion,potion/Goodberry Potion,9,42
-potion,potion/Potion of ambrosia,10,42
-potion,potion/Potion of attraction,11,42
-potion,potion/Potion of berserk rage,12,42
-potion,potion/Potion of brilliance,13,42
-potion,potion/Potion of cancellation,14,42
-potion,potion/Potion of curing,15,42
-potion,potion/Potion of degeneration,16,42
-potion,potion/Potion of enlightenment,17,42
-potion,potion/Potion of experience,18,42
-potion,potion/Potion of haste,19,42
-potion,potion/Potion of heal wounds,20,42
-potion,potion/Potion of Healing,21,42
-potion,potion/Potion of invisibility,22,42
-potion,potion/Potion of lignification,23,42
-potion,potion/Potion of magic,24,42
-potion,potion/Potion of might,25,42
-potion,potion/Potion of mutation,26,42
-potion,potion/Potion of resistance,27,42
-scroll,scroll/Scroll of acquirement,41,43
-scroll,scroll/Scroll of amnesia,42,43
-scroll,scroll/Scroll of blinking,43,43
-scroll,scroll/Scroll of brand weapon,44,43
-scroll,scroll/Scroll of butterflies,45,43
-scroll,scroll/Scroll of enchant armor,46,43
-scroll,scroll/Scroll of enchant weapon,47,43
-scroll,scroll/Scroll of fear,48,43
-scroll,scroll/Scroll of fog,49,43
-scroll,scroll/Scroll of identify,41,43
-scroll,scroll/Scroll of immolation,42,43
-scroll,scroll/Scroll of noise,43,43
-scroll,scroll/Scroll of poison,44,43
-scroll,scroll/Scroll of revelation,45,43
-scroll,scroll/Scroll of silence,46,43
-scroll,scroll/Scroll of summoning,47,43
-scroll,scroll/Scroll of teleportation,48,43
-scroll,scroll/Scroll of torment,49,43
-scroll,scroll/Scroll of vulnerability,41,43
+﻿Base,Name,TileX,TileY,CorpseX,CorpseY
+ancient,imperial myrmdion,61,58,36,91
+ancient,servant of whispers,62,58,36,91
+ancient,ragged hierophant,63,58,36,91
+bat,bat,0,94,36,91
+bat,butterfly,0,63,36,91
+bat,vampire bat,33,63,36,91
+bat,fire bat,28,63,36,91
+bat,bennu,30,63,36,91
+bat,caustic shrike,31,63,36,91
+bat,shard shrike,32,63,36,91
+centaur,centaur,4,59,36,91
+centaur,centaur warrior,5,59,36,91
+centaur,yaktaur,6,59,36,91
+centaur,yaktaur captain,7,59,36,91
+centaur,faun,10,60,36,91
+centaur,satyr,47,59,36,91
+draconian,draconian,53,66,36,91
+draconian,black draconian,54,66,36,91
+draconian,yellow draconian,55,66,36,91
+draconian,pale draconian,56,66,36,91
+draconian,green draconian,57,66,36,91
+draconian,purple draconian,58,66,36,91
+draconian,red draconian,59,66,36,91
+draconian,white draconian,60,66,36,91
+draconian,grey draconian,61,66,36,91
+draconian,draconian stormcaller,62,66,36,91
+draconian,draconian monk,63,66,36,91
+draconian,draconian shifter,0,67,36,91
+draconian,draconian annihilator,1,67,36,91
+draconian,draconian knight,2,67,36,91
+draconian,draconian scorcher,3,67,36,91
+elf,elf,17,59,36,91
+elf,deep elf knight,18,59,36,91
+elf,deep elf archer,19,59,36,91
+elf,deep elf blademaster,20,59,36,91
+elf,deep elf master archer,21,59,36,91
+elf,deep elf zephyrmancer,22,59,36,91
+elf,deep elf pyromancer,23,59,36,91
+elf,deep elf high priest,24,59,36,91
+elf,deep elf demonologist,25,59,36,91
+elf,deep elf annihilator,26,59,36,91
+elf,deep elf sorcerer,27,59,36,91
+elf,deep elf death mage,28,59,36,91
+elf,deep elf elementalist,29,59,36,91
+plant,sleepcap,7,68,36,91
+plant,wandering mushroom,8,68,36,91
+plant,deathcap,4,68,36,91
+plant,thorn hunter,5,68,36,91
+plant,shambling mangrove,6,68,36,91
+plant,vine stalker,22,94,36,91
+goblin,goblin,1,60,36,91
+goblin,hobgoblin,2,60,36,91
+goblin,gnoll,19,60,36,91
+goblin,gnoll bouda,20,60,36,91
+goblin,gnoll sergeant,20,60,36,91
+goblin,boggart,21,60,36,91
+goblin,dwarf,0,60,36,91
+goblin,deep dwarf,0,60,36,91
+quadruped,jackal,6,64,36,91
+quadruped,hound,7,64,36,91
+quadruped,howler monkey,7,64,36,91
+quadruped,warg,56,64,36,91
+quadruped,wolf,57,64,36,91
+quadruped,inugami,60,63,36,91
+quadruped,hog,61,63,36,91
+quadruped,hell hound,62,63,36,91
+quadruped,doom hound,63,63,36,91
+quadruped,raiju,59,63,36,91
+quadruped,hell hog,61,63,36,91
+quadruped,holy swine,2,64,36,91
+quadruped,felid,41,84,36,91
+quadruped,polar bear,21,64,36,91
+quadruped,black bear,21,64,36,91
+spriggan,spriggan,52,59,36,91
+spriggan,spriggan rider,52,59,36,91
+spriggan,spriggan druid,53,59,36,91
+spriggan,spriggan berserker,53,59,36,91
+spriggan,spriggan air mage,53,59,36,91
+spriggan,spriggan defender,53,59,36,91
+drake,wyvern,0,62,36,91
+drake,swamp drake,21,67,36,91
+drake,rime drake,22,67,36,91
+drake,wind drake,33,67,36,91
+drake,lindwurm,36,67,36,91
+drake,death drake,39,67,36,91
+lizard,frilled lizard,55,63,36,91
+lizard,iguana,46,63,36,91
+lizard,crocodile,39,62,36,91
+lizard,basilisk,36,67,36,91
+lizard,komodo gdragon,55,63,36,91
+lizard,alligator,40,62,36,91
+merfolk,merfolk,50,60,36,91
+merfolk,merfolk impaler,51,60,36,91
+merfolk,merfolk javelineer,52,60,36,91
+merfolk,merfolk aquamancer,53,60,36,91
+merfolk,merfolk siren,54,60,36,91
+merfolk,sickly merfolk siren,55,60,36,91
+merfolk,merfolk avatar,56,60,36,91
+merfolk,malarious merfolk avatar,57,60,36,91
+merfolk,water nymph,48,60,36,91
+undead,bog body,49,75,36,91
+undead,necrophage,58,74,36,91
+undead,bloated husk,41,75,36,91
+undead,ghoul,34,59,36,91
+undead,searing wretch,36,59,36,91
+orc,orc,23,61,36,91
+orc,orc wizard,24,61,36,91
+orc,orc priest,25,61,36,91
+orc,orc warrior,26,61,36,91
+orc,orc knight,27,61,36,91
+orc,orc warlord,28,61,36,91
+orc,orc sorcerer,29,61,36,91
+orc,orc high priest,30,61,36,91
+human,human,40,76,36,91
+human,burial acolyte,41,76,36,91
+human,hell knight,42,76,36,91
+human,death knight,43,76,36,91
+human,necromancer,44,76,36,91
+human,arcanist,45,76,36,91
+human,occultist,46,76,36,91
+human,vault guard,47,76,36,91
+human,vault sentinel,48,76,36,91
+human,vault warden,49,76,36,91
+human,ironbound convoker,50,76,36,91
+human,ironbound frostheart,51,76,36,91
+human,ironbound preserver,52,76,36,91
+human,shapeshifter,53,76,36,91
+human,glowing shapeshifter,54,76,36,91
+human,killer klown,55,76,36,91
+human,demigod,56,76,36,91
+human,halfling,57,76,36,91
+human,metoeran,58,76,36,91
+human,spectator,59,76,36,91
+rat,rat,19,64,36,91
+rat,quokka,28,64,36,91
+rat,river rat,56,63,36,91
+rat,hell rat,45,65,36,91
+rat,crystal echidna,27,64,36,91
+spider,scorpion,27,63,36,91
+spider,emperor scorpion,51,63,36,91
+spider,tarantella,61,64,36,91
+spider,jumping spider,62,64,36,91
+spider,wolf spider,63,64,36,91
+spider,redback,50,65,36,91
+spider,demonic crawler,51,64,36,91
+spider,orb spider,29,64,36,91
+spider,broodmother,30,64,36,91
+spider,culicivora,52,64,36,91
+testudine,snapping turtle,41,62,36,91
+testudine,alligator snapping turtle,42,62,36,91
+testudine,fire crab,29,63,36,91
+testudine,ghost crab,56,75,36,91
+testudine,apocalypse crab,23,62,36,91
+ugly,ugly thing,20,62,36,91
+ugly,very ugly thing,21,62,36,91
+vortice,fire vortex,25,66,36,91
+vortice,spatial vortex,26,66,36,91
+vortice,spatial maelstrom,27,66,36,91
+vortice,will-o-the-wisp,28,66,36,91
+vortice,twister,29,66,36,91
+worm,ribbon worm,12,64,36,91
+worm,brain worm,14,72,36,91
+worm,swamp worm,15,72,36,91
+worm,tyrant leech,16,72,36,91
+worm,dart slug,17,72,36,91
+worm,torpor snail,18,72,36,91
+worm,steelbarb worm,19,72,36,91
+worm,elephant slug,20,72,36,91
+horror,unseen horror,13,65,36,91
+horror,small abomination,14,65,36,91
+horror,ancient zyme,15,65,36,91
+horror,worldbinder,16,65,36,91
+horror,bunyip,17,65,36,91
+octopode,octopode,8,65,36,91
+insect,killer bee,23,64,36,91
+insect,queen bee,24,64,36,91
+insect,vampire mosquito,25,64,36,91
+insect,hornet,26,64,36,91
+insect,meliai,27,64,36,91
+insect,spark wasp,28,64,36,91
+insect,ghost moth,29,64,36,91
+insect,moth of wrath,30,63,36,91
+insect,sun moth,31,63,36,91
+undead,wight,52,61,36,91
+undead,skeletal warrior,53,61,36,91
+undead,ancient champion,54,61,36,91
+undead,weeping skull,55,61,36,91
+undead,laughing skull,56,61,36,91
+undead,curse skull,57,61,36,91
+undead,curse toe,58,61,36,91
+undead,death cob,59,61,36,91
+undead,revenant,60,61,36,91
+angelic,angel,9,68,36,91
+angelic,cherub,10,68,36,91
+angelic,seraph,11,68,36,91
+angelic,daeva,13,68,36,91
+angelic,profane servitor,12,68,36,91
+beetle,giant cockroach,9,64,36,91
+beetle,bombardier beetle,10,64,36,91
+beetle,radroach,11,64,36,91
+beetle,formicid,12,64,36,91
+beetle,entropy weaver,13,64,36,91
+beetle,boulder beetle,14,64,36,91
+beetle,pharaoh ant,15,64,36,91
+beetle,death scarab,16,64,36,91
+giant,cyclops,17,61,36,91
+giant,ettin,18,61,36,91
+giant,fire giant,19,61,36,91
+giant,frost giant,20,61,36,91
+giant,stone giant,21,61,36,91
+giant,titan,6,61,36,91
+giant,juggernaut,5,62,36,91
+giant,iron giant,6,62,36,91
+giant,cactus giant,7,62,36,91
+giant,tainted leviathan,5,68,36,91
+giant,protean progenitor,6,68,36,91
+dragon,fire dragon,1,94,36,91
+dragon,hydra,2,94,36,91
+dragon,ice dragon,3,94,36,91
+dragon,steam dragon,4,94,36,91
+dragon,swamp dragon,5,94,36,91
+dragon,acid dragon,6,94,36,91
+dragon,quicksilver dragon,7,94,36,91
+dragon,iron dragon,8,94,36,91
+dragon,storm dragon,9,94,36,91
+dragon,golden dragon,10,94,36,91
+dragon,shadow dragon,11,94,36,91
+dragon,bone dragon,12,94,36,91
+dragon,pearl dragon,13,94,36,91
+elemental,earth elemental,32,66,36,91
+elemental,quicksilver elemental,33,66,36,91
+elemental,fire elemental,34,66,36,91
+elemental,water elemental,35,66,36,91
+elemental,air elemental,36,66,36,91
+elemental,iron elemental,37,66,36,91
+elemental,elemental wellspring,38,66,36,91
+frog,bullfrog,41,62,36,91
+frog,cane toad,42,62,36,91
+frog,blink frog,43,62,36,91
+frog,goliath frog,44,62,36,91
+frog,skyshark,45,62,36,91
+frog,barachi,46,62,36,91
+eye,glass eye,47,67,36,91
+eye,glowing orange brain,48,67,36,91
+eye,great orb of eyes,49,67,36,91
+eye,shining eye,50,67,36,91
+eye,eye of devastation,51,67,36,91
+eye,golden eye,52,67,36,91
+eye,orphan,53,67,36,91
+hybrid,manticore,56,61,36,91
+hybrid,minotaur,56,61,36,91
+hybrid,fenstrider witch,56,61,36,91
+hybrid,sphinx,56,61,36,91
+hybrid,harpy,56,61,36,91
+hybrid,jorogumo,56,61,36,91
+hybrid,armataur,56,61,36,91
+hybrid,mutant beast,56,61,36,91
+jelly,endoplasm,36,62,36,91
+jelly,jelly,37,62,36,91
+jelly,slime creature,33,62,36,91
+jelly,formless jellyfish,32,62,36,91
+jelly,rockslime,20,62,36,91
+jelly,quicksilver ooze,31,62,36,91
+jelly,azure jelly,35,62,36,91
+jelly,acid blob,34,62,36,91
+kobold,kobold,1,62,36,91
+kobold,kobold brigand,2,62,36,91
+kobold,kobold demonologist,3,62,36,91
+kobold,kobold blastminer,4,62,36,91
+lich,lich,23,74,36,91
+lich,ancient lich,24,74,36,91
+lich,dread lich,25,74,36,91
+lich,halazid warlock,26,74,36,91
+lich,stoker,27,74,36,91
+mummy,mummy,28,74,36,91
+mummy,guardian mummy,29,74,36,91
+mummy,royal mummy,30,74,36,91
+mummy,mummy priest,31,74,36,91
+naga,naga,7,60,36,91
+naga,naga mage,8,60,36,91
+naga,naga sharpshooter,9,60,36,91
+naga,naga ritualist,10,60,36,91
+naga,naga warrior,11,60,36,91
+naga,nagaraja,12,60,36,91
+naga,salamander,13,60,36,91
+naga,salamander mystic,14,60,36,91
+naga,salamander tyrant,15,60,36,91
+ogre,ogre,5,60,36,91
+ogre,two-headed ogre,6,60,36,91
+ogre,ogre mage,7,60,36,91
+ogre,ironbound thunderhulk,8,60,36,91
+ogre,oni,9,60,36,91
+plant,plant,14,13,36,91
+plant,demonic plant,15,13,36,91
+plant,withered plant,16,13,36,91
+plant,oklob sapling,17,13,36,91
+plant,oklob plant,18,13,36,91
+plant,starflower,19,13,36,91
+plant,bush,56,67,36,91
+plant,burning bush,57,67,36,91
+plant,toadstool,58,67,36,91
+plant,fungus,59,67,36,91
+plant,ballistomycete,60,67,36,91
+plant,briar patch,61,67,36,91
+tengu,tengu,35,60,36,91
+tengu,tengu conjurer,36,60,36,91
+tengu,tengu warrior,37,60,36,91
+tengu,tengu reaver,38,60,36,91
+spiritual,djinni,49,59,36,91
+spiritual,ancestor,50,59,36,91
+spiritual,knight,51,59,36,91
+spiritual,battlemage,52,59,36,91
+spiritual,hexer,53,59,36,91
+spiritual,efreet,54,59,36,91
+spiritual,rakshasa,55,59,36,91
+spiritual,eleionoma,56,59,36,91
+spiritual,wendigo,57,59,36,91
+spiritual,dryad,58,59,36,91
+spiritual,snaplasher vine,32,73,36,91
+spiritual,snaplasher vine segment,28,73,36,91
+snake,ball python,53,62,36,91
+snake,adder,62,63,36,91
+snake,water moccasin,63,63,36,91
+snake,black mamba,58,63,36,91
+snake,sea snake,59,64,36,91
+snake,anaconda,55,64,36,91
+snake,guardian serpent,58,64,36,91
+snake,shock serpent,36,64,36,91
+snake,mana viper,37,64,36,91
+snake,electric eel,38,64,36,91
+snake,lava snake,39,64,36,91
+troll,troll,33,59,36,91
+troll,iron troll,34,59,36,91
+troll,deep troll,35,59,36,91
+troll,deep troll earth mage,36,59,36,91
+vampire,vampire,27,74,36,91
+vampire,vampire knight,28,74,36,91
+vampire,vampire mage,29,74,36,91
+vampire,jiangshi,30,74,36,91
+wraith,ghost,6,74,36,91
+wraith,phantom,7,74,36,91
+wraith,martyred shade,8,74,36,91
+wraith,flayed ghost,9,74,36,91
+wraith,player ghost,10,74,36,91
+wraith,shadow,11,74,36,91
+wraith,silent spectre,12,74,36,91
+wraith,drowned soul,13,74,36,91
+wraith,wraith,14,74,36,91
+wraith,shadow wraith,15,74,36,91
+wraith,putrid mouth,16,74,36,91
+wraith,freezing wraith,17,74,36,91
+wraith,eidolon,18,74,36,91
+wraith,phantasmal warrior,19,74,36,91
+horror,large abomination,20,74,36,91
+horror,thrashing horror,31,64,36,91
+horror,tentacled monstrosity,32,64,36,91
+horror,orb guardian,33,64,36,91
+horror,tentacled starspawn,34,64,36,91
+horror,starspawn tentacle,0,72,36,91
+horror,starspawn tentacle segment,1,72,36,91
+horror,starcursed mass,59,75,36,91
+horror,nameless horror,11,66,36,91
+horror,kraken,7,65,36,91
+horror,tentacle,13,72,36,91
+horror,tentacle segment,20,72,36,91
+horror,eldritch tentacle,2,72,36,91
+horror,eldritch tentacle segment,3,72,36,91
+yak,dream sheep,18,63,36,91
+yak,yak,19,63,36,91
+yak,death yak,20,63,36,91
+yak,catoblepas,21,63,36,91
+yak,elephant,22,63,36,91
+yak,dire elephant,23,63,36,91
+yak,hellphant,24,63,36,91
+yak,apis,25,63,36,91
+yak,ice breast,4,64,36,91
+yak,sky beast,12,65,36,91
+zombie,zombie,59,74,36,91
+zombie,skeleton,60,74,36,91
+zombie,simulacrum,56,64,36,91
+zombie,small zombie,63,74,36,91
+zombie,small skeleton,62,74,36,91
+zombie,small simulacrum,61,74,36,91
+zombie,large zombie,60,74,36,91
+zombie,large skeleton,59,74,36,91
+zombie,large simulacrum,58,74,36,91
+zombie,spectral thing,0,74,36,91
+zombie,bound soul,1,74,36,91
+demon,demonspawn,37,78,36,91
+demon,demonspawn blood saint,38,78,36,91
+demon,demonspawn warmonger,39,78,36,91
+demon,demonspawn corrupter,40,78,36,91
+demon,demonspawn black sun,41,78,36,91
+demon,crimson imp,16,65,36,91
+demon,cerulean imp,17,65,36,91
+demon,quasit,18,65,36,91
+demon,white imp,19,65,36,91
+demon,ufetubus,20,65,36,91
+demon,iron imp,21,65,36,91
+demon,shadow imp,22,65,36,91
+demon,lemure,23,65,36,91
+demon,rust devil,24,65,36,91
+demon,orange demon,25,65,36,91
+demon,bone devil,26,65,36,91
+demon,red devil,27,65,36,91
+demon,hellwing,28,65,36,91
+demon,ice devil,29,65,36,91
+demon,chaos spawn,30,65,36,91
+demon,sun demon,31,65,36,91
+demon,soul eater,32,65,36,91
+demon,smoke demon,33,65,36,91
+demon,neqoxec,34,65,36,91
+demon,ynoxinul,35,65,36,91
+demon,sixfirhy,36,65,36,91
+demon,shadow demon,37,65,36,91
+demon,green death,38,65,36,91
+demon,blizzard demon,39,65,36,91
+demon,balrug,40,65,36,91
+demon,cacodemon,41,65,36,91
+demon,hell beast,42,65,36,91
+demon,hellion,43,65,36,91
+demon,reaper,44,65,36,91
+demon,lorocyproca,45,65,36,91
+demon,tormentor,46,65,36,91
+demon,Brimstone Fiend,47,65,36,91
+demon,Ice Fiend,48,65,36,91
+demon,Tzitzimitl,49,65,36,91
+demon,Hell Sentinel,50,65,36,91
+demon,Executioner,51,65,36,91
+construct,ice statue,6,71,36,91
+construct,obsidian statue,7,71,36,91
+construct,orange crytstal statue,8,71,36,91
+construct,training dummy,9,71,36,91
+construct,pillar of salt,10,71,36,91
+construct,block of ice,11,71,36,91
+construct,diamond obelisk,12,71,36,91
+construct,lightning spire,13,71,36,91
+construct,strange machine,14,71,36,91
+construct,saltling,44,66,36,91
+construct,peacekeeper,45,66,36,91
+construct,iron golem,46,66,36,91
+construct,crystal guardian,47,66,36,91
+construct,toenail golem,48,66,36,91
+construct,electric golem,49,66,36,91
+construct,nargun,50,66,36,91
+construct,ushabti,51,66,36,91
+construct,gargoyle,52,66,36,91
+construct,molten gargoyle,53,66,36,91
+construct,war gargoyle,54,66,36,91
+construct,blazeheart golem,28,71,36,91
+construct,spellforged servitor,29,71,36,91
+spell,ball lightning,56,68,36,91
+spell,ballistomycete spore,56,68,36,91
+spell,lost soul,56,68,36,91
+spell,lurking horror,56,68,36,91
+spell,orb of fire,56,68,36,91
+spell,creeping inferno,56,68,36,91
+spell,orb of destruction,56,68,36,91
+spell,foxfire,56,68,36,91
+spell,fulminant prism,56,68,36,91
+spell,wretched star,56,68,36,91
+spell,battlesphere,57,68,36,91
+spell,boulder,58,68,36,91
+spell,aspiring flesh,59,68,36,91
+spell,blazeheart core,60,68,36,91
+npc,scrawny cat,42,84,36,91
+npc,scruffy dog,6,64,36,91
+npc,horse,12,68,36,91
+npc,sheep,18,63,36,91
+npc,barbarian,23,59,36,91
+npc,bard,22,59,36,91
+npc,cleric,29,59,36,91
+npc,druid,19,59,36,91
+npc,fighter,4,79,36,91
+npc,monk,5,79,36,91
+npc,paladin,6,79,36,91
+npc,ranger,7,79,36,91
+npc,rogue,28,59,36,91
+npc,sorcerer,30,59,36,91
+npc,warlock,31,59,36,91
+npc,wizard,32,59,36,91
+npc,Heinz the Weaponsmith,0,12,36,91
+npc,Felix the Fletcher,1,12,36,91
+npc,Stori the Blacksmith,0,12,36,91
+npc,Rolf the Runesmith,1,12,36,91
+npc,Bruno's General Store,1,12,36,91
+npc,Wilder the Haberdasher,1,12,36,91
+player,Player,23,60,36,91
+boss,Balor,8,94,36,91
+boss,Tarrasque,1,94,36,91
+boss,Witch-King,17,94,36,91
+boss,Vampire King,12,94,36,91
+arrow,Stair Down,53,11,0,0
+arrow,Stair Up,54,11,0,0
+ShortBlade,melee/Dagger,17,45,0,0
+ShortBlade,melee/Quick blade,18,45,0,0
+ShortBlade,melee/Shortsword,4,45,0,0
+ShortBlade,melee/Rapier,8,47,0,0
+LongBlade,melee/Falchion,0,45,0,0
+LongBlade,melee/Longsword,1,45,0,0
+LongBlade,melee/Scimitar,2,45,0,0
+LongBlade,melee/Demon blade,3,45,0,0
+LongBlade,melee/Zweihander,4,45,0,0
+LongBlade,melee/Bastard Sword,5,45,0,0
+LongBlade,melee/Greatsword,6,45,0,0
+LongBlade,melee/Executioner Sword,7,45,0,0
+Hafted,melee/Club,19,45,0,0
+Hafted,melee/Whip,20,45,0,0
+Hafted,melee/Mace,21,45,0,0
+Hafted,melee/Flail,22,45,0,0
+Hafted,melee/Morningstar,23,45,0,0
+Hafted,melee/Demon whip,24,45,0,0
+Hafted,melee/Sacred scourge,25,45,0,0
+Hafted,melee/Dire flail,26,45,0,0
+Hafted,melee/Eveningstar,27,45,0,0
+Hafted,melee/Great mace,28,45,0,0
+Hafted,melee/Giant club,29,45,0,0
+Hafted,melee/Giant spiked club,30,45,0,0
+Axe,melee/Handaxe,41,44,0,0
+Axe,melee/War axe,42,44,0,0
+Axe,melee/Broad axe,43,44,0,0
+Axe,melee/Battleaxe,44,44,0,0
+Axe,melee/Greataxe,45,44,0,0
+Polearm,melee/Spear,27,47,0,0
+Polearm,melee/Trident,28,47,0,0
+Polearm,melee/Halberd,29,47,0,0
+Polearm,melee/Demon trident,30,47,0,0
+Polearm,melee/Fork,31,47,0,0
+Polearm,melee/Glaive,32,47,0,0
+Polearm,melee/Bardache,33,47,0,0
+Staff,melee/Staff,42,47,0,0
+Staff,melee/Quarterstaff,3,47,0,0
+Staff,melee/Lajatang,0,48,0,0
+Bow,shoot/Sling,43,49,0,0
+Bow,shoot/Shortbow,20,49,0,0
+Bow,shoot/Longbow,21,49,0,0
+Bow,"shoot/Crossbow, light",28,49,0,0
+Bow,"shoot/Crossbow, hand",27,49,0,0
+Bow,"shoot/Crossbow, heavy",28,49,0,0
+Throw,throw/stone,45,49,0,0
+Throw,throw/poisoned dart,34,49,0,0
+Throw,throw/basilisk dart,34,49,0,0
+Throw,throw/stun dart,34,49,0,0
+Throw,throw/smokepowder bomb,46,49,0,0
+Throw,throw/fey arrow,41,49,0,0
+Throw,throw/boomerang,49,49,0,0
+Throw,throw/javelin,19,25,0,0
+Throw,throw/large rock,48,49,0,0
+Throw,throw/net,55,25,0,0
+armor,armor/Robe,10,46,0,0
+armor,armor/Leather,0,38,0,0
+armor,armor/Ring mail,1,38,0,0
+armor,armor/Scale mail,2,38,0,0
+armor,armor/Chain mail,3,38,0,0
+armor,armor/Plate,4,38,0,0
+armor,armor/Crystal plate armor,5,38,0,0
+armor,armor/Animal skin,6,38,0,0
+armor,armor/Troll leather armor,7,38,0,0
+armor,armor/Steam dragon scales,8,38,0,0
+armor,armor/Acid dragon scales,9,38,0,0
+armor,armor/Swamp dragon scales,10,38,0,0
+armor,armor/Quicksilver dragon scales,11,38,0,0
+armor,armor/Fire dragon scales,12,38,0,0
+armor,armor/Ice dragon scales,13,38,0,0
+armor,armor/Pearl dragon scales,14,38,0,0
+armor,armor/Storm dragon scales,15,38,0,0
+armor,armor/Shadow dragon scales,16,38,0,0
+armor,armor/Gold dragon scales,17,38,0,0
+armor,shield/Buckler,29,37,0,0
+armor,shield/Shield,20,37,0,0
+armor,shield/Tower,19,37,0,0
+armor,feet/Leather Boots,23,36,0,0
+armor,feet/Mail Chausses,24,36,0,0
+armor,feet/Plate Leggings,25,36,0,0
+armor,feet/Dragonhide Boots,26,36,0,0
+armor,hands/Bracers,29,36,0,0
+armor,hands/Fine Leather,30,36,0,0
+armor,hands/Gauntlets,31,36,0,0
+armor,hands/Vambraces,32,36,0,0
+armor,head/Leather Skullcap,0,37,0,0
+armor,head/Helm,1,37,0,0
+armor,head/Mail Coif,2,37,0,0
+armor,head/Wide Brimmed Hat,3,37,0,0
+armor,cloak/Cloak,9,36,0,0
+armor,cloak/Fur Cloak,10,36,0,0
+armor,cloak/Elven Cloak,11,36,0,0
+armor,cloak/Dragonscale Cloak,12,36,0,0
+food,food/baguette,1,40,0,0
+food,food/blushcap mushroom,2,40,0,0
+food,food/bonecap mushroom,3,40,0,0
+food,food/cabbage,4,40,0,0
+food,food/carafe of wine,5,40,0,0
+food,food/carrot,6,40,0,0
+food,food/cheese wedge,7,40,0,0
+food,food/cheese wheel,8,40,0,0
+food,food/chicken,9,40,0,0
+food,food/courgette,10,40,0,0
+food,food/dried fish,11,40,0,0
+food,food/egg,12,40,0,0
+food,food/fey mushroom,13,40,0,0
+food,food/fish head,14,40,0,0
+food,food/fungus stew,15,40,0,0
+food,food/garlic,16,40,0,0
+food,food/grilled pork belly,17,40,0,0
+food,food/grilled ribs,18,40,0,0
+food,food/gruel,31,40,0,0
+food,food/half eaten apple,32,40,0,0
+food,food/ham,33,40,0,0
+food,food/healing herbs,34,40,0,0
+food,food/lemon,35,40,0,0
+food,food/mushroom,36,40,0,0
+food,food/orange,37,40,0,0
+food,food/pear,38,40,0,0
+food,food/pig's head,39,40,0,0
+food,food/pitcher of beer,1,40,0,0
+food,food/pork shoulder,2,40,0,0
+food,food/potato,3,40,0,0
+food,food/pumpkin,4,40,0,0
+food,food/raw steak,5,40,0,0
+food,food/red apple,6,40,0,0
+food,food/rum,7,40,0,0
+food,food/sausage,8,40,0,0
+food,food/sourdough bread,9,40,0,0
+food,food/supply pack,10,40,0,0
+food,food/toadstool,11,40,0,0
+ring,jewelry/Ring,34,42,0,0
+ring,jewelry/Ring of Acid,35,42,0,0
+ring,jewelry/Ring of Alchemy,36,42,0,0
+ring,jewelry/Ring of Cold,37,42,0,0
+ring,jewelry/Ring of Darkness,38,42,0,0
+ring,jewelry/Ring of Dexterity,39,42,0,0
+ring,jewelry/Ring of Fire,40,42,0,0
+ring,jewelry/Ring of Flight,41,42,0,0
+ring,jewelry/Ring of Intelligence,42,42,0,0
+ring,jewelry/Ring of Light,43,42,0,0
+ring,jewelry/Ring of Lightning,44,42,0,0
+ring,jewelry/Ring of Poison,45,42,0,0
+ring,jewelry/Ring of Stealth,46,42,0,0
+ring,jewelry/Ring of Strength,47,42,0,0
+ring,jewelry/Ring of Thunder,48,42,0,0
+ring,jewelry/Ring of Venom,49,42,0,0
+ring,jewelry/Ring of Willpower,50,42,0,0
+amulet,neck/Amulet,0,35,0,0
+amulet,neck/Amulet of Elements,1,35,0,0
+amulet,neck/Amulet of Flight,2,35,0,0
+amulet,neck/Amulet of Nature,3,35,0,0
+amulet,neck/Amulet of Sky,4,35,0,0
+amulet,neck/Amulet of Stealth,5,35,0,0
+amulet,neck/Amulet of Storms,6,35,0,0
+amulet,neck/Amulet of Willpower,7,35,0,0
+amulet,neck/Pendant of Death,8,35,0,0
+amulet,neck/Pendant of Life,9,35,0,0
+potion,potion/Elixir of Silvanus,8,42,0,0
+potion,potion/Goodberry Potion,9,42,0,0
+potion,potion/Potion of ambrosia,10,42,0,0
+potion,potion/Potion of attraction,11,42,0,0
+potion,potion/Potion of berserk rage,12,42,0,0
+potion,potion/Potion of brilliance,13,42,0,0
+potion,potion/Potion of cancellation,14,42,0,0
+potion,potion/Potion of curing,15,42,0,0
+potion,potion/Potion of degeneration,16,42,0,0
+potion,potion/Potion of enlightenment,17,42,0,0
+potion,potion/Potion of experience,18,42,0,0
+potion,potion/Potion of haste,19,42,0,0
+potion,potion/Potion of heal wounds,20,42,0,0
+potion,potion/Potion of Healing,21,42,0,0
+potion,potion/Potion of invisibility,22,42,0,0
+potion,potion/Potion of lignification,23,42,0,0
+potion,potion/Potion of magic,24,42,0,0
+potion,potion/Potion of might,25,42,0,0
+potion,potion/Potion of mutation,26,42,0,0
+potion,potion/Potion of resistance,27,42,0,0
+scroll,scroll/Scroll of acquirement,41,43,0,0
+scroll,scroll/Scroll of amnesia,42,43,0,0
+scroll,scroll/Scroll of blinking,43,43,0,0
+scroll,scroll/Scroll of brand weapon,44,43,0,0
+scroll,scroll/Scroll of butterflies,45,43,0,0
+scroll,scroll/Scroll of enchant armor,46,43,0,0
+scroll,scroll/Scroll of enchant weapon,47,43,0,0
+scroll,scroll/Scroll of fear,48,43,0,0
+scroll,scroll/Scroll of fog,49,43,0,0
+scroll,scroll/Scroll of identify,41,43,0,0
+scroll,scroll/Scroll of immolation,42,43,0,0
+scroll,scroll/Scroll of noise,43,43,0,0
+scroll,scroll/Scroll of poison,44,43,0,0
+scroll,scroll/Scroll of revelation,45,43,0,0
+scroll,scroll/Scroll of silence,46,43,0,0
+scroll,scroll/Scroll of summoning,47,43,0,0
+scroll,scroll/Scroll of teleportation,48,43,0,0
+scroll,scroll/Scroll of torment,49,43,0,0
+scroll,scroll/Scroll of vulnerability,41,43,0,0

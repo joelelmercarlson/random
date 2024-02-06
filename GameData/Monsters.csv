@@ -182,20 +182,20 @@ insect,spark wasp,Tiny insect (y),40,12,660,9,14,15,33:melee/Electrocution,,,,"l
 insect,ghost moth,Large insect (y),100,13,715,8,10,12,24:melee/Bite,,18:melee/Sting,18:melee/Sting,"poison,cold",,spell/Vulnerability
 insect,moth of wrath,Small insect (y),40,9,495,0,10,12,25:melee/Sting,,,,,,spell/Berserk
 insect,sun moth,Small insect (y),60,9,605,6,12,12,27:melee/Swoop,,,,fire,,spell/Prone
-undead,wight,Medium undead (z),20,3,165,4,10,10,8:melee/Frost,,,,"poison,cold",,spell/Poisoned
-undead,skeletal warrior,Medium undead (z),100,10,650,15,10,10,25:melee/Longsword,,,,"poison,cold",,
-undead,ancient champion,Medium undead (z),120,14,700,15,10,10,32:melee/Longsword,,,,"poison,cold",,
-undead,weeping skull,Tiny undead (z),20,5,280,7,3,10,10:melee/Touch,,,,"poison,cold",,spell/Paralyzed
-undead,laughing skull,Tiny undead (z),20,5,240,4,18,15,16:melee/Headbutt,,,,"poison,fire",,spell/Petrified
-undead,curse skull,Tiny undead (z),200,13,520,35,3,15,,,,,"poison,fire,cold,lightning",,
-undead,curse toe,Tiny undead (z),200,14,980,25,1,10,,,,,"poison,fire,cold,lightning",,
-undead,death cob,Tiny undead (z),40,14,910,10,15,25,35:melee/Touch,,,,"poison,cold",,spell/Poisoned
-undead,revenant,Medium undead (z),200,18,810,8,12,10,26:melee/Touch,,,,"poison,cold",,
-angelic,angel,Medium angel (A),120,12,1020,10,20,15,25:melee/Mace,,,,"poison,lightning",,
-angelic,cherub,Medium angel (A),100,9,765,10,20,10,,15:shoot/Shortbow,8:melee/Mace,,"poison,lightning,fire",,
-angelic,seraph,Medium angel (A),160,25,2125,10,20,15,50:melee/Mace,,20:melee/Mace,,"poison,lightning,fire",,
-angelic,daeva,Medium angel (A),140,14,1190,10,13,10,25:melee/Mace,,10:melee/Mace,,poison,,
-angelic,profane servitor,Medium angel (A),140,18,1530,10,20,15,25:melee/Longsword,,10:melee/Mace,,"cold,lightning",,spell/Poisoned
+undead,wight,Medium undead (z),20,3,165,4,10,10,8:melee/Frost,,,,cold,,spell/Poisoned
+undead,skeletal warrior,Medium undead (z),100,10,650,15,10,10,25:melee/Longsword,,,,cold,,
+undead,ancient champion,Medium undead (z),120,14,700,15,10,10,32:melee/Longsword,,,,cold,,
+undead,weeping skull,Tiny undead (z),20,5,280,7,3,10,10:melee/Touch,,,,cold,,spell/Paralyzed
+undead,laughing skull,Tiny undead (z),20,5,240,4,18,15,16:melee/Headbutt,,,,fire,,spell/Petrified
+undead,curse skull,Tiny undead (z),200,13,520,35,3,15,,,,,"fire,cold,lightning",,
+undead,curse toe,Tiny undead (z),200,14,980,25,1,10,,,,,"fire,cold,lightning",,
+undead,death cob,Tiny undead (z),40,14,910,10,15,25,35:melee/Touch,,,,cold,,spell/Poisoned
+undead,revenant,Medium undead (z),200,18,810,8,12,10,26:melee/Touch,,,,cold,,
+angelic,angel,Medium angel (A),120,12,1020,10,20,15,25:melee/Mace,,,,lightning,,
+angelic,cherub,Medium angel (A),100,9,765,10,20,10,,15:shoot/Shortbow,8:melee/Mace,,"lightning,fire",,
+angelic,seraph,Medium angel (A),160,25,2125,10,20,15,50:melee/Mace,,20:melee/Mace,,"lightning,fire",,
+angelic,daeva,Medium angel (A),140,14,1190,10,13,10,25:melee/Mace,,10:melee/Mace,,,,
+angelic,profane servitor,Medium angel (A),140,18,1530,10,20,15,25:melee/Longsword,,10:melee/Mace,,cold,,spell/Poisoned
 beetle,giant cockroach,Small beetle (B),0,1,50,3,10,12,2:melee/Bite,,,,VP,,
 beetle,bombardier beetle,Small beetle (B),20,2,170,4,7,6,5:melee/Bite,,,,VP,,
 beetle,radroach,Small beetle (B),60,12,800,13,5,10,20:melee/Bite,,16:melee/Claw,,,,spell/Poisoned
@@ -268,15 +268,15 @@ kobold,kobold,Small kobold (K),0,1,35,2,12,10,1:melee/Dagger,,,,,,
 kobold,kobold brigand,Small kobold (K),20,5,275,3,12,10,7:melee/Scimitar,,,,,,
 kobold,kobold demonologist,Small kobold (K),40,6,390,4,13,10,4:melee/Dagger,,,,,spell/Fire9,
 kobold,kobold blastminer,Small kobold (K),20,8,390,4,14,10,12:melee/Scimitar,,,,,spell/Lightning9,
-lich,lich,Medium undead (L),200,20,800,10,10,10,15:melee/Touch,,,,"poison,cold",,spell/Poisoned
-lich,ancient lich,Medium undead (L),200,27,1080,20,10,10,20:melee/Touch,,,,"poison,cold,fire,lightning",,spell/Poisoned
-lich,dread lich,Medium undead (L),200,27,1080,20,10,10,20:melee/Touch,,,,"poison,cold,fire,lightning",,spell/Petrified
-lich,halazid warlock,Medium undead (L),100,18,750,8,12,10,20:melee/Longsword,,,,"poison,cold",,spell/Poisoned
-lich,stoker,Medium undead (L),120,13,800,5,12,10,15:melee/Flame,,,,"poison,fire",,spell/Fire9
-mummy,mummy,Medium undead (M),20,3,195,3,6,6,20:melee/Mace,,,,"poison,cold,VF",,
-mummy,guardian mummy,Medium undead (M),40,7,455,6,9,8,30:melee/Mace,,,,"poison,cold",,
-mummy,royal mummy,Medium undead (M),160,15,1950,10,6,10,35:melee/Mace,,,,"poison,cold,lightning",spell/Cold5,
-mummy,mummy priest,Medium undead (M),120,10,650,8,7,8,30:melee/Mace,,,,"poison,cold,lightning",spell/Radiant5,
+lich,lich,Medium undead (L),200,20,800,10,10,10,15:melee/Touch,,,,cold,,spell/Poisoned
+lich,ancient lich,Medium undead (L),200,27,1080,20,10,10,20:melee/Touch,,,,"cold,fire,lightning",,spell/Poisoned
+lich,dread lich,Medium undead (L),200,27,1080,20,10,10,20:melee/Touch,,,,"cold,fire,lightning",,spell/Petrified
+lich,halazid warlock,Medium undead (L),100,18,750,8,12,10,20:melee/Longsword,,,,cold,,spell/Poisoned
+lich,stoker,Medium undead (L),120,13,800,5,12,10,15:melee/Flame,,,,fire,,spell/Fire9
+mummy,mummy,Medium undead (M),20,3,195,3,6,6,20:melee/Mace,,,,"cold,VF",,
+mummy,guardian mummy,Medium undead (M),40,7,455,6,9,8,30:melee/Mace,,,,cold,,
+mummy,royal mummy,Medium undead (M),160,15,1950,10,6,10,35:melee/Mace,,,,"cold,lightning",spell/Cold5,
+mummy,mummy priest,Medium undead (M),120,10,650,8,7,8,30:melee/Mace,,,,"cold,lightning",spell/Radiant5,
 naga,naga,Large naga (N),40,5,275,6,10,10,22:melee/Bite,,5:melee/Constrict,,poison,,spell/Restrained
 naga,naga mage,Large naga (N),60,7,385,6,10,10,14:melee/Bite,,4:melee/Constrict,,poison,spell/Acid7,spell/Restrained
 naga,naga sharpshooter,Large naga (N),80,9,720,6,10,10,,17:shoot/Shortbow,4:melee/Constrict,,poison,spell/Acid7,spell/Restrained
@@ -334,24 +334,24 @@ troll,troll,Large troll (T),20,7,385,3,10,10,20:melee/Bite,,15:melee/Claw,15:mel
 troll,iron troll,Large troll (T),100,16,850,20,4,7,35:melee/Bite,,25:melee/Claw,25:melee/Claw,,,
 troll,deep troll,Large troll (T),40,10,550,6,10,10,27:melee/Bite,,20:melee/Claw,20:melee/Claw,,,
 troll,deep troll earth mage,Large troll (T),40,12,480,12,10,10,27:melee/Bite,,20:melee/Claw,20:melee/Claw,,spell/Fire8,
-vampire,vampire,Medium undead (V),40,6,330,10,10,10,15:melee/Vampire Fang,,15:melee/Longsword,,"poison,cold",,
-vampire,vampire knight,Medium undead (V),80,11,715,10,10,10,33:melee/Vampire Fang,,15:melee/Longsword,,"poison,cold",,
-vampire,vampire mage,Medium undead (V),80,10,550,10,10,10,15:melee/Vampire Fang,,15:melee/Longsword,,"poison,cold",spell/Lightning7,
-vampire,jiangshi,Medium undead (V),80,10,650,10,10,18,27:melee/Vampire Fang,,27:melee/Longsword,,"poison,cold",,spell/Poisoned
-wraith,ghost,Medium wraith (W),0,6,100,0,0,10,,,,,"poison,cold",,
-wraith,phantom,Medium wraith (W),40,6,270,3,13,10,8:melee/Touch,,,,"poison,cold",,
-wraith,martyred shade,Medium wraith (W),60,11,605,0,14,7,,,,,poison,,
-wraith,flayed ghost,Medium wraith (W),60,11,605,3,14,10,30:melee/Touch,,,,poison,,
-wraith,player ghost,Medium wraith (W),-5,4,140,1,2,10,,,,,poison,,
-wraith,shadow,Small wraith (W),40,6,240,7,10,10,14:melee/Touch,,,,"poison,cold",,
-wraith,silent spectre,Medium wraith (W),40,8,440,5,15,10,15:melee/Touch,,,,"poison,cold",,
-wraith,drowned soul,Medium wraith (W),60,13,195,0,13,12,1:melee/Swoop,,,,"poison,cold",,spell/Prone
-wraith,wraith,Medium wraith (W),40,6,330,10,10,10,15:melee/Touch,,,,"poison,cold",,spell/Poisoned
-wraith,shadow wraith,Medium wraith (W),100,10,550,7,7,10,27:melee/Touch,,,,poison,,spell/Poisoned
-wraith,putrid mouth,Medium wraith (W),100,14,700,5,14,10,30:melee/Venom,,20:melee/Touch,,poison,,spell/Poison7
-wraith,freezing wraith,Medium wraith (W),40,8,440,12,10,10,16:melee/Touch,,15:melee/Touch,,"poison,cold,VF",,
-wraith,eidolon,Medium wraith (W),140,13,715,12,10,10,27:melee/Touch,,17:melee/Touch,,"poison,cold",,spell/Cold7
-wraith,phantasmal warrior,Medium wraith (W),80,9,495,12,10,10,39:melee/Touch,,,,"poison,cold",,
+vampire,vampire,Medium undead (V),40,6,330,10,10,10,15:melee/Vampire Fang,,15:melee/Longsword,,cold,,
+vampire,vampire knight,Medium undead (V),80,11,715,10,10,10,33:melee/Vampire Fang,,15:melee/Longsword,,cold,,
+vampire,vampire mage,Medium undead (V),80,10,550,10,10,10,15:melee/Vampire Fang,,15:melee/Longsword,,cold,spell/Lightning7,
+vampire,jiangshi,Medium undead (V),80,10,650,10,10,18,27:melee/Vampire Fang,,27:melee/Longsword,,cold,,spell/Poisoned
+wraith,ghost,Medium wraith (W),0,6,100,0,0,10,,,,,cold,,
+wraith,phantom,Medium wraith (W),40,6,270,3,13,10,8:melee/Touch,,,,cold,,
+wraith,martyred shade,Medium wraith (W),60,11,605,0,14,7,,,,,,,
+wraith,flayed ghost,Medium wraith (W),60,11,605,3,14,10,30:melee/Touch,,,,,,
+wraith,player ghost,Medium wraith (W),-5,4,140,1,2,10,,,,,,,
+wraith,shadow,Small wraith (W),40,6,240,7,10,10,14:melee/Touch,,,,cold,,
+wraith,silent spectre,Medium wraith (W),40,8,440,5,15,10,15:melee/Touch,,,,cold,,
+wraith,drowned soul,Medium wraith (W),60,13,195,0,13,12,1:melee/Swoop,,,,cold,,spell/Prone
+wraith,wraith,Medium wraith (W),40,6,330,10,10,10,15:melee/Touch,,,,cold,,spell/Poisoned
+wraith,shadow wraith,Medium wraith (W),100,10,550,7,7,10,27:melee/Touch,,,,,,spell/Poisoned
+wraith,putrid mouth,Medium wraith (W),100,14,700,5,14,10,30:melee/Venom,,20:melee/Touch,,,,spell/Poison7
+wraith,freezing wraith,Medium wraith (W),40,8,440,12,10,10,16:melee/Touch,,15:melee/Touch,,"cold,VF",,
+wraith,eidolon,Medium wraith (W),140,13,715,12,10,10,27:melee/Touch,,17:melee/Touch,,cold,,spell/Cold7
+wraith,phantasmal warrior,Medium wraith (W),80,9,495,12,10,10,39:melee/Touch,,,,cold,,
 horror,large abomination,Large abomination (X),100,11,495,0,0,10,40:melee/Tentacle Slap,,,,,,
 horror,thrashing horror,Large abomination (X),60,9,495,5,10,25,17:melee/Trample,,9:melee/Bite,,"fire,cold,lightning",,
 horror,tentacled monstrosity,Giant abomination (X),160,23,1265,5,5,10,22:melee/Tentacle Slap,,17:melee/Tentacle Slap,13:melee/Tentacle Slap,"poison,fire,cold,lightning",,
@@ -376,17 +376,17 @@ yak,hellphant,Giant beast (Y),140,20,1700,13,10,10,45:melee/Trample,,20:melee/Bi
 yak,apis,Large beast (Y),100,16,1200,9,5,10,40:melee/Trample,,,,,,
 yak,ice breast,Large beast (Y),20,5,275,5,10,10,5:melee/Frost,,,,"poison,cold,VF",,
 yak,sky beast,Large beast (Y),20,5,275,3,13,10,5:melee/Electrocution,,,,lightning,,
-zombie,zombie,Medium undead (Z),-1,4,200,3,10,5,10:melee/Claw,,,,"poison,cold",,
-zombie,skeleton,Medium undead (Z),-1,4,130,3,10,5,10:melee/Shortsword,,,,poison,,
-zombie,simulacrum,Medium undead (Z),-1,2,110,10,4,7,10:melee/Falchion,,,,"poison,cold,VF",,
-zombie,small zombie,Medium undead (Z),-1,1,75,0,4,5,10:melee/Bite,,,,"poison,cold",,
-zombie,small skeleton,Medium undead (Z),-1,1,100,3,10,5,10:melee/Shortsword,,,,poison,,
-zombie,small simulacrum,Medium undead (Z),-1,2,110,10,4,7,6:melee/Hit,,,,"poison,cold,VF",,
-zombie,large zombie,Large undead (Z),-1,6,330,8,5,5,23:melee/Claw,,,,"poison,cold",,
-zombie,large skeleton,Large undead (Z),-1,6,330,8,5,5,10:melee/Longsword,,,,poison,,
-zombie,large simulacrum,Large undead (Z),-1,8,440,8,5,7,14:melee/Hit,,,,"poison,cold,VF",,
-zombie,spectral thing,Medium undead (Z),200,8,440,8,5,7,20:melee/Hit,,,,"poison,cold",,
-zombie,bound soul,Medium undead (Z),200,8,440,8,5,7,20:melee/Bite,,,,"poison,cold",,
+zombie,zombie,Medium undead (Z),-1,4,200,3,10,5,10:melee/Claw,,,,cold,,
+zombie,skeleton,Medium undead (Z),-1,4,130,3,10,5,10:melee/Shortsword,,,,,,
+zombie,simulacrum,Medium undead (Z),-1,2,110,10,4,7,10:melee/Falchion,,,,"cold,VF",,
+zombie,small zombie,Medium undead (Z),-1,1,75,0,4,5,10:melee/Bite,,,,cold,,
+zombie,small skeleton,Medium undead (Z),-1,1,100,3,10,5,10:melee/Shortsword,,,,,,
+zombie,small simulacrum,Medium undead (Z),-1,2,110,10,4,7,6:melee/Hit,,,,"cold,VF",,
+zombie,large zombie,Large undead (Z),-1,6,330,8,5,5,23:melee/Claw,,,,cold,,
+zombie,large skeleton,Large undead (Z),-1,6,330,8,5,5,10:melee/Longsword,,,,,,
+zombie,large simulacrum,Large undead (Z),-1,8,440,8,5,7,14:melee/Hit,,,,"cold,VF",,
+zombie,spectral thing,Medium undead (Z),200,8,440,8,5,7,20:melee/Hit,,,,cold,,
+zombie,bound soul,Medium undead (Z),200,8,440,8,5,7,20:melee/Bite,,,,cold,,
 demon,demonspawn,Medium demon (6),40,10,925,3,12,10,20:melee/Demon blade,,20:melee/Claw,20:melee/Gore,,,
 demon,demonspawn blood saint,Medium demon (6),60,15,925,6,12,10,20:melee/Demon blade,,,,fire,spell/Fire8,
 demon,demonspawn warmonger,Medium demon (6),60,15,1250,3,12,10,40:melee/Demon blade,,20:melee/Claw,20:melee/Gore,fire,,
@@ -487,8 +487,7 @@ npc,Rolf the Runesmith,Medium gnome (@),40,6,350,2,10,10,4:melee/Falchion,,,,,,
 npc,Bruno's General Store,Medium human (@),40,6,350,2,10,10,4:melee/Club,,,,,,
 npc,Wilder the Haberdasher,Medium human (@),40,6,350,2,10,10,6:melee/Rapier,,,,,,
 player,Player,Medium hero (@),10,1,100,2,10,10,4:melee/Dagger,,,,,,
-boss,Balor,Large Boss (&),200,22,2620,15,6,12,25:melee/Demon blade,,25:melee/Demon blade,12:melee/Demon whip,,,spell/Lightning6
-boss,Pit Fiend,Large Boss (&),180,20,3000,6,6,10,21:melee/Demon blade,,21:melee/Demon blade,12:melee/Claw,,,spell/Fire6
+boss,Balor,Large Boss (&),200,20,2620,15,6,12,25:melee/Demon blade,,25:melee/Demon blade,12:melee/Demon whip,"lightning,fire,cold",,spell/Lightning6
 boss,Tarrasque,Giant Boss  (R),160,19,3000,20,6,10,48:melee/Trample,,32:melee/Claw,32:melee/Claw,,,spell/Fire6
 boss,Witch-King,Medium Boss (L),140,18,1500,10,15,12,50:melee/Touch,,12:melee/Shortsword,,,,spell/Paralyzed
 boss,Vampire King,Medium Boss (V),120,17,2250,6,13,12,36:melee/Vampire Fang,,8:melee/Claw,6:melee/Shortsword,,,spell/Cold4
