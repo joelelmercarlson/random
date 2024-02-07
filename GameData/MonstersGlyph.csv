@@ -43,18 +43,18 @@ elf,deep elf annihilator,26,59,36,91
 elf,deep elf sorcerer,27,59,36,91
 elf,deep elf death mage,28,59,36,91
 elf,deep elf elementalist,29,59,36,91
-plant,sleepcap,7,68,36,91
-plant,wandering mushroom,8,68,36,91
-plant,deathcap,4,68,36,91
-plant,thorn hunter,5,68,36,91
-plant,shambling mangrove,6,68,36,91
-plant,vine stalker,22,94,36,91
+plant,sleepcap,7,68,0,0
+plant,wandering mushroom,8,68,0,0
+plant,deathcap,4,68,0,0
+plant,thorn hunter,5,68,0,0
+plant,shambling mangrove,6,68,0,0
+plant,vine stalker,22,94,0,0
 goblin,goblin,1,60,36,91
 goblin,hobgoblin,2,60,36,91
 goblin,gnoll,19,60,36,91
 goblin,gnoll bouda,20,60,36,91
 goblin,gnoll sergeant,20,60,36,91
-goblin,boggart,21,60,36,91
+goblin,boggart,21,60,0,0
 goblin,dwarf,0,60,36,91
 goblin,deep dwarf,0,60,36,91
 quadruped,jackal,6,64,36,91
@@ -68,7 +68,7 @@ quadruped,hell hound,62,63,36,91
 quadruped,doom hound,63,63,36,91
 quadruped,raiju,59,63,36,91
 quadruped,hell hog,61,63,36,91
-quadruped,holy swine,2,64,36,91
+quadruped,holy swine,2,64,0,0
 quadruped,felid,41,84,36,91
 quadruped,polar bear,21,64,36,91
 quadruped,black bear,21,64,36,91
@@ -101,7 +101,7 @@ merfolk,malarious merfolk avatar,57,60,36,91
 merfolk,water nymph,48,60,36,91
 undead,bog body,49,75,36,91
 undead,necrophage,58,74,36,91
-undead,bloated husk,41,75,36,91
+undead,bloated husk,41,75,0,0
 undead,ghoul,34,59,36,91
 undead,searing wretch,36,59,36,91
 orc,orc,23,61,36,91
@@ -136,7 +136,7 @@ rat,rat,19,64,36,91
 rat,quokka,28,64,36,91
 rat,river rat,56,63,36,91
 rat,hell rat,45,65,36,91
-rat,crystal echidna,27,64,36,91
+rat,crystal echidna,27,64,0,0
 spider,scorpion,27,63,36,91
 spider,emperor scorpion,51,63,36,91
 spider,tarantella,61,64,36,91
@@ -154,11 +154,11 @@ testudine,ghost crab,56,75,36,91
 testudine,apocalypse crab,23,62,36,91
 ugly,ugly thing,20,62,36,91
 ugly,very ugly thing,21,62,36,91
-vortice,fire vortex,25,66,36,91
-vortice,spatial vortex,26,66,36,91
-vortice,spatial maelstrom,27,66,36,91
-vortice,will-o-the-wisp,28,66,36,91
-vortice,twister,29,66,36,91
+vortice,fire vortex,25,66,0,0
+vortice,spatial vortex,26,66,0,0
+vortice,spatial maelstrom,27,66,0,0
+vortice,will-o-the-wisp,28,66,0,0
+vortice,twister,29,66,0,0
 worm,ribbon worm,12,64,36,91
 worm,brain worm,14,72,36,91
 worm,swamp worm,15,72,36,91
@@ -167,10 +167,10 @@ worm,dart slug,17,72,36,91
 worm,torpor snail,18,72,36,91
 worm,steelbarb worm,19,72,36,91
 worm,elephant slug,20,72,36,91
-horror,unseen horror,13,65,36,91
-horror,small abomination,14,65,36,91
-horror,ancient zyme,15,65,36,91
-horror,worldbinder,16,65,36,91
+horror,unseen horror,13,65,0,0
+horror,small abomination,14,65,0,0
+horror,ancient zyme,15,65,0,0
+horror,worldbinder,16,65,0,0
 horror,bunyip,17,65,36,91
 octopode,octopode,8,65,36,91
 insect,killer bee,23,64,36,91
@@ -182,28 +182,28 @@ insect,spark wasp,28,64,36,91
 insect,ghost moth,29,64,36,91
 insect,moth of wrath,30,63,36,91
 insect,sun moth,31,63,36,91
-undead,wight,52,61,36,91
-undead,skeletal warrior,53,61,36,91
-undead,ancient champion,54,61,36,91
-undead,weeping skull,55,61,36,91
-undead,laughing skull,56,61,36,91
-undead,curse skull,57,61,36,91
-undead,curse toe,58,61,36,91
-undead,death cob,59,61,36,91
-undead,revenant,60,61,36,91
-angelic,angel,9,68,36,91
-angelic,cherub,10,68,36,91
-angelic,seraph,11,68,36,91
-angelic,daeva,13,68,36,91
-angelic,profane servitor,12,68,36,91
-beetle,giant cockroach,9,64,36,91
-beetle,bombardier beetle,10,64,36,91
-beetle,radroach,11,64,36,91
-beetle,formicid,12,64,36,91
-beetle,entropy weaver,13,64,36,91
-beetle,boulder beetle,14,64,36,91
-beetle,pharaoh ant,15,64,36,91
-beetle,death scarab,16,64,36,91
+undead,wight,52,61,0,0
+undead,skeletal warrior,53,61,0,0
+undead,ancient champion,54,61,0,0
+undead,weeping skull,55,61,0,0
+undead,laughing skull,56,61,0,0
+undead,curse skull,57,61,0,0
+undead,curse toe,58,61,0,0
+undead,death cob,59,61,0,0
+undead,revenant,60,61,0,0
+angelic,angel,9,68,0,0
+angelic,cherub,10,68,0,0
+angelic,seraph,11,68,0,0
+angelic,daeva,13,68,0,0
+angelic,profane servitor,12,68,0,0
+beetle,giant cockroach,37,63,36,91
+beetle,bombardier beetle,34,63,36,91
+beetle,radroach,38,63,36,91
+beetle,formicid,37,63,36,91
+beetle,entropy weaver,39,63,36,91
+beetle,boulder beetle,47,63,36,91
+beetle,pharaoh ant,58,62,0,0
+beetle,death scarab,59,62,36,91
 giant,cyclops,17,61,36,91
 giant,ettin,18,61,36,91
 giant,fire giant,19,61,36,91
@@ -212,9 +212,9 @@ giant,stone giant,21,61,36,91
 giant,titan,6,61,36,91
 giant,juggernaut,5,62,36,91
 giant,iron giant,6,62,36,91
-giant,cactus giant,7,62,36,91
+giant,cactus giant,7,62,0,0
 giant,tainted leviathan,5,68,36,91
-giant,protean progenitor,6,68,36,91
+giant,protean progenitor,6,68,0,0
 dragon,fire dragon,1,94,36,91
 dragon,hydra,2,94,36,91
 dragon,ice dragon,3,94,36,91
@@ -226,28 +226,28 @@ dragon,iron dragon,8,94,36,91
 dragon,storm dragon,9,94,36,91
 dragon,golden dragon,10,94,36,91
 dragon,shadow dragon,11,94,36,91
-dragon,bone dragon,12,94,36,91
+dragon,bone dragon,12,94,0,0
 dragon,pearl dragon,13,94,36,91
-elemental,earth elemental,32,66,36,91
-elemental,quicksilver elemental,33,66,36,91
-elemental,fire elemental,34,66,36,91
-elemental,water elemental,35,66,36,91
-elemental,air elemental,36,66,36,91
-elemental,iron elemental,37,66,36,91
-elemental,elemental wellspring,38,66,36,91
+elemental,earth elemental,32,66,0,0
+elemental,quicksilver elemental,33,66,0,0
+elemental,fire elemental,34,66,0,0
+elemental,water elemental,35,66,0,0
+elemental,air elemental,36,66,0,0
+elemental,iron elemental,37,66,0,0
+elemental,elemental wellspring,38,66,0,0
 frog,bullfrog,41,62,36,91
 frog,cane toad,42,62,36,91
 frog,blink frog,43,62,36,91
 frog,goliath frog,44,62,36,91
 frog,skyshark,45,62,36,91
 frog,barachi,46,62,36,91
-eye,glass eye,47,67,36,91
-eye,glowing orange brain,48,67,36,91
-eye,great orb of eyes,49,67,36,91
-eye,shining eye,50,67,36,91
-eye,eye of devastation,51,67,36,91
-eye,golden eye,52,67,36,91
-eye,orphan,53,67,36,91
+eye,glass eye,47,67,0,0
+eye,glowing orange brain,48,67,0,0
+eye,great orb of eyes,49,67,0,0
+eye,shining eye,50,67,0,0
+eye,eye of devastation,51,67,0,0
+eye,golden eye,52,67,0,0
+eye,orphan,53,67,0,0
 hybrid,manticore,56,61,36,91
 hybrid,minotaur,56,61,36,91
 hybrid,fenstrider witch,56,61,36,91
@@ -256,27 +256,27 @@ hybrid,harpy,56,61,36,91
 hybrid,jorogumo,56,61,36,91
 hybrid,armataur,56,61,36,91
 hybrid,mutant beast,56,61,36,91
-jelly,endoplasm,36,62,36,91
-jelly,jelly,37,62,36,91
-jelly,slime creature,33,62,36,91
-jelly,formless jellyfish,32,62,36,91
-jelly,rockslime,20,62,36,91
-jelly,quicksilver ooze,31,62,36,91
-jelly,azure jelly,35,62,36,91
-jelly,acid blob,34,62,36,91
+jelly,endoplasm,36,62,0,0
+jelly,jelly,37,62,0,0
+jelly,slime creature,33,62,0,0
+jelly,formless jellyfish,32,62,0,0
+jelly,rockslime,20,62,0,0
+jelly,quicksilver ooze,31,62,0,0
+jelly,azure jelly,35,62,0,0
+jelly,acid blob,34,62,0,0
 kobold,kobold,1,62,36,91
 kobold,kobold brigand,2,62,36,91
 kobold,kobold demonologist,3,62,36,91
 kobold,kobold blastminer,4,62,36,91
-lich,lich,23,74,36,91
-lich,ancient lich,24,74,36,91
-lich,dread lich,25,74,36,91
-lich,halazid warlock,26,74,36,91
-lich,stoker,27,74,36,91
-mummy,mummy,28,74,36,91
-mummy,guardian mummy,29,74,36,91
-mummy,royal mummy,30,74,36,91
-mummy,mummy priest,31,74,36,91
+lich,lich,23,74,0,0
+lich,ancient lich,24,74,0,0
+lich,dread lich,25,74,0,0
+lich,halazid warlock,26,74,0,0
+lich,stoker,27,74,0,0
+mummy,mummy,28,74,0,0
+mummy,guardian mummy,29,74,0,0
+mummy,royal mummy,30,74,0,0
+mummy,mummy priest,31,74,0,0
 naga,naga,7,60,36,91
 naga,naga mage,8,60,36,91
 naga,naga sharpshooter,9,60,36,91
@@ -292,33 +292,33 @@ ogre,ogre mage,7,60,36,91
 ogre,ironbound thunderhulk,8,60,36,91
 ogre,oni,9,60,36,91
 plant,plant,14,13,36,91
-plant,demonic plant,15,13,36,91
-plant,withered plant,16,13,36,91
-plant,oklob sapling,17,13,36,91
-plant,oklob plant,18,13,36,91
-plant,starflower,19,13,36,91
-plant,bush,56,67,36,91
-plant,burning bush,57,67,36,91
-plant,toadstool,58,67,36,91
-plant,fungus,59,67,36,91
-plant,ballistomycete,60,67,36,91
-plant,briar patch,61,67,36,91
+plant,demonic plant,15,13,0,0
+plant,withered plant,16,13,0,0
+plant,oklob sapling,17,13,0,0
+plant,oklob plant,18,13,0,0
+plant,starflower,19,13,0,0
+plant,bush,56,67,0,0
+plant,burning bush,57,67,0,0
+plant,toadstool,58,67,0,0
+plant,fungus,59,67,0,0
+plant,ballistomycete,60,67,0,0
+plant,briar patch,61,67,0,0
 tengu,tengu,35,60,36,91
 tengu,tengu conjurer,36,60,36,91
 tengu,tengu warrior,37,60,36,91
 tengu,tengu reaver,38,60,36,91
-spiritual,djinni,49,59,36,91
-spiritual,ancestor,50,59,36,91
-spiritual,knight,51,59,36,91
-spiritual,battlemage,52,59,36,91
-spiritual,hexer,53,59,36,91
-spiritual,efreet,54,59,36,91
-spiritual,rakshasa,55,59,36,91
-spiritual,eleionoma,56,59,36,91
-spiritual,wendigo,57,59,36,91
+spiritual,djinni,49,59,0,0
+spiritual,ancestor,50,59,0,0
+spiritual,knight,51,59,0,0
+spiritual,battlemage,52,59,0,0
+spiritual,hexer,53,59,0,0
+spiritual,efreet,54,59,0,0
+spiritual,rakshasa,55,59,0,0
+spiritual,eleionoma,56,59,0,0
+spiritual,wendigo,57,59,0,0
 spiritual,dryad,58,59,36,91
-spiritual,snaplasher vine,32,73,36,91
-spiritual,snaplasher vine segment,28,73,36,91
+spiritual,snaplasher vine,32,73,0,0
+spiritual,snaplasher vine segment,28,73,0,0
 snake,ball python,53,62,36,91
 snake,adder,62,63,36,91
 snake,water moccasin,63,63,36,91
@@ -327,45 +327,45 @@ snake,sea snake,59,64,36,91
 snake,anaconda,55,64,36,91
 snake,guardian serpent,58,64,36,91
 snake,shock serpent,36,64,36,91
-snake,mana viper,37,64,36,91
-snake,electric eel,38,64,36,91
-snake,lava snake,39,64,36,91
+snake,mana viper,37,64,0,0
+snake,electric eel,38,64,0,0
+snake,lava snake,39,64,0,0
 troll,troll,33,59,36,91
 troll,iron troll,34,59,36,91
 troll,deep troll,35,59,36,91
 troll,deep troll earth mage,36,59,36,91
-vampire,vampire,27,74,36,91
-vampire,vampire knight,28,74,36,91
-vampire,vampire mage,29,74,36,91
-vampire,jiangshi,30,74,36,91
-wraith,ghost,6,74,36,91
-wraith,phantom,7,74,36,91
-wraith,martyred shade,8,74,36,91
-wraith,flayed ghost,9,74,36,91
-wraith,player ghost,10,74,36,91
-wraith,shadow,11,74,36,91
-wraith,silent spectre,12,74,36,91
-wraith,drowned soul,13,74,36,91
-wraith,wraith,14,74,36,91
-wraith,shadow wraith,15,74,36,91
-wraith,putrid mouth,16,74,36,91
-wraith,freezing wraith,17,74,36,91
-wraith,eidolon,18,74,36,91
-wraith,phantasmal warrior,19,74,36,91
-horror,large abomination,20,74,36,91
-horror,thrashing horror,31,64,36,91
-horror,tentacled monstrosity,32,64,36,91
-horror,orb guardian,33,64,36,91
-horror,tentacled starspawn,34,64,36,91
-horror,starspawn tentacle,0,72,36,91
-horror,starspawn tentacle segment,1,72,36,91
-horror,starcursed mass,59,75,36,91
-horror,nameless horror,11,66,36,91
-horror,kraken,7,65,36,91
-horror,tentacle,13,72,36,91
-horror,tentacle segment,20,72,36,91
-horror,eldritch tentacle,2,72,36,91
-horror,eldritch tentacle segment,3,72,36,91
+vampire,vampire,27,74,0,0
+vampire,vampire knight,28,74,0,0
+vampire,vampire mage,29,74,0,0
+vampire,jiangshi,30,74,0,0
+wraith,ghost,6,74,0,0
+wraith,phantom,7,74,0,0
+wraith,martyred shade,8,74,0,0
+wraith,flayed ghost,9,74,0,0
+wraith,player ghost,10,74,0,0
+wraith,shadow,11,74,0,0
+wraith,silent spectre,12,74,0,0
+wraith,drowned soul,13,74,0,0
+wraith,wraith,14,74,0,0
+wraith,shadow wraith,15,74,0,0
+wraith,putrid mouth,16,74,0,0
+wraith,freezing wraith,17,74,0,0
+wraith,eidolon,18,74,0,0
+wraith,phantasmal warrior,19,74,0,0
+horror,large abomination,20,74,0,0
+horror,thrashing horror,31,64,0,0
+horror,tentacled monstrosity,32,64,0,0
+horror,orb guardian,33,64,0,0
+horror,tentacled starspawn,34,64,0,0
+horror,starspawn tentacle,0,72,0,0
+horror,starspawn tentacle segment,1,72,0,0
+horror,starcursed mass,59,75,0,0
+horror,nameless horror,11,66,0,0
+horror,kraken,7,65,0,0
+horror,tentacle,13,72,0,0
+horror,tentacle segment,20,72,0,0
+horror,eldritch tentacle,2,72,0,0
+horror,eldritch tentacle segment,3,72,0,0
 yak,dream sheep,18,63,36,91
 yak,yak,19,63,36,91
 yak,death yak,20,63,36,91
@@ -374,96 +374,96 @@ yak,elephant,22,63,36,91
 yak,dire elephant,23,63,36,91
 yak,hellphant,24,63,36,91
 yak,apis,25,63,36,91
-yak,ice breast,4,64,36,91
+yak,ice breast,4,64,0,0
 yak,sky beast,12,65,36,91
-zombie,zombie,59,74,36,91
-zombie,skeleton,60,74,36,91
-zombie,simulacrum,56,64,36,91
-zombie,small zombie,63,74,36,91
-zombie,small skeleton,62,74,36,91
-zombie,small simulacrum,61,74,36,91
-zombie,large zombie,60,74,36,91
-zombie,large skeleton,59,74,36,91
-zombie,large simulacrum,58,74,36,91
-zombie,spectral thing,0,74,36,91
-zombie,bound soul,1,74,36,91
+zombie,zombie,59,74,0,0
+zombie,skeleton,60,74,0,0
+zombie,simulacrum,56,64,0,0
+zombie,small zombie,63,74,0,0
+zombie,small skeleton,62,74,0,0
+zombie,small simulacrum,61,74,0,0
+zombie,large zombie,60,74,0,0
+zombie,large skeleton,59,74,0,0
+zombie,large simulacrum,58,74,0,0
+zombie,spectral thing,0,74,0,0
+zombie,bound soul,1,74,0,0
 demon,demonspawn,37,78,36,91
 demon,demonspawn blood saint,38,78,36,91
 demon,demonspawn warmonger,39,78,36,91
 demon,demonspawn corrupter,40,78,36,91
 demon,demonspawn black sun,41,78,36,91
-demon,crimson imp,16,65,36,91
-demon,cerulean imp,17,65,36,91
-demon,quasit,18,65,36,91
-demon,white imp,19,65,36,91
-demon,ufetubus,20,65,36,91
-demon,iron imp,21,65,36,91
-demon,shadow imp,22,65,36,91
-demon,lemure,23,65,36,91
-demon,rust devil,24,65,36,91
-demon,orange demon,25,65,36,91
-demon,bone devil,26,65,36,91
-demon,red devil,27,65,36,91
-demon,hellwing,28,65,36,91
-demon,ice devil,29,65,36,91
-demon,chaos spawn,30,65,36,91
-demon,sun demon,31,65,36,91
-demon,soul eater,32,65,36,91
-demon,smoke demon,33,65,36,91
-demon,neqoxec,34,65,36,91
-demon,ynoxinul,35,65,36,91
-demon,sixfirhy,36,65,36,91
-demon,shadow demon,37,65,36,91
-demon,green death,38,65,36,91
-demon,blizzard demon,39,65,36,91
-demon,balrug,40,65,36,91
-demon,cacodemon,41,65,36,91
-demon,hell beast,42,65,36,91
-demon,hellion,43,65,36,91
-demon,reaper,44,65,36,91
-demon,lorocyproca,45,65,36,91
-demon,tormentor,46,65,36,91
-demon,Brimstone Fiend,47,65,36,91
-demon,Ice Fiend,48,65,36,91
-demon,Tzitzimitl,49,65,36,91
-demon,Hell Sentinel,50,65,36,91
-demon,Executioner,51,65,36,91
-construct,ice statue,6,71,36,91
-construct,obsidian statue,7,71,36,91
-construct,orange crytstal statue,8,71,36,91
-construct,training dummy,9,71,36,91
-construct,pillar of salt,10,71,36,91
-construct,block of ice,11,71,36,91
-construct,diamond obelisk,12,71,36,91
-construct,lightning spire,13,71,36,91
-construct,strange machine,14,71,36,91
-construct,saltling,44,66,36,91
-construct,peacekeeper,45,66,36,91
-construct,iron golem,46,66,36,91
-construct,crystal guardian,47,66,36,91
-construct,toenail golem,48,66,36,91
-construct,electric golem,49,66,36,91
-construct,nargun,50,66,36,91
-construct,ushabti,51,66,36,91
-construct,gargoyle,52,66,36,91
-construct,molten gargoyle,53,66,36,91
-construct,war gargoyle,54,66,36,91
-construct,blazeheart golem,28,71,36,91
-construct,spellforged servitor,29,71,36,91
-spell,ball lightning,56,68,36,91
-spell,ballistomycete spore,56,68,36,91
-spell,lost soul,56,68,36,91
-spell,lurking horror,56,68,36,91
-spell,orb of fire,56,68,36,91
-spell,creeping inferno,56,68,36,91
-spell,orb of destruction,56,68,36,91
-spell,foxfire,56,68,36,91
-spell,fulminant prism,56,68,36,91
-spell,wretched star,56,68,36,91
-spell,battlesphere,57,68,36,91
-spell,boulder,58,68,36,91
-spell,aspiring flesh,59,68,36,91
-spell,blazeheart core,60,68,36,91
+demon,crimson imp,16,65,0,0
+demon,cerulean imp,17,65,0,0
+demon,quasit,18,65,0,0
+demon,white imp,19,65,0,0
+demon,ufetubus,40,61,0,0
+demon,iron imp,21,65,0,0
+demon,shadow imp,22,65,0,0
+demon,lemure,23,65,0,0
+demon,rust devil,24,65,0,0
+demon,orange demon,25,65,0,0
+demon,bone devil,26,65,0,0
+demon,red devil,27,65,0,0
+demon,hellwing,28,65,0,0
+demon,ice devil,29,65,0,0
+demon,chaos spawn,30,65,0,0
+demon,sun demon,31,65,0,0
+demon,soul eater,32,65,0,0
+demon,smoke demon,33,65,0,0
+demon,neqoxec,34,65,0,0
+demon,ynoxinul,35,65,0,0
+demon,sixfirhy,36,65,0,0
+demon,shadow demon,37,65,0,0
+demon,green death,38,65,0,0
+demon,blizzard demon,39,65,0,0
+demon,balrug,40,65,0,0
+demon,cacodemon,41,65,0,0
+demon,hell beast,42,65,0,0
+demon,hellion,43,65,0,0
+demon,reaper,44,65,0,0
+demon,lorocyproca,45,65,0,0
+demon,tormentor,46,65,0,0
+demon,Brimstone Fiend,47,65,0,0
+demon,Ice Fiend,48,65,0,0
+demon,Tzitzimitl,49,65,0,0
+demon,Hell Sentinel,50,65,0,0
+demon,Executioner,51,65,0,0
+construct,ice statue,6,71,0,0
+construct,obsidian statue,7,71,0,0
+construct,orange crytstal statue,8,71,0,0
+construct,training dummy,9,71,0,0
+construct,pillar of salt,10,71,0,0
+construct,block of ice,11,71,0,0
+construct,diamond obelisk,12,71,0,0
+construct,lightning spire,13,71,0,0
+construct,strange machine,14,71,0,0
+construct,saltling,44,66,0,0
+construct,peacekeeper,45,66,0,0
+construct,iron golem,46,66,0,0
+construct,crystal guardian,47,66,0,0
+construct,toenail golem,48,66,0,0
+construct,electric golem,49,66,0,0
+construct,nargun,50,66,0,0
+construct,ushabti,51,66,0,0
+construct,gargoyle,52,66,0,0
+construct,molten gargoyle,53,66,0,0
+construct,war gargoyle,54,66,0,0
+construct,blazeheart golem,28,71,0,0
+construct,spellforged servitor,29,71,0,0
+spell,ball lightning,56,68,0,0
+spell,ballistomycete spore,56,68,0,0
+spell,lost soul,56,68,0,0
+spell,lurking horror,56,68,0,0
+spell,orb of fire,56,68,0,0
+spell,creeping inferno,56,68,0,0
+spell,orb of destruction,56,68,0,0
+spell,foxfire,56,68,0,0
+spell,fulminant prism,56,68,0,0
+spell,wretched star,56,68,0,0
+spell,battlesphere,57,68,0,0
+spell,boulder,58,68,0,0
+spell,aspiring flesh,59,68,0,0
+spell,blazeheart core,60,68,0,0
 npc,scrawny cat,42,84,36,91
 npc,scruffy dog,6,64,36,91
 npc,horse,12,68,36,91
@@ -480,17 +480,17 @@ npc,rogue,28,59,36,91
 npc,sorcerer,30,59,36,91
 npc,warlock,31,59,36,91
 npc,wizard,32,59,36,91
-npc,Heinz the Weaponsmith,0,12,36,91
-npc,Felix the Fletcher,1,12,36,91
-npc,Stori the Blacksmith,0,12,36,91
-npc,Rolf the Runesmith,1,12,36,91
-npc,Bruno's General Store,1,12,36,91
-npc,Wilder the Haberdasher,1,12,36,91
-player,Player,23,60,36,91
-boss,Balor,8,94,36,91
-boss,Tarrasque,1,94,36,91
-boss,Witch-King,17,94,36,91
-boss,Vampire King,12,94,36,91
+npc,Heinz the Weaponsmith,0,12,0,12
+npc,Felix the Fletcher,1,12,0,12
+npc,Stori the Blacksmith,0,12,0,12
+npc,Rolf the Runesmith,1,12,0,12
+npc,Bruno's General Store,1,12,0,12
+npc,Wilder the Haberdasher,1,12,0,12
+player,Player,23,60,0,0
+boss,Balor,8,94,0,0
+boss,Tarrasque,1,94,0,0
+boss,Witch-King,17,94,0,0
+boss,Vampire King,12,94,0,0
 arrow,Stair Down,53,11,0,0
 arrow,Stair Up,54,11,0,0
 ShortBlade,melee/Dagger,17,45,0,0
@@ -645,9 +645,7 @@ amulet,neck/Amulet,0,35,0,0
 amulet,neck/Amulet of Elements,1,35,0,0
 amulet,neck/Amulet of Flight,2,35,0,0
 amulet,neck/Amulet of Nature,3,35,0,0
-amulet,neck/Amulet of Sky,4,35,0,0
 amulet,neck/Amulet of Stealth,5,35,0,0
-amulet,neck/Amulet of Storms,6,35,0,0
 amulet,neck/Amulet of Willpower,7,35,0,0
 amulet,neck/Pendant of Death,8,35,0,0
 amulet,neck/Pendant of Life,9,35,0,0

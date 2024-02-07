@@ -72,7 +72,7 @@ item,armor,armor/Quicksilver dragon scales,armor,9,0,7,lightning
 item,armor,armor/Fire dragon scales,armor,8,0,11,fire
 item,armor,armor/Ice dragon scales,armor,9,0,11,cold
 item,armor,armor/Pearl dragon scales,armor,10,0,11,radiant
-item,armor,armor/Storm dragon scales,armor,10,0,15,"lightning,thunder"
+item,armor,armor/Storm dragon scales,armor,10,0,15,lightning
 item,armor,armor/Shadow dragon scales,armor,11,0,15,necrotic
 item,armor,armor/Gold dragon scales,armor,12,0,23,"radiant,force"
 item,armor,shield/Buckler,shield,3,0,5,
@@ -162,7 +162,6 @@ item,ring,jewelry/Ring of Lightning,jewelry,0,0,0,lightning
 item,ring,jewelry/Ring of Poison,jewelry,0,0,0,poison
 item,ring,jewelry/Ring of Stealth,jewelry,0,0,0,Stealth
 item,ring,jewelry/Ring of Strength,jewelry,0,0,0,Strength
-item,ring,jewelry/Ring of Thunder,jewelry,0,0,0,thunder
 item,ring,jewelry/Ring of Venom,jewelry,0,0,0,"acid,poison"
 item,ring,jewelry/Ring of Willpower,jewelry,0,0,0,WP
 item,monster,melee/Bite,melee,4,0,14,piercing
@@ -195,9 +194,7 @@ item,amulet,neck/Amulet,neck,0,0,0,
 item,amulet,neck/Amulet of Elements,neck,0,0,0,"acid,fire,cold,lightning"
 item,amulet,neck/Amulet of Flight,neck,0,0,0,Fly
 item,amulet,neck/Amulet of Nature,neck,0,0,0,"acid,poison"
-item,amulet,neck/Amulet of Sky,neck,0,0,0,"radiant,lightning,thunder"
 item,amulet,neck/Amulet of Stealth,neck,0,0,0,Stealth
-item,amulet,neck/Amulet of Storms,neck,0,0,0,"cold,lightning,thunder"
 item,amulet,neck/Amulet of Willpower,neck,0,0,0,WP
 item,amulet,neck/Pendant of Death,neck,0,0,0,necrotic
 item,amulet,neck/Pendant of Life,neck,0,0,0,radiant

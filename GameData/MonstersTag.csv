@@ -1,493 +1,493 @@
-﻿Base,Name,Detail,Size,Holy,Smart,Equipment,Emote
-ancient,imperial myrmdion,,Medium,Natural,Human,MonEquipment,Shout
-ancient,servant of whispers,,Medium,Natural,Human,MonEquipment,Shout
-ancient,ragged hierophant,,Medium,Natural,Human,MonEquipment,Shout
-bat,bat,"Feral,Fly",Tiny,Natural,Mindless,MonNone,Silent
-bat,butterfly,"Feral,Fly",Tiny,Natural,Mindless,MonNone,Silent
-bat,vampire bat,"Feral,Fly",Tiny,Undead,Mindless,MonNone,Silent
-bat,fire bat,"Feral,Fly",Tiny,Natural,Mindless,MonNone,Silent
-bat,bennu,Fly,Medium,Natural,Animal,MonNone,Silent
-bat,caustic shrike,Fly,Medium,Natural,Mindless,MonNone,Silent
-bat,shard shrike,Fly,Medium,Natural,Mindless,MonNone,Silent
-centaur,centaur,,Medium,Natural,Human,MonEquipment,Shout
-centaur,centaur warrior,,Medium,Natural,Human,MonEquipment,Shout
-centaur,yaktaur,,Medium,Natural,Human,MonEquipment,Shout
-centaur,yaktaur captain,,Medium,Natural,Human,MonEquipment,Shout
-centaur,faun,,Medium,Natural,Human,MonEquipment,Shout
-centaur,satyr,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,black draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,yellow draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,pale draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,green draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,purple draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,red draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,white draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,grey draconian,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian stormcaller,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian monk,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian shifter,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian annihilator,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian knight,,Medium,Natural,Human,MonEquipment,Shout
-draconian,draconian scorcher,,Medium,Natural,Human,MonEquipment,Shout
-elf,elf,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf knight,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf archer,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf blademaster,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf master archer,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf zephyrmancer,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf pyromancer,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf high priest,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf demonologist,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf annihilator,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf sorcerer,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf death mage,,Medium,Natural,Human,MonEquipment,Shout
-elf,deep elf elementalist,,Medium,Natural,Human,MonEquipment,Shout
-plant,sleepcap,Feral,Tiny,Plant,Mindless,MonNone,Silent
-plant,wandering mushroom,Feral,Tiny,Plant,Mindless,MonNone,Silent
-plant,deathcap,Feral,Tiny,Undead,Mindless,MonNone,Silent
-plant,thorn hunter,,Large,Plant,Mindless,MonNone,Silent
-plant,shambling mangrove,,Giant,Plant,Mindless,MonNone,Silent
-plant,vine stalker,,Medium,Natural,Mindless,MonNone,Silent
-goblin,goblin,,Small,Natural,Human,MonEquipment,Shout
-goblin,hobgoblin,,Medium,Natural,Human,MonEquipment,Shout
-goblin,gnoll,,Medium,Natural,Human,MonEquipment,Shout
-goblin,gnoll bouda,,Medium,Natural,Human,MonEquipment,Shout
-goblin,gnoll sergeant,,Medium,Natural,Human,MonEquipment,Shout
-goblin,boggart,,Medium,Natural,Human,MonEquipment,Shout
-goblin,dwarf,,Medium,Natural,Human,MonEquipment,Shout
-goblin,deep dwarf,,Medium,Natural,Human,MonEquipment,Shout
-quadruped,jackal,,Medium,Natural,Animal,MonNone,Howl
-quadruped,hound,,Medium,Natural,Animal,MonNone,Howl
-quadruped,howler monkey,,Medium,Natural,Animal,MonNone,Howl
-quadruped,warg,,Medium,Natural,Animal,MonNone,Howl
-quadruped,wolf,,Medium,Natural,Animal,MonNone,Howl
-quadruped,inugami,,Medium,Natural,Animal,MonNone,Howl
-quadruped,hog,,Medium,Natural,Animal,MonNone,Howl
-quadruped,hell hound,,Medium,Demonic,Animal,MonNone,Howl
-quadruped,doom hound,,Medium,Demonic,Animal,MonNone,Howl
-quadruped,raiju,,Medium,Natural,Animal,MonNone,Howl
-quadruped,hell hog,,Medium,Demonic,Animal,MonNone,Howl
-quadruped,holy swine,,Medium,Holy,Animal,MonNone,Howl
-quadruped,felid,NoSpawn,Medium,Natural,Animal,MonNone,Howl
-quadruped,polar bear,,Large,Natural,Animal,MonNone,Howl
-quadruped,black bear,,Large,Natural,Animal,MonNone,Howl
-spriggan,spriggan,,Tiny,Natural,Human,MonEquipment,Shout
-spriggan,spriggan rider,,Tiny,Natural,Human,MonEquipment,Shout
-spriggan,spriggan druid,,Tiny,Natural,Human,MonEquipment,Shout
-spriggan,spriggan berserker,,Tiny,Natural,Human,MonEquipment,Shout
-spriggan,spriggan air mage,,Tiny,Natural,Human,MonEquipment,Shout
-spriggan,spriggan defender,,Tiny,Natural,Human,MonEquipment,Shout
-drake,wyvern,Fly,Large,Natural,Animal,MonNone,Roar
-drake,swamp drake,Fly,Large,Natural,Animal,MonNone,Roar
-drake,rime drake,Fly,Large,Natural,Animal,MonNone,Roar
-drake,wind drake,Fly,Large,Natural,Animal,MonNone,Roar
-drake,lindwurm,Tunnel,Large,Natural,Animal,MonNone,Roar
-drake,death drake,Fly,Large,Natural,Animal,MonNone,Roar
-lizard,frilled lizard,,Small,Natural,Animal,MonNone,Silent
-lizard,iguana,,Small,Natural,Animal,MonNone,Silent
-lizard,crocodile,,Small,Natural,Animal,MonNone,Silent
-lizard,basilisk,,Small,Natural,Animal,MonNone,Silent
-lizard,komodo dragon,,Large,Natural,Animal,MonNone,Silent
-lizard,alligator,,Large,Natural,Animal,MonNone,Silent
-merfolk,merfolk,,Medium,Natural,Human,MonNone,Shout
-merfolk,merfolk impaler,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,merfolk javelineer,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,merfolk aquamancer,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,merfolk siren,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,sickly merfolk siren,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,merfolk avatar,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,malarious merfolk avatar,,Medium,Natural,Human,MonEquipment,Shout
-merfolk,water nymph,,Medium,Natural,Human,MonEquipment,Shout
-undead,bog body,,Medium,Undead,Mindless,MonNone,Silent
-undead,necrophage,,Medium,Undead,Mindless,MonNone,Silent
-undead,bloated husk,Mob,Medium,Undead,Mindless,MonNone,Silent
-undead,ghoul,,Medium,Undead,Mindless,MonNone,Silent
-undead,searing wretch,,Medium,Undead,Mindless,MonNone,Silent
-orc,orc,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc wizard,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc priest,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc warrior,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc knight,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc warlord,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc sorcerer,,Medium,Natural,Human,MonEquipment,Shout
-orc,orc high priest,,Medium,Natural,Human,MonEquipment,Shout
-human,human,,Medium,Natural,Human,MonEquipment,Shout
-human,burial acolyte,,Medium,Natural,Human,MonEquipment,Shout
-human,hell knight,,Medium,Natural,Human,MonEquipment,Shout
-human,death knight,,Medium,Natural,Human,MonEquipment,Shout
-human,necromancer,,Medium,Natural,Human,MonEquipment,Shout
-human,arcanist,,Medium,Natural,Human,MonEquipment,Shout
-human,occultist,,Medium,Natural,Human,MonEquipment,Shout
-human,vault guard,,Medium,Natural,Human,MonEquipment,Shout
-human,vault sentinel,,Medium,Natural,Human,MonEquipment,Shout
-human,vault warden,,Medium,Natural,Human,MonEquipment,Shout
-human,ironbound convoker,,Medium,Natural,Human,MonEquipment,Shout
-human,ironbound frostheart,,Medium,Natural,Human,MonEquipment,Shout
-human,ironbound preserver,,Medium,Natural,Human,MonEquipment,Shout
-human,shapeshifter,,Medium,Natural,Human,MonEquipment,Shout
-human,glowing shapeshifter,,Medium,Natural,Human,MonEquipment,Shout
-human,killer klown,,Medium,Natural,Human,MonEquipment,Shout
-human,demigod,NoSpawn,Medium,Natural,Human,MonEquipment,Shout
-human,halfling,,Small,Natural,Human,MonEquipment,Shout
-human,metoeran,NoSpawn,Medium,Natural,Human,MonEquipment,Shout
-human,spectator,"NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-rat,rat,,Tiny,Natural,Animal,MonNone,Howl
-rat,quokka,,Small,Natural,Animal,MonNone,Howl
-rat,river rat,,Tiny,Natural,Animal,MonNone,Howl
-rat,hell rat,,Small,Demonic,Animal,MonNone,Howl
-rat,crystal echidna,,Small,NonLiving,Animal,MonNone,Howl
-spider,scorpion,,Small,Natural,Animal,MonNone,Shout
-spider,emperor scorpion,,Giant,Natural,Animal,MonNone,Shout
-spider,tarantella,,Small,Natural,Animal,MonNone,Shout
-spider,jumping spider,,Small,Natural,Animal,MonNone,Shout
-spider,wolf spider,,Medium,Natural,Animal,MonNone,Shout
-spider,redback,,Tiny,Natural,Animal,MonNone,Shout
-spider,demonic crawler,,Large,Demonic,Animal,MonNone,Shout
-spider,orb spider,,Small,Natural,Animal,MonNone,Shout
-spider,broodmother,,Giant,Natural,Animal,MonNone,Shout
-spider,culicivora,,Small,Natural,Animal,MonNone,Shout
-testudine,snapping turtle,,Medium,Natural,Animal,MonNone,Silent
-testudine,alligator snapping turtle,,Large,Natural,Animal,MonNone,Silent
-testudine,fire crab,,Small,Natural,Animal,MonNone,Silent
-testudine,ghost crab,,Small,Undead,Animal,MonNone,Silent
-testudine,apocalypse crab,,Small,Demonic,Animal,MonNone,Silent
-ugly,ugly thing,,Medium,Natural,Human,MonNone,Silent
-ugly,very ugly thing,,Large,Natural,Human,MonNone,Silent
-vortice,fire vortex,Feral,Large,NonLiving,Mindless,MonNone,Silent
-vortice,spatial vortex,Feral,Large,NonLiving,Mindless,MonNone,Silent
-vortice,spatial maelstrom,Feral,Large,NonLiving,Mindless,MonNone,Silent
-vortice,will-o-the-wisp,Feral,Tiny,NonLiving,Mindless,MonNone,Silent
-vortice,twister,"Feral,Fly,NoXP",Large,NonLiving,Mindless,MonNone,Silent
-worm,ribbon worm,,Small,Natural,Animal,MonNone,Silent
-worm,brain worm,,Small,Natural,Animal,MonNone,Silent
-worm,swamp worm,,Medium,Natural,Animal,MonNone,Silent
-worm,tyrant leech,,Large,Natural,Animal,MonNone,Silent
-worm,dart slug,,Small,Natural,Animal,MonNone,Silent
-worm,torpor snail,,Large,Natural,Animal,MonNone,Silent
-worm,steelbarb worm,,Small,Natural,Animal,MonNone,Silent
-worm,elephant slug,,Giant,Natural,Animal,MonNone,Silent
-horror,unseen horror,,Medium,Natural,Animal,MonNone,Shout
-horror,small abomination,,Large,Undead,Human,MonNone,Shout
-horror,ancient zyme,,Medium,NonLiving,Human,MonNone,Shout
-horror,worldbinder,,Small,NonLiving,Human,MonNone,Shout
-horror,bunyip,,Large,Natural,Human,MonNone,Shout
-octopode,octopode,NoSpawn,Medium,Natural,Human,MonNone,Shout
-insect,killer bee,Fly,Tiny,Natural,Animal,MonNone,Silent
-insect,queen bee,Fly,Small,Natural,Animal,MonNone,Silent
-insect,vampire mosquito,Fly,Small,Undead,Animal,MonNone,Silent
-insect,hornet,Fly,Tiny,Natural,Animal,MonNone,Silent
-insect,meliai,Fly,Small,Natural,Animal,MonNone,Silent
-insect,spark wasp,,Tiny,Natural,Animal,MonNone,Silent
-insect,ghost moth,,Large,Natural,Animal,MonNone,Silent
-insect,moth of wrath,,Small,Natural,Animal,MonNone,Silent
-insect,sun moth,,Small,Natural,Animal,MonNone,Silent
-undead,wight,,Medium,Undead,Human,MonEquipment,Silent
-undead,skeletal warrior,,Medium,Undead,Human,MonEquipment,Silent
-undead,ancient champion,,Medium,Undead,Human,MonEquipment,Silent
-undead,weeping skull,,Tiny,Undead,Human,MonNone,Silent
-undead,laughing skull,,Tiny,Undead,Human,MonNone,Silent
-undead,curse skull,Fly,Tiny,Undead,Human,MonNone,Silent
-undead,curse toe,,Tiny,Undead,Human,MonNone,Silent
-undead,death cob,,Tiny,Undead,Human,MonNone,Silent
-undead,revenant,,Medium,Undead,Human,MonNone,Silent
-angelic,angel,,Medium,Holy,Human,MonEquipment,Shout
-angelic,cherub,Fly,Medium,Holy,Human,MonEquipment,Shout
-angelic,seraph,Fly,Medium,Holy,Human,MonEquipment,Shout
-angelic,daeva,Fly,Medium,Holy,Human,MonEquipment,Shout
-angelic,profane servitor,Fly,Medium,Undead,Human,MonEquipment,Shout
-beetle,giant cockroach,,Small,Natural,Animal,MonNone,Silent
-beetle,bombardier beetle,,Small,Natural,Animal,MonNone,Silent
-beetle,radroach,,Small,Natural,Animal,MonNone,Silent
-beetle,formicid,NoSpawn,Medium,Natural,Animal,MonNone,Silent
-beetle,entropy weaver,,Medium,Natural,Animal,MonNone,Silent
-beetle,boulder beetle,,Large,Natural,Animal,MonNone,Silent
-beetle,pharaoh ant,,Medium,Undead,Animal,MonNone,Silent
-beetle,death scarab,,Small,Undead,Animal,MonNone,Silent
-giant,cyclops,,Large,Natural,Human,MonEquipment,Shout
-giant,ettin,,Large,Natural,Human,MonEquipment,Shout
-giant,fire giant,,Large,Natural,Human,MonEquipment,Shout
-giant,frost giant,,Large,Natural,Human,MonEquipment,Shout
-giant,stone giant,,Large,Natural,Human,MonEquipment,Shout
-giant,titan,,Large,Natural,Human,MonEquipment,Shout
-giant,juggernaut,,Large,Natural,Human,MonEquipment,Shout
-giant,iron giant,,Large,Natural,Human,MonEquipment,Shout
-giant,cactus giant,,Large,Plant,Human,MonNone,Shout
-giant,tainted leviathan,,Large,Undead,Human,MonNone,Shout
-giant,protean progenitor,,Large,Natural,Human,MonNone,Shout
-dragon,fire dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,hydra,,Large,Natural,Human,MonNone,Roar
-dragon,ice dragon,Tunnel,Large,Natural,Human,MonNone,Roar
-dragon,steam dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,swamp dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,acid dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,quicksilver dragon,Tunnel,Large,Natural,Human,MonNone,Roar
-dragon,iron dragon,,Large,Natural,Human,MonNone,Roar
-dragon,storm dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,golden dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,shadow dragon,Fly,Large,Natural,Human,MonNone,Roar
-dragon,bone dragon,Fly,Large,Undead,Human,MonNone,Roar
-dragon,pearl dragon,Fly,Large,Holy,Human,MonNone,Roar
-elemental,earth elemental,Tunnel,Large,NonLiving,Mindless,MonNone,Silent
-elemental,quicksilver elemental,Feral,Large,NonLiving,Mindless,MonNone,Silent
-elemental,fire elemental,Feral,Large,NonLiving,Mindless,MonNone,Silent
-elemental,water elemental,Feral,Large,NonLiving,Mindless,MonNone,Silent
-elemental,air elemental,Feral,Large,NonLiving,Mindless,MonNone,Silent
-elemental,iron elemental,,Large,NonLiving,Mindless,MonNone,Silent
-elemental,elemental wellspring,NoMove,Large,NonLiving,Mindless,MonNone,Silent
-frog,bullfrog,,Medium,Natural,Animal,MonNone,Shout
-frog,cane toad,,Medium,Natural,Animal,MonNone,Shout
-frog,blink frog,,Medium,Natural,Animal,MonNone,Shout
-frog,goliath frog,,Small,Natural,Animal,MonNone,Shout
-frog,skyshark,,Large,Natural,Animal,MonNone,Shout
-frog,barachi,NoSpawn,Medium,Natural,Animal,MonNone,Shout
-eye,glass eye,Fly,Medium,Natural,Human,MonNone,Silent
-eye,glowing orange brain,Fly,Medium,Natural,Human,MonNone,Silent
-eye,great orb of eyes,Fly,Medium,Natural,Human,MonNone,Silent
-eye,shining eye,Fly,Medium,Natural,Human,MonNone,Silent
-eye,eye of devastation,Fly,Medium,Natural,Human,MonNone,Silent
-eye,golden eye,Fly,Tiny,Natural,Human,MonNone,Silent
-eye,orphan,Fly,Medium,Holy ,Human,MonNone,Silent
-hybrid,manticore,Fly,Large,Natural,Human,MonNone,Shout
-hybrid,minotaur,,Medium,Natural,Human,MonNone,Shout
-hybrid,fenstrider witch,,Giant,Natural,Human,MonNone,Shout
-hybrid,sphinx,Fly,Giant,Natural,Human,MonNone,Shout
-hybrid,harpy,Fly,Medium,Natural,Human,MonNone,Shout
-hybrid,jorogumo,,Medium,Natural,Human,MonNone,Shout
-hybrid,armataur,,Large,Natural,Human,MonNone,Shout
-hybrid,mutant beast,,Medium,Natural,Human,MonNone,Shout
-jelly,endoplasm,Mob,Small,Natural,Mindless,MonNone,Silent
-jelly,jelly,Mob,Small,Natural,Mindless,MonNone,Silent
-jelly,slime creature,Mob,Small,Natural,Mindless,MonNone,Silent
-jelly,formless jellyfish,,Large,Natural,Mindless,MonNone,Silent
-jelly,rockslime,,Giant,Natural,Mindless,MonNone,Silent
-jelly,quicksilver ooze,,Giant,Natural,Mindless,MonNone,Silent
-jelly,azure jelly,,Small,Natural,Mindless,MonNone,Silent
-jelly,acid blob,Feral,Small,Natural,Mindless,MonNone,Silent
-kobold,kobold,,Small,Natural,Human,MonEquipment,Shout
-kobold,kobold brigand,,Small,Natural,Human,MonEquipment,Shout
-kobold,kobold demonologist,,Small,Natural,Human,MonEquipment,Shout
-kobold,kobold blastminer,,Small,Natural,Human,MonEquipment,Shout
-lich,lich,,Medium,Undead,Human,MonEquipment,Silent
-lich,ancient lich,,Medium,Undead,Human,MonEquipment,Silent
-lich,dread lich,,Medium,Undead,Human,MonEquipment,Silent
-lich,halazid warlock,,Medium,Undead,Human,MonEquipment,Silent
-lich,stoker,Tunnel,Medium,Undead,Human,MonEquipment,Silent
-mummy,mummy,,Medium,Undead,Human,MonEquipment,Silent
-mummy,guardian mummy,,Medium,Undead,Human,MonEquipment,Silent
-mummy,royal mummy,,Medium,Undead,Human,MonEquipment,Silent
-mummy,mummy priest,,Medium,Undead,Human,MonEquipment,Silent
-naga,naga,,Large,Natural,Human,MonEquipment,Shout
-naga,naga mage,,Large,Natural,Human,MonEquipment,Shout
-naga,naga sharpshooter,,Large,Natural,Human,MonEquipment,Shout
-naga,naga ritualist,,Large,Natural,Human,MonEquipment,Shout
-naga,naga warrior,,Large,Natural,Human,MonEquipment,Shout
-naga,nagaraja,,Large,Natural,Human,MonEquipment,Shout
-naga,salamander,,Medium,Natural,Human,MonEquipment,Shout
-naga,salamander mystic,,Medium,Natural,Human,MonEquipment,Shout
-naga,salamander tyrant,,Medium,Natural,Human,MonEquipment,Shout
-ogre,ogre,,Large,Natural,Human,MonEquipment,Shout
-ogre,two-headed ogre,,Large,Natural,Human,MonEquipment,Shout
-ogre,ogre mage,,Large,Natural,Human,MonEquipment,Shout
-ogre,ironbound thunderhulk,,Large,Natural,Human,MonEquipment,Shout
-ogre,oni,,Large,Natural,Human,MonEquipment,Shout
-plant,plant,"NoMove,NoXP",Small,Plant,Mindless,MonNone,Shout
-plant,demonic plant,"NoMove,NoXP",Small,Plant,Mindless,MonNone,Shout
-plant,withered plant,"NoMove,NoXP",Small,Plant,Mindless,MonNone,Shout
-plant,oklob sapling,Feral,Small,Plant,Mindless,MonNone,Shout
-plant,oklob plant,Feral,Small,Plant,Mindless,MonNone,Shout
-plant,starflower,Feral,Medium,Plant,Mindless,MonNone,Shout
-plant,bush,"NoMove,NoXP",Giant,Plant,Mindless,MonNone,Shout
-plant,burning bush,"NoMove,NoXP",Giant,Plant,Mindless,MonNone,Shout
-plant,toadstool,NoMove,Tiny,Plant,Mindless,MonNone,Shout
-plant,fungus,NoMove,Tiny,Plant,Mindless,MonNone,Shout
-plant,ballistomycete,NoMove,Tiny,Plant,Mindless,MonNone,Shout
-plant,briar patch,NoMove,Small,Plant,Mindless,MonNone,Shout
-tengu,tengu,Fly,Medium,Natural,Human,MonEquipment,Shout
-tengu,tengu conjurer,Fly,Medium,Natural,Human,MonEquipment,Shout
-tengu,tengu warrior,Fly,Medium,Natural,Human,MonEquipment,Shout
-tengu,tengu reaver,Fly,Medium,Natural,Human,MonEquipment,Shout
-spiritual,djinni,,Medium,NonLiving,Human,MonEquipment,Shout
-spiritual,ancestor,NoSpawn,Medium,NonLiving,Human,MonEquipment,Shout
-spiritual,knight,NoSpawn,Medium,NonLiving,Human,MonEquipment,Shout
-spiritual,battlemage,NoSpawn,Medium,NonLiving,Human,MonEquipment,Shout
-spiritual,hexer,NoSpawn,Medium,NonLiving,Human,MonEquipment,Shout
-spiritual,efreet,Fly,Large,Demonic,Human,MonEquipment,Shout
-spiritual,rakshasa,,Medium,Demonic,Human,MonEquipment,Shout
-spiritual,eleionoma,,Medium,Natural,Human,MonEquipment,Shout
-spiritual,wendigo,,Medium,Demonic,Human,MonEquipment,Shout
-spiritual,dryad,,Medium,Natural,Human,MonEquipment,Shout
-spiritual,snaplasher vine,,Large,Plant,Animal,MonNone,Shout
-spiritual,snaplasher vine segment,,Large,Plant,Animal,MonNone,Shout
-snake,ball python,,Small,Natural,Animal,MonNone,Shout
-snake,adder,,Small,Natural,Animal,MonNone,Shout
-snake,water moccasin,,Medium,Natural,Animal,MonNone,Shout
-snake,black mamba,,Large,Natural,Animal,MonNone,Shout
-snake,sea snake,,Large,Natural,Animal,MonNone,Shout
-snake,anaconda,,Medium,Natural,Animal,MonNone,Shout
-snake,guardian serpent,,Medium,Natural,Animal,MonNone,Shout
-snake,shock serpent,,Small,Natural,Animal,MonNone,Shout
-snake,mana viper,,Small,Natural,Animal,MonNone,Shout
-snake,electric eel,Mob,Small,Natural,Animal,MonNone,Shout
-snake,lava snake,"Mob,Feral",Small,Natural,Animal,MonNone,Shout
-troll,troll,,Large,Natural,Human,MonNone,Shout
-troll,iron troll,,Large,Natural,Human,MonNone,Shout
-troll,deep troll,,Large,Natural,Human,MonNone,Shout
-troll,deep troll earth mage,,Large,Natural,Human,MonNone,Shout
-vampire,vampire,,Medium,Undead,Human,MonEquipment,Shout
-vampire,vampire knight,,Medium,Undead,Human,MonEquipment,Shout
-vampire,vampire mage,Fly,Medium,Undead,Human,MonEquipment,Shout
-vampire,jiangshi,Fly,Medium,Undead,Human,MonEquipment,Shout
-wraith,ghost,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,phantom,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,martyred shade,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,flayed ghost,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,player ghost,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,shadow,"Incoporeal,Fly",Small,Undead,Human,MonNone,Shout
-wraith,silent spectre,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,drowned soul,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,wraith,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,shadow wraith,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,putrid mouth,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,freezing wraith,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,eidolon,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-wraith,phantasmal warrior,"Incoporeal,Fly",Medium,Undead,Human,MonNone,Shout
-horror,large abomination,Feral,Large,Undead,Mindless,MonNone,Shout
-horror,thrashing horror,Feral,Large,NonLiving,Mindless,MonNone,Shout
-horror,tentacled monstrosity,,Giant,Demonic,Mindless,MonNone,Shout
-horror,orb guardian,,Giant,Natural,Mindless,MonNone,Shout
-horror,tentacled starspawn,,Giant,NonLiving,Mindless,MonNone,Shout
-horror,starspawn tentacle,,Large,NonLiving,Mindless,MonNone,Shout
-horror,starspawn tentacle segment,NoMove,Giant,NonLiving,Mindless,MonNone,Shout
-horror,starcursed mass,,Giant,NonLiving,Mindless,MonNone,Shout
-horror,nameless horror,,Giant,NonLiving,Mindless,MonNone,Shout
-horror,kraken,,Large,Natural,Animal,MonNone,Shout
-horror,tentacle,NoMove,Large,Natural,Animal,MonNone,Shout
-horror,tentacle segment,NoMove,Large,Natural,Animal,MonNone,Shout
-horror,eldritch tentacle,NoMove,Large,Natural,Animal,MonNone,Shout
-horror,eldritch tentacle segment,NoMove,Large,Natural,Animal,MonNone,Shout
-yak,dream sheep,"Mob,Feral",Medium,Natural,Animal,MonNone,Shout
-yak,yak,"Mob,Feral",Large,Natural,Animal,MonNone,Shout
-yak,death yak,,Large,Natural,Animal,MonNone,Shout
-yak,catoblepas,,Large,Natural,Animal,MonNone,Shout
-yak,elephant,,Giant,Natural,Animal,MonNone,Shout
-yak,dire elephant,,Giant,Natural,Animal,MonNone,Shout
-yak,hellphant,,Giant,Demonic,Animal,MonNone,Shout
-yak,apis,,Large,Holy,Animal,MonNone,Shout
-yak,ice breast,,Large,Natural,Animal,MonNone,Shout
-yak,sky beast,,Large,Natural,Animal,MonNone,Shout
-zombie,zombie,,Medium,Undead,Human,MonEquipment,Shout
-zombie,skeleton,,Medium,Undead,Human,MonEquipment,Shout
-zombie,simulacrum,,Medium,Undead,Human,MonEquipment,Shout
-zombie,small zombie,,Small,Undead,Human,MonEquipment,Shout
-zombie,small skeleton,,Small,Undead,Human,MonEquipment,Shout
-zombie,small simulacrum,,Small,Undead,Human,MonEquipment,Shout
-zombie,large zombie,,Large,Undead,Human,MonEquipment,Shout
-zombie,large skeleton,,Large,Undead,Human,MonEquipment,Shout
-zombie,large simulacrum,,Large,Undead,Human,MonEquipment,Shout
-zombie,spectral thing,"Incorporeal,Fly",Medium,Undead,Human,MonNone,Shout
-zombie,bound soul,"Incorporeal,Fly",Medium,Undead,Human,MonNone,Shout
-demon,demonspawn,,Medium,Natural,Human,MonEquipment,Shout
-demon,demonspawn blood saint,,Medium,Natural,Human,MonEquipment,Shout
-demon,demonspawn warmonger,,Medium,Natural,Human,MonEquipment,Shout
-demon,demonspawn corrupter,,Medium,Demonic,Human,MonEquipment,Shout
-demon,demonspawn black sun,,Medium,Demonic,Human,MonEquipment,Shout
-demon,crimson imp,Fly,Small,Demonic,Human,MonNone,Shout
-demon,cerulean imp,Fly,Small,Demonic,Human,MonNone,Shout
-demon,quasit,,Small,Demonic,Human,MonNone,Shout
-demon,white imp,Fly,Small,Demonic,Human,MonNone,Shout
-demon,ufetubus,Feral,Small,Demonic,Human,MonNone,Shout
-demon,iron imp,,Small,Demonic,Human,MonNone,Shout
-demon,shadow imp,Feral,Medium,Demonic,Human,MonNone,Shout
-demon,lemure,,Medium,Demonic,Human,MonNone,Shout
-demon,rust devil,,Medium,Demonic,Human,MonNone,Shout
-demon,orange demon,,Medium,Demonic,Human,MonNone,Shout
-demon,bone devil,,Medium,Demonic,Human,MonNone,Shout
-demon,red devil,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,hellwing,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,ice devil,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,chaos spawn,,Medium,Demonic,Human,MonNone,Shout
-demon,sun demon,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,soul eater,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,smoke demon,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,neqoxec,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,ynoxinul,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,sixfirhy,Fly,Medium,Demonic,Human,MonNone,Shout
-demon,shadow demon,,Medium,Demonic,Human,MonNone,Shout
-demon,green death,,Large,Demonic,Human,MonNone,Shout
-demon,blizzard demon,Fly,Large,Demonic,Human,MonNone,Shout
-demon,balrug,Fly,Large,Demonic,Human,MonNone,Shout
-demon,cacodemon,,Large,Demonic,Human,MonNone,Shout
-demon,hell beast,,Large,Demonic,Human,MonNone,Shout
-demon,hellion,,Medium,Demonic,Human,MonNone,Shout
-demon,reaper,,Medium,Demonic,Human,MonNone,Shout
-demon,lorocyproca,,Medium,Demonic,Human,MonNone,Shout
-demon,tormentor,,Medium,Demonic,Human,MonNone,Shout
-demon,Brimstone Fiend,Fly,Large,Demonic,Human,MonNone,Shout
-demon,Ice Fiend,Fly,Large,Demonic,Human,MonNone,Shout
-demon,Tzitzimitl,Fly,Large,Demonic,Human,MonNone,Shout
-demon,Hell Sentinel,,Large,Demonic,Human,MonNone,Shout
-demon,Executioner,,Large,Demonic,Human,MonNone,Shout
-construct,ice statue,"NoMove,NoXP",Large,NonLiving,Mindless,MonNone,Silent
-construct,obsidian statue,"NoMove,NoXP",Large,NonLiving,Mindless,MonNone,Silent
-construct,orange crytstal statue,"NoMove,NoXP",Large,NonLiving,Mindless,MonNone,Silent
-construct,training dummy,"NoMove,NoXP",Medium,NonLiving,Mindless,MonNone,Silent
-construct,pillar of salt,"NoMove,NoXP",Medium,NonLiving,Mindless,MonNone,Silent
-construct,block of ice,"NoMove,NoXP",Medium,NonLiving,Mindless,MonNone,Silent
-construct,diamond obelisk,"NoMove,NoXP",Large,NonLiving,Mindless,MonNone,Silent
-construct,lightning spire,"NoMove,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-construct,strange machine,"NoMove,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-construct,saltling,,Medium,NonLiving,Mindless,MonNone,Silent
-construct,peacekeeper,,Large,NonLiving,Human,MonNone,Silent
-construct,iron golem,,Large,NonLiving,Human,MonNone,Silent
-construct,crystal guardian,,Large,NonLiving,Human,MonNone,Silent
-construct,toenail golem,,Large,NonLiving,Human,MonNone,Silent
-construct,electric golem,,Large,NonLiving,Human,MonNone,Silent
-construct,nargun,,Medium,NonLiving,Human,MonNone,Silent
-construct,ushabti,,Small,NonLiving,Human,MonNone,Silent
-construct,gargoyle,Fly,Medium,NonLiving,Human,MonNone,Silent
-construct,molten gargoyle,Fly,Medium,NonLiving,Human,MonNone,Silent
-construct,war gargoyle,Fly,Medium,NonLiving,Human,MonNone,Silent
-construct,blazeheart golem,NoXP,Large,NonLiving,Human,MonNone,Silent
-construct,spellforged servitor,,Medium,NonLiving,Human,MonNone,Silent
-spell,ball lightning,"Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,ballistomycete spore,"Fly,NoXP",Small,Plant,Mindless,MonNone,Silent
-spell,lost soul,"Incorporeal,Fly,NoXP",Small,Undead,Mindless,MonNone,Silent
-spell,lurking horror,"Incorporeal,Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,orb of fire,"Incorporeal,Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,creeping inferno,"Incorporeal,Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,orb of destruction,"Incorporeal,Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,foxfire,"Incorporeal,NoMove,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,fulminant prism,"NoMove,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,wretched star,"Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,battlesphere,"Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-spell,boulder,NoXP,Small,NonLiving,Mindless,MonNone,Silent
-spell,aspiring flesh,"NoMove,NoXP",Small,Natural,Mindless,MonNone,Silent
-spell,blazeheart core,"Fly,NoXP",Small,NonLiving,Mindless,MonNone,Silent
-npc,scrawny cat,"NPC,Feral,NoXP",Small,Natural,Animal,MonNone,Shout
-npc,scruffy dog,"NPC,Feral,NoXP",Small,Natural,Animal,MonNone,Shout
-npc,horse,"NPC,NoXP",Medium,Natural,Animal,MonNone,Shout
-npc,sheep,"NPC,Feral,NoXP",Medium,Natural,Animal,MonNone,Shout
-npc,barbarian,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,bard,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,cleric,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,druid,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,fighter,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,monk,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,paladin,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,ranger,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,rogue,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,sorcerer,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,warlock,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,wizard,"NPC,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,Heinz the Weaponsmith,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,Felix the Fletcher,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,Stori the Blacksmith,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,Rolf the Runesmith,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,Bruno's General Store,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-npc,Wilder the Haberdasher,"NPC,NoMove,NoXP",Medium,Natural,Human,MonEquipment,Shout
-player,Player,NoSpawn,Medium,Natural,Human,MonEquipment,Shout
-boss,Balor,,Large,Demonic,Human,MonNone,Shout
-boss,Tarrasque,,Giant,Natural,Human,MonNone,Shout
-boss,Witch-King,,Medium,Undead,Human,MonEquipment,Shout
-boss,Vampire King,,Medium,Undead,Human,MonEquipment,Shout
+﻿Base,Name,Size,Emote,Habitat,Holy,Intelligence,Use,Detail
+ancient,imperial myrmdion,Medium,Shout,Land,Natural,Human,MonEquipment,
+ancient,servant of whispers,Medium,Shout,Land,Natural,Human,MonEquipment,
+ancient,ragged hierophant,Medium,Shout,Land,Natural,Human,MonEquipment,
+bat,bat,Tiny,Silent,Land,Natural,Animal,MonNone,"Feral,Fly"
+bat,butterfly,Tiny,Silent,Land,Natural,Mindless,MonNone,"Feral,Fly"
+bat,vampire bat,Tiny,Silent,Land,Undead,Animal,MonNone,"Feral,Fly"
+bat,fire bat,Tiny,Silent,Land,Natural,Animal,MonNone,"Feral,Fly"
+bat,bennu,Medium,Screech,Land,Natural,Human,MonNone,Fly
+bat,caustic shrike,Medium,Screech,Land,Natural,Animal,MonNone,Fly
+bat,shard shrike,Medium,Screech,Land,Natural,Animal,MonNone,Fly
+centaur,centaur,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,centaur warrior,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,yaktaur,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,yaktaur captain,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,faun,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,satyr,Medium,Shout,Land,Natural,Human,MonEquipment,
+draconian,draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,black draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,yellow draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,pale draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,green draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,purple draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,red draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,white draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,grey draconian,Medium,Roar,Amphibious,Natural,Human,MonEquipment,
+draconian,draconian stormcaller,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,draconian monk,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,draconian shifter,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,draconian annihilator,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,draconian knight,Medium,Roar,Land,Natural,Human,MonEquipment,
+draconian,draconian scorcher,Medium,Roar,Land,Natural,Human,MonEquipment,
+elf,elf,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf knight,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf archer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf blademaster,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf master archer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf zephyrmancer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf pyromancer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf high priest,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf demonologist,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf annihilator,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf sorcerer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf death mage,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf elementalist,Medium,Shout,Land,Natural,Human,MonEquipment,
+plant,sleepcap,Tiny,Silent,Land,Plant,Mindless,MonNone,Feral
+plant,wandering mushroom,Tiny,Silent,Land,Plant,Mindless,MonNone,Feral
+plant,deathcap,Tiny,Silent,Land,Undead,Mindless,MonNone,Feral
+plant,thorn hunter,Large,Silent,Amphibious,Plant,Animal,MonNone,
+plant,shambling mangrove,Giant,Silent,Amphibious,Plant,Human,MonNone,
+plant,vine stalker,Medium,Silent,Land,Natural,Mindless,MonNone,
+goblin,goblin,Small,Shout,Land,Natural,Human,MonEquipment,
+goblin,hobgoblin,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,gnoll,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,gnoll bouda,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,gnoll sergeant,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,boggart,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,dwarf,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,deep dwarf,Medium,Shout,Land,Natural,Human,MonEquipment,
+quadruped,jackal,Medium,Bark,Land,Natural,Animal,MonNone,
+quadruped,hound,Medium,Bark,Land,Natural,Animal,MonNone,
+quadruped,howler monkey,Medium,Howl,Land,Natural,Animal,MonNone,
+quadruped,warg,Medium,Howl,Land,Natural,Animal,MonNone,
+quadruped,wolf,Medium,Howl,Land,Natural,Animal,MonNone,
+quadruped,inugami,Medium,Bark,Land,Natural,Animal,MonNone,
+quadruped,hog,Medium,Squel,Land,Natural,Animal,MonNone,
+quadruped,hell hound,Medium,Bark,Land,Demonic,Animal,MonNone,
+quadruped,doom hound,Medium,Bark,Land,Demonic,Animal,MonNone,
+quadruped,raiju,Medium,Bark,Land,Natural,Animal,MonNone,
+quadruped,hell hog,Medium,Squel,Land,Demonic,Animal,MonNone,
+quadruped,holy swine,Medium,Squel,Land,Holy,Animal,MonNone,
+quadruped,felid,Medium,Hiss,Land,Natural,Human,MonNone,NoSpawn
+quadruped,polar bear,Large,Growl,Amphibious,Natural,Animal,MonNone,
+quadruped,black bear,Large,Growl,Land,Natural,Animal,MonNone,
+spriggan,spriggan,Tiny,Shout,Land,Natural,Human,MonEquipment,
+spriggan,spriggan rider,Tiny,Shout,Land,Natural,Human,MonEquipment,
+spriggan,spriggan druid,Tiny,Shout,Land,Natural,Human,MonEquipment,
+spriggan,spriggan berserker,Tiny,Shout,Land,Natural,Human,MonEquipment,
+spriggan,spriggan air mage,Tiny,Shout,Land,Natural,Human,MonEquipment,
+spriggan,spriggan defender,Tiny,Shout,Land,Natural,Human,MonEquipment,
+drake,wyvern,Large,Hiss,Land,Natural,Animal,MonNone,Fly
+drake,swamp drake,Large,Roar,Land,Natural,Animal,MonNone,Fly
+drake,rime drake,Large,Hiss,Land,Natural,Animal,MonNone,Fly
+drake,wind drake,Large,Hiss,Land,Natural,Animal,MonNone,Fly
+drake,lindwurm,Large,Roar,Land,Natural,Animal,MonNone,Tunnel
+drake,death drake,Large,Hiss,Land,Natural,Animal,MonNone,Fly
+lizard,frilled lizard,Small,Hiss,Amphibious,Natural,Animal,MonNone,
+lizard,iguana,Small,Hiss,Amphibious,Natural,Animal,MonNone,
+lizard,crocodile,Small,Silent,Amphibious,Natural,Animal,MonNone,
+lizard,basilisk,Small,Hiss,Land,Natural,Animal,MonNone,
+lizard,komodo dragon,Large,Hiss,Amphibious,Natural,Animal,MonNone,
+lizard,alligator,Large,Silent,Amphibious,Natural,Animal,MonNone,
+merfolk,merfolk,Medium,Shout,Amphibious,Natural,Human,MonNone,
+merfolk,merfolk impaler,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,merfolk javelineer,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,merfolk aquamancer,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,merfolk siren,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,sickly merfolk siren,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,merfolk avatar,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,malarious merfolk avatar,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,water nymph,Medium,Shout,Amphibious,Natural,Human,MonDoor,
+undead,bog body,Medium,Silent,Amphibious,Undead,Human,MonDoor,
+undead,necrophage,Medium,Silent,Land,Undead,Human,MonDoor,
+undead,bloated husk,Medium,Silent,Amphibious,Undead,Human,MonDoor,Mob
+undead,ghoul,Medium,Silent,Land,Undead,Human,MonDoor,
+undead,searing wretch,Medium,Silent,Land,Undead,Human,MonDoor,
+orc,orc,Medium,Shout,Land,Natural,Human,MonEquipment,Mob
+orc,orc wizard,Medium,Shout,Land,Natural,Human,MonEquipment,
+orc,orc priest,Medium,Shout,Land,Natural,Human,MonEquipment,
+orc,orc warrior,Medium,Shout,Land,Natural,Human,MonEquipment,
+orc,orc knight,Medium,Shout,Land,Natural,Human,MonEquipment,
+orc,orc warlord,Medium,Shout,Land,Natural,Human,MonEquipment,
+orc,orc sorcerer,Medium,Shout,Land,Natural,Human,MonEquipment,
+orc,orc high priest,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,human,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,burial acolyte,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,hell knight,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,death knight,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,necromancer,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,arcanist,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,occultist,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,vault guard,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,vault sentinel,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,vault warden,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,ironbound convoker,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,ironbound frostheart,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,ironbound preserver,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,shapeshifter,Medium,Silent,Land,Natural,Human,MonEquipment,
+human,glowing shapeshifter,Medium,Silent,Land,Natural,Human,MonEquipment,
+human,killer klown,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,demigod,Medium,Shout,Land,Natural,Human,MonEquipment,NoSpawn
+human,halfling,Small,Shout,Land,Natural,Human,MonEquipment,NoSpawn
+human,metoeran,Medium,Shout,Land,Natural,Human,MonEquipment,NoSpawn
+human,spectator,Medium,Shout,Land,Natural,Human,MonEquipment,"NoSpawn,NoMove,NoXP"
+rat,rat,Tiny,Squeak,Land,Natural,Animal,MonNone,
+rat,quokka,Small,Silent,Land,Natural,Animal,MonNone,
+rat,river rat,Tiny,Squeak,Amphibious,Natural,Animal,MonNone,
+rat,hell rat,Small,Roar,Land,Demonic,Animal,MonNone,
+rat,crystal echidna,Small,Silent,Land,NonLiving,Animal,MonNone,
+spider,scorpion,Small,Shout,Land,Natural,Animal,MonNone,
+spider,emperor scorpion,Giant,Silent,Land,Natural,Animal,MonNone,
+spider,tarantella,Small,Skitter,Land,Natural,Animal,MonNone,
+spider,jumping spider,Small,Skitter,Land,Natural,Animal,MonNone,
+spider,wolf spider,Medium,Skitter,Land,Natural,Animal,MonNone,
+spider,redback,Tiny,Silent,Land,Natural,Animal,MonNone,
+spider,demonic crawler,Large,Scream,Land,Demonic,Animal,MonNone,
+spider,orb spider,Small,Skitter,Land,Natural,Animal,MonNone,
+spider,broodmother,Giant,Skitter,Land,Natural,Animal,MonNone,
+spider,culicivora,Small,Skitter,Land,Natural,Animal,MonNone,
+testudine,snapping turtle,Medium,Hiss,Amphibious,Natural,Animal,MonNone,
+testudine,alligator snapping turtle,Large,Hiss,Amphibious,Natural,Animal,MonNone,
+testudine,fire crab,Small,Silent,AmphibiousLava,Natural,Animal,MonNone,
+testudine,ghost crab,Small,Silent,Amphibious,Undead,Animal,MonNone,
+testudine,apocalypse crab,Small,Silent,Amphibious,Demonic,Animal,MonNone,
+ugly,ugly thing,Medium,Gurgle,Land,Natural,Human,MonNone,
+ugly,very ugly thing,Large,Gurgle,Land,Natural,Human,MonNone,
+vortice,fire vortex,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
+vortice,spatial vortex,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
+vortice,spatial maelstrom,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
+vortice,will-o-the-wisp,Tiny,Moan,Land,NonLiving,Mindless,MonNone,Feral
+vortice,twister,Large,Silent,Land,NonLiving,Mindless,MonNone,"Feral,Fly,NoXP"
+worm,ribbon worm,Small,Silent,Land,Natural,Animal,MonNone,
+worm,brain worm,Small,Silent,Land,Natural,Animal,MonNone,
+worm,swamp worm,Medium,Silent,Amphibious,Natural,Animal,MonNone,
+worm,tyrant leech,Large,Silent,Amphibious,Natural,Animal,MonNone,
+worm,dart slug,Small,Silent,Amphibious,Natural,Animal,MonNone,
+worm,torpor snail,Large,Silent,Land,Natural,Animal,MonNone,
+worm,steelbarb worm,Small,Silent,Land,Natural,Animal,MonNone,
+worm,elephant slug,Giant,Silent,Land,Natural,Animal,MonNone,
+horror,unseen horror,Medium,Silent,Land,Natural,Animal,MonNone,
+horror,small abomination,Large,Silent,Land,Undead,Mindless,MonNone,
+horror,ancient zyme,Medium,Silent,Land,NonLiving,Human,MonNone,
+horror,worldbinder,Small,Silent,Land,NonLiving,Human,MonDoor,
+horror,bunyip,Large,Scream,Amphibious,Natural,Animal,MonNone,
+octopode,octopode,Medium,Shout,Amphibious,Natural,Human,MonNone,NoSpawn
+insect,killer bee,Tiny,Buzz,Land,Natural,Animal,MonNone,Fly
+insect,queen bee,Small,Buzz,Land,Natural,Animal,MonNone,Fly
+insect,vampire mosquito,Small,Buzz,Land,Undead,Animal,MonNone,Fly
+insect,hornet,Tiny,Buzz,Land,Natural,Animal,MonNone,Fly
+insect,meliai,Small,Buzz,Land,Natural,Animal,MonNone,Fly
+insect,spark wasp,Tiny,Buzz,Land,Natural,Animal,MonNone,
+insect,ghost moth,Large,Silent,Land,Natural,Animal,MonNone,
+insect,moth of wrath,Small,Silent,Land,Natural,Animal,MonNone,
+insect,sun moth,Small,Silent,Land,Natural,Animal,MonNone,
+undead,wight,Medium,Silent,Land,Undead,Human,MonEquipment,
+undead,skeletal warrior,Medium,Silent,Land,Undead,Human,MonEquipment,
+undead,ancient champion,Medium,Silent,Land,Undead,Human,MonEquipment,
+undead,weeping skull,Tiny,Moan,Land,Undead,Human,MonNone,
+undead,laughing skull,Tiny,Scream,Land,Undead,Human,MonNone,
+undead,curse skull,Tiny,Moan,Land,Undead,Human,MonNone,Fly
+undead,curse toe,Tiny,Moan,Land,Undead,Human,MonNone,
+undead,death cob,Tiny,Moan,Land,Undead,Human,MonNone,
+undead,revenant,Medium,Moan,Land,Undead,Human,MonNone,
+angelic,angel,Medium,Shout,Land,Holy,Human,MonEquipment,
+angelic,cherub,Medium,Shout,Land,Holy,Human,MonEquipment,Fly
+angelic,seraph,Medium,Shout,Land,Holy,Human,MonEquipment,Fly
+angelic,daeva,Medium,Shout,Land,Holy,Human,MonEquipment,Fly
+angelic,profane servitor,Medium,Silent,Land,Undead,Human,MonEquipment,Fly
+beetle,giant cockroach,Small,Silent,Land,Natural,Human,MonNone,
+beetle,bombardier beetle,Small,Silent,Land,Natural,Animal,MonNone,
+beetle,radroach,Small,Silent,Land,Natural,Animal,MonNone,
+beetle,formicid,Medium,Shout,Land,Natural,Human,MonNone,NoSpawn
+beetle,entropy weaver,Medium,Shout,Land,Natural,Human,MonNone,
+beetle,boulder beetle,Large,Silent,Land,Natural,Animal,MonNone,
+beetle,pharaoh ant,Medium,Moan,Land,Undead,Animal,MonNone,
+beetle,death scarab,Small,Skitter,Land,Undead,Animal,MonNone,
+giant,cyclops,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,ettin,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,fire giant,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,frost giant,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,stone giant,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,titan,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,juggernaut,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,iron giant,Large,Shout,Land,Natural,Human,MonEquipment,
+giant,cactus giant,Large,Silent,Land,Plant,Human,MonEquipment,
+giant,tainted leviathan,Large,Shout,Land,Undead,Human,MonEquipment,
+giant,protean progenitor,Large,Gurgle,Land,Natural,Human,MonDoor,
+dragon,fire dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
+dragon,hydra,Large,Roar,Amphibious,Natural,Animal,MonNone,
+dragon,ice dragon,Large,Roar,Land,Natural,Animal,MonNone,Tunnel
+dragon,steam dragon,Large,Hiss,Land,Natural,Animal,MonNone,Fly
+dragon,swamp dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
+dragon,acid dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
+dragon,quicksilver dragon,Large,Roar,Land,Natural,Animal,MonNone,Tunnel
+dragon,iron dragon,Large,Roar,Land,Natural,Animal,MonNone,
+dragon,storm dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
+dragon,golden dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
+dragon,shadow dragon,Large,Silent,Land,Natural,Animal,MonNone,Fly
+dragon,bone dragon,Large,Silent,Land,Undead,Animal,MonNone,Fly
+dragon,pearl dragon,Large,Roar,Land,Holy ,Animal,MonNone,Fly
+elemental,earth elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,Tunnel
+elemental,quicksilver elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
+elemental,fire elemental,Large,Silent,AmphibiousLava,NonLiving,Mindless,MonNone,Feral
+elemental,water elemental,Large,Silent,Amphibious,NonLiving,Mindless,MonNone,Feral
+elemental,air elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
+elemental,iron elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,
+elemental,elemental wellspring,Large,Silent,Land,NonLiving,Mindless,MonNone,NoMove
+frog,bullfrog,Medium,Croak,Amphibious,Natural,Animal,MonNone,
+frog,cane toad,Medium,Croak,Amphibious,Natural,Animal,MonNone,
+frog,blink frog,Medium,Croak,Amphibious,Natural,Animal,MonNone,
+frog,goliath frog,Small,Silent,Amphibious,Natural,Animal,MonNone,
+frog,skyshark,Large,Shout,Land,Natural,Animal,MonNone,
+frog,barachi,Medium,Shout,Amphibious,Natural,Human,MonNone,NoSpawn
+eye,glass eye,Medium,Silent,Land,Natural,Mindless,MonNone,Fly
+eye,glowing orange brain,Medium,Silent,Land,Natural,Human,MonDoor,Fly
+eye,great orb of eyes,Medium,Silent,Land,Natural,Human,MonNone,Fly
+eye,shining eye,Medium,Silent,Land,Natural,Mindless,MonNone,Fly
+eye,eye of devastation,Medium,Silent,Land,Natural,Mindless,MonNone,Fly
+eye,golden eye,Tiny,Silent,Land,Natural,Mindless,MonNone,Fly
+eye,orphan,Medium,Silent,Land,Holy ,Human,MonNone,Fly
+hybrid,manticore,Large,Silent,Land,Natural,Animal,MonNone,Fly
+hybrid,minotaur,Medium,Bellow,Land,Natural,Human,MonNone,
+hybrid,fenstrider witch,Giant,Shout,Land,Natural,Human,MonNone,
+hybrid,sphinx,Giant,Screech,Land,Natural,Human,MonDoor,Fly
+hybrid,harpy,Medium,Shout,Land,Natural,Human,MonNone,Fly
+hybrid,jorogumo,Medium,Shout,Land,Natural,Human,MonDoor,
+hybrid,armataur,Large,Shout,Land,Natural,Human,MonNone,
+hybrid,mutant beast,Medium,Shout,Land,Natural,Animal,MonNone,
+jelly,endoplasm,Small,Silent,Land,Natural,Mindless,MonNone,Mob
+jelly,jelly,Small,Silent,Amphibious,Natural,Mindless,MonNone,Mob
+jelly,slime creature,Small,Silent,Amphibious,Natural,Mindless,MonNone,Mob
+jelly,formless jellyfish,Large,Silent,Land,Natural,Mindless,MonNone,
+jelly,rockslime,Giant,Silent,Amphibious,Natural,Mindless,MonNone,
+jelly,quicksilver ooze,Giant,Silent,Land,Natural,Mindless,MonNone,
+jelly,azure jelly,Small,Silent,Land,Natural,Mindless,MonNone,
+jelly,acid blob,Small,Silent,Land,Natural,Mindless,MonNone,Feral
+kobold,kobold,Small,Shout,Land,Natural,Human,MonEquipment,
+kobold,kobold brigand,Small,Shout,Land,Natural,Human,MonEquipment,
+kobold,kobold demonologist,Small,Shout,Land,Natural,Human,MonEquipment,
+kobold,kobold blastminer,Small,Shout,Land,Natural,Human,MonEquipment,
+lich,lich,Medium,Shout,Land,Undead,Human,MonEquipment,
+lich,ancient lich,Medium,Shout,Land,Undead,Human,MonEquipment,
+lich,dread lich,Medium,Shout,Land,Undead,Human,MonEquipment,
+lich,halazid warlock,Medium,Shout,Land,Undead,Human,MonEquipment,
+lich,stoker,Medium,Shout,AmphibiousLava,Undead,Human,MonEquipment,Tunnel
+mummy,mummy,Medium,Silent,Land,Undead,Human,MonEquipment,
+mummy,guardian mummy,Medium,Silent,Land,Undead,Human,MonEquipment,
+mummy,royal mummy,Medium,Silent,Land,Undead,Human,MonEquipment,
+mummy,mummy priest,Medium,Silent,Land,Undead,Human,MonEquipment,
+naga,naga,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,naga mage,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,naga sharpshooter,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,naga ritualist,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,naga warrior,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,nagaraja,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,salamander,Medium,Silent,AmphibiousLava,Natural,Human,MonEquipment,
+naga,salamander mystic,Medium,Silent,AmphibiousLava,Natural,Human,MonEquipment,
+naga,salamander tyrant,Medium,Silent,AmphibiousLava,Natural,Human,MonEquipment,
+ogre,ogre,Large,Shout,Land,Natural,Human,MonEquipment,
+ogre,two-headed ogre,Large,Shout,Land,Natural,Human,MonEquipment,
+ogre,ogre mage,Large,Shout,Land,Natural,Human,MonEquipment,
+ogre,ironbound thunderhulk,Large,Shout,Land,Natural,Human,MonEquipment,
+ogre,oni,Large,Shout,Land,Natural,Human,MonEquipment,
+plant,plant,Small,Silent,Land,Plant,Mindless,MonNone,"NoMove,NoXP"
+plant,demonic plant,Small,Silent,Land,Plant,Mindless,MonNone,"NoMove,NoXP"
+plant,withered plant,Small,Silent,Land,Plant,Mindless,MonNone,"NoMove,NoXP"
+plant,oklob sapling,Small,Silent,Land,Plant,Mindless,MonNone,Feral
+plant,oklob plant,Small,Silent,Land,Plant,Mindless,MonNone,Feral
+plant,starflower,Medium,Silent,Land,Plant,Mindless,MonNone,Feral
+plant,bush,Giant,Silent,Land,Plant,Mindless,MonNone,"NoMove,NoXP"
+plant,burning bush,Giant,Silent,Land,Plant,Mindless,MonNone,"NoMove,NoXP"
+plant,toadstool,Tiny,Silent,Land,Plant,Mindless,MonNone,NoMove
+plant,fungus,Tiny,Silent,Land,Plant,Mindless,MonNone,NoMove
+plant,ballistomycete,Tiny,Silent,Land,Plant,Mindless,MonNone,NoMove
+plant,briar patch,Small,Silent,Amphibious,Plant,Mindless,MonNone,NoMove
+tengu,tengu,Medium,Shout,Land,Natural,Human,MonEquipment,Fly
+tengu,tengu conjurer,Medium,Shout,Land,Natural,Human,MonEquipment,Fly
+tengu,tengu warrior,Medium,Shout,Land,Natural,Human,MonEquipment,Fly
+tengu,tengu reaver,Medium,Shout,Land,Natural,Human,MonEquipment,Fly
+spiritual,djinni,Medium,Shout,Land,NonLiving,Human,MonEquipment,
+spiritual,ancestor,Medium,Shout,Land,NonLiving,Human,MonEquipment,NoSpawn
+spiritual,knight,Medium,Shout,Land,NonLiving,Human,MonEquipment,NoSpawn
+spiritual,battlemage,Medium,Shout,Land,NonLiving,Human,MonEquipment,NoSpawn
+spiritual,hexer,Medium,Shout,Land,NonLiving,Human,MonEquipment,NoSpawn
+spiritual,efreet,Large,Silent,Land,Demonic,Human,MonEquipment,Fly
+spiritual,rakshasa,Medium,Silent,Land,Demonic,Human,MonEquipment,
+spiritual,eleionoma,Medium,Shout,Land,Natural,Human,MonEquipment,
+spiritual,wendigo,Medium,Howl,Land,Demonic,Human,MonEquipment,
+spiritual,dryad,Medium,Shout,Land,Natural,Human,MonEquipment,
+spiritual,snaplasher vine,Large,Silent,Land,Plant,Animal,MonNone,
+spiritual,snaplasher vine segment,Large,Silent,Land,Plant,Animal,MonNone,
+snake,ball python,Small,Hiss,Amphibious,Natural,Animal,MonNone,
+snake,adder,Small,Hiss,Amphibious,Natural,Animal,MonNone,
+snake,water moccasin,Medium,Hiss,Amphibious,Natural,Animal,MonNone,
+snake,black mamba,Large,Hiss,Land,Natural,Animal,MonNone,
+snake,sea snake,Large,Hiss,Amphibious,Natural,Animal,MonNone,
+snake,anaconda,Medium,Hiss,Amphibious,Natural,Animal,MonNone,
+snake,guardian serpent,Medium,Shout,Land,Natural,Animal,MonNone,
+snake,shock serpent,Small,Hiss,Land,Natural,Animal,MonNone,
+snake,mana viper,Small,Hiss,Land,Natural,Animal,MonNone,
+snake,electric eel,Small,Hiss,Amphibious,Natural,Animal,MonNone,Mob
+snake,lava snake,Small,Hiss,Amphibious,Natural,Animal,MonNone,"Mob,Feral"
+troll,troll,Large,Shout,Land,Natural,Human,MonDoor,
+troll,iron troll,Large,Shout,Land,Natural,Human,MonDoor,
+troll,deep troll,Large,Shout,Land,Natural,Human,MonDoor,
+troll,deep troll earth mage,Large,Shout,Land,Natural,Human,MonDoor,
+vampire,vampire,Medium,Silent,Land,Undead,Human,MonEquipment,
+vampire,vampire knight,Medium,Shout,Land,Undead,Human,MonEquipment,
+vampire,vampire mage,Medium,Silent,Land,Undead,Human,MonEquipment,Fly
+vampire,jiangshi,Medium,Silent,Land,Undead,Animal,MonNone,Fly
+wraith,ghost,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,phantom,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,martyred shade,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,flayed ghost,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,player ghost,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,shadow,Small,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,silent spectre,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,drowned soul,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,wraith,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,shadow wraith,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,putrid mouth,Medium,Moan,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,freezing wraith,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,eidolon,Medium,Moan,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+wraith,phantasmal warrior,Medium,Silent,Land,Undead,Human,MonDoor,"Incorporeal,Fly"
+horror,large abomination,Large,Silent,Land,Undead,Mindless,MonNone,Feral
+horror,thrashing horror,Large,Roar,Land,NonLiving,Animal,MonNone,Feral
+horror,tentacled monstrosity,Giant,Silent,Amphibious,Demonic,Animal,MonNone,
+horror,orb guardian,Giant,Shout,Land,Natural,Human,MonNone,
+horror,tentacled starspawn,Giant,Shout,Land,NonLiving,Human,MonNone,
+horror,starspawn tentacle,Large,Shout,Land,NonLiving,Human,MonNone,
+horror,starspawn tentacle segment,Giant,Shout,Land,NonLiving,Human,MonNone,NoMove
+horror,starcursed mass,Giant,Shout,Land,NonLiving,Animal,MonNone,
+horror,nameless horror,Giant,Shout,Land,NonLiving,Mindless,MonNone,
+horror,kraken,Large,Shout,Amphibious,Natural,Animal,MonNone,
+horror,tentacle,Large,Silent,Amphibious,Natural,Animal,MonNone,NoMove
+horror,tentacle segment,Large,Silent,Amphibious,Natural,Animal,MonNone,NoMove
+horror,eldritch tentacle,Large,Shout,Amphibious,Natural,Animal,MonNone,NoMove
+horror,eldritch tentacle segment,Large,Shout,Amphibious,Natural,Animal,MonNone,NoMove
+yak,dream sheep,Medium,Bleat,Land,Natural,Animal,MonNone,"Mob,Feral"
+yak,yak,Large,Bellow,Land,Natural,Animal,MonNone,"Mob,Feral"
+yak,death yak,Large,Bellow,Land,Natural,Animal,MonNone,
+yak,catoblepas,Large,Bellow,Land,Natural,Animal,MonNone,
+yak,elephant,Giant,Trumpet,Land,Natural,Animal,MonNone,
+yak,dire elephant,Giant,Trumpet,Land,Natural,Animal,MonNone,
+yak,hellphant,Giant,Trumpet,Land,Demonic,Animal,MonNone,
+yak,apis,Large,Silent,Land,Holy ,Animal,MonNone,
+yak,ice breast,Large,Silent,Land,Natural,Animal,MonNone,
+yak,sky beast,Large,Silent,Amphibious,Natural,Animal,MonNone,
+zombie,zombie,Medium,Silent,Land,Undead,Mindless,MonNone,
+zombie,skeleton,Medium,Silent,Land,Undead,Mindless,MonNone,
+zombie,simulacrum,Medium,Silent,Land,Undead,Mindless,MonNone,
+zombie,small zombie,Small,Silent,Land,Undead,Mindless,MonNone,
+zombie,small skeleton,Small,Silent,Land,Undead,Mindless,MonNone,
+zombie,small simulacrum,Small,Silent,Land,Undead,Mindless,MonNone,
+zombie,large zombie,Large,Silent,Land,Undead,Mindless,MonNone,
+zombie,large skeleton,Large,Silent,Land,Undead,Mindless,MonNone,
+zombie,large simulacrum,Large,Silent,Land,Undead,Mindless,MonNone,
+zombie,spectral thing,Medium,Silent,Land,Undead,Mindless,MonNone,"Incorporeal,Fly"
+zombie,bound soul,Medium,Silent,Land,Undead,Mindless,MonNone,"Incorporeal,Fly"
+demon,demonspawn,Medium,Shout,Land,Natural,Human,MonEquipment,
+demon,demonspawn blood saint,Medium,Shout,Land,Natural,Human,MonEquipment,
+demon,demonspawn warmonger,Medium,Shout,Land,Natural,Human,MonEquipment,
+demon,demonspawn corrupter,Medium,Shout,Land,Demonic,Human,MonEquipment,
+demon,demonspawn black sun,Medium,Shout,Land,Demonic,Human,MonEquipment,
+demon,crimson imp,Small,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,cerulean imp,Small,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,quasit,Small,Moan,Land,Demonic,Human,MonDoor,
+demon,white imp,Small,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,ufetubus,Small,Shout,Land,Demonic,Human,MonDoor,Feral
+demon,iron imp,Small,Shout,Land,Demonic,Human,MonDoor,
+demon,shadow imp,Medium,Shout,Land,Demonic,Human,MonDoor,Feral
+demon,lemure,Medium,Shout,Land,Demonic,Human,MonDoor,
+demon,rust devil,Medium,Shout,Land,Demonic,Human,MonDoor,
+demon,orange demon,Medium,Screech,Land,Demonic,Human,MonDoor,
+demon,bone devil,Medium,Screech,Land,Demonic,Human,MonDoor,
+demon,red devil,Medium,Screech,Land,Demonic,Human,MonDoor,Fly
+demon,hellwing,Medium,Moan,Land,Demonic,Human,MonDoor,Fly
+demon,ice devil,Medium,Silent,Land,Demonic,Human,MonDoor,Fly
+demon,chaos spawn,Medium,Shout,Land,Demonic,Human,MonDoor,
+demon,sun demon,Medium,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,soul eater,Medium,Silent,Land,Demonic,Human,MonDoor,Fly
+demon,smoke demon,Medium,Roar,Land,Demonic,Human,MonDoor,Fly
+demon,neqoxec,Medium,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,ynoxinul,Medium,Bellow,Land,Demonic,Human,MonDoor,Fly
+demon,sixfirhy,Medium,Silent,Land,Demonic,Human,MonDoor,Fly
+demon,shadow demon,Medium,Croak,Land,Demonic,Human,MonDoor,
+demon,green death,Large,Roar,Land,Demonic,Human,MonDoor,
+demon,blizzard demon,Large,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,balrug,Large,Shout,Land,Demonic,Human,MonDoor,Fly
+demon,cacodemon,Large,Shout,Land,Demonic,Human,MonDoor,
+demon,hell beast,Large,Shout,Land,Demonic,Human,MonDoor,
+demon,hellion,Medium,Scream,Land,Demonic,Human,MonDoor,
+demon,reaper,Medium,Silent,Land,Demonic,Human,MonDoor,
+demon,lorocyproca,Medium,Moan,Land,Demonic,Human,MonDoor,
+demon,tormentor,Medium,Roar,Land,Demonic,Human,MonDoor,
+demon,Brimstone Fiend,Large,Roar,Land,Demonic,Human,MonDoor,Fly
+demon,Ice Fiend,Large,Roar,Land,Demonic,Human,MonDoor,Fly
+demon,Tzitzimitl,Large,Roar,Land,Demonic,Human,MonDoor,Fly
+demon,Hell Sentinel,Large,Roar,Land,Demonic,Human,MonDoor,
+demon,Executioner,Large,Scream,Land,Demonic,Human,MonDoor,
+construct,ice statue,Large,Silent,Amphibious,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,obsidian statue,Large,Silent,Amphibious,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,orange crytstal statue,Large,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,training dummy,Medium,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,pillar of salt,Medium,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,block of ice,Medium,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,diamond obelisk,Large,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,lightning spire,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,strange machine,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoMove,NoXP"
+construct,saltling,Medium,Silent,Land,NonLiving,Mindless,MonNone,
+construct,peacekeeper,Large,Roar,Land,NonLiving,Mindless,MonNone,
+construct,iron golem,Large,Squeak,Land,NonLiving,Mindless,MonNone,
+construct,crystal guardian,Large,Silent,Land,NonLiving,Mindless,MonNone,
+construct,toenail golem,Large,Silent,Land,NonLiving,Mindless,MonNone,
+construct,electric golem,Large,Silent,Land,NonLiving,Mindless,MonNone,
+construct,nargun,Medium,Silent,Land,NonLiving,Human,MonNone,
+construct,ushabti,Small,Silent,Land,NonLiving,Human,MonNone,
+construct,gargoyle,Medium,Silent,Land,NonLiving,Human,MonNone,Fly
+construct,molten gargoyle,Medium,Silent,Land,NonLiving,Human,MonNone,Fly
+construct,war gargoyle,Medium,Silent,Land,NonLiving,Human,MonNone,Fly
+construct,blazeheart golem,Large,Silent,Land,NonLiving,Human,MonNone,
+construct,spellforged servitor,Medium,Taunt,Land,NonLiving,Human,MonNone,
+spell,ball lightning,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Fly,NoXP"
+spell,ballistomycete spore,Small,Silent,Land,Plant,Mindless,MonNone,"NoSpawn,Fly,NoXP"
+spell,lost soul,Small,Silent,Land,Undead,Mindless,MonNone,"NoSpawn,Incorporeal,Fly,NoXP"
+spell,lurking horror,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,Fly,NoXP"
+spell,orb of fire,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,Fly,NoXP"
+spell,creeping inferno,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,Fly,NoXP"
+spell,orb of destruction,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,Fly,NoXP"
+spell,foxfire,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,NoMove,NoXP"
+spell,fulminant prism,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,NoMove,NoXP"
+spell,wretched star,Small,Silent,Land,NonLiving,Mindless,MonNone,"Fly,NoXP"
+spell,battlesphere,Small,Silent,Land,NonLiving,Mindless,MonNone,"Fly,NoXP"
+spell,boulder,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,NoXP"
+spell,aspiring flesh,Small,Silent,Land,Natural,Mindless,MonNone,"NoSpawn,NoMove,NoXP"
+spell,blazeheart core,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Fly,NoXP"
+npc,scrawny cat,Small,Meow,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
+npc,scruffy dog,Small,Bark,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
+npc,horse,Medium,Ney,Land,Natural,Animal,MonNone,"NPC,NoXP"
+npc,sheep,Medium,Bleat,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
+npc,barbarian,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,bard,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,cleric,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,druid,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,fighter,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,monk,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,paladin,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,ranger,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,rogue,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,sorcerer,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,warlock,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,wizard,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
+npc,Heinz the Weaponsmith,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
+npc,Felix the Fletcher,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
+npc,Stori the Blacksmith,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
+npc,Rolf the Runesmith,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
+npc,Bruno's General Store,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
+npc,Wilder the Haberdasher,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
+player,Player,Medium,Shout,Land,Natural,Human,MonEquipment,NoSpawn
+boss,Balor,Large,Shout,Land,Demonic,Human,MonNone,Fly
+boss,Tarrasque,Giant,Hiss,Amphibious,Natural,Human,MonNone,
+boss,Witch-King,Medium,Shout,Land,Undead,Human,MonEquipment,Fly
+boss,Vampire King,Medium,Shout,Land,Undead,Human,MonEquipment,Fly

@@ -27,7 +27,7 @@ flavor,damage/poison,damage,poison
 flavor,damage/radiant,damage,radiant
 flavor,damage/silver,damage,silver
 flavor,damage/slashing,damage,slashing
-flavor,damage/thunder,damage,thunder
+flavor,damage/magic,damage,magic
 flavor,spell/AC,mana,6
 flavor,spell/Acid,mana,6
 flavor,spell/Acid1,mana,10
@@ -191,17 +191,6 @@ flavor,spell/Stunned,mana,6
 flavor,spell/Summon,mana,6
 flavor,spell/Teleport,mana,6
 flavor,spell/Throw,mana,6
-flavor,spell/Thunder,mana,6
-flavor,spell/Thunder1,mana,10
-flavor,spell/Thunder10,mana,1
-flavor,spell/Thunder2,mana,9
-flavor,spell/Thunder3,mana,8
-flavor,spell/Thunder4,mana,7
-flavor,spell/Thunder5,mana,6
-flavor,spell/Thunder6,mana,5
-flavor,spell/Thunder7,mana,4
-flavor,spell/Thunder8,mana,3
-flavor,spell/Thunder9,mana,2
 flavor,spell/Torment,mana,6
 flavor,spell/Unconscious,mana,1
 flavor,spell/Vulnerable,mana,6

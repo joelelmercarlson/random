@@ -117,16 +117,5 @@ spell,evoke,spell/Restrained,spell,4,0,0,"restrained,Restrained"
 spell,evoke,spell/SenseMonster,spell,1,0,0,SenseMonster
 spell,evoke,spell/Stunned,spell,4,0,0,"stunned,Stunned"
 spell,evoke,spell/Teleport,spell,1,0,0,Teleport
-spell,evoke,spell/Thunder,spell,1,0,0,Thunder
-spell,evoke,spell/Thunder1,spell,110,0,0,"thunder,Thunder1"
-spell,evoke,spell/Thunder2,spell,100,0,0,"thunder,Thunder2"
-spell,evoke,spell/Thunder3,spell,90,0,0,"thunder,Thunder3"
-spell,evoke,spell/Thunder4,spell,80,0,0,"thunder,Thunder4"
-spell,evoke,spell/Thunder5,spell,70,0,0,"thunder,Thunder5"
-spell,evoke,spell/Thunder6,spell,60,0,0,"thunder,Thunder6"
-spell,evoke,spell/Thunder7,spell,48,0,0,"thunder,Thunder7"
-spell,evoke,spell/Thunder8,spell,36,0,0,"thunder,Thunder8"
-spell,evoke,spell/Thunder9,spell,24,0,0,"thunder,Thunder9"
-spell,evoke,spell/Thunder10,spell,12,0,0,"thunder,Thunder10"
 spell,evoke,spell/Unconscious,spell,4,0,0,"unconscious,Unconscious"
 spell,evoke,spell/Zap,spell,10,0,0,"force,Force10"
