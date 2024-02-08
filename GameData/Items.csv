@@ -1,257 +1,257 @@
 ﻿Base,Skill,Name,Type,Value,Hit,En,Detail
-item,arrow,Stair Down,StairDown,100,100,100,Exit
-item,arrow,Stair Up,StairUp,100,100,100,Exit
-item,ShortBlade,melee/Dagger,melee,4,6,10,"finesse,light,piercing"
-item,ShortBlade,melee/Quick blade,melee,5,6,7,"finesse,light,piercing"
-item,ShortBlade,melee/Shortsword,melee,6,4,11,"finesse,light,piercing"
-item,ShortBlade,melee/Rapier,melee,7,4,12,"finesse,piercing"
-item,LongBlade,melee/Falchion,melee,8,2,13,"finesse,slashing"
-item,LongBlade,melee/Longsword,melee,10,1,14,slashing
-item,LongBlade,melee/Scimitar,melee,12,0,14,"finesse,slashing"
-item,LongBlade,melee/Demon blade,melee,13,-1,13,slashing
-item,LongBlade,melee/Zweihander,melee,14,-2,12,"2h,slashing"
-item,LongBlade,melee/Bastard Sword,melee,15,-1,15,slashing
-item,LongBlade,melee/Greatsword,melee,17,-3,17,"2h,slashing"
-item,LongBlade,melee/Executioner Sword,melee,19,-4,18,"2h,slashing"
-item,Hafted,melee/Club,melee,5,3,13,"light,bludgeoning"
-item,Hafted,melee/Whip,melee,6,2,11,"finesse,slashing"
-item,Hafted,melee/Mace,melee,8,3,14,bludgeoning
-item,Hafted,melee/Flail,melee,10,0,14,bludgeoning
-item,Hafted,melee/Morningstar,melee,13,-2,15,piercing
-item,Hafted,melee/Demon whip,melee,11,1,11,slashing
-item,Hafted,melee/Sacred scourge,melee,12,0,11,slashing
-item,Hafted,melee/Dire flail,melee,13,-3,13,bludgeoning
-item,Hafted,melee/Eveningstar,melee,15,-1,15,bludgeoning
-item,Hafted,melee/Great mace,melee,17,-4,17,"2h,bludgeoning"
-item,Hafted,melee/Giant club,melee,20,-6,16,"2h,bludgeoning"
-item,Hafted,melee/Giant spiked club,melee,22,-7,18,"2h,bludgeoning"
-item,Axe,melee/Handaxe,melee,7,3,13,"light,slashing"
-item,Axe,melee/War axe,melee,11,0,15,slashing
-item,Axe,melee/Broad axe,melee,13,-2,16,slashing
-item,Axe,melee/Battleaxe,melee,15,-4,17,"2h,slashing"
-item,Axe,melee/Greataxe,melee,18,-6,19,"2h,slashing"
-item,Polearm,melee/Spear,melee,6,4,11,piercing
-item,Polearm,melee/Trident,melee,9,1,13,piercing
-item,Polearm,melee/Halberd,melee,13,-3,15,"2h,slashing"
-item,Polearm,melee/Demon trident,melee,12,1,13,piercing
-item,Polearm,melee/Fork,melee,13,0,13,piercing
-item,Polearm,melee/Glaive,melee,15,-3,17,"2h,slashing"
-item,Polearm,melee/Bardache,melee,18,-6,19,"2h,slashing"
-item,Staff,melee/Staff,melee,5,5,12,bludgeoning
-item,Staff,melee/Quarterstaff,melee,10,3,13,"2h,bludgeoning"
-item,Staff,melee/Lajatang,melee,16,-3,14,"2h,slashing"
-item,Bow,shoot/Sling,shoot,7,0,14,"bludgeoning,30"
-item,Bow,shoot/Shortbow,shoot,9,2,15,"2h,piercing,80"
-item,Bow,shoot/Longbow,shoot,13,0,16,"2h,piercing,150"
-item,Bow,"shoot/Crossbow, light",shoot,16,-2,19,"2h,piercing,80"
-item,Bow,"shoot/Crossbow, hand",shoot,15,3,19,"piercing,30"
-item,Bow,"shoot/Crossbow, heavy",shoot,23,-2,20,"2h,piercing,100"
-item,Throw,throw/stone,throw,2,0,11,"bludgeoning,20"
-item,Throw,throw/poisoned dart,throw,2,0,10,"piercing,Poisoned,20"
-item,Throw,throw/basilisk dart,throw,2,0,10,"piercing,Petrified,20"
-item,Throw,throw/stun dart,throw,2,0,10,"piercing,Stunned,20"
-item,Throw,throw/smokepowder bomb,throw,2,0,10,"piercing,Blinded,20"
-item,Throw,throw/fey arrow,throw,2,0,10,"piercing,Charmed,20"
-item,Throw,throw/boomerang,throw,6,0,13,"slashing,20"
-item,Throw,throw/javelin,throw,10,0,15,"piercing,20"
-item,Throw,throw/large rock,throw,20,0,20,"bludgeoning,20"
-item,Throw,throw/net,throw,2,0,10,"bludgeoning,Grappled,20"
-item,armor,armor/Robe,armor,2,0,0,
-item,armor,armor/Leather,armor,3,0,4,
-item,armor,armor/Ring mail,armor,5,0,7,
-item,armor,armor/Scale mail,armor,6,0,10,
-item,armor,armor/Chain mail,armor,8,0,14,
-item,armor,armor/Plate,armor,10,0,18,
-item,armor,armor/Crystal plate armor,armor,14,0,23,
-item,armor,armor/Animal skin,armor,2,0,0,
-item,armor,armor/Troll leather armor,armor,4,0,4,
-item,armor,armor/Steam dragon scales,armor,5,0,0,"acid,cold"
-item,armor,armor/Acid dragon scales,armor,6,0,5,acid
-item,armor,armor/Swamp dragon scales,armor,7,0,7,"acid,poison"
-item,armor,armor/Quicksilver dragon scales,armor,9,0,7,lightning
-item,armor,armor/Fire dragon scales,armor,8,0,11,fire
-item,armor,armor/Ice dragon scales,armor,9,0,11,cold
-item,armor,armor/Pearl dragon scales,armor,10,0,11,radiant
-item,armor,armor/Storm dragon scales,armor,10,0,15,lightning
-item,armor,armor/Shadow dragon scales,armor,11,0,15,necrotic
-item,armor,armor/Gold dragon scales,armor,12,0,23,"radiant,force"
-item,armor,shield/Buckler,shield,3,0,5,
-item,armor,shield/Shield,shield,8,0,10,
-item,armor,shield/Tower,shield,13,0,15,
-item,armor,feet/Leather Boots,feet,1,0,0,
-item,armor,feet/Mail Chausses,feet,1,0,0,
-item,armor,feet/Plate Leggings,feet,1,0,0,
-item,armor,feet/Dragonhide Boots,feet,1,0,0,
-item,armor,hands/Bracers,hands,1,0,0,
-item,armor,hands/Fine Leather,hands,1,0,0,
-item,armor,hands/Gauntlets,hands,1,0,0,
-item,armor,hands/Vambraces,hands,1,0,0,
-item,armor,head/Leather Skullcap,head,1,0,0,
-item,armor,head/Helm,head,1,0,0,
-item,armor,head/Mail Coif,head,1,0,0,
-item,armor,head/Wide Brimmed Hat,head,0,0,0,
-item,armor,cloak/Cloak,cloak,1,0,0,
-item,armor,cloak/Fur Cloak,cloak,1,0,0,
-item,armor,cloak/Elven Cloak,cloak,1,0,0,
-item,armor,cloak/Dragonscale Cloak,cloak,1,0,0,
-item,brand,brand/Rune of Chaos,brand,0,0,0,Chaos
-item,brand,brand/Rune of Distortion,brand,0,0,0,Distortion
-item,brand,brand/Rune of Draining,brand,0,0,0,Drain
-item,brand,brand/Rune of Electrocution,brand,0,0,0,"lightning,Lightning8"
-item,brand,brand/Rune of Fear,brand,0,0,0,Frightened
-item,brand,brand/Rune of Flaming,brand,0,0,0,"fire,Fire8"
-item,brand,brand/Rune of Freezing,brand,0,0,0,"cold,Cold8"
-item,brand,brand/Rune of Heavy,brand,0,0,0,Heavy
-item,brand,brand/Rune of Holy Wrath,brand,0,0,0,"silver,Radiant8"
-item,brand,brand/Rune of Pain,brand,0,0,0,"necrotic,Necrotic8"
-item,brand,brand/Rune of Protection,brand,7,0,0,AC
-item,brand,brand/Rune of Silver,brand,0,0,0,silver
-item,brand,brand/Rune of Spectral,brand,0,0,0,"cold,Spectral"
-item,brand,brand/Rune of Speed,brand,0,0,0,Speed
-item,brand,brand/Rune of Vampirisim,brand,0,0,0,"necrotic,Heal3"
-item,brand,brand/Rune of Venom,brand,0,0,0,"poison,Poison8"
-item,food,food/baguette,food,100,0,0,Eat3
-item,food,food/blushcap mushroom,food,25,0,0,Eat4
-item,food,food/bonecap mushroom,food,25,0,0,Eat4
-item,food,food/cabbage,food,25,0,0,Eat4
-item,food,food/carafe of wine,food,100,0,0,Eat3
-item,food,food/carrot,food,25,0,0,Eat4
-item,food,food/cheese wedge,food,25,0,0,Eat4
-item,food,food/cheese wheel,food,100,0,0,Eat3
-item,food,food/chicken,food,500,0,0,Eat1
-item,food,food/courgette,food,25,0,0,Eat4
-item,food,food/dried fish,food,25,0,0,Eat4
-item,food,food/egg,food,25,0,0,Eat4
-item,food,food/fey mushroom,food,25,0,0,Eat4
-item,food,food/fish head,food,100,0,0,Eat3
-item,food,food/fungus stew,food,250,0,0,Eat2
-item,food,food/garlic,food,25,0,0,Eat4
-item,food,food/grilled pork belly,food,100,0,0,Eat3
-item,food,food/grilled ribs,food,100,0,0,Eat3
-item,food,food/gruel,food,500,0,0,Eat1
-item,food,food/half eaten apple,food,25,0,0,Eat4
-item,food,food/ham,food,500,0,0,Eat1
-item,food,food/healing herbs,food,8,0,0,Heal3
-item,food,food/lemon,food,25,0,0,Eat4
-item,food,food/mushroom,food,25,0,0,Eat4
-item,food,food/orange,food,25,0,0,Eat4
-item,food,food/pear,food,25,0,0,Eat4
-item,food,food/pig's head,food,500,0,0,Eat1
-item,food,food/pitcher of beer,food,100,0,0,Eat3
-item,food,food/pork shoulder,food,500,0,0,Eat1
-item,food,food/potato,food,100,0,0,Eat3
-item,food,food/pumpkin,food,250,0,0,Eat2
-item,food,food/raw steak,food,100,0,0,Eat3
-item,food,food/red apple,food,25,0,0,Eat4
-item,food,food/rum,food,100,0,0,Eat3
-item,food,food/sausage,food,25,0,0,Eat4
-item,food,food/sourdough bread,food,250,0,0,Eat2
-item,food,food/supply pack,food,1000,0,0,Eat1
-item,food,food/toadstool,food,25,0,0,Eat4
-item,ring,jewelry/Ring,jewelry,0,0,0,
-item,ring,jewelry/Ring of Acid,jewelry,0,0,0,acid
-item,ring,jewelry/Ring of Alchemy,jewelry,0,0,0,"acid,fire,cold"
-item,ring,jewelry/Ring of Cold,jewelry,0,0,0,cold
-item,ring,jewelry/Ring of Darkness,jewelry,0,0,0,necrotic
-item,ring,jewelry/Ring of Dexterity,jewelry,0,0,0,Dexterity
-item,ring,jewelry/Ring of Fire,jewelry,0,0,0,fire
-item,ring,jewelry/Ring of Flight,jewelry,0,0,0,Fly
-item,ring,jewelry/Ring of Intelligence,jewelry,0,0,0,Intelligence
-item,ring,jewelry/Ring of Light,jewelry,0,0,0,radiant
-item,ring,jewelry/Ring of Lightning,jewelry,0,0,0,lightning
-item,ring,jewelry/Ring of Poison,jewelry,0,0,0,poison
-item,ring,jewelry/Ring of Stealth,jewelry,0,0,0,Stealth
-item,ring,jewelry/Ring of Strength,jewelry,0,0,0,Strength
-item,ring,jewelry/Ring of Venom,jewelry,0,0,0,"acid,poison"
-item,ring,jewelry/Ring of Willpower,jewelry,0,0,0,WP
-item,monster,melee/Bite,melee,4,0,14,piercing
-item,monster,melee/Claw,melee,4,0,14,slashing
-item,monster,melee/Constrict,melee,4,0,14,bludgeoning
-item,monster,melee/Corrosion,melee,4,0,14,acid
-item,monster,melee/Electrocution,melee,4,0,14,lightning
-item,monster,melee/Flame,melee,4,0,14,fire
-item,monster,melee/Frost,melee,4,0,14,cold
-item,monster,melee/Gore,melee,4,0,14,piercing
-item,monster,melee/Headbutt,melee,4,0,14,bludgeoning
-item,monster,melee/Hit,melee,4,0,14,bludgeoning
-item,monster,melee/Kick,melee,4,0,14,bludgeoning
-item,monster,melee/Peck,melee,4,0,14,piercing
-item,monster,melee/Pounce,melee,4,0,14,bludgeoning
-item,monster,melee/Random,melee,4,0,14,bludgeoning
-item,monster,melee/Reach,melee,4,0,14,"bludgeoning,25"
-item,monster,melee/Reach Tongue,melee,4,0,14,"bludgeoning,25"
-item,monster,melee/Spore,melee,4,0,14,piercing
-item,monster,melee/Sting,melee,4,0,14,poison
-item,monster,melee/Swoop,melee,4,0,14,bludgeoning
-item,monster,melee/Tail Slap,melee,4,0,14,bludgeoning
-item,monster,melee/Tentacle Slap,melee,4,0,14,bludgeoning
-item,monster,melee/Touch,melee,4,0,14,cold
-item,monster,melee/Trample,melee,4,0,14,bludgeoning
-item,monster,melee/Trunk Slap,melee,4,0,14,bludgeoning
-item,monster,melee/Vampire Fang,melee,4,0,14,necrotic
-item,monster,melee/Venom,melee,4,0,14,poison
-item,amulet,neck/Amulet,neck,0,0,0,
-item,amulet,neck/Amulet of Elements,neck,0,0,0,"acid,fire,cold,lightning"
-item,amulet,neck/Amulet of Flight,neck,0,0,0,Fly
-item,amulet,neck/Amulet of Nature,neck,0,0,0,"acid,poison"
-item,amulet,neck/Amulet of Stealth,neck,0,0,0,Stealth
-item,amulet,neck/Amulet of Willpower,neck,0,0,0,WP
-item,amulet,neck/Pendant of Death,neck,0,0,0,necrotic
-item,amulet,neck/Pendant of Life,neck,0,0,0,radiant
-item,potion,potion/Elixir of Silvanus,potion,0,0,0,Cure
-item,potion,potion/Goodberry Potion,potion,4,0,0,Heal4
-item,potion,potion/Potion of ambrosia,potion,0,0,0,Ambrosia
-item,potion,potion/Potion of attraction,potion,0,0,0,Attraction
-item,potion,potion/Potion of berserk rage,potion,0,0,0,Berserk
-item,potion,potion/Potion of brilliance,potion,0,0,0,Brilliance
-item,potion,potion/Potion of cancellation,potion,0,0,0,Recover
-item,potion,potion/Potion of curing,potion,0,0,0,Cure
-item,potion,potion/Potion of degeneration,potion,0,0,0,Degeneration
-item,potion,potion/Potion of enlightenment,potion,0,0,0,Enlightenment
-item,potion,potion/Potion of experience,potion,0,0,0,Experience
-item,potion,potion/Potion of haste,potion,0,0,0,Haste
-item,potion,potion/Potion of heal wounds,potion,0,0,0,Heal1
-item,potion,potion/Potion of Healing,potion,8,0,0,Heal3
-item,potion,potion/Potion of invisibility,potion,0,0,0,Invisible
-item,potion,potion/Potion of lignification,potion,0,0,0,Stone
-item,potion,potion/Potion of magic,potion,0,0,0,Quaff
-item,potion,potion/Potion of might,potion,0,0,0,Might
-item,potion,potion/Potion of mutation,potion,6,0,0,Mutation
-item,potion,potion/Potion of resistance,potion,8,0,0,Resistance
-item,rune,rune/Rune of Archmagi,rune,0,0,0,Archmagi
-item,rune,rune/Rune of Cold Resistance,rune,0,0,0,cold
-item,rune,rune/Rune of Dexterity,rune,0,0,0,Dexterity
-item,rune,rune/Rune of Fire Resistance,rune,0,0,0,fire
-item,rune,rune/Rune of Flight,rune,0,0,0,Fly
-item,rune,rune/Rune of Hurling,rune,0,0,0,Throw
-item,rune,rune/Rune of Intelligence,rune,0,0,0,Intelligence
-item,rune,rune/Rune of Poison Resistance,rune,0,0,0,poison
-item,rune,rune/Rune of Ponderousness,rune,0,0,0,Ponderous
-item,rune,rune/Rune of Positive Energy,rune,0,0,0,Life
-item,rune,rune/Rune of Preservation,rune,0,0,0,acid
-item,rune,rune/Rune of Protection,rune,3,0,0,AC
-item,rune,rune/Rune of Rampaging,rune,0,0,0,Rampage
-item,rune,rune/Rune of Reflection,rune,0,0,0,Reflect
-item,rune,rune/Rune of Resistance,rune,0,0,0,Resistance
-item,rune,rune/Rune of Stealth,rune,0,0,0,Stealth
-item,rune,rune/Rune of Strength,rune,0,0,0,Strength
-item,rune,rune/Rune of Willpower,rune,0,0,0,WP
-item,scroll,scroll/Scroll of acquirement,scroll,0,0,0,Acquire
-item,scroll,scroll/Scroll of amnesia,scroll,0,0,0,Amnesia
-item,scroll,scroll/Scroll of blinking,scroll,0,0,0,PhaseDoor
-item,scroll,scroll/Scroll of brand weapon,scroll,0,0,0,BrandWeapon
-item,scroll,scroll/Scroll of butterflies,scroll,0,0,0,Summon
-item,scroll,scroll/Scroll of enchant armor,scroll,0,0,0,EnchantArmor
-item,scroll,scroll/Scroll of enchant weapon,scroll,0,0,0,EnchantWeapon
-item,scroll,scroll/Scroll of fear,scroll,0,0,0,Fear
-item,scroll,scroll/Scroll of fog,scroll,0,0,0,Fog
-item,scroll,scroll/Scroll of identify,scroll,0,0,0,Identify
-item,scroll,scroll/Scroll of immolation,scroll,0,0,0,ApplyFire
-item,scroll,scroll/Scroll of noise,scroll,0,0,0,Noise
-item,scroll,scroll/Scroll of poison,scroll,0,0,0,Poisoned
-item,scroll,scroll/Scroll of revelation,scroll,0,0,0,MagicMap
-item,scroll,scroll/Scroll of silence,scroll,0,0,0,Silence
-item,scroll,scroll/Scroll of summoning,scroll,0,0,0,Summon
-item,scroll,scroll/Scroll of teleportation,scroll,0,0,0,Teleport
-item,scroll,scroll/Scroll of torment,scroll,0,0,0,Torment
-item,scroll,scroll/Scroll of vulnerability,scroll,0,0,0,Vulnerable
+item,0,Stair Down,0,100,100,100,Exit
+item,0,Stair Up,0,100,100,100,Exit
+item,ShortBlade,melee/Dagger,Melee,4,6,10,"Finesse,Light,piercing"
+item,ShortBlade,melee/Quick blade,Melee,5,6,7,"Finesse,Light,piercing"
+item,ShortBlade,melee/Shortsword,Melee,6,4,11,"Finesse,Light,piercing"
+item,ShortBlade,melee/Rapier,Melee,7,4,12,"Finesse,piercing"
+item,LongBlade,melee/Falchion,Melee,8,2,13,"Finesse,slashing"
+item,LongBlade,melee/Longsword,Melee,10,1,14,slashing
+item,LongBlade,melee/Scimitar,Melee,12,0,14,"Finesse,slashing"
+item,LongBlade,melee/Demon blade,Melee,13,-1,13,slashing
+item,LongBlade,melee/Zweihander,Melee,14,-2,12,"TwoHand,slashing"
+item,LongBlade,melee/Bastard Sword,Melee,15,-1,15,slashing
+item,LongBlade,melee/Greatsword,Melee,17,-3,17,"TwoHand,slashing"
+item,LongBlade,melee/Executioner Sword,Melee,19,-4,18,"TwoHand,slashing"
+item,Hafted,melee/Club,Melee,5,3,13,"Light,bludgeoning"
+item,Hafted,melee/Whip,Melee,6,2,11,"Finesse,slashing"
+item,Hafted,melee/Mace,Melee,8,3,14,bludgeoning
+item,Hafted,melee/Flail,Melee,10,0,14,bludgeoning
+item,Hafted,melee/Morningstar,Melee,13,-2,15,piercing
+item,Hafted,melee/Demon whip,Melee,11,1,11,slashing
+item,Hafted,melee/Sacred scourge,Melee,12,0,11,slashing
+item,Hafted,melee/Dire flail,Melee,13,-3,13,bludgeoning
+item,Hafted,melee/Eveningstar,Melee,15,-1,15,bludgeoning
+item,Hafted,melee/Great mace,Melee,17,-4,17,"TwoHand,bludgeoning"
+item,Hafted,melee/Giant club,Melee,20,-6,16,"TwoHand,bludgeoning"
+item,Hafted,melee/Giant spiked club,Melee,22,-7,18,"TwoHand,bludgeoning"
+item,Axe,melee/Handaxe,Melee,7,3,13,"Light,slashing"
+item,Axe,melee/War axe,Melee,11,0,15,slashing
+item,Axe,melee/Broad axe,Melee,13,-2,16,slashing
+item,Axe,melee/Battleaxe,Melee,15,-4,17,"TwoHand,slashing"
+item,Axe,melee/Greataxe,Melee,18,-6,19,"TwoHand,slashing"
+item,Polearm,melee/Spear,Melee,6,4,11,piercing
+item,Polearm,melee/Trident,Melee,9,1,13,piercing
+item,Polearm,melee/Halberd,Melee,13,-3,15,"TwoHand,slashing"
+item,Polearm,melee/Demon trident,Melee,12,1,13,piercing
+item,Polearm,melee/Fork,Melee,13,0,13,piercing
+item,Polearm,melee/Glaive,Melee,15,-3,17,"TwoHand,slashing"
+item,Polearm,melee/Bardache,Melee,18,-6,19,"TwoHand,slashing"
+item,Staff,melee/Staff,Melee,5,5,12,bludgeoning
+item,Staff,melee/Quarterstaff,Melee,10,3,13,"TwoHand,bludgeoning"
+item,Staff,melee/Lajatang,Melee,16,-3,14,"TwoHand,slashing"
+item,Bow,shoot/Sling,Shoot,7,0,14,bludgeoning
+item,Bow,shoot/Shortbow,Shoot,9,2,15,"TwoHand,piercing"
+item,Bow,shoot/Longbow,Shoot,13,0,16,"TwoHand,piercing"
+item,Bow,"shoot/Crossbow, light",Shoot,16,-2,19,"TwoHand,piercing"
+item,Bow,"shoot/Crossbow, hand",Shoot,15,3,19,piercing
+item,Bow,"shoot/Crossbow, heavy",Shoot,23,-2,20,"TwoHand,piercing"
+item,Throw,throw/stone,Throw,2,0,11,bludgeoning
+item,Throw,throw/poisoned dart,Throw,2,0,10,"piercing,Poisoned"
+item,Throw,throw/basilisk dart,Throw,2,0,10,"piercing,Petrified"
+item,Throw,throw/stun dart,Throw,2,0,10,"piercing,Stunned"
+item,Throw,throw/smokepowder bomb,Throw,2,0,10,"piercing,Blinded"
+item,Throw,throw/fey arrow,Throw,2,0,10,"piercing,Charmed"
+item,Throw,throw/boomerang,Throw,6,0,13,slashing
+item,Throw,throw/javelin,Throw,10,0,15,piercing
+item,Throw,throw/large rock,Throw,20,0,20,bludgeoning
+item,Throw,throw/net,Throw,2,0,10,"bludgeoning,Grappled"
+item,armor,armor/Robe,Armor,2,0,0,
+item,armor,armor/Leather,Armor,3,0,4,
+item,armor,armor/Ring mail,Armor,5,0,7,
+item,armor,armor/Scale mail,Armor,6,0,10,
+item,armor,armor/Chain mail,Armor,8,0,14,
+item,armor,armor/Plate,Armor,10,0,18,
+item,armor,armor/Crystal plate armor,Armor,14,0,23,
+item,armor,armor/Animal skin,Armor,2,0,0,
+item,armor,armor/Troll leather armor,Armor,4,0,4,
+item,armor,armor/Steam dragon scales,Armor,5,0,0,"acid,cold"
+item,armor,armor/Acid dragon scales,Armor,6,0,5,acid
+item,armor,armor/Swamp dragon scales,Armor,7,0,7,"acid,poison"
+item,armor,armor/Quicksilver dragon scales,Armor,9,0,7,lightning
+item,armor,armor/Fire dragon scales,Armor,8,0,11,fire
+item,armor,armor/Ice dragon scales,Armor,9,0,11,cold
+item,armor,armor/Pearl dragon scales,Armor,10,0,11,radiant
+item,armor,armor/Storm dragon scales,Armor,10,0,15,lightning
+item,armor,armor/Shadow dragon scales,Armor,11,0,15,necrotic
+item,armor,armor/Gold dragon scales,Armor,12,0,23,"radiant,force"
+item,shield,shield/Buckler,Shield,3,0,5,
+item,shield,shield/Shield,Shield,8,0,10,
+item,shield,shield/Tower,Shield,13,0,15,
+item,shield,feet/Leather Boots,Boots,1,0,0,
+item,shield,feet/Mail Chausses,Boots,1,0,0,
+item,shield,feet/Plate Leggings,Boots,1,0,0,
+item,shield,feet/Dragonhide Boots,Boots,1,0,0,
+item,0,hands/Bracers,Gloves,1,0,0,
+item,0,hands/Fine Leather,Gloves,1,0,0,
+item,0,hands/Gauntlets,Gloves,1,0,0,
+item,0,hands/Vambraces,Gloves,1,0,0,
+item,0,head/Leather Skullcap,Helmet,1,0,0,
+item,0,head/Helm,Helmet,1,0,0,
+item,0,head/Mail Coif,Helmet,1,0,0,
+item,0,head/Wide Brimmed Hat,Helmet,0,0,0,
+item,0,cloak/Cloak,Cloak,1,0,0,
+item,0,cloak/Fur Cloak,Cloak,1,0,0,
+item,0,cloak/Elven Cloak,Cloak,1,0,0,
+item,0,cloak/Dragonscale Cloak,Cloak,1,0,0,
+item,0,brand/Rune of Chaos,Brand,0,0,0,"chaos,Chaos"
+item,0,brand/Rune of Distortion,Brand,0,0,0,Distortion
+item,0,brand/Rune of Draining,Brand,0,0,0,Drain
+item,0,brand/Rune of Electrocution,Brand,0,0,0,"lightning,Lightning8"
+item,0,brand/Rune of Fear,Brand,0,0,0,Frightened
+item,0,brand/Rune of Flaming,Brand,0,0,0,"fire,Fire8"
+item,0,brand/Rune of Freezing,Brand,0,0,0,"cold,Cold8"
+item,0,brand/Rune of Heavy,Brand,0,0,0,Heavy
+item,0,brand/Rune of Holy Wrath,Brand,0,0,0,"silver,Radiant8"
+item,0,brand/Rune of Pain,Brand,0,0,0,"necrotic,Necrotic8"
+item,0,brand/Rune of Protection,Brand,7,0,0,AC
+item,0,brand/Rune of Silver,Brand,0,0,0,silver
+item,0,brand/Rune of Spectral,Brand,0,0,0,"cold,Spectral"
+item,0,brand/Rune of Speed,Brand,0,0,0,Speed
+item,0,brand/Rune of Vampirisim,Brand,0,0,0,"necrotic,Heal3"
+item,0,brand/Rune of Venom,Brand,0,0,0,"poison,Poison8"
+item,0,food/baguette,Food,100,0,0,Eat3
+item,0,food/blushcap mushroom,Food,25,0,0,Eat4
+item,0,food/bonecap mushroom,Food,25,0,0,Eat4
+item,0,food/cabbage,Food,25,0,0,Eat4
+item,0,food/carafe of wine,Food,100,0,0,Eat3
+item,0,food/carrot,Food,25,0,0,Eat4
+item,0,food/cheese wedge,Food,25,0,0,Eat4
+item,0,food/cheese wheel,Food,100,0,0,Eat3
+item,0,food/chicken,Food,500,0,0,Eat1
+item,0,food/courgette,Food,25,0,0,Eat4
+item,0,food/dried fish,Food,25,0,0,Eat4
+item,0,food/egg,Food,25,0,0,Eat4
+item,0,food/fey mushroom,Food,25,0,0,Eat4
+item,0,food/fish head,Food,100,0,0,Eat3
+item,0,food/fungus stew,Food,250,0,0,Eat2
+item,0,food/garlic,Food,25,0,0,Eat4
+item,0,food/grilled pork belly,Food,100,0,0,Eat3
+item,0,food/grilled ribs,Food,100,0,0,Eat3
+item,0,food/gruel,Food,500,0,0,Eat1
+item,0,food/half eaten apple,Food,25,0,0,Eat4
+item,0,food/ham,Food,500,0,0,Eat1
+item,0,food/healing herbs,Food,8,0,0,Heal3
+item,0,food/lemon,Food,25,0,0,Eat4
+item,0,food/mushroom,Food,25,0,0,Eat4
+item,0,food/orange,Food,25,0,0,Eat4
+item,0,food/pear,Food,25,0,0,Eat4
+item,0,food/pig's head,Food,500,0,0,Eat1
+item,0,food/pitcher of beer,Food,100,0,0,Eat3
+item,0,food/pork shoulder,Food,500,0,0,Eat1
+item,0,food/potato,Food,100,0,0,Eat3
+item,0,food/pumpkin,Food,250,0,0,Eat2
+item,0,food/raw steak,Food,100,0,0,Eat3
+item,0,food/red apple,Food,25,0,0,Eat4
+item,0,food/rum,Food,100,0,0,Eat3
+item,0,food/sausage,Food,25,0,0,Eat4
+item,0,food/sourdough bread,Food,250,0,0,Eat2
+item,0,food/supply pack,Food,1000,0,0,Eat1
+item,0,food/toadstool,Food,25,0,0,Eat4
+item,0,jewelry/Ring,Jewelry,0,0,0,
+item,0,jewelry/Ring of Acid,Jewelry,0,0,0,acid
+item,0,jewelry/Ring of Alchemy,Jewelry,0,0,0,"acid,fire,cold"
+item,0,jewelry/Ring of Cold,Jewelry,0,0,0,cold
+item,0,jewelry/Ring of Darkness,Jewelry,0,0,0,necrotic
+item,0,jewelry/Ring of Dexterity,Jewelry,0,0,0,Dexterity
+item,0,jewelry/Ring of Fire,Jewelry,0,0,0,fire
+item,0,jewelry/Ring of Flight,Jewelry,0,0,0,Fly
+item,0,jewelry/Ring of Intelligence,Jewelry,0,0,0,Intelligence
+item,0,jewelry/Ring of Light,Jewelry,0,0,0,radiant
+item,0,jewelry/Ring of Lightning,Jewelry,0,0,0,lightning
+item,0,jewelry/Ring of Poison,Jewelry,0,0,0,poison
+item,0,jewelry/Ring of Stealth,Jewelry,0,0,0,Stealth
+item,0,jewelry/Ring of Strength,Jewelry,0,0,0,Strength
+item,0,jewelry/Ring of Venom,Jewelry,0,0,0,"acid,poison"
+item,0,jewelry/Ring of Willpower,Jewelry,0,0,0,WP
+item,0,melee/Bite,Melee,4,0,14,piercing
+item,0,melee/Claw,Melee,4,0,14,slashing
+item,0,melee/Constrict,Melee,4,0,14,bludgeoning
+item,0,melee/Corrosion,Melee,4,0,14,acid
+item,0,melee/Electrocution,Melee,4,0,14,lightning
+item,0,melee/Flame,Melee,4,0,14,fire
+item,0,melee/Frost,Melee,4,0,14,cold
+item,0,melee/Gore,Melee,4,0,14,piercing
+item,0,melee/Headbutt,Melee,4,0,14,bludgeoning
+item,0,melee/Hit,Melee,4,0,14,bludgeoning
+item,0,melee/Kick,Melee,4,0,14,bludgeoning
+item,0,melee/Peck,Melee,4,0,14,piercing
+item,0,melee/Pounce,Melee,4,0,14,bludgeoning
+item,0,melee/Random,Melee,4,0,14,bludgeoning
+item,0,melee/Reach,Melee,4,0,14,bludgeoning
+item,0,melee/Reach Tongue,Melee,4,0,14,bludgeoning
+item,0,melee/Spore,Melee,4,0,14,piercing
+item,0,melee/Sting,Melee,4,0,14,poison
+item,0,melee/Swoop,Melee,4,0,14,bludgeoning
+item,0,melee/Tail Slap,Melee,4,0,14,bludgeoning
+item,0,melee/Tentacle Slap,Melee,4,0,14,bludgeoning
+item,0,melee/Touch,Melee,4,0,14,cold
+item,0,melee/Trample,Melee,4,0,14,bludgeoning
+item,0,melee/Trunk Slap,Melee,4,0,14,bludgeoning
+item,0,melee/Vampire Fang,Melee,4,0,14,necrotic
+item,0,melee/Venom,Melee,4,0,14,poison
+item,0,neck/Amulet,Amulet,0,0,0,
+item,0,neck/Amulet of Elements,Amulet,0,0,0,"acid,fire,cold,lightning"
+item,0,neck/Amulet of Flight,Amulet,0,0,0,Fly
+item,0,neck/Amulet of Nature,Amulet,0,0,0,"acid,poison"
+item,0,neck/Amulet of Stealth,Amulet,0,0,0,Stealth
+item,0,neck/Amulet of Willpower,Amulet,0,0,0,WP
+item,0,neck/Pendant of Death,Amulet,0,0,0,necrotic
+item,0,neck/Pendant of Life,Amulet,0,0,0,radiant
+item,0,potion/Elixir of Silvanus,Potion,0,0,0,Cure
+item,0,potion/Goodberry Potion,Potion,4,0,0,Heal4
+item,0,potion/Potion of ambrosia,Potion,0,0,0,Ambrosia
+item,0,potion/Potion of attraction,Potion,0,0,0,Attraction
+item,0,potion/Potion of berserk rage,Potion,0,0,0,Berserk
+item,0,potion/Potion of brilliance,Potion,0,0,0,Brilliance
+item,0,potion/Potion of cancellation,Potion,0,0,0,Recover
+item,0,potion/Potion of curing,Potion,0,0,0,Cure
+item,0,potion/Potion of degeneration,Potion,0,0,0,Degeneration
+item,0,potion/Potion of enlightenment,Potion,0,0,0,Enlightenment
+item,0,potion/Potion of experience,Potion,0,0,0,Experience
+item,0,potion/Potion of haste,Potion,0,0,0,Haste
+item,0,potion/Potion of heal wounds,Potion,0,0,0,Heal1
+item,0,potion/Potion of Healing,Potion,8,0,0,Heal3
+item,0,potion/Potion of invisibility,Potion,0,0,0,Invisible
+item,0,potion/Potion of lignification,Potion,0,0,0,Stone
+item,0,potion/Potion of magic,Potion,0,0,0,Quaff
+item,0,potion/Potion of might,Potion,0,0,0,Might
+item,0,potion/Potion of mutation,Potion,6,0,0,Mutation
+item,0,potion/Potion of resistance,Potion,8,0,0,Resistance
+item,0,rune/Rune of Archmagi,Rune,0,0,0,Archmagi
+item,0,rune/Rune of Cold Resistance,Rune,0,0,0,cold
+item,0,rune/Rune of Dexterity,Rune,0,0,0,Dexterity
+item,0,rune/Rune of Fire Resistance,Rune,0,0,0,fire
+item,0,rune/Rune of Flight,Rune,0,0,0,Fly
+item,0,rune/Rune of Hurling,Rune,0,0,0,Throw
+item,0,rune/Rune of Intelligence,Rune,0,0,0,Intelligence
+item,0,rune/Rune of Poison Resistance,Rune,0,0,0,poison
+item,0,rune/Rune of Ponderousness,Rune,0,0,0,Ponderous
+item,0,rune/Rune of Positive Energy,Rune,0,0,0,Life
+item,0,rune/Rune of Preservation,Rune,0,0,0,acid
+item,0,rune/Rune of Protection,Rune,3,0,0,AC
+item,0,rune/Rune of Rampaging,Rune,0,0,0,Rampage
+item,0,rune/Rune of Reflection,Rune,0,0,0,Reflect
+item,0,rune/Rune of Resistance,Rune,0,0,0,Resistance
+item,0,rune/Rune of Stealth,Rune,0,0,0,Stealth
+item,0,rune/Rune of Strength,Rune,0,0,0,Strength
+item,0,rune/Rune of Willpower,Rune,0,0,0,WP
+item,0,scroll/Scroll of acquirement,Scroll,0,0,0,Acquire
+item,0,scroll/Scroll of amnesia,Scroll,0,0,0,Amnesia
+item,0,scroll/Scroll of blinking,Scroll,0,0,0,PhaseDoor
+item,0,scroll/Scroll of brand weapon,Scroll,0,0,0,BrandWeapon
+item,0,scroll/Scroll of butterflies,Scroll,0,0,0,Summon
+item,0,scroll/Scroll of enchant armor,Scroll,0,0,0,EnchantArmor
+item,0,scroll/Scroll of enchant weapon,Scroll,0,0,0,EnchantWeapon
+item,0,scroll/Scroll of fear,Scroll,0,0,0,Fear
+item,0,scroll/Scroll of fog,Scroll,0,0,0,Fog
+item,0,scroll/Scroll of identify,Scroll,0,0,0,Identify
+item,0,scroll/Scroll of immolation,Scroll,0,0,0,ApplyFire
+item,0,scroll/Scroll of noise,Scroll,0,0,0,Noise
+item,0,scroll/Scroll of poison,Scroll,0,0,0,Poisoned
+item,0,scroll/Scroll of revelation,Scroll,0,0,0,MagicMap
+item,0,scroll/Scroll of silence,Scroll,0,0,0,Silence
+item,0,scroll/Scroll of summoning,Scroll,0,0,0,Summon
+item,0,scroll/Scroll of teleportation,Scroll,0,0,0,Teleport
+item,0,scroll/Scroll of torment,Scroll,0,0,0,Torment
+item,0,scroll/Scroll of vulnerability,Scroll,0,0,0,Vulnerable
