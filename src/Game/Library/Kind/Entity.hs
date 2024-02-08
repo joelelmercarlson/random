@@ -4,6 +4,8 @@
 
 Game.Library.Kind.Entity.hs
 
+EntityKind can be Actor, Flavor, Item or Monster.
+
 Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
 -}
@@ -12,12 +14,15 @@ module Game.Library.Kind.Entity (
   , Energies
   , EntityMap
   , Entity(..)
+  , EntityDmg(..)
   , EntityEmote(..)
+  , EntityFeat(..)
   , EntityHabitat(..)
   , EntityHoly(..)
   , EntityKind(..)
   , EntitySize(..)
   , EntitySmart(..)
+  , EntityType(..)
   , EntityUse(..)
   , Equipment
   , Inventory
@@ -74,9 +79,9 @@ instance ToJSON Entity
 -- | kind      : Entity
 -- | property  : Descriptions
 -- | status    : Temporary status positive and negative
--- | tid       : xy in glyph
 -- | coord     : Position
--- | '@' and 'M' data
+-- | 'M' data
+-- | tid          : xy in glyph
 -- | eAC          : ArmorClass
 -- | eEV          : Evasion
 -- | eWP          : WillPower
@@ -95,10 +100,6 @@ instance ToJSON Entity
 -- | eNPC         : NPC?
 -- | eSpeed       : Speed
 -- | eTunnel      : Digger?
--- | Item data
--- | eValue : Damage, Value...
--- | eHit   : plus/minus accuracy
--- | eEn    : encumbrance
 -- | 'M' natural resistance
 -- | eResAcid      : acid
 -- | eResCold      : cold
@@ -115,22 +116,31 @@ instance ToJSON Entity
 -- | eSize    : Size
 -- | eSmart   : Intelligence
 -- | eUse     : equipment?
+-- | 'I' Item data
+-- | iValue   : Damage, Value...
+-- | iHit     : plus/minus accuracy
+-- | iEn      : encumbrance
+-- | iPlus    : slay bonuses
+-- | iPrice   : relative gp
+-- | iDmgType : base damage type
+-- | iType    : type of Item
+-- | iFeature : Item feature
 data EntityKind = EntityKind
-  { eHP       :: !Int
-  , eLvl      :: !Int
-  , eMaxHP    :: !Int
-  , eXP       :: !Int
-  , ecolor    :: !RGB
-  , energy    :: !Energies
-  , equipment :: !Equipment
-  , extra     :: !Energies
-  , glyph     :: !VisualKind
-  , inventory :: !Inventory
-  , kind      :: !Entity
-  , property  :: !Properties
-  , status    :: !Energies
-  , tid       :: !(Int,Int)
-  , coord     :: !Point
+  { eHP       :: Int
+  , eLvl      :: Int
+  , eMaxHP    :: Int
+  , eXP       :: Int
+  , ecolor    :: RGB
+  , energy    :: Energies
+  , equipment :: Equipment
+  , extra     :: Energies
+  , glyph     :: VisualKind
+  , inventory :: Inventory
+  , kind      :: Entity
+  , property  :: Properties
+  , status    :: Energies
+  , coord     :: Point
+  , tid          :: Maybe (Int,Int)
   , eAC          :: Maybe Int
   , eEV          :: Maybe Int
   , eWP          :: Maybe Int
@@ -150,9 +160,6 @@ data EntityKind = EntityKind
   , eNPC         :: Maybe Bool
   , eSpeed       :: Maybe Int
   , eTunnel      :: Maybe Bool
-  , eValue :: Maybe Int
-  , eHit   :: Maybe Int
-  , eEn    :: Maybe Int
   , eResAcid      :: Maybe Int
   , eResCold      :: Maybe Int
   , eResFire      :: Maybe Int
@@ -166,6 +173,13 @@ data EntityKind = EntityKind
   , eSmart   :: Maybe EntitySmart
   , eSize    :: Maybe EntitySize
   , eUse     :: Maybe EntityUse
+  , iValue   :: Maybe Int
+  , iHit     :: Maybe Int
+  , iEn      :: Maybe Int
+  , iPlus    :: Maybe Int
+  , iDmgType :: Maybe EntityDmg
+  , iType    :: Maybe EntityType
+  , iFeature :: Maybe [EntityFeat]
   } deriving (Show, Eq, Generic)
 
 instance FromJSON EntityKind
@@ -188,9 +202,9 @@ mkEntityKind x p =
   , kind      = Flavor
   , property  = Map.insert "Name" x Map.empty
   , status    = Map.empty
-  , tid       = (24,49)
   , coord     = p
   -- | '@' and 'M'
+  , tid = Just (0,0)
   , eAC = Just 0
   , eEV = Just 0
   , eWP = Just 0
@@ -209,9 +223,6 @@ mkEntityKind x p =
   , eNPC         = Nothing
   , eSpeed       = Nothing
   , eTunnel      = Nothing
-  , eValue = Just 0
-  , eHit   = Just 0
-  , eEn    = Just 0
   , eResAcid      = Just 0
   , eResCold      = Just 0
   , eResFire      = Just 0
@@ -226,7 +237,89 @@ mkEntityKind x p =
   , eSize    = Nothing
   , eSmart   = Nothing
   , eUse     = Nothing
+  , iValue = Just 0
+  , iHit   = Just 0
+  , iEn    = Just 0
+  , iPlus  = Just 0
+  , iDmgType = Nothing
+  , iType    = Nothing
+  , iFeature = Nothing
   }
+
+-- | 'I' flavors
+data EntityDmg
+  = Pain
+  | Acid
+  | Cold
+  | Fire
+  | Force
+  | Lightning
+  | Necrotic
+  | Poison
+  | Radiant
+  | Silver
+  | Bludgeoning
+  | Piercing
+  | Slashing
+  | Magic
+  | Chaos
+  | NoneDmg
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityDmg
+instance ToJSON EntityDmg
+
+data EntityFeat
+  = TwoHand
+  | Light
+  | Finesse
+  | Activate
+  | Charges
+  | Strength
+  | Dexterity
+  | Intelligence
+  | WP
+  | AC
+  | Berserk
+  | Brilliance
+  | Degeneration
+  | Enlightenment
+  | Fly
+  | Haste
+  | Might
+  | Stealth
+  | NoneFeat
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityFeat
+instance ToJSON EntityFeat
+
+data EntityType
+  = Melee
+  | Shoot
+  | Throw
+  | Armor
+  | Shield
+  | Amulet
+  | Boots
+  | Gloves
+  | Helmet
+  | Cloak
+  | Brand
+  | Food
+  | Jewelry
+  | Potion
+  | Rune
+  | Scroll
+  | Wand
+  | Totem
+  | RightHand
+  | LeftHand
+  | MiscItem
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityType
+instance ToJSON EntityType
 
 -- | 'M' flavors
 data EntityHabitat
