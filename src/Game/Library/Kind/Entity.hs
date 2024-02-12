@@ -11,6 +11,7 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 -}
 module Game.Library.Kind.Entity (
   AssetMap
+  , Conditions
   , Energies
   , EntityMap
   , Entity(..)
@@ -22,16 +23,17 @@ module Game.Library.Kind.Entity (
   , EntityKind(..)
   , EntitySize(..)
   , EntitySmart(..)
+  , EntityST(..)
   , EntityType(..)
   , EntityUse(..)
   , Equipment
   , Inventory
-  , mkEntityKind
   , Properties
+  , mkEntityKind
   ) where
 
 import Prelude hiding (lookup)
-import Data.Aeson (FromJSON, ToJSON)
+import Data.Aeson (FromJSON, FromJSONKey, ToJSON, ToJSONKey)
 import Data.Map (Map)
 import qualified Data.Map.Strict as Map
 import Data.Text (Text)
@@ -42,33 +44,18 @@ import Game.Library.Kind.Visual
 
 -- | Maps used within the game
 type AssetMap   = Map Text EntityKind
+type Conditions = Map EntityST Int
 type Energies   = Map Text Int
 type EntityMap  = Map Int EntityKind
-type Equipment  = Map Text EntityKind
+type Equipment  = Map EntityType EntityKind
 type Inventory  = Map Int [EntityKind]
 type Properties = Map Text Text
-
--- | Entity stack sort.
-data Entity
-  = Actor
-  | Sparkle
-  | Monster
-  | Item
-  | Coin
-  | Flavor
-  | StairDown
-  | StairUp
-  | Corpse
-  | Trap
-  deriving (Ord, Show, Eq, Generic)
-
-instance FromJSON Entity
-instance ToJSON Entity
 
 -- | EntityKind
 -- | eHP       : Hit Point
 -- | eLvl      : Level, HD
 -- | eMaxHP    : Max HP
+-- | eName     : unique name "melee/Dagger"
 -- | eXP       : Experience
 -- | ecolor    : MiniMap color
 -- | energy    : counters
@@ -78,7 +65,7 @@ instance ToJSON Entity
 -- | inventory : Items
 -- | kind      : Entity
 -- | property  : Descriptions
--- | status    : Temporary status positive and negative
+-- | status    : Temporary Conditions
 -- | coord     : Position
 -- | 'M' data
 -- | tid          : xy in glyph
@@ -126,20 +113,20 @@ instance ToJSON Entity
 -- | iType    : type of Item
 -- | iFeature : Item feature
 data EntityKind = EntityKind
-  { eHP       :: Int
-  , eLvl      :: Int
-  , eMaxHP    :: Int
-  , eXP       :: Int
-  , ecolor    :: RGB
-  , energy    :: Energies
-  , equipment :: Equipment
-  , extra     :: Energies
-  , glyph     :: VisualKind
-  , inventory :: Inventory
-  , kind      :: Entity
-  , property  :: Properties
-  , status    :: Energies
-  , coord     :: Point
+  { eHP       :: !Int
+  , eLvl      :: !Int
+  , eMaxHP    :: !Int
+  , eXP       :: !Int
+  , ecolor    :: !RGB
+  , energy    :: !Energies
+  , equipment :: !Equipment
+  , extra     :: !Energies
+  , glyph     :: !VisualKind
+  , inventory :: !Inventory
+  , kind      :: !Entity
+  , property  :: !Properties
+  , status    :: !Conditions
+  , coord     :: !Point
   , tid          :: Maybe (Int,Int)
   , eAC          :: Maybe Int
   , eEV          :: Maybe Int
@@ -154,6 +141,7 @@ data EntityKind = EntityKind
   , eMove        :: Maybe Bool
   , eMP          :: Maybe Int
   , eMaxMP       :: Maybe Int
+  , eName        :: Maybe Text
   , eNoMove      :: Maybe Bool
   , eNoSpawn     :: Maybe Bool
   , eNoXP        :: Maybe Bool
@@ -184,16 +172,17 @@ data EntityKind = EntityKind
 
 instance FromJSON EntityKind
 instance ToJSON EntityKind
+instance ToJSONKey EntityKind
 
 -- | default EntityKind
 mkEntityKind :: Text -> Point -> EntityKind
 mkEntityKind x p =
   EntityKind {
-  eHP      = 0
+  eHP      = 4
   , eLvl   = 1
-  , eMaxHP = 0
+  , eMaxHP = 4
   , eXP    = 0
-  , ecolor = RGB 255 255 0
+  , ecolor = RGB 0 255 255
   , energy    = Map.empty
   , equipment = Map.empty
   , extra     = Map.empty
@@ -217,6 +206,7 @@ mkEntityKind x p =
   , eMove        = Just False
   , eMP          = Nothing
   , eMaxMP       = Nothing
+  , eName        = Nothing
   , eNoMove      = Nothing
   , eNoSpawn     = Nothing
   , eNoXP        = Nothing
@@ -246,7 +236,24 @@ mkEntityKind x p =
   , iFeature = Nothing
   }
 
--- | 'I' flavors
+-- | Entity sort
+data Entity
+  = Actor
+  | Sparkle
+  | Monster
+  | Item
+  | Coin
+  | Flavor
+  | StairDown
+  | StairUp
+  | Corpse
+  | Trap
+  deriving (Ord, Show, Eq, Generic)
+
+instance FromJSON Entity
+instance ToJSON Entity
+
+-- | I Damage
 data EntityDmg
   = Pain
   | Acid
@@ -269,31 +276,172 @@ data EntityDmg
 instance FromJSON EntityDmg
 instance ToJSON EntityDmg
 
+-- | M speaks
+data EntityEmote
+  = Shout
+  | Bark
+  | Bellow
+  | Bleat
+  | Buzz
+  | Croak
+  | Growl
+  | Gurgle
+  | Hello
+  | Hiss
+  | Howl
+  | Meow
+  | Moan
+  | Neigh
+  | Roar
+  | Scream
+  | Screech
+  | Silent
+  | Skitter
+  | Squeak
+  | Squeal
+  | Taunt
+  | Trumpet
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityEmote
+instance ToJSON EntityEmote
+
+-- | I features
 data EntityFeat
   = TwoHand
   | Light
   | Finesse
-  | Activate
-  | Charges
-  | Strength
+  | Blessed
+  | Chaotic
+  | Cursed
   | Dexterity
-  | Intelligence
-  | WP
-  | AC
-  | Berserk
-  | Brilliance
-  | Degeneration
-  | Enlightenment
+  | Distortion
+  | Drain
+  | Electric
+  | Evasion
+  | Fear
+  | Flame
+  | Frost
   | Fly
-  | Haste
-  | Might
+  | Heavy
+  | Hurl
+  | Intelligence
+  | Life
+  | Mage
+  | Mana
+  | Protection
+  | Ponderous
+  | Rampage
+  | Reflect
+  | Slay
+  | Spectral
+  | Speed
   | Stealth
+  | Strength
+  | Vamp
+  | Venom
+  | Wizard
+  | WP
+  | NoSpawn
   | NoneFeat
   deriving (Ord, Read, Show, Eq, Generic)
 
 instance FromJSON EntityFeat
 instance ToJSON EntityFeat
 
+-- | M home
+data EntityHabitat
+  = Land
+  | Amphibious
+  | AmphibiousLava
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityHabitat
+instance ToJSON EntityHabitat
+
+-- | M holiness
+data EntityHoly
+  = Natural
+  | Demonic
+  | Holy
+  | Undead
+  | NonLiving
+  | Plant
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityHoly
+instance ToJSON EntityHoly
+
+-- | M conditions
+data EntityST
+  = Hurt
+  | Awake
+  | Blinded
+  | Charmed
+  | Deafened
+  | Exhaustion
+  | Frightened
+  | Grappled
+  | Incapacitated
+  | Invisible
+  | Paralyzed
+  | Petrified
+  | Poisoned
+  | Prone
+  | Restrained
+  | Stunned
+  | Unconscious
+  | Hunger
+  | Agile
+  | Brilliant
+  | Crippled
+  | Defense
+  | Flight
+  | Magi
+  | Mighty
+  | Rage
+  | Smart
+  | Sneak
+  | Hasted
+  | Strong
+  | Wonder
+  | Will
+  | Corroded
+  | Frozen
+  | Burning
+  | Electrocuted
+  | Drained
+  | NoneST
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntityST
+instance ToJSON EntityST
+instance FromJSONKey EntityST
+instance ToJSONKey EntityST
+
+-- | M size
+data EntitySize
+  = Tiny
+  | Small
+  | Medium
+  | Large
+  | Giant
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntitySize
+instance ToJSON EntitySize
+
+-- | M intelligence
+data EntitySmart
+  = Mindless
+  | Animal
+  | Human
+  deriving (Ord, Read, Show, Eq, Generic)
+
+instance FromJSON EntitySmart
+instance ToJSON EntitySmart
+
+-- | I types
 data EntityType
   = Melee
   | Shoot
@@ -315,54 +463,18 @@ data EntityType
   | Totem
   | RightHand
   | LeftHand
+  | Melee1
+  | Melee2
+  | Melee3
   | MiscItem
   deriving (Ord, Read, Show, Eq, Generic)
 
 instance FromJSON EntityType
 instance ToJSON EntityType
+instance FromJSONKey EntityType
+instance ToJSONKey EntityType
 
--- | 'M' flavors
-data EntityHabitat
-  = Land
-  | Amphibious
-  | AmphibiousLava
-  deriving (Ord, Read, Show, Eq, Generic)
-
-instance FromJSON EntityHabitat
-instance ToJSON EntityHabitat
-
-data EntityHoly
-  = Natural
-  | Demonic
-  | Holy
-  | Undead
-  | NonLiving
-  | Plant
-  deriving (Ord, Read, Show, Eq, Generic)
-
-instance FromJSON EntityHoly
-instance ToJSON EntityHoly
-
-data EntitySize
-  = Tiny
-  | Small
-  | Medium
-  | Large
-  | Giant
-  deriving (Ord, Read, Show, Eq, Generic)
-
-instance FromJSON EntitySize
-instance ToJSON EntitySize
-
-data EntitySmart
-  = Mindless
-  | Animal
-  | Human
-  deriving (Ord, Read, Show, Eq, Generic)
-
-instance FromJSON EntitySmart
-instance ToJSON EntitySmart
-
+-- | M equipment
 data EntityUse
   = MonNone
   | MonDoor
@@ -371,30 +483,3 @@ data EntityUse
 
 instance FromJSON EntityUse
 instance ToJSON EntityUse
-
-data EntityEmote
-  = Shout
-  | Bark
-  | Bellow
-  | Bleat
-  | Buzz
-  | Croak
-  | Growl
-  | Hello
-  | Hiss
-  | Howl
-  | Meow
-  | Moan
-  | Ney
-  | Roar
-  | Scream
-  | Screech
-  | Silent
-  | Squeak
-  | Squeal
-  | Taunt
-  | Trumpet
-  deriving (Ord, Read, Show, Eq, Generic)
-
-instance FromJSON EntityEmote
-instance ToJSON EntityEmote

@@ -63,12 +63,12 @@ quadruped,howler monkey,Medium,Howl,Land,Natural,Animal,MonNone,
 quadruped,warg,Medium,Howl,Land,Natural,Animal,MonNone,
 quadruped,wolf,Medium,Howl,Land,Natural,Animal,MonNone,
 quadruped,inugami,Medium,Bark,Land,Natural,Animal,MonNone,
-quadruped,hog,Medium,Squel,Land,Natural,Animal,MonNone,
+quadruped,hog,Medium,Squeal,Land,Natural,Animal,MonNone,
 quadruped,hell hound,Medium,Bark,Land,Demonic,Animal,MonNone,
 quadruped,doom hound,Medium,Bark,Land,Demonic,Animal,MonNone,
 quadruped,raiju,Medium,Bark,Land,Natural,Animal,MonNone,
-quadruped,hell hog,Medium,Squel,Land,Demonic,Animal,MonNone,
-quadruped,holy swine,Medium,Squel,Land,Holy,Animal,MonNone,
+quadruped,hell hog,Medium,Squeal,Land,Demonic,Animal,MonNone,
+quadruped,holy swine,Medium,Squeal,Land,Holy,Animal,MonNone,
 quadruped,felid,Medium,Hiss,Land,Natural,Human,MonNone,NoSpawn
 quadruped,polar bear,Large,Growl,Amphibious,Natural,Animal,MonNone,
 quadruped,black bear,Large,Growl,Land,Natural,Animal,MonNone,
@@ -466,7 +466,7 @@ spell,aspiring flesh,Small,Silent,Land,Natural,Mindless,MonNone,"NoSpawn,NoMove,
 spell,blazeheart core,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Fly,NoXP"
 npc,scrawny cat,Small,Meow,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
 npc,scruffy dog,Small,Bark,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
-npc,horse,Medium,Ney,Land,Natural,Animal,MonNone,"NPC,NoXP"
+npc,horse,Medium,Neigh,Land,Natural,Animal,MonNone,"NPC,NoXP"
 npc,sheep,Medium,Bleat,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
 npc,barbarian,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
 npc,bard,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
