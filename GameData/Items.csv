@@ -191,12 +191,12 @@ item,,melee/Trample,Melee,4,0,14,bludgeoning,,,NoSpawn
 item,,melee/Trunk Slap,Melee,4,0,14,bludgeoning,,,NoSpawn
 item,,melee/Vampire Fang,Melee,4,0,14,necrotic,,,NoSpawn
 item,,melee/Venom,Melee,4,0,14,poison,,,NoSpawn
-item,,neck/Amulet of the acrobat,Amulet,0,0,0,,Acrobat,,
-item,,neck/Amulet of faith,Amulet,0,0,0,,Faith,,
-item,,neck/Amulet of guardian spirit,Amulet,0,0,0,,Vamp,,
-item,,neck/Amulet of magic regeneration,Amulet,0,0,0,,MP,,
-item,,neck/Amulet of reflection,Amulet,0,0,0,,Protection,,
-item,,neck/Amulet of regeneration,Amulet,0,0,0,,HP,,
+item,,neck/Amulet of the acrobat,Amulet,0,0,0,,,,Acrobat
+item,,neck/Amulet of faith,Amulet,0,0,0,,,,Faith
+item,,neck/Amulet of guardian spirit,Amulet,0,0,0,,,,Vamp
+item,,neck/Amulet of magic regeneration,Amulet,0,0,0,,,,Mana
+item,,neck/Amulet of reflection,Amulet,0,0,0,,,,Reflect
+item,,neck/Amulet of regeneration,Amulet,0,0,0,,,,Life
 item,,potion/Elixir of Silvanus,Potion,0,0,0,,Cure,,
 item,,potion/Goodberry Potion,Potion,4,0,0,,Heal,,
 item,,potion/Potion of ambrosia,Potion,0,0,0,,Ambrosia,,
