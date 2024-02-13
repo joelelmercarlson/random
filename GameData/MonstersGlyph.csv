@@ -491,198 +491,195 @@ boss,Balor,8,94,0,0
 boss,Tarrasque,1,94,0,0
 boss,Witch-King,17,94,0,0
 boss,Vampire King,12,94,0,0
-item,Stair Down,53,11,0,0
-item,Stair Up,54,11,0,0
-item,melee/Dagger,17,45,0,0
-item,melee/Quick blade,18,45,0,0
-item,melee/Shortsword,4,45,0,0
-item,melee/Rapier,8,47,0,0
-item,melee/Falchion,0,45,0,0
-item,melee/Longsword,1,45,0,0
-item,melee/Scimitar,2,45,0,0
-item,melee/Demon blade,3,45,0,0
-item,melee/Zweihander,4,45,0,0
-item,melee/Bastard Sword,5,45,0,0
-item,melee/Greatsword,6,45,0,0
-item,melee/Executioner Sword,7,45,0,0
-item,melee/Club,19,45,0,0
-item,melee/Whip,20,45,0,0
-item,melee/Mace,21,45,0,0
-item,melee/Flail,22,45,0,0
-item,melee/Morningstar,23,45,0,0
-item,melee/Demon whip,24,45,0,0
-item,melee/Sacred scourge,25,45,0,0
-item,melee/Dire flail,26,45,0,0
-item,melee/Eveningstar,27,45,0,0
-item,melee/Great mace,28,45,0,0
-item,melee/Giant club,29,45,0,0
-item,melee/Giant spiked club,30,45,0,0
-item,melee/Handaxe,41,44,0,0
-item,melee/War axe,42,44,0,0
-item,melee/Broad axe,43,44,0,0
-item,melee/Battleaxe,44,44,0,0
-item,melee/Greataxe,45,44,0,0
-item,melee/Spear,27,47,0,0
-item,melee/Trident,28,47,0,0
-item,melee/Halberd,29,47,0,0
-item,melee/Demon trident,30,47,0,0
-item,melee/Fork,31,47,0,0
-item,melee/Glaive,32,47,0,0
-item,melee/Bardache,33,47,0,0
-item,melee/Staff,42,47,0,0
-item,melee/Quarterstaff,3,47,0,0
-item,melee/Lajatang,0,48,0,0
-item,shoot/Sling,43,49,0,0
-item,shoot/Shortbow,20,49,0,0
-item,shoot/Longbow,21,49,0,0
-item,"shoot/Crossbow, light",28,49,0,0
-item,"shoot/Crossbow, hand",27,49,0,0
-item,"shoot/Crossbow, heavy",28,49,0,0
-item,throw/stone,45,49,0,0
-item,throw/poisoned dart,34,49,0,0
-item,throw/basilisk dart,34,49,0,0
-item,throw/stun dart,34,49,0,0
-item,throw/smokepowder bomb,46,49,0,0
-item,throw/fey arrow,41,49,0,0
-item,throw/boomerang,49,49,0,0
-item,throw/javelin,19,25,0,0
-item,throw/large rock,48,49,0,0
-item,throw/net,55,25,0,0
-item,armor/Robe,10,46,0,0
-item,armor/Leather,0,38,0,0
-item,armor/Ring mail,1,38,0,0
-item,armor/Scale mail,2,38,0,0
-item,armor/Chain mail,3,38,0,0
-item,armor/Plate,4,38,0,0
-item,armor/Crystal plate armor,5,38,0,0
-item,armor/Animal skin,6,38,0,0
-item,armor/Troll leather armor,7,38,0,0
-item,armor/Steam dragon scales,8,38,0,0
-item,armor/Acid dragon scales,9,38,0,0
-item,armor/Swamp dragon scales,10,38,0,0
-item,armor/Quicksilver dragon scales,11,38,0,0
-item,armor/Fire dragon scales,12,38,0,0
-item,armor/Ice dragon scales,13,38,0,0
-item,armor/Pearl dragon scales,14,38,0,0
-item,armor/Storm dragon scales,15,38,0,0
-item,armor/Shadow dragon scales,16,38,0,0
-item,armor/Gold dragon scales,17,38,0,0
-item,shield/Buckler,29,37,0,0
-item,shield/Shield,20,37,0,0
-item,shield/Tower,19,37,0,0
-item,feet/Leather Boots,23,36,0,0
-item,feet/Mail Chausses,24,36,0,0
-item,feet/Plate Leggings,25,36,0,0
-item,feet/Dragonhide Boots,26,36,0,0
-item,hands/Bracers,29,36,0,0
-item,hands/Fine Leather,30,36,0,0
-item,hands/Gauntlets,31,36,0,0
-item,hands/Vambraces,32,36,0,0
-item,head/Leather Skullcap,0,37,0,0
-item,head/Helm,1,37,0,0
-item,head/Mail Coif,2,37,0,0
-item,head/Wide Brimmed Hat,3,37,0,0
-item,cloak/Cloak,9,36,0,0
-item,cloak/Fur Cloak,10,36,0,0
-item,cloak/Elven Cloak,11,36,0,0
-item,cloak/Dragonscale Cloak,12,36,0,0
-item,food/baguette,1,40,0,0
-item,food/blushcap mushroom,2,40,0,0
-item,food/bonecap mushroom,3,40,0,0
-item,food/cabbage,4,40,0,0
-item,food/carafe of wine,5,40,0,0
-item,food/carrot,6,40,0,0
-item,food/cheese wedge,7,40,0,0
-item,food/cheese wheel,8,40,0,0
-item,food/chicken,9,40,0,0
-item,food/courgette,10,40,0,0
-item,food/dried fish,11,40,0,0
-item,food/egg,12,40,0,0
-item,food/fey mushroom,13,40,0,0
-item,food/fish head,14,40,0,0
-item,food/fungus stew,15,40,0,0
-item,food/garlic,16,40,0,0
-item,food/grilled pork belly,17,40,0,0
-item,food/grilled ribs,18,40,0,0
-item,food/gruel,31,40,0,0
-item,food/half eaten apple,32,40,0,0
-item,food/ham,33,40,0,0
-item,food/healing herbs,34,40,0,0
-item,food/lemon,35,40,0,0
-item,food/mushroom,36,40,0,0
-item,food/orange,37,40,0,0
-item,food/pear,38,40,0,0
-item,food/pig's head,39,40,0,0
-item,food/pitcher of beer,1,40,0,0
-item,food/pork shoulder,2,40,0,0
-item,food/potato,3,40,0,0
-item,food/pumpkin,4,40,0,0
-item,food/raw steak,5,40,0,0
-item,food/red apple,6,40,0,0
-item,food/rum,7,40,0,0
-item,food/sausage,8,40,0,0
-item,food/sourdough bread,9,40,0,0
-item,food/supply pack,10,40,0,0
-item,food/toadstool,11,40,0,0
-item,jewelry/Ring of dexterity,34,42,0,0
-item,jewelry/Ring of evasion,35,42,0,0
-item,jewelry/Ring of fire,36,42,0,0
-item,jewelry/Ring of flight,37,42,0,0
-item,jewelry/Ring of ice,38,42,0,0
-item,jewelry/Ring of Intelligence,39,42,0,0
-item,jewelry/Ring of magical power,40,42,0,0
-item,jewelry/Ring of poison resistance,41,42,0,0
-item,jewelry/Ring of positive energy,42,42,0,0
-item,jewelry/Ring of protection,43,42,0,0
-item,jewelry/Ring of protection from cold,44,42,0,0
-item,jewelry/Ring of protection from fire,45,42,0,0
-item,jewelry/Ring of resist corrosion,46,42,0,0
-item,jewelry/Ring of slaying,47,42,0,0
-item,jewelry/Ring of strength,48,42,0,0
-item,jewelry/Ring of willpower,49,42,0,0
-item,jewelry/Ring of wizardry,50,42,0,0
-item,neck/Amulet of the acrobat,0,35,0,0
-item,neck/Amulet of faith,1,35,0,0
-item,neck/Amulet of guardian spirit,2,35,0,0
-item,neck/Amulet of magic regeneration,3,35,0,0
-item,neck/Amulet of reflection,5,35,0,0
-item,neck/Amulet of regeneration,7,35,0,0
-item,potion/Elixir of Silvanus,8,42,0,0
-item,potion/Goodberry Potion,9,42,0,0
-item,potion/Potion of ambrosia,10,42,0,0
-item,potion/Potion of attraction,11,42,0,0
-item,potion/Potion of berserk rage,12,42,0,0
-item,potion/Potion of brilliance,13,42,0,0
-item,potion/Potion of cancellation,14,42,0,0
-item,potion/Potion of curing,15,42,0,0
-item,potion/Potion of degeneration,16,42,0,0
-item,potion/Potion of enlightenment,17,42,0,0
-item,potion/Potion of experience,18,42,0,0
-item,potion/Potion of haste,19,42,0,0
-item,potion/Potion of heal wounds,20,42,0,0
-item,potion/Potion of Healing,21,42,0,0
-item,potion/Potion of invisibility,22,42,0,0
-item,potion/Potion of lignification,23,42,0,0
-item,potion/Potion of magic,24,42,0,0
-item,potion/Potion of might,25,42,0,0
-item,potion/Potion of mutation,26,42,0,0
-item,potion/Potion of resistance,27,42,0,0
-item,scroll/Scroll of acquirement,41,43,0,0
-item,scroll/Scroll of amnesia,42,43,0,0
-item,scroll/Scroll of blinking,43,43,0,0
-item,scroll/Scroll of brand weapon,44,43,0,0
-item,scroll/Scroll of butterflies,45,43,0,0
-item,scroll/Scroll of enchant armor,46,43,0,0
-item,scroll/Scroll of enchant weapon,47,43,0,0
-item,scroll/Scroll of fear,48,43,0,0
-item,scroll/Scroll of fog,49,43,0,0
-item,scroll/Scroll of identify,41,43,0,0
-item,scroll/Scroll of immolation,42,43,0,0
-item,scroll/Scroll of noise,43,43,0,0
-item,scroll/Scroll of poison,44,43,0,0
-item,scroll/Scroll of revelation,45,43,0,0
-item,scroll/Scroll of silence,46,43,0,0
-item,scroll/Scroll of summoning,47,43,0,0
-item,scroll/Scroll of teleportation,48,43,0,0
-item,scroll/Scroll of torment,49,43,0,0
-item,scroll/Scroll of vulnerability,41,43,0,0
+item,Stair Down,53,11,,
+item,Stair Up,54,11,,
+item,dagger,17,45,,
+item,quick blade,18,45,,
+item,shortsword,4,45,,
+item,rapier,8,47,,
+item,falchion,0,45,,
+item,longsword,1,45,,
+item,scimitar,2,45,,
+item,demon blade,3,45,,
+item,zweihander,4,45,,
+item,bastard sword,5,45,,
+item,greatsword,6,45,,
+item,executioner sword,7,45,,
+item,club,19,45,,
+item,whip,20,45,,
+item,mace,21,45,,
+item,flail,22,45,,
+item,morningstar,23,45,,
+item,demon whip,24,45,,
+item,sacred scourge,25,45,,
+item,dire flail,26,45,,
+item,eveningstar,27,45,,
+item,great mace,28,45,,
+item,giant club,29,45,,
+item,giant spiked club,30,45,,
+item,handaxe,41,44,,
+item,war axe,42,44,,
+item,broad axe,43,44,,
+item,battleaxe,44,44,,
+item,greataxe,45,44,,
+item,spear,27,47,,
+item,trident,28,47,,
+item,halberd,29,47,,
+item,demon trident,30,47,,
+item,fork,31,47,,
+item,glaive,32,47,,
+item,bardache,33,47,,
+item,staff,42,47,,
+item,quarterstaff,3,47,,
+item,lajatang,0,48,,
+item,sling,43,49,,
+item,shortbow,20,49,,
+item,longbow,21,49,,
+item,"crossbow, light",28,49,,
+item,"crossbow, hand",27,49,,
+item,"crossbow, heavy",28,49,,
+item,stone,45,49,,
+item,poisoned dart,34,49,,
+item,curare dart,34,49,,
+item,datura dart,34,49,,
+item,atropa dart,46,49,,
+item,boomerang,41,49,,
+item,javelin,49,49,,
+item,large rock,19,25,,
+item,net,48,49,,
+item,robe,55,25,,
+item,leather,0,38,,
+item,ring mail,1,38,,
+item,scale mail,2,38,,
+item,chain mail,3,38,,
+item,plate,4,38,,
+item,crystal plate armor,5,38,,
+item,animal skin,6,38,,
+item,troll leather armor,7,38,,
+item,steam dragon scales,8,38,,
+item,acid dragon scales,9,38,,
+item,swamp dragon scales,10,38,,
+item,quicksilver dragon scales,11,38,,
+item,fire dragon scales,12,38,,
+item,ice dragon scales,13,38,,
+item,pearl dragon scales,14,38,,
+item,storm dragon scales,15,38,,
+item,shadow dragon scales,16,38,,
+item,gold dragon scales,17,38,,
+item,buckler,18,37,,
+item,shield,19,37,,
+item,tower,20,37,,
+item,leather boots,19,37,,
+item,mail chausses,23,36,,
+item,plate leggings,24,36,,
+item,dragoonhide boots,25,36,,
+item,bracers,26,36,,
+item,fine leather,29,36,,
+item,gauntlets,30,36,,
+item,vambraces,31,36,,
+item,leather skullcap,32,36,,
+item,helm,0,37,,
+item,mail coif,1,37,,
+item,wide brimmed hat,2,37,,
+item,cloak,3,37,,
+item,fur cloak,9,36,,
+item,elven cloak,10,36,,
+item,dragonscale cloak,11,36,,
+item,baguette,1,40,,
+item,blushcap mushroom,2,40,,
+item,bonecap mushroom,3,40,,
+item,cabbage,4,40,,
+item,carafe of wine,5,40,,
+item,carrot,6,40,,
+item,cheese wedge,7,40,,
+item,cheese wheel,8,40,,
+item,chicken,9,40,,
+item,courgette,10,40,,
+item,dried fish,11,40,,
+item,egg,12,40,,
+item,fey mushroom,13,40,,
+item,fish ,14,40,,
+item,fungus stew,15,40,,
+item,garlic,16,40,,
+item,grilled pork belly,17,40,,
+item,grilled ribs,18,40,,
+item,gruel,19,40,,
+item,half eaten apple,20,40,,
+item,ham,21,40,,
+item,healing herbs,22,40,,
+item,lemon,23,40,,
+item,mushroom,24,40,,
+item,orange,25,40,,
+item,pear,26,40,,
+item,pig's ,27,40,,
+item,pitcher of beer,28,40,,
+item,pork shoulder,29,40,,
+item,potato,30,40,,
+item,pumpkin,31,40,,
+item,raw steak,32,40,,
+item,red apple,33,40,,
+item,rum,34,40,,
+item,sausage,35,40,,
+item,sourdough bread,36,40,,
+item,supply pack,37,40,,
+item,toadstool,38,40,,
+item,Ring of dexterity,0,43,,
+item,Ring of evasion,1,43,,
+item,Ring of fire,2,43,,
+item,Ring of flight,3,43,,
+item,Ring of ice,4,43,,
+item,Ring of Intelligence,5,43,,
+item,Ring of magical power,6,43,,
+item,Ring of poison resistance,7,43,,
+item,Ring of positive energy,8,43,,
+item,Ring of protection,9,43,,
+item,Ring of protection from cold,10,43,,
+item,Ring of protection from fire,11,43,,
+item,Ring of resist corrosion,12,43,,
+item,Ring of slaying,13,43,,
+item,Ring of strength,14,43,,
+item,Ring of willpower,15,43,,
+item,Ring of wizardry,16,43,,
+item,Amulet of the acrobat,0,35,,
+item,Amulet of faith,1,35,,
+item,Amulet of guardian spirit,2,35,,
+item,Amulet of magic regeneration,3,35,,
+item,Amulet of reflection,4,35,,
+item,Amulet of regeneration,5,35,,
+item,Potion of ambrosia,0,42,,
+item,Potion of attraction,1,42,,
+item,Potion of berserk rage,2,42,,
+item,Potion of brilliance,3,42,,
+item,Potion of cancellation,4,42,,
+item,Potion of curing,5,42,,
+item,Potion of degeneration,6,42,,
+item,Potion of enlightenment,7,42,,
+item,Potion of experience,8,42,,
+item,Potion of haste,9,42,,
+item,Potion of heal wounds,10,42,,
+item,Potion of Healing,11,42,,
+item,Potion of invisibility,12,42,,
+item,Potion of lignification,13,42,,
+item,Potion of magic,14,42,,
+item,Potion of might,15,42,,
+item,Potion of mutation,16,42,,
+item,Potion of resistance,17,42,,
+item,Scroll of acquirement,41,43,,
+item,Scroll of amnesia,42,43,,
+item,Scroll of blinking,43,43,,
+item,Scroll of  weapon,44,43,,
+item,Scroll of butterflies,45,43,,
+item,Scroll of enchant armor,46,43,,
+item,Scroll of enchant weapon,47,43,,
+item,Scroll of fear,48,43,,
+item,Scroll of fog,49,43,,
+item,Scroll of identify,41,43,,
+item,Scroll of immolation,42,43,,
+item,Scroll of noise,43,43,,
+item,Scroll of poison,44,43,,
+item,Scroll of revelation,45,43,,
+item,Scroll of silence,46,43,,
+item,Scroll of summoning,47,43,,
+item,Scroll of teleportation,48,43,,
+item,Scroll of torment,49,43,,
+item,Scroll of vulnerability,41,43,,
