@@ -224,29 +224,29 @@ item,,Scroll of summoning,Scroll,0,0,0,,Summon,,
 item,,Scroll of teleportation,Scroll,0,0,0,,Teleport,,
 item,,Scroll of torment,Scroll,0,0,0,,Torment,,
 item,,Scroll of vulnerability,Scroll,0,0,0,,Vulnerable,,
-item,monster,Bite,Melee,4,0,14,piercing,,,NoSpawn
-item,monster,Claw,Melee,4,0,14,slashing,,,NoSpawn
-item,monster,Constrict,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Corrosion,Melee,4,0,14,acid,,,NoSpawn
-item,monster,Electrocution,Melee,4,0,14,lightning,,,NoSpawn
-item,monster,Flame,Melee,4,0,14,fire,,,NoSpawn
-item,monster,Frost,Melee,4,0,14,cold,,,NoSpawn
-item,monster,Gore,Melee,4,0,14,piercing,,,NoSpawn
-item,monster,butt,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Hit,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Kick,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Peck,Melee,4,0,14,piercing,,,NoSpawn
-item,monster,Pounce,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Random,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Reach,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Reach Tongue,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Spore,Melee,4,0,14,piercing,,,NoSpawn
-item,monster,Sting,Melee,4,0,14,poison,,,NoSpawn
-item,monster,Swoop,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Tail Slap,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Tentacle Slap,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Touch,Melee,4,0,14,cold,,,NoSpawn
-item,monster,Trample,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Trunk Slap,Melee,4,0,14,bludgeoning,,,NoSpawn
-item,monster,Vampire Fang,Melee,4,0,14,necrotic,,,NoSpawn
-item,monster,Venom,Melee,4,0,14,poison,,,NoSpawn
+item,monster,bite,Melee,4,0,10,piercing,,,NoSpawn
+item,monster,claw,Melee,4,0,10,slashing,,,NoSpawn
+item,monster,constrict,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,corrosion,Melee,4,0,10,acid,,,NoSpawn
+item,monster,electrocution,Melee,4,0,10,lightning,,,NoSpawn
+item,monster,flame,Melee,4,0,10,fire,,,NoSpawn
+item,monster,frost,Melee,4,0,10,cold,,,NoSpawn
+item,monster,gore,Melee,4,0,10,slashing,,,NoSpawn
+item,monster,headbutt,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,kick,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,peck,Melee,4,0,10,piercing,,,NoSpawn
+item,monster,pounce,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,punch,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,random,Melee,4,0,10,chaos,,,NoSpawn
+item,monster,reach,Melee,4,0,10,poison,,,NoSpawn
+item,monster,reach tongue,Melee,4,0,10,poison,,,NoSpawn
+item,monster,spore,Melee,4,0,10,poison,,,NoSpawn
+item,monster,sting,Melee,4,0,10,poison,,,NoSpawn
+item,monster,swoop,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,tail slap,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,tentacle slap,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,touch,Melee,4,0,10,cold,,,NoSpawn
+item,monster,trample,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,trunk slap,Melee,4,0,10,bludgeoning,,,NoSpawn
+item,monster,vampire fang,Melee,4,0,10,necrotic,,,NoSpawn
+item,monster,venom,Melee,4,0,10,poison,,,NoSpawn
