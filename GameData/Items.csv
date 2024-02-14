@@ -1,59 +1,59 @@
 ﻿Base,Skill,Name,Type,Value,Hit,En,Damage,Spell,Resistance,Detail
 item,,Stair Down,,100,100,100,,,,
 item,,Stair Up,,100,100,100,,,,
-item,shortblade,dagger,Melee,4,6,10,piercing,,,"Finesse,Light"
-item,shortblade,quick blade,Melee,5,6,7,piercing,,,"Finesse,Light"
-item,shortblade,shortsword,Melee,6,4,11,piercing,,,"Finesse,Light"
-item,shortblade,rapier,Melee,7,4,12,piercing,,,Finesse
-item,longblade,falchion,Melee,8,2,13,piercing,,,Finesse
-item,longblade,longsword,Melee,10,1,14,slashing,,,
-item,longblade,scimitar,Melee,12,0,14,slashing,,,Finesse
-item,longblade,demon blade,Melee,13,-1,13,slashing,,,
-item,longblade,zweihander,Melee,14,-2,12,slashing,,,TwoHand
-item,longblade,bastard sword,Melee,15,-1,15,slashing,,,
-item,longblade,greatsword,Melee,17,-3,17,slashing,,,TwoHand
-item,longblade,executioner sword,Melee,19,-4,18,slashing,,,TwoHand
-item,hafted,club,Melee,5,3,13,bludgeoning,,,Light
-item,hafted,whip,Melee,6,2,11,slashing,,,Finesse
-item,hafted,mace,Melee,8,3,14,bludgeoning,,,
-item,hafted,flail,Melee,10,0,14,bludgeoning,,,
-item,hafted,morningstar,Melee,13,-2,15,piercing,,,
-item,hafted,demon whip,Melee,11,1,11,slashing,,,
-item,hafted,sacred scourge,Melee,12,0,11,slashing,,,
-item,hafted,dire flail,Melee,13,-3,13,bludgeoning,,,
-item,hafted,eveningstar,Melee,15,-1,15,bludgeoning,,,
-item,hafted,great mace,Melee,17,-4,17,bludgeoning,,,TwoHand
-item,hafted,giant club,Melee,20,-6,16,bludgeoning,,,TwoHand
-item,hafted,giant spiked club,Melee,22,-7,18,bludgeoning,,,TwoHand
-item,axe,handaxe,Melee,7,3,13,slashing,,,Light
-item,axe,war axe,Melee,11,0,15,slashing,,,
-item,axe,broad axe,Melee,13,-2,16,slashing,,,
-item,axe,battleaxe,Melee,15,-4,17,slashing,,,TwoHand
-item,axe,greataxe,Melee,18,-6,19,slashing,,,TwoHand
-item,polearm,spear,Melee,6,4,11,piercing,,,
-item,polearm,trident,Melee,9,1,13,piercing,,,
-item,polearm,halberd,Melee,13,-3,15,slashing,,,TwoHand
-item,polearm,demon trident,Melee,12,1,13,piercing,,,
-item,polearm,fork,Melee,13,0,13,piercing,,,
-item,polearm,glaive,Melee,15,-3,17,slashing,,,TwoHand
-item,polearm,bardache,Melee,18,-6,19,slashing,,,TwoHand
-item,staff,staff,Melee,5,5,12,bludgeoning,,,
-item,staff,quarterstaff,Melee,10,3,13,bludgeoning,,,TwoHand
-item,staff,lajatang,Melee,16,-3,14,slashing,,,TwoHand
-item,shoot,sling,Shoot,7,0,14,bludgeoning,,,
-item,shoot,shortbow,Shoot,9,2,15,piercing,,,TwoHand
-item,shoot,longbow,Shoot,13,0,16,piercing,,,TwoHand
-item,shoot,"crossbow, light",Shoot,16,-2,19,piercing,,,TwoHand
-item,shoot,"crossbow, hand",Shoot,15,3,19,piercing,,,
-item,shoot,"crossbow, heavy",Shoot,23,-2,20,piercing,,,TwoHand
-item,throw,stone,Throw,2,0,11,bludgeoning,,,
+item,shortblade,dagger,Melee,4,6,10,Piercing,,,"Finesse,Light"
+item,shortblade,quick blade,Melee,5,6,7,Piercing,,,"Finesse,Light"
+item,shortblade,shortsword,Melee,6,4,11,Piercing,,,"Finesse,Light"
+item,shortblade,rapier,Melee,7,4,12,Piercing,,,Finesse
+item,longblade,falchion,Melee,8,2,13,Piercing,,,Finesse
+item,longblade,longsword,Melee,10,1,14,Slashing,,,
+item,longblade,scimitar,Melee,12,0,14,Slashing,,,Finesse
+item,longblade,demon blade,Melee,13,-1,13,Slashing,,,
+item,longblade,zweihander,Melee,14,-2,12,Slashing,,,TwoHand
+item,longblade,bastard sword,Melee,15,-1,15,Slashing,,,
+item,longblade,greatsword,Melee,17,-3,17,Slashing,,,TwoHand
+item,longblade,executioner sword,Melee,19,-4,18,Slashing,,,TwoHand
+item,hafted,club,Melee,5,3,13,Bludgeoning,,,Light
+item,hafted,whip,Melee,6,2,11,Slashing,,,Finesse
+item,hafted,mace,Melee,8,3,14,Bludgeoning,,,
+item,hafted,flail,Melee,10,0,14,Bludgeoning,,,
+item,hafted,morningstar,Melee,13,-2,15,Piercing,,,
+item,hafted,demon whip,Melee,11,1,11,Slashing,,,
+item,hafted,sacred scourge,Melee,12,0,11,Slashing,,,
+item,hafted,dire flail,Melee,13,-3,13,Bludgeoning,,,
+item,hafted,eveningstar,Melee,15,-1,15,Bludgeoning,,,
+item,hafted,great mace,Melee,17,-4,17,Bludgeoning,,,TwoHand
+item,hafted,giant club,Melee,20,-6,16,Bludgeoning,,,TwoHand
+item,hafted,giant spiked club,Melee,22,-7,18,Bludgeoning,,,TwoHand
+item,axe,handaxe,Melee,7,3,13,Slashing,,,Light
+item,axe,war axe,Melee,11,0,15,Slashing,,,
+item,axe,broad axe,Melee,13,-2,16,Slashing,,,
+item,axe,battleaxe,Melee,15,-4,17,Slashing,,,TwoHand
+item,axe,greataxe,Melee,18,-6,19,Slashing,,,TwoHand
+item,polearm,spear,Melee,6,4,11,Piercing,,,
+item,polearm,trident,Melee,9,1,13,Piercing,,,
+item,polearm,halberd,Melee,13,-3,15,Slashing,,,TwoHand
+item,polearm,demon trident,Melee,12,1,13,Piercing,,,
+item,polearm,fork,Melee,13,0,13,Piercing,,,
+item,polearm,glaive,Melee,15,-3,17,Slashing,,,TwoHand
+item,polearm,bardache,Melee,18,-6,19,Slashing,,,TwoHand
+item,staff,staff,Melee,5,5,12,Bludgeoning,,,
+item,staff,quarterstaff,Melee,10,3,13,Bludgeoning,,,TwoHand
+item,staff,lajatang,Melee,16,-3,14,Slashing,,,TwoHand
+item,shoot,sling,Shoot,7,0,14,Bludgeoning,,,
+item,shoot,shortbow,Shoot,9,2,15,Piercing,,,TwoHand
+item,shoot,longbow,Shoot,13,0,16,Piercing,,,TwoHand
+item,shoot,"crossbow, light",Shoot,16,-2,19,Piercing,,,TwoHand
+item,shoot,"crossbow, hand",Shoot,15,3,19,Piercing,,,
+item,shoot,"crossbow, heavy",Shoot,23,-2,20,Piercing,,,TwoHand
+item,throw,stone,Throw,2,0,11,Bludgeoning,,,
 item,throw,poisoned dart,Throw,2,0,10,,Poisoned,,
 item,throw,curare dart,Throw,2,0,10,,Petrified,,
 item,throw,datura dart,Throw,2,0,10,,Stunned,,
 item,throw,atropa dart,Throw,2,0,10,,Blinded,,
-item,throw,boomerang,Throw,6,0,13,slashing,,,
-item,throw,javelin,Throw,10,0,15,piercing,,,
-item,throw,large rock,Throw,20,0,20,bludgeoning,,,
+item,throw,boomerang,Throw,6,0,13,Slashing,,,
+item,throw,javelin,Throw,10,0,15,Piercing,,,
+item,throw,large rock,Throw,20,0,20,Bludgeoning,,,
 item,throw,net,Throw,2,0,10,,Grappled,,
 item,armor,robe,Armor,2,0,0,,,,
 item,armor,leather,Armor,3,0,4,,,,
@@ -93,22 +93,22 @@ item,,cloak,Cloak,1,0,0,,,,
 item,,fur cloak,Cloak,1,0,0,,,,
 item,,elven cloak,Cloak,1,0,0,,,,
 item,,dragonscale cloak,Cloak,1,0,0,,,,
-item,,Rune of Chaos,Brand,0,0,0,chaos,,,"NoSpawn,Chaotic"
-item,,Rune of Distortion,Brand,0,0,0,chaos,,,"NoSpawn,Distortion"
+item,,Rune of Chaos,Brand,0,0,0,Chaos,,,"NoSpawn,Chaotic"
+item,,Rune of Distortion,Brand,0,0,0,Chaos,,,"NoSpawn,Distortion"
 item,,Rune of Draining,Brand,0,0,0,necrotic,,,"NoSpawn,Drain"
-item,,Rune of Electrocution,Brand,0,0,0,lightning,,,"NoSpawn,Electric"
-item,,Rune of Fear,Brand,0,0,0,pain,,,"NoSpawn,Fear"
-item,,Rune of Flaming,Brand,0,0,0,fire,,,"NoSpawn,Flame"
-item,,Rune of Freezing,Brand,0,0,0,cold,,,"NoSpawn,Frost"
+item,,Rune of Electrocution,Brand,0,0,0,Lightning,,,"NoSpawn,Electric"
+item,,Rune of Fear,Brand,0,0,0,Pain,,,"NoSpawn,Fear"
+item,,Rune of Flaming,Brand,0,0,0,Fire,,,"NoSpawn,Flame"
+item,,Rune of Freezing,Brand,0,0,0,Cold,,,"NoSpawn,Frost"
 item,,Rune of Heavy,Brand,0,0,0,,,,"NoSpawn,Heavy"
-item,,Rune of Holy Wrath,Brand,0,0,0,radiant,,,"NoSpawn,Blessed"
-item,,Rune of Pain,Brand,0,0,0,pain,,,"NoSpawn,Cursed"
+item,,Rune of Holy Wrath,Brand,0,0,0,Radiant,,,"NoSpawn,Blessed"
+item,,Rune of Pain,Brand,0,0,0,Pain,,,"NoSpawn,Cursed"
 item,,Rune of Protection,Brand,7,0,0,,,,"NoSpawn,Protection"
-item,,Rune of Silver,Brand,0,0,0,silver,,,NoSpawn
-item,,Rune of Spectral,Brand,0,0,0,magic,,,"NoSpawn,Spectral"
+item,,Rune of Silver,Brand,0,0,0,Silver,,,NoSpawn
+item,,Rune of Spectral,Brand,0,0,0,Magic,,,"NoSpawn,Spectral"
 item,,Rune of Speed,Brand,0,0,0,,,,"NoSpawn,Speed"
-item,,Rune of Vampirisim,Brand,0,0,0,necrotic,,,"NoSpawn,Vamp"
-item,,Rune of Venom,Brand,0,0,0,poison,,,"NoSpawn,Venom"
+item,,Rune of Vampirisim,Brand,0,0,0,Necrotic,,,"NoSpawn,Vamp"
+item,,Rune of Venom,Brand,0,0,0,Poison,,,"NoSpawn,Venom"
 item,,baguette,Food,100,0,0,,Eat,,
 item,,blushcap mushroom,Food,25,0,0,,Eat,,
 item,,bonecap mushroom,Food,25,0,0,,Eat,,
@@ -224,29 +224,3 @@ item,,Scroll of summoning,Scroll,0,0,0,,Summon,,
 item,,Scroll of teleportation,Scroll,0,0,0,,Teleport,,
 item,,Scroll of torment,Scroll,0,0,0,,Torment,,
 item,,Scroll of vulnerability,Scroll,0,0,0,,Vulnerable,,
-item,monster,bite,Melee,4,0,10,piercing,,,NoSpawn
-item,monster,claw,Melee,4,0,10,slashing,,,NoSpawn
-item,monster,constrict,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,corrosion,Melee,4,0,10,acid,,,NoSpawn
-item,monster,electrocution,Melee,4,0,10,lightning,,,NoSpawn
-item,monster,flame,Melee,4,0,10,fire,,,NoSpawn
-item,monster,frost,Melee,4,0,10,cold,,,NoSpawn
-item,monster,gore,Melee,4,0,10,slashing,,,NoSpawn
-item,monster,headbutt,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,kick,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,peck,Melee,4,0,10,piercing,,,NoSpawn
-item,monster,pounce,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,punch,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,random,Melee,4,0,10,chaos,,,NoSpawn
-item,monster,reach,Melee,4,0,10,poison,,,NoSpawn
-item,monster,reach tongue,Melee,4,0,10,poison,,,NoSpawn
-item,monster,spore,Melee,4,0,10,poison,,,NoSpawn
-item,monster,sting,Melee,4,0,10,poison,,,NoSpawn
-item,monster,swoop,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,tail slap,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,tentacle slap,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,touch,Melee,4,0,10,cold,,,NoSpawn
-item,monster,trample,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,trunk slap,Melee,4,0,10,bludgeoning,,,NoSpawn
-item,monster,vampire fang,Melee,4,0,10,necrotic,,,NoSpawn
-item,monster,venom,Melee,4,0,10,poison,,,NoSpawn
