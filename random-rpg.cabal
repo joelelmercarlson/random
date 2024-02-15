@@ -1,5 +1,5 @@
 name:                random-rpg
-version:             0.2.14.0
+version:             0.3.0.0
 synopsis:            Arrow24 Character Generator (roguelike)
 license:             MIT
 license-file:        LICENSE.md
@@ -22,7 +22,6 @@ library
                    , Game.Data.Halfling
                    , Game.Data.Human
                    , Game.Factory.Character
-                   , Game.Factory.Equipment
                    , Game.Factory.Player
                    , Game.Library.Kind.Entity
                    , Game.Library.Kind.RGB
@@ -58,7 +57,6 @@ executable random-rpg
                  , Game.Data.Halfling
                  , Game.Data.Human
                  , Game.Factory.Character
-                 , Game.Factory.Equipment
                  , Game.Factory.Player
                  , Game.Library.Kind.Entity
                  , Game.Library.Kind.RGB

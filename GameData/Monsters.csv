@@ -123,7 +123,7 @@ human,vault guard,Medium human (p),40,13,715,1,13,10,20:Pain,,,,,
 human,vault sentinel,Medium human (p),60,8,520,1,13,10,15:Pain,,,,,
 human,vault warden,Medium human (p),40,16,880,1,13,10,36:Pain,,,,,
 human,ironbound convoker,Medium human (p),40,9,495,5,9,10,20:Pain,,,,,
-human,ironbound +0 frostheart,Medium human (p),40,12,600,5,9,10,25:Touch,,,,Cold3,cold
+human,ironbound frostheart,Medium human (p),40,12,600,5,9,10,25:Touch,,,,Cold3,cold
 human,ironbound preserver,Medium human (p),40,14,1120,5,9,10,25:Pain,,,,Cold3,cold
 human,shapeshifter,Medium human (p),40,7,385,0,10,10,5:Pain,,,,,
 human,glowing shapeshifter,Medium human (p),80,10,550,0,10,10,15:Pain,,,,,
@@ -358,14 +358,14 @@ horror,tentacled monstrosity,Giant abomination (X),160,23,1265,5,5,10,22:Tentacl
 horror,orb guardian,Giant abomination (X),120,15,825,13,13,14,45:Pain,,,,,
 horror,tentacled starspawn,Giant abomination (X),120,16,880,5,5,10,40:TentacleSlap,25:TentacleSlap,,,,
 horror,starspawn tentacle,Large abomination (w),200,11,220,8,2,10,3:Constrict,,,,,
-horror,starspawn tentacle segment,Large abomination (*),200,11,220,8,2,10,,,,,,
+horror,starspawn tentacle segment,Large abomination (w),200,11,220,8,2,10,,,,,,
 horror,starcursed mass,Giant abomination (X),100,12,1500,10,0,10,16:Touch,,,,,
 horror,nameless horror,Giant abomination (X),200,15,600,8,2,10,30:Pain,,,,,
 horror,kraken,Giant abomination (X),60,16,2080,20,0,14,50:Pain,,,,,
 horror,tentacle,Large abomination (w),200,12,480,5,7,17,29:TentacleSlap,,,,,
-horror,tentacle segment,Large abomination (*),200,12,480,5,7,18,,,,,,
+horror,tentacle segment,Large abomination (w),200,12,480,5,7,18,,,,,,
 horror,eldritch tentacle,Large abomination (w),200,16,1200,13,0,12,30:TentacleSlap,40:Pain,,,,"fire,cold,lightning,acid"
-horror,eldritch tentacle segment,Large abomination (*),200,16,1200,13,0,12,,,,,,"fire,cold,lightning,acid"
+horror,eldritch tentacle segment,Large abomination (w),200,16,1200,13,0,12,,,,,,"fire,cold,lightning,acid"
 yak,dream sheep,Medium beast (Y),30,9,220,2,10,10,13:Headbutt,,,,,
 yak,yak,Large beast (Y),20,7,385,4,7,10,18:Gore,,,,,
 yak,death yak,Large beast (Y),100,14,770,9,5,10,30:Gore,,,,,
@@ -451,7 +451,7 @@ construct,war gargoyle,Medium golem (9),100,10,520,25,4,14,40:Pain,,,,,"fire,col
 construct,blazeheart golem,Large golem (9),200,6,400,9,2,10,27:Fire,,,,,"fire,cold,lightning"
 construct,spellforged servitor,Medium golem (9),200,8,800,10,10,10,,,,,Cold3,"fire,cold,lightning"
 spell,ball lightning,Small orb (*),200,1,10,0,10,20,,,,,,"fire,cold,lightning"
-spell,ballistomycete +0 spore,Small orb (*),200,1,10,0,10,15,,,,,,poison
+spell,ballistomycete spore,Small orb (*),200,1,10,0,10,15,,,,,,poison
 spell,lost soul,Small orb (*),200,10,250,0,10,13,,,,,,"fire,cold,lightning"
 spell,lurking horror,Small orb (*),10,1,10,0,10,12,,,,,,
 spell,orb of fire,Small orb (*),200,30,1500,20,20,15,,,,,,"fire,cold,lightning"

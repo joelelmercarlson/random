@@ -21,7 +21,6 @@ import Data.Text (Text)
 import qualified Data.Text as T
 import Game.Compass
 import Game.Factory.Character
-import Game.Factory.Equipment
 import Game.Library.Kind.Entity
 import Game.Library.Kind.RGB
 import Game.Library.Kind.Visual
@@ -43,7 +42,7 @@ mkPlayer x n = let
   cls = classFmt x
   actor = abilitySort cls n
   newEntity = mkEntityKind "Player" originPoint
-  in newEntity { property = Map.fromList $ mkProperty cls actor }
+  in newEntity { kind = Actor, glyph = VActor, eBlock = Just True, eMove = Just True, property = Map.fromList $ mkProperty cls actor }
 
 mkProperty :: Text -> Character -> [(Text, Text)]
 mkProperty pCls Character{..} = let
@@ -70,13 +69,7 @@ mkProperty pCls Character{..} = let
      , ("Character/Hair", hair)
      , ("Character/Height", T.pack $ show height)
      , ("Character/Mark", mark)
-     , ("Character/Spells", "Zap:Light:Recall")
-     , ("Character/Store", "ammo/arrow:food/mushroom:melee/Dagger:armor/Leather:shoot/Sling")
      , ("Class", pCls)
-     , ("SPEED", "10")
-     , weaponCast pCls
-     , weaponClass
-     , weaponShoot
      ]
 
 propertyLookup :: Text -> EntityKind -> Text

@@ -12,7 +12,6 @@ Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 module Game.Library.Kind.Entity (
   AssetMap
   , Conditions
-  , Energies
   , EntityMap
   , Entity(..)
   , EntityDmg(..)
@@ -26,6 +25,7 @@ module Game.Library.Kind.Entity (
   , EntityST(..)
   , EntityType(..)
   , EntityUse(..)
+  , EntityWeapon(..)
   , Equipment
   , Inventory
   , Properties
@@ -45,11 +45,11 @@ import Game.Library.Kind.Visual
 -- | Maps used within the game
 type AssetMap   = Map Text EntityKind
 type Conditions = Map EntityST Int
-type Energies   = Map Text Int
 type EntityMap  = Map Int EntityKind
 type Equipment  = Map EntityType EntityKind
 type Inventory  = Map Int [EntityKind]
 type Properties = Map Text Text
+type Skills     = Map Text Int
 
 -- | EntityKind
 -- | eHP       : Hit Point
@@ -58,7 +58,6 @@ type Properties = Map Text Text
 -- | eName     : unique name "melee/Dagger"
 -- | eXP       : Experience
 -- | ecolor    : MiniMap color
--- | energy    : counters
 -- | equipment : doff/don Items
 -- | extra     : Skills
 -- | glyph     : VisualKind
@@ -74,19 +73,10 @@ type Properties = Map Text Text
 -- | eWP          : WillPower
 -- | eBlock       : Block?
 -- | eCorpse      : Corpse tid
--- | eFeral       : Mindless?
--- | eFly         : Fly?
--- | eIncorporeal : Ghost?
--- | eMob         : Mob?
 -- | eMove        : Move?
 -- | eMP          : Mana Point
 -- | eMaxMP       : Max Mana Point
--- | eNoMove      : Can move but doesn't want to?
--- | eNoSpawn     : Spawn?
--- | eNoXP        : XP?
--- | eNPC         : NPC?
 -- | eSpeed       : Speed
--- | eTunnel      : Digger?
 -- | 'M' natural resistance
 -- | eResAcid      : acid
 -- | eResCold      : cold
@@ -118,36 +108,26 @@ data EntityKind = EntityKind
   , eMaxHP    :: !Int
   , eXP       :: !Int
   , ecolor    :: !RGB
-  , energy    :: !Energies
   , equipment :: !Equipment
-  , extra     :: !Energies
+  , extra     :: !Skills
   , glyph     :: !VisualKind
   , inventory :: !Inventory
   , kind      :: !Entity
   , property  :: !Properties
   , status    :: !Conditions
   , coord     :: !Point
-  , tid          :: Maybe (Int,Int)
-  , eAC          :: Maybe Int
-  , eEV          :: Maybe Int
-  , eWP          :: Maybe Int
-  , eBlock       :: Maybe Bool
-  , eCorpse      :: Maybe (Int,Int)
-  , eFeral       :: Maybe Bool
-  , eFly         :: Maybe Bool
-  , eHoly        :: Maybe EntityHoly
-  , eIncorporeal :: Maybe Bool
-  , eMob         :: Maybe Bool
-  , eMove        :: Maybe Bool
-  , eMP          :: Maybe Int
-  , eMaxMP       :: Maybe Int
-  , eName        :: Maybe Text
-  , eNoMove      :: Maybe Bool
-  , eNoSpawn     :: Maybe Bool
-  , eNoXP        :: Maybe Bool
-  , eNPC         :: Maybe Bool
-  , eSpeed       :: Maybe Int
-  , eTunnel      :: Maybe Bool
+  , tid           :: Maybe (Int,Int)
+  , eAC           :: Maybe Int
+  , eEV           :: Maybe Int
+  , eWP           :: Maybe Int
+  , eBlock        :: Maybe Bool
+  , eCorpse       :: Maybe (Int,Int)
+  , eMove         :: Maybe Bool
+  , eHoly         :: Maybe EntityHoly
+  , eMP           :: Maybe Int
+  , eMaxMP        :: Maybe Int
+  , eName         :: Maybe Text
+  , eSpeed        :: Maybe Int
   , eResAcid      :: Maybe Int
   , eResCold      :: Maybe Int
   , eResFire      :: Maybe Int
@@ -156,11 +136,12 @@ data EntityKind = EntityKind
   , eResPoison    :: Maybe Int
   , eResHoly      :: Maybe Int
   , eResPain      :: Maybe Int
-  , eEmote   :: Maybe EntityEmote
-  , eHabitat :: Maybe EntityHabitat
-  , eSmart   :: Maybe EntitySmart
-  , eSize    :: Maybe EntitySize
-  , eUse     :: Maybe EntityUse
+  , eEmote        :: Maybe EntityEmote
+  , eHabitat      :: Maybe EntityHabitat
+  , eSmart        :: Maybe EntitySmart
+  , eSize         :: Maybe EntitySize
+  , eUse          :: Maybe EntityUse
+  , eWeapon       :: Maybe EntityWeapon
   , iValue   :: Maybe Int
   , iHit     :: Maybe Int
   , iEn      :: Maybe Int
@@ -183,7 +164,6 @@ mkEntityKind x p =
   , eMaxHP = 4
   , eXP    = 0
   , ecolor = RGB 0 255 255
-  , energy    = Map.empty
   , equipment = Map.empty
   , extra     = Map.empty
   , glyph     = VArrow
@@ -199,20 +179,11 @@ mkEntityKind x p =
   , eWP = Just 0
   , eBlock       = Just False
   , eCorpse      = Just (0,0)
-  , eFeral       = Nothing
-  , eFly         = Nothing
-  , eIncorporeal = Nothing
-  , eMob         = Nothing
   , eMove        = Just False
   , eMP          = Nothing
   , eMaxMP       = Nothing
   , eName        = Nothing
-  , eNoMove      = Nothing
-  , eNoSpawn     = Nothing
-  , eNoXP        = Nothing
-  , eNPC         = Nothing
   , eSpeed       = Nothing
-  , eTunnel      = Nothing
   , eResAcid      = Just 0
   , eResCold      = Just 0
   , eResFire      = Just 0
@@ -227,10 +198,11 @@ mkEntityKind x p =
   , eSize    = Nothing
   , eSmart   = Nothing
   , eUse     = Nothing
-  , iValue = Just 0
-  , iHit   = Just 0
-  , iEn    = Just 0
-  , iPlus  = Just 0
+  , eWeapon  = Nothing
+  , iValue   = Nothing
+  , iHit     = Nothing
+  , iEn      = Nothing
+  , iPlus    = Nothing
   , iDmgType = Nothing
   , iType    = Nothing
   , iFeature = Nothing
@@ -270,6 +242,21 @@ data EntityDmg
   | Slashing
   | Magic
   | Chaos
+  | Constrict
+  | Gore
+  | HeadButt
+  | Pounce
+  | Reach
+  | ReachTongue
+  | Spore
+  | Sting
+  | Swoop
+  | TailSlap
+  | TentacleSlap
+  | Touch
+  | Trample
+  | TrunkSlap
+  | VampireFang
   | NoneDmg
   deriving (Ord, Read, Show, Eq, Generic)
 
@@ -311,6 +298,7 @@ data EntityFeat
   = TwoHand
   | Light
   | Finesse
+  | Acrobat
   | Blessed
   | Chaotic
   | Cursed
@@ -319,16 +307,25 @@ data EntityFeat
   | Drain
   | Electric
   | Evasion
+  | Faith
   | Fear
+  | Feral
   | Flame
   | Frost
   | Fly
   | Heavy
   | Hurl
+  | Incorporeal
   | Intelligence
   | Life
   | Mage
   | Mana
+  | Mob
+  | NoCorpse
+  | NoMove
+  | NoSpawn
+  | NoXP
+  | NPC
   | Protection
   | Ponderous
   | Rampage
@@ -338,11 +335,11 @@ data EntityFeat
   | Speed
   | Stealth
   | Strength
+  | Tunnel
   | Vamp
   | Venom
   | Wizard
   | WP
-  | NoSpawn
   | NoneFeat
   deriving (Ord, Read, Show, Eq, Generic)
 
@@ -391,26 +388,43 @@ data EntityST
   | Restrained
   | Stunned
   | Unconscious
-  | Hunger
-  | Agile
-  | Brilliant
-  | Crippled
-  | Defense
-  | Flight
-  | Magi
-  | Mighty
-  | Rage
-  | Smart
-  | Sneak
-  | Hasted
-  | Strong
-  | Wonder
-  | Will
+  | AC
+  | COIN
+  | DEPTH
+  | ENERGY
+  | HUNGER
+  | MAXDEPTH
+  | PREVDEPTH
+  | RECALL
+  | REGENERATE
+  | REJUVENATE
+  | SEED
+  | STAIRDOWN
+  | STAIRUP
+  | TARGET
+  | Burnt
   | Corroded
   | Frozen
-  | Burning
   | Electrocuted
   | Drained
+  | Agile
+  | Crippled
+  | Flight
+  | PlusAC
+  | PlusCombat
+  | PlusEV
+  | PlusHP
+  | PlusMP
+  | PlusMove
+  | PlusSH
+  | PlusSpeed
+  | PlusSpellPower
+  | PlusSpellSpeed
+  | PlusWonder
+  | Smart
+  | Sneak
+  | Strong
+  | Will
   | NoneST
   deriving (Ord, Read, Show, Eq, Generic)
 
@@ -483,3 +497,15 @@ data EntityUse
 
 instance FromJSON EntityUse
 instance ToJSON EntityUse
+
+-- | M Weapons
+data EntityWeapon = EntityWeapon
+  { hurt0 :: Maybe (EntityDmg, Int)
+  , hurt1 :: Maybe (EntityDmg, Int)
+  , hurt2 :: Maybe (EntityDmg, Int)
+  , shoot :: Maybe (EntityDmg, Int)
+  }
+  deriving (Show, Eq, Generic)
+
+instance FromJSON EntityWeapon
+instance ToJSON EntityWeapon
