@@ -299,6 +299,7 @@ data EntityFeat
   | Light
   | Finesse
   | Acrobat
+  | Archer
   | Blessed
   | Chaotic
   | Cursed
@@ -415,12 +416,13 @@ data EntityST
   | PlusEV
   | PlusHP
   | PlusMP
-  | PlusMove
+  | PlusMoveSpeed
   | PlusSH
+  | PlusShootSpeed
+  | PlusSlay
   | PlusSpeed
   | PlusSpellPower
   | PlusSpellSpeed
-  | PlusWonder
   | Smart
   | Sneak
   | Strong
@@ -477,9 +479,6 @@ data EntityType
   | Totem
   | RightHand
   | LeftHand
-  | Melee1
-  | Melee2
-  | Melee3
   | MiscItem
   deriving (Ord, Read, Show, Eq, Generic)
 
@@ -492,6 +491,7 @@ instance ToJSONKey EntityType
 data EntityUse
   = MonNone
   | MonDoor
+  | MonStartingGear
   | MonEquipment
   deriving (Ord, Read, Show, Eq, Generic)
 
