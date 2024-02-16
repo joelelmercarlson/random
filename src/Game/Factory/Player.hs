@@ -35,14 +35,19 @@ abilitySort x n@Character{..}
   | x `elem` [ "Bard", "Paladin", "Sorcerer", "Warlock" ] = charismaSort xs n
   | otherwise = n
   where
-    xs = sort $ map (min 18) [ rStr + tStr, rDex + tDex, rInt + tInt ]
+    xs = sort $ map (min 12) [ rStr + tStr, rDex + tDex, rInt + tInt ]
 
 mkPlayer :: Text -> Character -> EntityKind
 mkPlayer x n = let
   cls = classFmt x
   actor = abilitySort cls n
-  newEntity = mkEntityKind "Player" originPoint
-  in newEntity { kind = Actor, glyph = VActor, eBlock = Just True, eMove = Just True, property = Map.fromList $ mkProperty cls actor, tid = Just (23,60) }
+  x0 = mkEntityKind "Player" originPoint
+  in x0 { kind = Actor, glyph = VActor
+  , eBlock = Just True
+  , eMove = Just True
+  , property = Map.fromList $ mkProperty cls actor
+  , status = Map.insert COIN 30 (status x0)
+  , tid = Just (23,60) }
 
 mkProperty :: Text -> Character -> [(Text, Text)]
 mkProperty pCls Character{..} = let
