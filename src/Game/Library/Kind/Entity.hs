@@ -49,7 +49,6 @@ type EntityMap  = Map Int EntityKind
 type Equipment  = Map EntityType EntityKind
 type Inventory  = Map Int [EntityKind]
 type Properties = Map Text Text
-type Skills     = Map Text Int
 
 -- | EntityKind
 -- | eHP       : Hit Point
@@ -59,11 +58,11 @@ type Skills     = Map Text Int
 -- | eXP       : Experience
 -- | ecolor    : MiniMap color
 -- | equipment : doff/don Items
--- | extra     : Skills
 -- | glyph     : VisualKind
 -- | inventory : Items
 -- | kind      : Entity
 -- | property  : Descriptions
+-- | skill     : Skills
 -- | status    : Temporary Conditions
 -- | coord     : Position
 -- | 'M' data
@@ -109,11 +108,11 @@ data EntityKind = EntityKind
   , eXP       :: !Int
   , ecolor    :: !RGB
   , equipment :: !Equipment
-  , extra     :: !Skills
   , glyph     :: !VisualKind
   , inventory :: !Inventory
   , kind      :: !Entity
   , property  :: !Properties
+  , skill     :: !Conditions
   , status    :: !Conditions
   , coord     :: !Point
   , tid           :: Maybe (Int,Int)
@@ -165,11 +164,11 @@ mkEntityKind x p =
   , eXP    = 0
   , ecolor = RGB 0 255 255
   , equipment = Map.empty
-  , extra     = Map.empty
   , glyph     = VArrow
   , inventory = Map.empty
   , kind      = Flavor
   , property  = Map.insert "Name" x Map.empty
+  , skill     = Map.empty
   , status    = Map.empty
   , coord     = p
   -- | '@' and 'M'
@@ -178,7 +177,7 @@ mkEntityKind x p =
   , eEV = Just 0
   , eWP = Just 0
   , eBlock       = Just False
-  , eCorpse      = Just (0,0)
+  , eCorpse      = Nothing
   , eMove        = Just False
   , eMP          = Nothing
   , eMaxMP       = Nothing
@@ -311,6 +310,7 @@ data EntityFeat
   | Faith
   | Fear
   | Feral
+  | Fighter
   | Flame
   | Frost
   | Fly
@@ -370,7 +370,7 @@ data EntityHoly
 instance FromJSON EntityHoly
 instance ToJSON EntityHoly
 
--- | M conditions
+-- | M conditions, skills, counters
 data EntityST
   = Hurt
   | Awake
@@ -389,20 +389,6 @@ data EntityST
   | Restrained
   | Stunned
   | Unconscious
-  | AC
-  | COIN
-  | DEPTH
-  | ENERGY
-  | HUNGER
-  | MAXDEPTH
-  | PREVDEPTH
-  | RECALL
-  | REGENERATE
-  | REJUVENATE
-  | SEED
-  | STAIRDOWN
-  | STAIRUP
-  | TARGET
   | Burnt
   | Corroded
   | Frozen
@@ -427,6 +413,28 @@ data EntityST
   | Sneak
   | Strong
   | Will
+  | ARMOR
+  | DODGE
+  | EVOKE
+  | INVOKE
+  | MELEE
+  | SHIELD
+  | SHOOT
+  | STEALTH
+  | THROW
+  | COIN
+  | DEPTH
+  | ENERGY
+  | HUNGER
+  | MAXDEPTH
+  | PREVDEPTH
+  | REGENERATE
+  | REJUVENATE
+  | RECALL
+  | SEED
+  | STAIRDOWN
+  | STAIRUP
+  | TARGET
   | NoneST
   deriving (Ord, Read, Show, Eq, Generic)
 
