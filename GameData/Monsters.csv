@@ -130,8 +130,7 @@ human,glowing shapeshifter,Medium human (p),80,10,550,0,10,10,15:Pain,,,,,
 human,killer klown,Medium human (p),160,20,1500,10,15,13,30:Pain,,,,,
 human,demigod,Medium human (p),20,5,375,2,12,10,10:Pain,,,,,
 human,halfling,Small human (p),10,3,105,2,12,10,6:Pain,,,,,
-human,metoeran,Medium human (p),20,5,375,2,12,10,10:Pain,,,,,
-human,spectator,Medium human (p),20,20,1000,0,10,10,,,,,,
+human,meteoran,Medium human (p),20,5,375,2,12,10,10:Pain,,,,,
 rat,rat,Tiny rodent (r),0,1,25,1,10,10,3:Pain,,,,,
 rat,quokka,Small rodent (r),0,1,55,2,13,12,4:Pain,,,,,
 rat,river rat,Tiny rodent (r),10,2,110,5,11,10,10:Pain,,,,,
@@ -207,7 +206,7 @@ beetle,death scarab,Small beetle (B),60,8,320,7,14,30,33:Pain,,,,,
 giant,cyclops,Large giant (C),40,9,495,5,3,7,35:Pain,,,,,
 giant,ettin,Large giant (C),40,12,660,9,4,10,40:Pain,40:Pain,,,,
 giant,fire giant,Large giant (C),80,16,960,8,4,10,30:Pain,,,,,fire
-giant,+0 frost giant,Large giant (C),80,16,1040,9,3,10,35:Pain,,,,,cold
+giant,frost giant,Large giant (C),80,16,1040,9,3,10,35:Pain,,,,,cold
 giant,stone giant,Large giant (C),80,16,880,12,2,10,45:Pain,,,,,
 giant,titan,Large giant (C),180,20,1100,10,3,10,55:Lightning,,,,,lightning
 giant,juggernaut,Large giant (C),120,20,1700,20,5,10,80:Pain,,,,,

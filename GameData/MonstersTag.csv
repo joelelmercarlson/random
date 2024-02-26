@@ -112,7 +112,7 @@ orc,orc knight,Medium,Shout,Land,Natural,Human,MonEquipment,
 orc,orc warlord,Medium,Shout,Land,Natural,Human,MonEquipment,
 orc,orc sorcerer,Medium,Shout,Land,Natural,Human,MonEquipment,
 orc,orc high priest,Medium,Shout,Land,Natural,Human,MonEquipment,
-human,human,Medium,Shout,Land,Natural,Human,MonEquipment,
+human,human,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
 human,burial acolyte,Medium,Shout,Land,Natural,Human,MonEquipment,
 human,hell knight,Medium,Shout,Land,Natural,Human,MonEquipment,
 human,death knight,Medium,Shout,Land,Natural,Human,MonEquipment,
@@ -130,8 +130,7 @@ human,glowing shapeshifter,Medium,Silent,Land,Natural,Human,MonEquipment,
 human,killer klown,Medium,Shout,Land,Natural,Human,MonEquipment,
 human,demigod,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
 human,halfling,Small,Shout,Land,Natural,Human,MonEquipment,NPC
-human,metoeran,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
-human,spectator,Medium,Shout,Land,Natural,Human,MonEquipment,"NPC,NoMove"
+human,meteoran,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
 rat,rat,Tiny,Squeak,Land,Natural,Animal,MonNone,
 rat,quokka,Small,Silent,Land,Natural,Animal,MonNone,
 rat,river rat,Tiny,Squeak,Amphibious,Natural,Animal,MonNone,
