@@ -42,12 +42,12 @@ mkPlayer x n = let
   cls = classFmt x
   actor = abilitySort cls n
   x0 = mkEntityKind "Player" originPoint
-  in x0 { kind = Actor, glyph = VActor
+  in x0 { kind = Actor
   , eBlock = Just True
   , eMove = Just True
   , property = Map.fromList $ mkProperty cls actor
   , status = Map.insert COIN 30 (status x0)
-  , tid = Just (23,60) }
+  , tid = Just "MONS_HALFLING" }
 
 mkProperty :: Text -> Character -> [(Text, Text)]
 mkProperty pCls Character{..} = let
