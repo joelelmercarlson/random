@@ -256,17 +256,17 @@ hybrid,harpy,Medium hybrid (H),20,7,385,2,10,25,19:Pain,14:Pain,,,,poison
 hybrid,jorogumo,Medium hybrid (H),60,12,850,4,14,12,28:Pain,,,,,
 hybrid,armataur,Large hybrid (H),10,8,450,15,5,10,18:Pain,12:TailSlap,,,,
 hybrid,mutant beast,Medium hybrid (H),-3,15,825,8,5,10,27:Pain,,,,,
-jelly,endoplasm,Small jelly (J),0,1,60,1,3,10,3:Pain,,,,Acid4,"acid,poison"
+jelly,endoplasm,Small jelly (J),0,1,60,1,3,10,3:Pain,,,,Zap,"acid,poison"
 jelly,jelly,Small jelly (J),10,3,165,0,2,10,3:Acid,,,,,"acid,poison"
 jelly,slime creature,Small jelly (J),40,11,605,1,4,10,22:Pain,,,,,poison
 jelly,formless jellyfish,Large jelly (J),60,15,1200,0,3,10,37:Pain,5:Pain,,,,poison
 jelly,rockslime,Giant jelly (J),60,20,600,27,2,12,50:Trample,,,,,"poison,lightning,fire"
 jelly,quicksilver ooze,Giant jelly (J),200,13,500,3,15,16,27:Trample,12:Pain,,,,"poison,acid"
 jelly,azure jelly,Small jelly (J),80,15,825,5,10,12,12:Cold,12:Cold,12:Cold,,,"poison,cold,acid"
-jelly,acid blob,Small jelly (J),160,18,990,1,3,12,42:Acid,,,,Acid4,"poison,acid"
+jelly,acid blob,Small jelly (J),160,18,990,1,3,12,42:Acid,,,,Zap,"poison,acid"
 kobold,kobold,Small kobold (K),0,1,35,2,12,10,1:Pain,,,,,
 kobold,kobold brigand,Small kobold (K),20,5,275,3,12,10,7:Pain,,,,,
-kobold,kobold demonologist,Small kobold (K),40,6,390,4,13,10,4:Pain,,,,Fire4,
+kobold,kobold demonologist,Small kobold (K),40,6,390,4,13,10,4:Pain,,,,Zap,
 kobold,kobold blastminer,Small kobold (K),20,8,390,4,14,10,12:Pain,,,,Lightning4,
 lich,lich,Medium undead (L),200,20,800,10,10,10,15:Touch,,,,,cold
 lich,ancient lich,Medium undead (L),200,27,1080,20,10,10,20:Touch,,,,,"cold,fire,lightning"
@@ -464,28 +464,6 @@ spell,battlesphere,Small orb (*),200,5,150,0,5,30,,,,,,"fire,cold,lightning"
 spell,boulder,Small orb (*),200,10,270,10,0,20,,,,,,"fire,cold,lightning"
 spell,aspiring flesh,Large orb (*),200,12,1330,2,0,10,,,,,,poison
 spell,blazeheart core,Small orb (*),10,15,50000,0,99,10,,,,,,fire
-npc,scrawny cat,Small quadruped (h),0,1,40,0,13,10,,,,,,
-npc,scruffy dog,Small quadruped (h),0,1,35,0,13,10,,,,,,
-npc,horse,Medium quadruped (h),10,3,200,1,6,12,10:Pain,,,,,
-npc,sheep,Medium quadruped (q),10,3,100,0,13,10,6:Pain,,,,,
-npc,barbarian,Medium human (@),20,6,300,3,10,10,18:Pain,,,,,
-npc,bard,Medium human (@),20,6,300,3,10,10,6:Pain,,,,,
-npc,cleric,Medium human (@),20,6,300,3,10,10,4:Pain,,,,Radiant4,
-npc,druid,Medium human (@),20,6,300,2,10,10,4:Pain,,,,Zap,
-npc,fighter,Medium human (@),20,6,300,8,10,10,8:Pain,,,,,
-npc,monk,Medium human (@),20,6,300,3,10,10,4:Pain,,,,,
-npc,paladin,Medium human (@),20,6,300,10,10,10,8:Pain,,,,,
-npc,ranger,Medium human (@),20,6,300,3,10,10,,,,6:Pain,,
-npc,rogue,Medium human (@),20,6,300,3,10,10,4:Pain,,,,,
-npc,sorcerer,Medium human (@),20,6,300,2,10,10,6:Pain,,,,Zap,
-npc,warlock,Medium human (@),20,6,300,2,10,10,4:Pain,,,,Zap,
-npc,wizard,Medium human (@),20,6,300,2,10,10,6:Pain,,,,Zap,
-npc,Heinz the Weaponsmith,Medium human (@),40,6,350,3,10,10,8:Pain,,,,,
-npc,Felix the Fletcher,Medium elf (@),40,6,350,3,10,10,,,,6:Pain,,
-npc,Stori the Blacksmith,Medium dwarf (@),40,6,350,8,10,10,18:Pain,,,,,"lightning,fire,cold"
-npc,Rolf the Runesmith,Medium gnome (@),40,6,350,2,10,10,4:Pain,,,,,"lightning,fire,cold"
-npc,Bruno's General Store,Medium human (@),40,6,350,2,10,10,4:Pain,,,,,"lightning,fire,cold"
-npc,Wilder the Haberdasher,Medium human (@),40,6,350,2,10,10,6:Pain,,,,,"lightning,fire,cold"
 player,Player,Medium hero (@),10,1,100,2,10,10,4:Pain,,,,,
 boss,Balor,Large Boss (&),200,20,2620,15,6,12,25:Pain,12:Lightning,12:Pain,,,"lightning,fire,cold"
 boss,Tarrasque,Giant Boss  (R),160,19,3000,20,6,10,48:Trample,32:Fire,32:Pain,,,"lightning,fire,cold"

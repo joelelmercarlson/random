@@ -8,28 +8,6 @@ The visual gylph.
 
 Author: "Joel E Carlson" <joel.elmer.carlson@gmail.com>
 
-Core
-====
-@  = Actor
-#  = Wall
-.  = Open
-%  = Rubble, Corpse
-r  = Mouse
-:  = Rock
-*  = Magma
-,  = Mushroom
-!  = Potion
->  = Stair Down
-<  = Stair Up
-^  = Trap
-$  = Coin
-[  = Item
-~  = Arrow
-&  = Rune
-?  = Magic Device
-+  = Door
-p  = Person
-
 -}
 module Game.Library.Kind.Visual (VisualKind(..)) where
 
@@ -44,20 +22,15 @@ data VisualKind
   = VActor
   | VWall
   | VLWall
-  | VOpen
-  | VLOpen
-  | VWater
-  | VLWater
-  | VWater2
-  | VLWater2
-  | VRubble
   | VMagma
+  | VRubble
   | VDoor
-  | VTrap
+  | VOpen
+  | VForest
+  | VGrass
+  | VWater2
+  | VWater
   | VLit
-  | VLit1
-  | VLit2
-  | VLit3
   | VArrow
   | VAcid
   | VCold
@@ -65,6 +38,7 @@ data VisualKind
   | VForce
   | VLightning
   | VNecrotic
+  | VPoison
   | VRadiant
   | VThunder
   | VDartN
@@ -75,4 +49,10 @@ data VisualKind
   | VDartSW
   | VDartW
   | VDartNW
+  | VTarget1
+  | VTarget2
+  | VTarget3
+  | VTarget4
+  | VTarget5
+  | VTrap
   deriving (Show, Eq, Generic)

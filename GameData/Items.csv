@@ -1,6 +1,4 @@
 ﻿Base,Skill,Name,Type,Value,Hit,En,Damage,Spell,Resistance,Detail
-item,,Stair Down,,100,100,100,,,,
-item,,Stair Up,,100,100,100,,,,
 item,shortblade,dagger,Melee,4,6,10,Piercing,,,"Finesse,Light"
 item,shortblade,quick blade,Melee,5,6,7,Piercing,,,"Finesse,Light"
 item,shortblade,shortsword,Melee,6,4,11,Piercing,,,"Finesse,Light"

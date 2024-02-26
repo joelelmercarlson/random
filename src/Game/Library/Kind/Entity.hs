@@ -27,6 +27,7 @@ module Game.Library.Kind.Entity (
   , EntityUse(..)
   , EntityWeapon(..)
   , Equipment
+  , GlyphMap
   , Inventory
   , Properties
   , mkEntityKind
@@ -40,13 +41,13 @@ import Data.Text (Text)
 import GHC.Generics (Generic)
 import Game.Compass
 import Game.Library.Kind.RGB
-import Game.Library.Kind.Visual
 
 -- | Maps used within the game
 type AssetMap   = Map Text EntityKind
 type Conditions = Map EntityST Int
 type EntityMap  = Map Int EntityKind
 type Equipment  = Map EntityType EntityKind
+type GlyphMap   = Map Text (Int, Int, Int, Int)
 type Inventory  = Map Int [EntityKind]
 type Properties = Map Text Text
 
@@ -58,7 +59,6 @@ type Properties = Map Text Text
 -- | eXP       : Experience
 -- | ecolor    : MiniMap color
 -- | equipment : doff/don Items
--- | glyph     : VisualKind
 -- | inventory : Items
 -- | kind      : Entity
 -- | property  : Descriptions
@@ -66,12 +66,12 @@ type Properties = Map Text Text
 -- | status    : Temporary Conditions
 -- | coord     : Position
 -- | 'M' data
--- | tid          : xy in glyph
+-- | tid          : name of tile
 -- | eAC          : ArmorClass
 -- | eEV          : Evasion
 -- | eWP          : WillPower
 -- | eBlock       : Block?
--- | eCorpse      : Corpse tid
+-- | eCorpse      : name of coprse tid
 -- | eMove        : Move?
 -- | eMP          : Mana Point
 -- | eMaxMP       : Max Mana Point
@@ -108,19 +108,18 @@ data EntityKind = EntityKind
   , eXP       :: !Int
   , ecolor    :: !RGB
   , equipment :: !Equipment
-  , glyph     :: !VisualKind
   , inventory :: !Inventory
   , kind      :: !Entity
   , property  :: !Properties
   , skill     :: !Conditions
   , status    :: !Conditions
   , coord     :: !Point
-  , tid           :: Maybe (Int,Int)
+  , tid           :: Maybe Text
   , eAC           :: Maybe Int
   , eEV           :: Maybe Int
   , eWP           :: Maybe Int
   , eBlock        :: Maybe Bool
-  , eCorpse       :: Maybe (Int,Int)
+  , eCorpse       :: Maybe Text
   , eMove         :: Maybe Bool
   , eHoly         :: Maybe EntityHoly
   , eMP           :: Maybe Int
@@ -164,15 +163,13 @@ mkEntityKind x p =
   , eXP    = 0
   , ecolor = RGB 0 255 255
   , equipment = Map.empty
-  , glyph     = VArrow
   , inventory = Map.empty
   , kind      = Flavor
   , property  = Map.insert "Name" x Map.empty
   , skill     = Map.empty
   , status    = Map.empty
   , coord     = p
-  -- | '@' and 'M'
-  , tid = Just (0,0)
+  , tid = Nothing
   , eAC = Just 0
   , eEV = Just 0
   , eWP = Just 0
@@ -212,12 +209,16 @@ data Entity
   = Actor
   | Sparkle
   | Monster
+  | Store
   | Item
   | Coin
+  | Corpse
   | Flavor
+  | DoorClose
+  | DoorOpen
+  | ExitUp
   | StairDown
   | StairUp
-  | Corpse
   | Trap
   deriving (Ord, Show, Eq, Generic)
 

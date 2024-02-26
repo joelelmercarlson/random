@@ -9,12 +9,12 @@ bat,fire bat,Tiny,Silent,Land,Natural,Animal,MonNone,"Feral,Fly"
 bat,bennu,Medium,Screech,Land,Natural,Human,MonNone,Fly
 bat,caustic shrike,Medium,Screech,Land,Natural,Animal,MonNone,Fly
 bat,shard shrike,Medium,Screech,Land,Natural,Animal,MonNone,Fly
-centaur,centaur,Medium,Shout,Land,Natural,Human,MonEquipment,
-centaur,centaur warrior,Medium,Shout,Land,Natural,Human,MonEquipment,
-centaur,yaktaur,Medium,Shout,Land,Natural,Human,MonEquipment,
-centaur,yaktaur captain,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,centaur,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
+centaur,centaur warrior,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
+centaur,yaktaur,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
+centaur,yaktaur captain,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
 centaur,faun,Medium,Shout,Land,Natural,Human,MonEquipment,
-centaur,satyr,Medium,Shout,Land,Natural,Human,MonEquipment,
+centaur,satyr,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
 draconian,draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
 draconian,black draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
 draconian,yellow draconian,Medium,Roar,Land,Natural,Human,MonEquipment,
@@ -30,11 +30,11 @@ draconian,draconian shifter,Medium,Roar,Land,Natural,Human,MonEquipment,
 draconian,draconian annihilator,Medium,Roar,Land,Natural,Human,MonEquipment,
 draconian,draconian knight,Medium,Roar,Land,Natural,Human,MonEquipment,
 draconian,draconian scorcher,Medium,Roar,Land,Natural,Human,MonEquipment,
-elf,elf,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,elf,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
 elf,deep elf knight,Medium,Shout,Land,Natural,Human,MonEquipment,
-elf,deep elf archer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf archer,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
 elf,deep elf blademaster,Medium,Shout,Land,Natural,Human,MonEquipment,
-elf,deep elf master archer,Medium,Shout,Land,Natural,Human,MonEquipment,
+elf,deep elf master archer,Medium,Shout,Land,Natural,Human,MonEquipment,Archer
 elf,deep elf zephyrmancer,Medium,Shout,Land,Natural,Human,MonEquipment,
 elf,deep elf pyromancer,Medium,Shout,Land,Natural,Human,MonEquipment,
 elf,deep elf high priest,Medium,Shout,Land,Natural,Human,MonEquipment,
@@ -55,7 +55,7 @@ goblin,gnoll,Medium,Shout,Land,Natural,Human,MonEquipment,
 goblin,gnoll bouda,Medium,Shout,Land,Natural,Human,MonEquipment,
 goblin,gnoll sergeant,Medium,Shout,Land,Natural,Human,MonEquipment,
 goblin,boggart,Medium,Shout,Land,Natural,Human,MonEquipment,
-goblin,dwarf,Medium,Shout,Land,Natural,Human,MonEquipment,
+goblin,dwarf,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
 goblin,deep dwarf,Medium,Shout,Land,Natural,Human,MonEquipment,
 quadruped,jackal,Medium,Bark,Land,Natural,Animal,MonNone,
 quadruped,hound,Medium,Bark,Land,Natural,Animal,MonNone,
@@ -69,7 +69,7 @@ quadruped,doom hound,Medium,Bark,Land,Demonic,Animal,MonNone,
 quadruped,raiju,Medium,Bark,Land,Natural,Animal,MonNone,
 quadruped,hell hog,Medium,Squeal,Land,Demonic,Animal,MonNone,
 quadruped,holy swine,Medium,Squeal,Land,Holy,Animal,MonNone,
-quadruped,felid,Medium,Hiss,Land,Natural,Human,MonNone,NoSpawn
+quadruped,felid,Medium,Hiss,Land,Natural,Human,MonNone,NPC
 quadruped,polar bear,Large,Growl,Amphibious,Natural,Animal,MonNone,
 quadruped,black bear,Large,Growl,Land,Natural,Animal,MonNone,
 spriggan,spriggan,Tiny,Shout,Land,Natural,Human,MonEquipment,
@@ -90,9 +90,9 @@ lizard,crocodile,Small,Silent,Amphibious,Natural,Animal,MonNone,
 lizard,basilisk,Small,Hiss,Land,Natural,Animal,MonNone,
 lizard,komodo dragon,Large,Hiss,Amphibious,Natural,Animal,MonNone,
 lizard,alligator,Large,Silent,Amphibious,Natural,Animal,MonNone,
-merfolk,merfolk,Medium,Shout,Amphibious,Natural,Human,MonNone,
+merfolk,merfolk,Medium,Shout,Amphibious,Natural,Human,MonNone,NPC
 merfolk,merfolk impaler,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
-merfolk,merfolk javelineer,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
+merfolk,merfolk javelineer,Medium,Shout,Amphibious,Natural,Human,MonEquipment,Archer
 merfolk,merfolk aquamancer,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
 merfolk,merfolk siren,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
 merfolk,sickly merfolk siren,Medium,Shout,Amphibious,Natural,Human,MonEquipment,
@@ -128,10 +128,10 @@ human,ironbound preserver,Medium,Shout,Land,Natural,Human,MonEquipment,
 human,shapeshifter,Medium,Silent,Land,Natural,Human,MonEquipment,
 human,glowing shapeshifter,Medium,Silent,Land,Natural,Human,MonEquipment,
 human,killer klown,Medium,Shout,Land,Natural,Human,MonEquipment,
-human,demigod,Medium,Shout,Land,Natural,Human,MonEquipment,NoSpawn
-human,halfling,Small,Shout,Land,Natural,Human,MonEquipment,NoSpawn
-human,metoeran,Medium,Shout,Land,Natural,Human,MonEquipment,NoSpawn
-human,spectator,Medium,Shout,Land,Natural,Human,MonEquipment,"NoSpawn,NoMove,NoXP"
+human,demigod,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
+human,halfling,Small,Shout,Land,Natural,Human,MonEquipment,NPC
+human,metoeran,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
+human,spectator,Medium,Shout,Land,Natural,Human,MonEquipment,"NPC,NoMove"
 rat,rat,Tiny,Squeak,Land,Natural,Animal,MonNone,
 rat,quokka,Small,Silent,Land,Natural,Animal,MonNone,
 rat,river rat,Tiny,Squeak,Amphibious,Natural,Animal,MonNone,
@@ -147,8 +147,8 @@ spider,demonic crawler,Large,Scream,Land,Demonic,Animal,MonNone,
 spider,orb spider,Small,Skitter,Land,Natural,Animal,MonNone,
 spider,broodmother,Giant,Skitter,Land,Natural,Animal,MonNone,
 spider,culicivora,Small,Skitter,Land,Natural,Animal,MonNone,
-testudine,snapping turtle,Medium,Hiss,Amphibious,Natural,Animal,MonNone,
-testudine,alligator snapping turtle,Large,Hiss,Amphibious,Natural,Animal,MonNone,
+testudine,snapping turtle,Medium,Hiss,Amphibious,Natural,Animal,MonNone,Archer
+testudine,alligator snapping turtle,Large,Hiss,Amphibious,Natural,Animal,MonNone,Archer
 testudine,fire crab,Small,Silent,AmphibiousLava,Natural,Animal,MonNone,
 testudine,ghost crab,Small,Silent,Amphibious,Undead,Animal,MonNone,
 testudine,apocalypse crab,Small,Silent,Amphibious,Demonic,Animal,MonNone,
@@ -172,7 +172,7 @@ horror,small abomination,Large,Silent,Land,Undead,Mindless,MonNone,
 horror,ancient zyme,Medium,Silent,Land,NonLiving,Human,MonNone,
 horror,worldbinder,Small,Silent,Land,NonLiving,Human,MonDoor,
 horror,bunyip,Large,Scream,Amphibious,Natural,Animal,MonNone,
-octopode,octopode,Medium,Shout,Amphibious,Natural,Human,MonNone,NoSpawn
+octopode,octopode,Medium,Shout,Amphibious,Natural,Human,MonNone,NPC
 insect,killer bee,Tiny,Buzz,Land,Natural,Animal,MonNone,Fly
 insect,queen bee,Small,Buzz,Land,Natural,Animal,MonNone,Fly
 insect,vampire mosquito,Small,Buzz,Land,Undead,Animal,MonNone,Fly
@@ -192,14 +192,14 @@ undead,curse toe,Tiny,Moan,Land,Undead,Human,MonNone,
 undead,death cob,Tiny,Moan,Land,Undead,Human,MonNone,
 undead,revenant,Medium,Moan,Land,Undead,Human,MonNone,
 angelic,angel,Medium,Shout,Land,Holy,Human,MonEquipment,
-angelic,cherub,Medium,Shout,Land,Holy,Human,MonEquipment,Fly
+angelic,cherub,Medium,Shout,Land,Holy,Human,MonEquipment,"Archer,Fly"
 angelic,seraph,Medium,Shout,Land,Holy,Human,MonEquipment,Fly
 angelic,daeva,Medium,Shout,Land,Holy,Human,MonEquipment,Fly
 angelic,profane servitor,Medium,Silent,Land,Undead,Human,MonEquipment,Fly
 beetle,giant cockroach,Small,Silent,Land,Natural,Human,MonNone,
 beetle,bombardier beetle,Small,Silent,Land,Natural,Animal,MonNone,
 beetle,radroach,Small,Silent,Land,Natural,Animal,MonNone,
-beetle,formicid,Medium,Shout,Land,Natural,Human,MonNone,NoSpawn
+beetle,formicid,Medium,Shout,Land,Natural,Human,MonNone,
 beetle,entropy weaver,Medium,Shout,Land,Natural,Human,MonNone,
 beetle,boulder beetle,Large,Silent,Land,Natural,Animal,MonNone,
 beetle,pharaoh ant,Medium,Moan,Land,Undead,Animal,MonNone,
@@ -236,11 +236,11 @@ elemental,air elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
 elemental,iron elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,
 elemental,elemental wellspring,Large,Silent,Land,NonLiving,Mindless,MonNone,NoMove
 frog,bullfrog,Medium,Croak,Amphibious,Natural,Animal,MonNone,
-frog,cane toad,Medium,Croak,Amphibious,Natural,Animal,MonNone,
+frog,cane toad,Medium,Croak,Amphibious,Natural,Animal,MonNone,Archer
 frog,blink frog,Medium,Croak,Amphibious,Natural,Animal,MonNone,
-frog,goliath frog,Small,Silent,Amphibious,Natural,Animal,MonNone,
+frog,goliath frog,Small,Silent,Amphibious,Natural,Animal,MonNone,Archer
 frog,skyshark,Large,Shout,Land,Natural,Animal,MonNone,
-frog,barachi,Medium,Shout,Amphibious,Natural,Human,MonNone,NoSpawn
+frog,barachi,Medium,Shout,Amphibious,Natural,Human,MonNone,
 eye,glass eye,Medium,Silent,Land,Natural,Mindless,MonNone,Fly
 eye,glowing orange brain,Medium,Silent,Land,Natural,Human,MonDoor,Fly
 eye,great orb of eyes,Medium,Silent,Land,Natural,Human,MonNone,Fly
@@ -279,7 +279,7 @@ mummy,royal mummy,Medium,Silent,Land,Undead,Human,MonEquipment,
 mummy,mummy priest,Medium,Silent,Land,Undead,Human,MonEquipment,
 naga,naga,Large,Shout,Land,Natural,Human,MonEquipment,
 naga,naga mage,Large,Shout,Land,Natural,Human,MonEquipment,
-naga,naga sharpshooter,Large,Shout,Land,Natural,Human,MonEquipment,
+naga,naga sharpshooter,Large,Shout,Land,Natural,Human,MonEquipment,Archer
 naga,naga ritualist,Large,Shout,Land,Natural,Human,MonEquipment,
 naga,naga warrior,Large,Shout,Land,Natural,Human,MonEquipment,
 naga,nagaraja,Large,Shout,Land,Natural,Human,MonEquipment,
@@ -459,34 +459,12 @@ spell,creeping inferno,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Inc
 spell,orb of destruction,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,Fly,NoXP"
 spell,foxfire,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Incorporeal,NoMove,NoXP"
 spell,fulminant prism,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,NoMove,NoXP"
-spell,wretched star,Small,Silent,Land,NonLiving,Mindless,MonNone,"Fly,NoXP"
-spell,battlesphere,Small,Silent,Land,NonLiving,Mindless,MonNone,"Fly,NoXP"
-spell,boulder,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,NoXP"
+spell,wretched star,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Fly,NoXP"
+spell,battlesphere,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Fly,NoXP"
+spell,boulder,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,NoMove,NoXP"
 spell,aspiring flesh,Small,Silent,Land,Natural,Mindless,MonNone,"NoSpawn,NoMove,NoXP"
 spell,blazeheart core,Small,Silent,Land,NonLiving,Mindless,MonNone,"NoSpawn,Fly,NoXP"
-npc,scrawny cat,Small,Meow,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
-npc,scruffy dog,Small,Bark,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
-npc,horse,Medium,Neigh,Land,Natural,Animal,MonNone,"NPC,NoXP"
-npc,sheep,Medium,Bleat,Land,Natural,Animal,MonNone,"NPC,Feral,NoXP"
-npc,barbarian,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,bard,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,cleric,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,druid,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,fighter,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,monk,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,paladin,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,ranger,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,rogue,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,sorcerer,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,warlock,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,wizard,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoXP"
-npc,Heinz the Weaponsmith,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
-npc,Felix the Fletcher,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
-npc,Stori the Blacksmith,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
-npc,Rolf the Runesmith,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
-npc,Bruno's General Store,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
-npc,Wilder the Haberdasher,Medium,Hello,Land,Natural,Human,MonEquipment,"NPC,NoMove,NoXP"
-player,Player,Medium,Shout,Land,Natural,Human,MonEquipment,NoSpawn
+player,Player,Medium,Shout,Land,Natural,Human,MonEquipment,NPC
 boss,Balor,Large,Shout,Land,Demonic,Human,MonNone,Fly
 boss,Tarrasque,Giant,Hiss,Amphibious,Natural,Human,MonNone,
 boss,Witch-King,Medium,Shout,Land,Undead,Human,MonEquipment,Fly
