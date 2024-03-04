@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Stealth",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Stealth",
+    "Resistance": "",
+    "Skill": "rune",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ARM_STRENGTH",
+    "Type": "Rune",
+    "Value": "0"
+}

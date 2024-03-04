@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "",
+    "En": "20",
+    "Hit": "0",
+    "Name": "large rock",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "",
+    "Tile": "MI_LARGE_ROCK",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "20"
+}

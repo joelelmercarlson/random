@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Fly",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of flight",
+    "Resistance": "",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_3",
+    "Tile1": "RING_FLIGHT",
+    "Type": "Jewelry",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "10",
+    "Hit": "0",
+    "Name": "shield",
+    "Resistance": "",
+    "Skill": "shield",
+    "Spell": "",
+    "Tile": "ARM_KITE_SHIELD",
+    "Tile1": "",
+    "Type": "Shield",
+    "Value": "8"
+}

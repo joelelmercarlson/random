@@ -1,0 +1,14 @@
+{
+    "Damage": "Radiant",
+    "Detail": "Blessed",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Holy Wrath",
+    "Resistance": "",
+    "Skill": "brand",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_HOLY_WRATH",
+    "Type": "Brand",
+    "Value": "0"
+}

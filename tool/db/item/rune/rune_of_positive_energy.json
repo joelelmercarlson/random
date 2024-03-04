@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Life",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Positive Energy",
+    "Resistance": "",
+    "Skill": "rune",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ARM_POSITIVE_ENERGY",
+    "Type": "Rune",
+    "Value": "0"
+}

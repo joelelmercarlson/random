@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "pineapple",
+    "Resistance": "",
+    "Skill": "food",
+    "Spell": "Eat",
+    "Tile": "FOOD_FRUIT_FIRST_3",
+    "Tile1": "",
+    "Type": "Food",
+    "Value": "100"
+}

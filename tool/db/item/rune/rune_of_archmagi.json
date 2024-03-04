@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Mage",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Archmagi",
+    "Resistance": "",
+    "Skill": "rune",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ARM_ARCHMAGI",
+    "Type": "Rune",
+    "Value": "0"
+}

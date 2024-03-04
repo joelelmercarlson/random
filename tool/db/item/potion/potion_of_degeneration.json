@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of degeneration",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Degeneration",
+    "Tile": "POTION_OFFSET_6",
+    "Tile1": "POT_DEGENERATION",
+    "Type": "Potion",
+    "Value": "0"
+}

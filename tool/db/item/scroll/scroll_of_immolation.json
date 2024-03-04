@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of immolation",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Immolation",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_IMMOLATION",
+    "Type": "Scroll",
+    "Value": "0"
+}

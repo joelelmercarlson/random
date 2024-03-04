@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "Finesse",
+    "En": "14",
+    "Hit": "0",
+    "Name": "scimitar",
+    "Resistance": "",
+    "Skill": "longblade",
+    "Spell": "",
+    "Tile": "WPN_SCIMITAR",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "12"
+}

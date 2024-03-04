@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "14",
+    "Hit": "-3",
+    "Name": "lajatang",
+    "Resistance": "",
+    "Skill": "staff",
+    "Spell": "",
+    "Tile": "WPN_LAJATANG",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "16"
+}

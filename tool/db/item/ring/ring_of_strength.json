@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Strength",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of strength",
+    "Resistance": "",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_14",
+    "Tile1": "RING_STRENGTH",
+    "Type": "Jewelry",
+    "Value": "0"
+}

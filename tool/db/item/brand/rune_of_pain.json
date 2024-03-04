@@ -1,0 +1,14 @@
+{
+    "Damage": "Pain",
+    "Detail": "Cursed",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Pain",
+    "Resistance": "",
+    "Skill": "brand",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_PAIN",
+    "Type": "Brand",
+    "Value": "0"
+}

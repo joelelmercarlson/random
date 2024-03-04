@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "TwoHand",
+    "En": "20",
+    "Hit": "-2",
+    "Name": "triple crossbow",
+    "Resistance": "",
+    "Skill": "shoot",
+    "Spell": "",
+    "Tile": "WPN_TRIPLE_CROSSBOW",
+    "Tile1": "",
+    "Type": "Shoot",
+    "Value": "23"
+}

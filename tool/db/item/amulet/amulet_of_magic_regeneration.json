@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Mana",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Amulet of magic regeneration",
+    "Resistance": "",
+    "Skill": "amulet",
+    "Spell": "",
+    "Tile": "AMU_NORMAL_OFFSET_3",
+    "Tile1": "AMU_MANA_REGENERATION",
+    "Type": "Amulet",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "10",
+    "Hit": "0",
+    "Name": "poisoned dart",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "Poisoned",
+    "Tile": "MI_DART_POISONED",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "4"
+}

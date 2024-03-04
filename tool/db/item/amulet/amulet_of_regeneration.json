@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Life",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Amulet of regeneration",
+    "Resistance": "",
+    "Skill": "amulet",
+    "Spell": "",
+    "Tile": "AMU_NORMAL_OFFSET_5",
+    "Tile1": "AMU_REGENERATION",
+    "Type": "Amulet",
+    "Value": "0"
+}

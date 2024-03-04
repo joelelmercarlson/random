@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of might",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Might",
+    "Tile": "POTION_OFFSET_14",
+    "Tile1": "POT_MIGHT",
+    "Type": "Potion",
+    "Value": "0"
+}

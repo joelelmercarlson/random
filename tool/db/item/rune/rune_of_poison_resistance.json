@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Poison Resistance",
+    "Resistance": "poison",
+    "Skill": "rune",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ARM_POISON_RESISTANCE",
+    "Type": "Rune",
+    "Value": "0"
+}

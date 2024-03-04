@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Slay",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of slaying",
+    "Resistance": "",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_13",
+    "Tile1": "RING_SLAYING",
+    "Type": "Jewelry",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "TwoHand",
+    "En": "19",
+    "Hit": "-2",
+    "Name": "arbalest",
+    "Resistance": "",
+    "Skill": "shoot",
+    "Spell": "",
+    "Tile": "WPN_ARBALEST",
+    "Tile1": "",
+    "Type": "Shoot",
+    "Value": "16"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "Magic",
+    "Detail": "Spectral",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Spectral",
+    "Resistance": "",
+    "Skill": "brand",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_SPECTRAL",
+    "Type": "Brand",
+    "Value": "0"
+}

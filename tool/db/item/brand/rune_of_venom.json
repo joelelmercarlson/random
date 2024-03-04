@@ -1,0 +1,14 @@
+{
+    "Damage": "Poison",
+    "Detail": "Venom",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Venom",
+    "Resistance": "",
+    "Skill": "brand",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_VENOM",
+    "Type": "Brand",
+    "Value": "0"
+}

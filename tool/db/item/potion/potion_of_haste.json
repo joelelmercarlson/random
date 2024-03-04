@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of haste",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Haste",
+    "Tile": "POTION_OFFSET_9",
+    "Tile1": "POT_HASTE",
+    "Type": "Potion",
+    "Value": "0"
+}

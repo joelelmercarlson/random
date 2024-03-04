@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "15",
+    "Hit": "-3",
+    "Name": "halberd",
+    "Resistance": "",
+    "Skill": "polearm",
+    "Spell": "",
+    "Tile": "WPN_HALBERD",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "13"
+}

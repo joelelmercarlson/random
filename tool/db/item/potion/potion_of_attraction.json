@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of attraction",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Attraction",
+    "Tile": "POTION_OFFSET_1",
+    "Tile1": "POT_ATTRACTION",
+    "Type": "Potion",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of revelation",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "MagicMap",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_REVELATION",
+    "Type": "Scroll",
+    "Value": "0"
+}

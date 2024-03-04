@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "10",
+    "Hit": "0",
+    "Name": "curare dart",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "Petrified",
+    "Tile": "MI_DART_CURARE",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "4"
+}

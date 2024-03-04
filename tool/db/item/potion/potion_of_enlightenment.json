@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of enlightenment",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Enlightenment",
+    "Tile": "POTION_OFFSET_7",
+    "Tile1": "POT_ENLIGHTENMENT",
+    "Type": "Potion",
+    "Value": "0"
+}

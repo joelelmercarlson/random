@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "",
+    "En": "14",
+    "Hit": "0",
+    "Name": "sling",
+    "Resistance": "",
+    "Skill": "shoot",
+    "Spell": "",
+    "Tile": "WPN_SLING",
+    "Tile1": "",
+    "Type": "Shoot",
+    "Value": "7"
+}

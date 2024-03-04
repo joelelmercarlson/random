@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of summoning",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Summon",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_UNHOLY_CREATION",
+    "Type": "Scroll",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "Pain",
+    "Detail": "Fear",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Fear",
+    "Resistance": "",
+    "Skill": "brand",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_PARALYSIS",
+    "Type": "Brand",
+    "Value": "0"
+}

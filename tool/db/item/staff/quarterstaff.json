@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "TwoHand",
+    "En": "13",
+    "Hit": "3",
+    "Name": "quarterstaff",
+    "Resistance": "",
+    "Skill": "staff",
+    "Spell": "",
+    "Tile": "WPN_QUARTERSTAFF",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "10"
+}

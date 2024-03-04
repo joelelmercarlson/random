@@ -1,0 +1,14 @@
+{
+    "Damage": "Lightning",
+    "Detail": "Electric",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Electrocution",
+    "Resistance": "",
+    "Skill": "brand",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ELECTROCUTION",
+    "Type": "Brand",
+    "Value": "0"
+}

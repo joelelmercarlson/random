@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "lemon",
+    "Resistance": "",
+    "Skill": "food",
+    "Spell": "Eat",
+    "Tile": "FOOD_FRUIT_FIRST_5",
+    "Tile1": "",
+    "Type": "Food",
+    "Value": "100"
+}

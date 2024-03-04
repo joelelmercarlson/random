@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "TwoHand",
+    "En": "18",
+    "Hit": "-7",
+    "Name": "giant spiked club",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_GIANT_SPIKED_CLUB",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "22"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of amnesia",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Amnesia",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_AMNESIA",
+    "Type": "Scroll",
+    "Value": "0"
+}

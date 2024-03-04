@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Faith",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Amulet of faith",
+    "Resistance": "",
+    "Skill": "amulet",
+    "Spell": "",
+    "Tile": "AMU_NORMAL_OFFSET_1",
+    "Tile1": "AMU_FAITH",
+    "Type": "Amulet",
+    "Value": "0"
+}

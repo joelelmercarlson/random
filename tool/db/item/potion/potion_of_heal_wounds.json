@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of heal wounds",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Heal",
+    "Tile": "POTION_OFFSET_10",
+    "Tile1": "POT_HEAL_WOUNDS",
+    "Type": "Potion",
+    "Value": "0"
+}

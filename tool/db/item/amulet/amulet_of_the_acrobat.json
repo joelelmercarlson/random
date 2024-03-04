@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Acrobat",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Amulet of the acrobat",
+    "Resistance": "",
+    "Skill": "amulet",
+    "Spell": "",
+    "Tile": "AMU_NORMAL_OFFSET",
+    "Tile1": "AMU_ACROBAT",
+    "Type": "Amulet",
+    "Value": "0"
+}

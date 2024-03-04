@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "",
+    "En": "11",
+    "Hit": "4",
+    "Name": "spear",
+    "Resistance": "",
+    "Skill": "polearm",
+    "Spell": "",
+    "Tile": "WPN_SPEAR",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "6"
+}

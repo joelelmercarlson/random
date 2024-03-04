@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "ripe bananna",
+    "Resistance": "",
+    "Skill": "food",
+    "Spell": "Eat",
+    "Tile": "FOOD_FRUIT_FIRST_8",
+    "Tile1": "",
+    "Type": "Food",
+    "Value": "100"
+}

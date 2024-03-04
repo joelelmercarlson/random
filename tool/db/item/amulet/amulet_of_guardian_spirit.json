@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Faith",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Amulet of guardian spirit",
+    "Resistance": "",
+    "Skill": "amulet",
+    "Spell": "",
+    "Tile": "AMU_NORMAL_OFFSET_2",
+    "Tile1": "AMU_GUARDIAN_SPIRIT",
+    "Type": "Amulet",
+    "Value": "0"
+}

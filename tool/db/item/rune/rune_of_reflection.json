@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Reflect",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Reflection",
+    "Resistance": "",
+    "Skill": "rune",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ARM_REFLECTION",
+    "Type": "Rune",
+    "Value": "0"
+}

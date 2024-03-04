@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "",
+    "En": "11",
+    "Hit": "0",
+    "Name": "sacred scourge",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_SACRED_SCOURGE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "12"
+}

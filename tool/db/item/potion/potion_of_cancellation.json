@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of cancellation",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Recover",
+    "Tile": "POTION_OFFSET_4",
+    "Tile1": "POT_CURING",
+    "Type": "Potion",
+    "Value": "0"
+}

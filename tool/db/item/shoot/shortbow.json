@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "TwoHand",
+    "En": "15",
+    "Hit": "2",
+    "Name": "shortbow",
+    "Resistance": "",
+    "Skill": "shoot",
+    "Spell": "",
+    "Tile": "WPN_SHORTBOW",
+    "Tile1": "",
+    "Type": "Shoot",
+    "Value": "9"
+}

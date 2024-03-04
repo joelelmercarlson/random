@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "",
+    "En": "11",
+    "Hit": "1",
+    "Name": "demon whip",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_DEMON_WHIP",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "11"
+}
