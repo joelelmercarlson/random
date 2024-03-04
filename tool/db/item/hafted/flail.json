@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "",
+    "En": "14",
+    "Hit": "0",
+    "Name": "flail",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_FLAIL",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "10"
+}

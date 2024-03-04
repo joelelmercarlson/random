@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Rune of Fire Resistance",
+    "Resistance": "fire",
+    "Skill": "rune",
+    "Spell": "",
+    "Tile": "",
+    "Tile1": "BRAND_ARM_FIRE_RESISTANCE",
+    "Type": "Rune",
+    "Value": "0"
+}

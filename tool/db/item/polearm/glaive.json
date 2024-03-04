@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "17",
+    "Hit": "-3",
+    "Name": "glaive",
+    "Resistance": "",
+    "Skill": "polearm",
+    "Spell": "",
+    "Tile": "WPN_GLAIVE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "15"
+}

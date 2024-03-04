@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "15",
+    "Hit": "-1",
+    "Name": "double sword",
+    "Resistance": "",
+    "Skill": "longblade",
+    "Spell": "",
+    "Tile": "WPN_DOUBLE_SWORD",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "15"
+}

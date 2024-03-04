@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "19",
+    "Hit": "-6",
+    "Name": "bardache",
+    "Resistance": "",
+    "Skill": "polearm",
+    "Spell": "",
+    "Tile": "WPN_BARDICHE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "18"
+}

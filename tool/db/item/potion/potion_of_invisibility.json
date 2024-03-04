@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of invisibility",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Invisible",
+    "Tile": "POTION_OFFSET_11",
+    "Tile1": "POT_INVISIBILITY",
+    "Type": "Potion",
+    "Value": "0"
+}

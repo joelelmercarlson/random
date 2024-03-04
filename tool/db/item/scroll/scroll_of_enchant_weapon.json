@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of enchant weapon",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "EnchantWeapon",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_ENCHANT_WEAPON",
+    "Type": "Scroll",
+    "Value": "0"
+}

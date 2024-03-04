@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of protection from cold",
+    "Resistance": "cold",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_10",
+    "Tile1": "RING_PROTECTION_FROM_COLD",
+    "Type": "Jewelry",
+    "Value": "0"
+}

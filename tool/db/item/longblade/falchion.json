@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "Finesse",
+    "En": "13",
+    "Hit": "2",
+    "Name": "falchion",
+    "Resistance": "",
+    "Skill": "longblade",
+    "Spell": "",
+    "Tile": "WPN_FALCHION",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "8"
+}

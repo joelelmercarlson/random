@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of berserk rage",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Berserk",
+    "Tile": "POTION_OFFSET_2",
+    "Tile1": "POT_BERSERK_RAGE",
+    "Type": "Potion",
+    "Value": "0"
+}

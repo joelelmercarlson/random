@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "10",
+    "Hit": "0",
+    "Name": "datura dart",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "Stunned",
+    "Tile": "MI_DART_FRENZY",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "4"
+}

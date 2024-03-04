@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "pizza",
+    "Resistance": "",
+    "Skill": "food",
+    "Spell": "Eat",
+    "Tile": "FOOD_PIZZA",
+    "Tile1": "",
+    "Type": "Food",
+    "Value": "250"
+}

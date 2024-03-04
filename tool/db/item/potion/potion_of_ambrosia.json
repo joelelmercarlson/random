@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of ambrosia",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Ambrosia",
+    "Tile": "POTION_OFFSET",
+    "Tile1": "POT_AMBROSIA",
+    "Type": "Potion",
+    "Value": "0"
+}

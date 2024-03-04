@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "",
+    "En": "14",
+    "Hit": "3",
+    "Name": "mace",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_MACE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "8"
+}

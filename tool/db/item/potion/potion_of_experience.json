@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of experience",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Experience",
+    "Tile": "POTION_OFFSET_8",
+    "Tile1": "POT_EXPERIENCE",
+    "Type": "Potion",
+    "Value": "0"
+}

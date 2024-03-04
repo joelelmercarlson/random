@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of lignification",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Stone",
+    "Tile": "POTION_OFFSET_12",
+    "Tile1": "POT_LIGNIFY",
+    "Type": "Potion",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of silence",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Silence",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_SILENCE",
+    "Type": "Scroll",
+    "Value": "0"
+}

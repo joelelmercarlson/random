@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "",
+    "En": "13",
+    "Hit": "0",
+    "Name": "scythe",
+    "Resistance": "",
+    "Skill": "polearm",
+    "Spell": "",
+    "Tile": "WPN_SCYTHE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "13"
+}

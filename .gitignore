@@ -1,12 +1,13 @@
 dist
+dist-*
 cabal-dev
 *.o
 *.hi
+*.hie
 *.chi
 *.chs.h
 *.dyn_o
 *.dyn_hi
-.virtualenv
 .hpc
 .hsenv
 .cabal-sandbox/
@@ -14,11 +15,35 @@ cabal.sandbox.config
 *.prof
 *.aux
 *.hp
+*.eventlog
 .stack-work/
-*.swp
-.#*
-
-# data
-player.json
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
 
 .DS_Store
+*.swp
+
+# spacemacs
+.#*
+
+# python
+.cquery_cache/
+.DS_Store
+.vscode/
+
+*.sublime-workspace
+*.sublime-project
+games.d/
+
+bin/*
+lib/*
+pyvenv.cfg
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so

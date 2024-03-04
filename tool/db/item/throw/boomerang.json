@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "",
+    "En": "13",
+    "Hit": "0",
+    "Name": "boomerang",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "",
+    "Tile": "MI_BOOMERANG",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "6"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "",
+    "En": "15",
+    "Hit": "-2",
+    "Name": "morningstar",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_MORNINGSTAR",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "13"
+}

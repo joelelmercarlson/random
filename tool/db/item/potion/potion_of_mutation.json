@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of mutation",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Mutation",
+    "Tile": "POTION_OFFSET_15",
+    "Tile1": "POT_MUTATION",
+    "Type": "Potion",
+    "Value": "6"
+}

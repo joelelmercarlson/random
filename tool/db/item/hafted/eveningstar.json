@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "",
+    "En": "15",
+    "Hit": "-1",
+    "Name": "eveningstar",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_EVENINGSTAR",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "15"
+}

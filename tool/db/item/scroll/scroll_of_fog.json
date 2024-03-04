@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of fog",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Fog",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_NOISE",
+    "Type": "Scroll",
+    "Value": "0"
+}

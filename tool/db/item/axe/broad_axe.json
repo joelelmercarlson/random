@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "",
+    "En": "16",
+    "Hit": "-2",
+    "Name": "broad axe",
+    "Resistance": "",
+    "Skill": "axe",
+    "Spell": "",
+    "Tile": "WPN_BROAD_AXE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "13"
+}

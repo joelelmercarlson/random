@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "10",
+    "Hit": "0",
+    "Name": "net",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "Grappled",
+    "Tile": "MI_THROWING_NET",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "2"
+}

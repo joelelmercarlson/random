@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "",
+    "En": "11",
+    "Hit": "0",
+    "Name": "stone",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "",
+    "Tile": "MI_STONE",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "4"
+}

@@ -71,7 +71,6 @@ type Properties = Map Text Text
 -- | eEV          : Evasion
 -- | eWP          : WillPower
 -- | eBlock       : Block?
--- | eCorpse      : name of coprse tid
 -- | eMove        : Move?
 -- | eMP          : Mana Point
 -- | eMaxMP       : Max Mana Point
@@ -119,7 +118,6 @@ data EntityKind = EntityKind
   , eEV           :: Maybe Int
   , eWP           :: Maybe Int
   , eBlock        :: Maybe Bool
-  , eCorpse       :: Maybe Text
   , eMove         :: Maybe Bool
   , eHoly         :: Maybe EntityHoly
   , eMP           :: Maybe Int
@@ -174,7 +172,6 @@ mkEntityKind x p =
   , eEV = Just 0
   , eWP = Just 0
   , eBlock       = Just False
-  , eCorpse      = Nothing
   , eMove        = Just False
   , eMP          = Nothing
   , eMaxMP       = Nothing

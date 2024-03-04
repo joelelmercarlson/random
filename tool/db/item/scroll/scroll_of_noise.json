@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of noise",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Noise",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_NOISE",
+    "Type": "Scroll",
+    "Value": "0"
+}

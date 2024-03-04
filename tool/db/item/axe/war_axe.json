@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "",
+    "En": "15",
+    "Hit": "0",
+    "Name": "war axe",
+    "Resistance": "",
+    "Skill": "axe",
+    "Spell": "",
+    "Tile": "WPN_WAR_AXE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "11"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Wizard",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of wizardry",
+    "Resistance": "",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_16",
+    "Tile1": "RING_WIZARDRY",
+    "Type": "Jewelry",
+    "Value": "0"
+}

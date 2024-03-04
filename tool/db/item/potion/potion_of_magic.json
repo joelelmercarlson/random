@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of magic",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Quaff",
+    "Tile": "POTION_OFFSET_13",
+    "Tile1": "POT_MAGIC",
+    "Type": "Potion",
+    "Value": "0"
+}

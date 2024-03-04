@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "17",
+    "Hit": "-4",
+    "Name": "battleaxe",
+    "Resistance": "",
+    "Skill": "axe",
+    "Spell": "",
+    "Tile": "WPN_BATTLEAXE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "15"
+}

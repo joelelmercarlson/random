@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of resistance",
+    "Resistance": "acid:cold:fire:lightning",
+    "Skill": "potion",
+    "Spell": "Resistance",
+    "Tile": "POTION_OFFSET_16",
+    "Tile1": "POT_RESISTANCE",
+    "Type": "Potion",
+    "Value": "8"
+}

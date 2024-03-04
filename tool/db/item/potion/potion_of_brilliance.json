@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of brilliance",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Brilliance",
+    "Tile": "POTION_OFFSET_3",
+    "Tile1": "POT_BRILLIANCE",
+    "Type": "Potion",
+    "Value": "0"
+}

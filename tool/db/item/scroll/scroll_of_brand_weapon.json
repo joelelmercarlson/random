@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of brand weapon",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "BrandWeapon",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_BRAND_WEAPON",
+    "Type": "Scroll",
+    "Value": "0"
+}

@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "Finesse:Light",
+    "En": "10",
+    "Hit": "6",
+    "Name": "dagger",
+    "Resistance": "",
+    "Skill": "shortblade",
+    "Spell": "",
+    "Tile": "WPN_DAGGER",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "4"
+}

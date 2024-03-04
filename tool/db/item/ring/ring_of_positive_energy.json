@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Life",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of positive energy",
+    "Resistance": "necrotic",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_8",
+    "Tile1": "RING_LIFE_PROTECTION",
+    "Type": "Jewelry",
+    "Value": "0"
+}

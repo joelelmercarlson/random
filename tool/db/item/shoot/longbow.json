@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "TwoHand",
+    "En": "16",
+    "Hit": "0",
+    "Name": "longbow",
+    "Resistance": "",
+    "Skill": "shoot",
+    "Spell": "",
+    "Tile": "WPN_LONGBOW",
+    "Tile1": "",
+    "Type": "Shoot",
+    "Value": "13"
+}

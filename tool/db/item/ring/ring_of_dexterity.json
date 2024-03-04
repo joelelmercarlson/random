@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Dexterity",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of dexterity",
+    "Resistance": "",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET",
+    "Tile1": "RING_DEXTERITY",
+    "Type": "Jewelry",
+    "Value": "0"
+}

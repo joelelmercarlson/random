@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Mana",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Ring of magical power",
+    "Resistance": "",
+    "Skill": "ring",
+    "Spell": "",
+    "Tile": "RING_NORMAL_OFFSET_6",
+    "Tile1": "RING_MAGICAL_POWER",
+    "Type": "Jewelry",
+    "Value": "0"
+}

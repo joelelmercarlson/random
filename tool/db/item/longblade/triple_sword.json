@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "17",
+    "Hit": "-3",
+    "Name": "triple sword",
+    "Resistance": "",
+    "Skill": "longblade",
+    "Spell": "",
+    "Tile": "WPN_TRIPLE_SWORD",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "17"
+}

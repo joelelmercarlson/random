@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "",
+    "En": "13",
+    "Hit": "1",
+    "Name": "demon trident",
+    "Resistance": "",
+    "Skill": "polearm",
+    "Spell": "",
+    "Tile": "WPN_DEMON_TRIDENT",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "12"
+}

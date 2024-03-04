@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "TwoHand",
+    "En": "17",
+    "Hit": "-4",
+    "Name": "great mace",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_GREAT_MACE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "17"
+}

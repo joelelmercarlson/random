@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of enchant armor",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "EnchantArmor",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_ENCHANT_ARMOUR",
+    "Type": "Scroll",
+    "Value": "0"
+}

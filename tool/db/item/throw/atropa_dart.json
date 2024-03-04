@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "10",
+    "Hit": "0",
+    "Name": "atropa dart",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "Blinded",
+    "Tile": "MI_DART_BLINDING",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "4"
+}

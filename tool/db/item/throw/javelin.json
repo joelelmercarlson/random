@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "",
+    "En": "15",
+    "Hit": "0",
+    "Name": "javelin",
+    "Resistance": "",
+    "Skill": "throw",
+    "Spell": "",
+    "Tile": "MI_JAVELIN",
+    "Tile1": "",
+    "Type": "Throw",
+    "Value": "10"
+}

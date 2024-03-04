@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "19",
+    "Hit": "-6",
+    "Name": "executioners axe",
+    "Resistance": "",
+    "Skill": "axe",
+    "Spell": "",
+    "Tile": "WPN_EXECUTIONERS_AXE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "18"
+}

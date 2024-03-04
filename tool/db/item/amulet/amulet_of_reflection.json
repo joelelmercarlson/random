@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "Reflect",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Amulet of reflection",
+    "Resistance": "",
+    "Skill": "amulet",
+    "Spell": "",
+    "Tile": "AMU_NORMAL_OFFSET_4",
+    "Tile1": "AMU_REFLECTION",
+    "Type": "Amulet",
+    "Value": "0"
+}

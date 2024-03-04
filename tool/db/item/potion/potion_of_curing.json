@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Potion of curing",
+    "Resistance": "",
+    "Skill": "potion",
+    "Spell": "Cure",
+    "Tile": "POTION_OFFSET_5",
+    "Tile1": "POT_CURING",
+    "Type": "Potion",
+    "Value": "0"
+}

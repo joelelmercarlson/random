@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "TwoHand",
+    "En": "12",
+    "Hit": "-2",
+    "Name": "great sword",
+    "Resistance": "",
+    "Skill": "longblade",
+    "Spell": "",
+    "Tile": "WPN_GREAT_SWORD",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "14"
+}

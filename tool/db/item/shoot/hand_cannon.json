@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "",
+    "En": "19",
+    "Hit": "3",
+    "Name": "hand cannon",
+    "Resistance": "",
+    "Skill": "shoot",
+    "Spell": "",
+    "Tile": "WPN_HAND_CANNON",
+    "Tile1": "",
+    "Type": "Shoot",
+    "Value": "15"
+}

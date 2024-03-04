@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "Scroll of poison",
+    "Resistance": "",
+    "Skill": "scroll",
+    "Spell": "Poisoned",
+    "Tile": "SCROLL",
+    "Tile1": "SCR_POISON",
+    "Type": "Scroll",
+    "Value": "0"
+}

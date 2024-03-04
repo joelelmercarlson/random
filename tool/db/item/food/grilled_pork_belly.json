@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "0",
+    "Hit": "0",
+    "Name": "grilled pork belly",
+    "Resistance": "",
+    "Skill": "food",
+    "Spell": "Eat",
+    "Tile": "FOOD_CHUNK",
+    "Tile1": "",
+    "Type": "Food",
+    "Value": "500"
+}

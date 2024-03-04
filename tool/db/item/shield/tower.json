@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "15",
+    "Hit": "0",
+    "Name": "tower",
+    "Resistance": "",
+    "Skill": "shield",
+    "Spell": "",
+    "Tile": "ARM_TOWER_SHIELD",
+    "Tile1": "",
+    "Type": "Shield",
+    "Value": "13"
+}

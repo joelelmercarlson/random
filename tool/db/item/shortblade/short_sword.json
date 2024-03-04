@@ -1,0 +1,14 @@
+{
+    "Damage": "Piercing",
+    "Detail": "Finesse:Light",
+    "En": "11",
+    "Hit": "4",
+    "Name": "short sword",
+    "Resistance": "",
+    "Skill": "shortblade",
+    "Spell": "",
+    "Tile": "WPN_SHORT_SWORD",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "6"
+}

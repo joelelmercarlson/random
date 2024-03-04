@@ -1,0 +1,14 @@
+{
+    "Damage": "Slashing",
+    "Detail": "Light",
+    "En": "13",
+    "Hit": "3",
+    "Name": "hand axe",
+    "Resistance": "",
+    "Skill": "axe",
+    "Spell": "",
+    "Tile": "WPN_HAND_AXE",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "7"
+}

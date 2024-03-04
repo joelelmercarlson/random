@@ -1,0 +1,14 @@
+{
+    "Damage": "Bludgeoning",
+    "Detail": "Light",
+    "En": "13",
+    "Hit": "3",
+    "Name": "club",
+    "Resistance": "",
+    "Skill": "hafted",
+    "Spell": "",
+    "Tile": "WPN_CLUB",
+    "Tile1": "",
+    "Type": "Melee",
+    "Value": "5"
+}

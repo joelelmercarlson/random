@@ -1,0 +1,14 @@
+{
+    "Damage": "",
+    "Detail": "",
+    "En": "5",
+    "Hit": "0",
+    "Name": "acid dragon scales",
+    "Resistance": "acid",
+    "Skill": "armor",
+    "Spell": "",
+    "Tile": "ARM_ACID_DRAGON_ARMOUR",
+    "Tile1": "",
+    "Type": "Armor",
+    "Value": "6"
+}
