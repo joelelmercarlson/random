@@ -7,8 +7,8 @@
     "Resistance": "",
     "Skill": "scroll",
     "Spell": "Noise",
-    "Tile": "SCROLL",
-    "Tile1": "SCR_NOISE",
+    "Tile": "SCR_NOISE",
+    "Tile1": "",
     "Type": "Scroll",
     "Value": "0"
 }

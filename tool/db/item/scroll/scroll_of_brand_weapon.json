@@ -7,8 +7,8 @@
     "Resistance": "",
     "Skill": "scroll",
     "Spell": "BrandWeapon",
-    "Tile": "SCROLL",
-    "Tile1": "SCR_BRAND_WEAPON",
+    "Tile": "SCR_BRAND_WEAPON",
+    "Tile1": "",
     "Type": "Scroll",
     "Value": "0"
 }

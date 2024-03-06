@@ -7,8 +7,8 @@
     "Resistance": "",
     "Skill": "scroll",
     "Spell": "Immolation",
-    "Tile": "SCROLL",
-    "Tile1": "SCR_IMMOLATION",
+    "Tile": "SCR_IMMOLATION",
+    "Tile1": "",
     "Type": "Scroll",
     "Value": "0"
 }

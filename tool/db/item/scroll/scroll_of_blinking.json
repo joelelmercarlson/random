@@ -7,8 +7,8 @@
     "Resistance": "",
     "Skill": "scroll",
     "Spell": "PhaseDoor",
-    "Tile": "SCROLL",
-    "Tile1": "SCR_BLINKING",
+    "Tile": "SCR_BLINKING",
+    "Tile1": "",
     "Type": "Scroll",
     "Value": "0"
 }

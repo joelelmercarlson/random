@@ -7,8 +7,8 @@
     "Resistance": "",
     "Skill": "scroll",
     "Spell": "Identify",
-    "Tile": "SCROLL",
-    "Tile1": "SCR_IDENTIFY",
+    "Tile": "SCR_IDENTIFY",
+    "Tile1": "",
     "Type": "Scroll",
     "Value": "0"
 }

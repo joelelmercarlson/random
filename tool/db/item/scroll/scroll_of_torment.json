@@ -7,8 +7,8 @@
     "Resistance": "",
     "Skill": "scroll",
     "Spell": "Torment",
-    "Tile": "SCROLL",
-    "Tile1": "SCR_TORMENT",
+    "Tile": "SCR_TORMENT",
+    "Tile1": "",
     "Type": "Scroll",
     "Value": "0"
 }
