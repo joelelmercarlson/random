@@ -1,11 +1,11 @@
 ﻿Base,Name,Size,Emote,Habitat,Holy,Intelligence,Use,Detail
-ancient,imperial myrmdion,Medium,Shout,Land,Natural,Human,MonEquipment,
-ancient,servant of whispers,Medium,Shout,Land,Natural,Human,MonEquipment,
-ancient,ragged hierophant,Medium,Shout,Land,Natural,Human,MonEquipment,
+ancient,imperial myrmdion,Medium,Shout,Land,Natural,Human,MonEquipment,NoCorpse
+ancient,servant of whispers,Medium,Shout,Land,Natural,Human,MonEquipment,NoCorpse
+ancient,ragged hierophant,Medium,Shout,Land,Natural,Human,MonEquipment,NoCorpse
 bat,bat,Tiny,Silent,Land,Natural,Animal,MonNone,Feral:Fly
-bat,butterfly,Tiny,Silent,Land,Natural,Mindless,MonNone,Feral:Fly
-bat,vampire bat,Tiny,Silent,Land,Undead,Animal,MonNone,Feral:Fly
-bat,fire bat,Tiny,Silent,Land,Natural,Animal,MonNone,Feral:Fly
+bat,butterfly,Tiny,Silent,Land,Natural,Mindless,MonNone,Feral:Fly:NoCorpse
+bat,vampire bat,Tiny,Silent,Land,Undead,Animal,MonNone,Feral:Fly:NoCorpse
+bat,fire bat,Tiny,Silent,Land,Natural,Animal,MonNone,Feral:Fly:NoCorpse
 bat,bennu,Medium,Screech,Land,Natural,Human,MonNone,Fly
 bat,caustic shrike,Medium,Screech,Land,Natural,Animal,MonNone,Fly
 bat,shard shrike,Medium,Screech,Land,Natural,Animal,MonNone,Fly
@@ -45,10 +45,10 @@ elf,deep elf death mage,Medium,Shout,Land,Natural,Human,MonEquipment,
 elf,deep elf elementalist,Medium,Shout,Land,Natural,Human,MonEquipment,
 plant,sleepcap,Tiny,Silent,Land,Plant,Mindless,MonNone,Feral
 plant,wandering mushroom,Tiny,Silent,Land,Plant,Mindless,MonNone,Feral
-plant,deathcap,Tiny,Silent,Land,Undead,Mindless,MonNone,Feral
+plant,deathcap,Tiny,Silent,Land,Undead,Mindless,MonNone,
 plant,thorn hunter,Large,Silent,Amphibious,Plant,Animal,MonNone,
 plant,shambling mangrove,Giant,Silent,Amphibious,Plant,Human,MonNone,
-plant,vine stalker,Medium,Silent,Land,Natural,Mindless,MonNone,
+plant,vine stalker,Medium,Silent,Land,Natural,Mindless,MonNone,NoCorpse
 goblin,goblin,Small,Shout,Land,Natural,Human,MonEquipment,
 goblin,hobgoblin,Medium,Shout,Land,Natural,Human,MonEquipment,
 goblin,gnoll,Medium,Shout,Land,Natural,Human,MonEquipment,
@@ -255,14 +255,14 @@ hybrid,harpy,Medium,Shout,Land,Natural,Human,MonNone,Fly
 hybrid,jorogumo,Medium,Shout,Land,Natural,Human,MonDoor,
 hybrid,armataur,Large,Shout,Land,Natural,Human,MonNone,
 hybrid,mutant beast,Medium,Shout,Land,Natural,Animal,MonNone,
-jelly,endoplasm,Small,Silent,Land,Natural,Mindless,MonNone,Mob
-jelly,jelly,Small,Silent,Amphibious,Natural,Mindless,MonNone,Mob
-jelly,slime creature,Small,Silent,Amphibious,Natural,Mindless,MonNone,Mob
-jelly,formless jellyfish,Large,Silent,Land,Natural,Mindless,MonNone,
-jelly,rockslime,Giant,Silent,Amphibious,Natural,Mindless,MonNone,
-jelly,quicksilver ooze,Giant,Silent,Land,Natural,Mindless,MonNone,
-jelly,azure jelly,Small,Silent,Land,Natural,Mindless,MonNone,
-jelly,acid blob,Small,Silent,Land,Natural,Mindless,MonNone,Feral
+jelly,endoplasm,Small,Silent,Land,Natural,Mindless,MonNone,Mob:NoCorpse
+jelly,jelly,Small,Silent,Amphibious,Natural,Mindless,MonNone,Mob:NoCorpse
+jelly,slime creature,Small,Silent,Amphibious,Natural,Mindless,MonNone,Mob:NoCorpse
+jelly,formless jellyfish,Large,Silent,Land,Natural,Mindless,MonNone,NoCorpse
+jelly,rockslime,Giant,Silent,Amphibious,Natural,Mindless,MonNone,NoCorpse
+jelly,quicksilver ooze,Giant,Silent,Land,Natural,Mindless,MonNone,NoCorpse
+jelly,azure jelly,Small,Silent,Land,Natural,Mindless,MonNone,Mob:NoCorpse
+jelly,acid blob,Small,Silent,Land,Natural,Mindless,MonNone,Mob:NoCorpse
 kobold,kobold,Small,Shout,Land,Natural,Human,MonEquipment,
 kobold,kobold brigand,Small,Shout,Land,Natural,Human,MonEquipment,
 kobold,kobold demonologist,Small,Shout,Land,Natural,Human,MonEquipment,
@@ -354,7 +354,7 @@ wraith,phantasmal warrior,Medium,Silent,Land,Undead,Human,MonDoor,Incorporeal:Fl
 horror,large abomination,Large,Silent,Land,Undead,Mindless,MonNone,Feral
 horror,thrashing horror,Large,Roar,Land,NonLiving,Animal,MonNone,Feral
 horror,tentacled monstrosity,Giant,Silent,Amphibious,Demonic,Animal,MonNone,
-horror,orb guardian,Giant,Shout,Land,Natural,Human,MonNone,
+horror,orb guardian,Giant,Shout,Land,Natural,Human,MonNone,NoCorpse
 horror,tentacled starspawn,Giant,Shout,Land,NonLiving,Human,MonNone,
 horror,starspawn tentacle,Large,Shout,Land,NonLiving,Human,MonNone,
 horror,starspawn tentacle segment,Giant,Shout,Land,NonLiving,Human,MonNone,NoMove

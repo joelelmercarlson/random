@@ -12,7 +12,6 @@ cabal-version:       >=1.10
 library
   hs-source-dirs: src
   exposed-modules: Display
-                   , Save
                    , Engine.Arrow.Catch
                    , Engine.Arrow.World
                    , Game.Compass
@@ -47,7 +46,6 @@ executable random-rpg
   main-is:        Main.hs
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   other-modules: Display
-                 , Save
                  , Engine.Arrow.Catch
                  , Engine.Arrow.World
                  , Game.Compass

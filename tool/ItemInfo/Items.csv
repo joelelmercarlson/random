@@ -1,84 +1,84 @@
 ﻿Skill,Name,Type,Value,Hit,En,Tile,Tile1,Damage,Spell,Resistance,Detail
-shortblade,dagger,Melee,4,6,10,WPN_DAGGER,,Piercing,,,Finesse:Light
-shortblade,quick blade,Melee,5,6,7,WPN_QUICK_BLADE,,Piercing,,,Finesse:Light
-shortblade,short sword,Melee,6,4,11,WPN_SHORT_SWORD,,Piercing,,,Finesse:Light
-shortblade,rapier,Melee,7,4,12,WPN_RAPIER,,Piercing,,,Finesse
-longblade,falchion,Melee,8,2,13,WPN_FALCHION,,Piercing,,,Finesse
-longblade,long sword,Melee,10,1,14,WPN_LONG_SWORD,,Slashing,,,
-longblade,scimitar,Melee,12,0,14,WPN_SCIMITAR,,Slashing,,,Finesse
-longblade,demon blade,Melee,13,-1,13,WPN_DEMON_BLADE,,Slashing,,,
-longblade,great sword,Melee,14,-2,12,WPN_GREAT_SWORD,,Slashing,,,TwoHand
-longblade,double sword,Melee,15,-1,15,WPN_DOUBLE_SWORD,,Slashing,,,TwoHand
-longblade,triple sword,Melee,17,-3,17,WPN_TRIPLE_SWORD,,Slashing,,,TwoHand
-hafted,club,Melee,5,3,13,WPN_CLUB,,Bludgeoning,,,Light
-hafted,whip,Melee,6,2,11,WPN_WHIP,,Slashing,,,Finesse
-hafted,mace,Melee,8,3,14,WPN_MACE,,Bludgeoning,,,
-hafted,flail,Melee,10,0,14,WPN_FLAIL,,Bludgeoning,,,
-hafted,morningstar,Melee,13,-2,15,WPN_MORNINGSTAR,,Piercing,,,
-hafted,demon whip,Melee,11,1,11,WPN_DEMON_WHIP,,Slashing,,,
-hafted,sacred scourge,Melee,12,0,11,WPN_SACRED_SCOURGE,,Slashing,,,
-hafted,dire flail,Melee,13,-3,13,WPN_DIRE_FLAIL,,Bludgeoning,,,
-hafted,eveningstar,Melee,15,-1,15,WPN_EVENINGSTAR,,Bludgeoning,,,
-hafted,great mace,Melee,17,-4,17,WPN_GREAT_MACE,,Bludgeoning,,,TwoHand
-hafted,giant club,Melee,20,-6,16,WPN_GIANT_CLUB,,Bludgeoning,,,TwoHand
-hafted,giant spiked club,Melee,22,-7,18,WPN_GIANT_SPIKED_CLUB,,Bludgeoning,,,TwoHand
-axe,hand axe,Melee,7,3,13,WPN_HAND_AXE,,Slashing,,,Light
-axe,war axe,Melee,11,0,15,WPN_WAR_AXE,,Slashing,,,
-axe,broad axe,Melee,13,-2,16,WPN_BROAD_AXE,,Slashing,,,
-axe,battleaxe,Melee,15,-4,17,WPN_BATTLEAXE,,Slashing,,,TwoHand
-axe,executioners axe,Melee,18,-6,19,WPN_EXECUTIONERS_AXE,,Slashing,,,TwoHand
-polearm,spear,Melee,6,4,11,WPN_SPEAR,,Piercing,,,
-polearm,trident,Melee,9,1,13,WPN_TRIDENT,,Piercing,,,
-polearm,halberd,Melee,13,-3,15,WPN_HALBERD,,Slashing,,,TwoHand
-polearm,demon trident,Melee,12,1,13,WPN_DEMON_TRIDENT,,Piercing,,,
-polearm,scythe,Melee,13,0,13,WPN_SCYTHE,,Slashing,,,
-polearm,glaive,Melee,15,-3,17,WPN_GLAIVE,,Slashing,,,TwoHand
-polearm,bardache,Melee,18,-6,19,WPN_BARDICHE,,Slashing,,,TwoHand
-staff,staff,Melee,5,5,12,WPN_STAFF,,Bludgeoning,,,
-staff,quarterstaff,Melee,10,3,13,WPN_QUARTERSTAFF,,Bludgeoning,,,TwoHand
-staff,lajatang,Melee,16,-3,14,WPN_LAJATANG,,Slashing,,,TwoHand
-shoot,sling,Shoot,7,0,14,WPN_SLING,,Bludgeoning,,,
-shoot,shortbow,Shoot,9,2,15,WPN_SHORTBOW,,Piercing,,,TwoHand
-shoot,longbow,Shoot,13,0,16,WPN_LONGBOW,,Piercing,,,TwoHand
-shoot,arbalest,Shoot,16,-2,19,WPN_ARBALEST,,Piercing,,,TwoHand
-shoot,hand cannon,Shoot,15,3,19,WPN_HAND_CANNON,,Piercing,,,
-shoot,triple crossbow,Shoot,23,-2,20,WPN_TRIPLE_CROSSBOW,,Piercing,,,TwoHand
-throw,stone,Throw,4,0,11,MI_STONE,,Bludgeoning,,,
-throw,atropa dart,Throw,4,0,10,MI_DART_BLINDING,,,Blinded,,
-throw,curare dart,Throw,4,0,10,MI_DART_CURARE,,,Petrified,,
-throw,datura dart,Throw,4,0,10,MI_DART_FRENZY,,,Stunned,,
-throw,poisoned dart,Throw,4,0,10,MI_DART_POISONED,,,Poisoned,,
-throw,boomerang,Throw,6,0,13,MI_BOOMERANG,,Slashing,,,
-throw,javelin,Throw,10,0,15,MI_JAVELIN,,Piercing,,,
-throw,large rock,Throw,20,0,20,MI_LARGE_ROCK,,Bludgeoning,,,
-throw,net,Throw,2,0,10,MI_THROWING_NET,,,Grappled,,
-armor,robe,Armor,2,0,0,ARM_ROBE,,,,,
-armor,leather,Armor,3,0,4,ARM_LEATHER_ARMOUR,,,,,
-armor,ring mail,Armor,5,0,7,ARM_RING_MAIL,,,,,
-armor,scale mail,Armor,6,0,10,ARM_SCALE_MAIL,,,,,
-armor,chain mail,Armor,8,0,14,ARM_CHAIN_MAIL,,,,,
-armor,plate,Armor,10,0,18,ARM_PLATE_ARMOUR,,,,,
-armor,crystal plate armor,Armor,14,0,23,ARM_CRYSTAL_PLATE_ARMOUR,,,,,
-armor,animal skin,Armor,2,0,0,ARM_ANIMAL_SKIN,,,,,
-armor,troll leather armor,Armor,4,0,4,ARM_TROLL_LEATHER_ARMOUR,,,,,
-armor,steam dragon scales,Armor,5,0,0,ARM_STEAM_DRAGON_ARMOUR,,,,acid,
-armor,acid dragon scales,Armor,6,0,5,ARM_ACID_DRAGON_ARMOUR,,,,acid,
-armor,swamp dragon scales,Armor,7,0,7,ARM_SWAMP_DRAGON_ARMOUR,,,,poison,
-armor,quicksilver dragon scales,Armor,9,0,7,ARM_QUICKSILVER_DRAGON_ARMOUR,,,,lightning,
-armor,fire dragon scales,Armor,8,0,11,ARM_FIRE_DRAGON_ARMOUR,,,,fire,
-armor,ice dragon scales,Armor,9,0,11,ARM_ICE_DRAGON_ARMOUR,,,,cold,
-armor,pearl dragon scales,Armor,10,0,11,ARM_PEARL_DRAGON_ARMOUR,,,,fire,
-armor,storm dragon scales,Armor,10,0,15,ARM_STORM_DRAGON_ARMOUR,,,,lightning,
-armor,shadow dragon scales,Armor,11,0,15,ARM_SHADOW_DRAGON_ARMOUR,,,,necrotic,
-armor,gold dragon scales,Armor,12,0,23,ARM_GOLD_DRAGON_ARMOUR,,,,fire,
-shield,buckler,Shield,3,0,5,ARM_BUCKLER,,,,,
-shield,shield,Shield,8,0,10,ARM_KITE_SHIELD,,,,,
-shield,tower,Shield,13,0,15,ARM_TOWER_SHIELD,,,,,
+SHORT_BLADE,dagger,Melee,4,6,10,WPN_DAGGER,,Piercing,,,Finesse:Light:Stab
+SHORT_BLADE,quick blade,Melee,5,6,7,WPN_QUICK_BLADE,,Piercing,,,Finesse:Light:Stab
+SHORT_BLADE,short sword,Melee,6,4,11,WPN_SHORT_SWORD,,Piercing,,,Finesse:Light:Stab
+SHORT_BLADE,rapier,Melee,7,4,12,WPN_RAPIER,,Piercing,,,Finesse:Stab
+LONG_BLADE,falchion,Melee,8,2,13,WPN_FALCHION,,Piercing,,,Finesse
+LONG_BLADE,long sword,Melee,10,1,14,WPN_LONG_SWORD,,Slashing,,,
+LONG_BLADE,scimitar,Melee,12,0,14,WPN_SCIMITAR,,Slashing,,,Finesse
+LONG_BLADE,demon blade,Melee,13,-1,13,WPN_DEMON_BLADE,,Slashing,,,
+LONG_BLADE,great sword,Melee,14,-2,12,WPN_GREAT_SWORD,,Slashing,,,TwoHand
+LONG_BLADE,double sword,Melee,15,-1,15,WPN_DOUBLE_SWORD,,Slashing,,,TwoHand
+LONG_BLADE,triple sword,Melee,17,-3,17,WPN_TRIPLE_SWORD,,Slashing,,,TwoHand
+HAFTED,club,Melee,5,3,13,WPN_CLUB,,Bludgeoning,,,Light
+HAFTED,whip,Melee,6,2,11,WPN_WHIP,,Slashing,,,Finesse
+HAFTED,mace,Melee,8,3,14,WPN_MACE,,Bludgeoning,,,
+HAFTED,flail,Melee,10,0,14,WPN_FLAIL,,Bludgeoning,,,
+HAFTED,morningstar,Melee,13,-2,15,WPN_MORNINGSTAR,,Piercing,,,
+HAFTED,demon whip,Melee,11,1,11,WPN_DEMON_WHIP,,Slashing,,,
+HAFTED,sacred scourge,Melee,12,0,11,WPN_SACRED_SCOURGE,,Slashing,,,
+HAFTED,dire flail,Melee,13,-3,13,WPN_DIRE_FLAIL,,Bludgeoning,,,
+HAFTED,eveningstar,Melee,15,-1,15,WPN_EVENINGSTAR,,Bludgeoning,,,
+HAFTED,great mace,Melee,17,-4,17,WPN_GREAT_MACE,,Bludgeoning,,,TwoHand
+HAFTED,giant club,Melee,20,-6,16,WPN_GIANT_CLUB,,Bludgeoning,,,TwoHand
+HAFTED,giant spiked club,Melee,22,-7,18,WPN_GIANT_SPIKED_CLUB,,Bludgeoning,,,TwoHand
+AXE,hand axe,Melee,7,3,13,WPN_HAND_AXE,,Slashing,,,Light
+AXE,war axe,Melee,11,0,15,WPN_WAR_AXE,,Slashing,,,
+AXE,broad axe,Melee,13,-2,16,WPN_BROAD_AXE,,Slashing,,,
+AXE,battleaxe,Melee,15,-4,17,WPN_BATTLEAXE,,Slashing,,,TwoHand
+AXE,executioners axe,Melee,18,-6,19,WPN_EXECUTIONERS_AXE,,Slashing,,,TwoHand
+POLEARM,spear,Melee,6,4,11,WPN_SPEAR,,Piercing,,,
+POLEARM,trident,Melee,9,1,13,WPN_TRIDENT,,Piercing,,,
+POLEARM,halberd,Melee,13,-3,15,WPN_HALBERD,,Slashing,,,TwoHand
+POLEARM,demon trident,Melee,12,1,13,WPN_DEMON_TRIDENT,,Piercing,,,
+POLEARM,scythe,Melee,13,0,13,WPN_SCYTHE,,Slashing,,,
+POLEARM,glaive,Melee,15,-3,17,WPN_GLAIVE,,Slashing,,,TwoHand
+POLEARM,bardache,Melee,18,-6,19,WPN_BARDICHE,,Slashing,,,TwoHand
+STAFF,staff,Melee,5,5,12,WPN_STAFF,,Bludgeoning,,,
+STAFF,quarterstaff,Melee,10,3,13,WPN_QUARTERSTAFF,,Bludgeoning,,,TwoHand
+STAFF,lajatang,Melee,16,-3,14,WPN_LAJATANG,,Slashing,,,TwoHand
+SHOOT,sling,Shoot,7,0,14,WPN_SLING,,Bludgeoning,,,
+SHOOT,shortbow,Shoot,9,2,15,WPN_SHORTBOW,,Piercing,,,TwoHand
+SHOOT,longbow,Shoot,13,0,16,WPN_LONGBOW,,Piercing,,,TwoHand
+SHOOT,arbalest,Shoot,16,-2,19,WPN_ARBALEST,,Piercing,,,TwoHand
+SHOOT,hand cannon,Shoot,15,3,19,WPN_HAND_CANNON,,Piercing,,,
+SHOOT,triple crossbow,Shoot,23,-2,20,WPN_TRIPLE_CROSSBOW,,Piercing,,,TwoHand
+THROW,stone,Throw,4,0,11,MI_STONE,,Bludgeoning,,,
+THROW,atropa dart,Throw,4,0,10,MI_DART_BLINDING,,,Blinded,,
+THROW,curare dart,Throw,4,0,10,MI_DART_CURARE,,,Slowed,,
+THROW,datura dart,Throw,4,0,10,MI_DART_FRENZY,,,Confused,,
+THROW,poisoned dart,Throw,4,0,10,MI_DART_POISONED,BRAND_VENOM,,Poisoned,,
+THROW,boomerang,Throw,6,0,13,MI_BOOMERANG,,Slashing,,,
+THROW,javelin,Throw,10,0,15,MI_JAVELIN,,Piercing,,,
+THROW,large rock,Throw,20,0,20,MI_LARGE_ROCK,,Bludgeoning,,,
+THROW,net,Throw,2,0,10,MI_THROWING_NET,,,Grappled,,
+ARMOR,robe,Armor,2,0,0,ARM_ROBE,,,,,
+ARMOR,leather,Armor,3,0,4,ARM_LEATHER_ARMOUR,,,,,
+ARMOR,ring mail,Armor,5,0,7,ARM_RING_MAIL,,,,,
+ARMOR,scale mail,Armor,6,0,10,ARM_SCALE_MAIL,,,,,
+ARMOR,chain mail,Armor,8,0,14,ARM_CHAIN_MAIL,,,,,
+ARMOR,plate,Armor,10,0,18,ARM_PLATE_ARMOUR,,,,,
+ARMOR,crystal plate armor,Armor,14,0,23,ARM_CRYSTAL_PLATE_ARMOUR,,,,,
+ARMOR,animal skin,Armor,2,0,0,ARM_ANIMAL_SKIN,,,,,
+ARMOR,troll leather armor,Armor,4,0,4,ARM_TROLL_LEATHER_ARMOUR,,,,,
+ARMOR,steam dragon scales,Armor,5,0,0,ARM_STEAM_DRAGON_ARMOUR,,,,acid,
+ARMOR,acid dragon scales,Armor,6,0,5,ARM_ACID_DRAGON_ARMOUR,,,,acid,
+ARMOR,swamp dragon scales,Armor,7,0,7,ARM_SWAMP_DRAGON_ARMOUR,,,,poison,
+ARMOR,quicksilver dragon scales,Armor,9,0,7,ARM_QUICKSILVER_DRAGON_ARMOUR,,,,lightning,
+ARMOR,fire dragon scales,Armor,8,0,11,ARM_FIRE_DRAGON_ARMOUR,,,,fire,
+ARMOR,ice dragon scales,Armor,9,0,11,ARM_ICE_DRAGON_ARMOUR,,,,cold,
+ARMOR,pearl dragon scales,Armor,10,0,11,ARM_PEARL_DRAGON_ARMOUR,,,,fire,
+ARMOR,storm dragon scales,Armor,10,0,15,ARM_STORM_DRAGON_ARMOUR,,,,lightning,
+ARMOR,shadow dragon scales,Armor,11,0,15,ARM_SHADOW_DRAGON_ARMOUR,,,,necrotic,
+ARMOR,gold dragon scales,Armor,12,0,23,ARM_GOLD_DRAGON_ARMOUR,,,,fire,
+SHIELD,buckler,Shield,3,0,5,ARM_BUCKLER,,,,,
+SHIELD,kite shield,Shield,8,0,10,ARM_KITE_SHIELD,,,,,
+SHIELD,tower,Shield,13,0,15,ARM_TOWER_SHIELD,,,,,
 boots,boots,Boots,1,0,0,ARM_BOOTS,,,,,
 gloves,gloves,Gloves,1,0,0,ARM_GLOVES,,,,,
-helm,leather skullcap,Helmet,1,0,0,THELM_CAP,,,,,
-helm,helm,Helmet,1,0,0,THELM_HELM,,,,,
-helm,wide brimmed hat,Helmet,0,0,0,THELM_HAT_EXPLORER,,,,,
+helmet,leather skullcap,Helmet,1,0,0,THELM_CAP,,,,,
+helmet,helm,Helmet,1,0,0,THELM_HELM,,,,,
+helmet,wide brimmed hat,Helmet,0,0,0,THELM_HAT_EXPLORER,,,,,
 cloak,cloak,Cloak,1,0,0,ARM_CLOAK,,,,,
 cloak,fur lined cloak,Cloak,1,0,0,ARM_CLOAK_1,,,,,
 cloak,elven cloak,Cloak,1,0,0,ARM_CLOAK_2,,,,,
@@ -99,42 +99,23 @@ brand,Rune of Spectral,Brand,0,0,0,,BRAND_SPECTRAL,Magic,,,Spectral
 brand,Rune of Speed,Brand,0,0,0,,BRAND_SPEED,,,,Speed
 brand,Rune of Vampirisim,Brand,0,0,0,,BRAND_VAMPIRISM,Necrotic,,,Vamp
 brand,Rune of Venom,Brand,0,0,0,,BRAND_VENOM,Poison,,,Venom
-food,grilled pork belly,Food,500,0,0,FOOD_CHUNK,,,Eat,,
-food,half eaten apple,Food,100,0,0,FOOD_FRUIT_FIRST,,,Eat,,
-food,pear,Food,100,0,0,FOOD_FRUIT_FIRST_1,,,Eat,,
-food,banana,Food,100,0,0,FOOD_FRUIT_FIRST_2,,,Eat,,
-food,pineapple,Food,100,0,0,FOOD_FRUIT_FIRST_3,,,Eat,,
-food,grapes,Food,100,0,0,FOOD_FRUIT_FIRST_4,,,Eat,,
-food,lemon,Food,100,0,0,FOOD_FRUIT_FIRST_5,,,Eat,,
-food,orange,Food,100,0,0,FOOD_FRUIT_FIRST_6,,,Eat,,
-food,pear,Food,100,0,0,FOOD_FRUIT_FIRST_7,,,Eat,,
-food,ripe bananna,Food,100,0,0,FOOD_FRUIT_FIRST_8,,,Eat,,
-food,supply pack,Food,1000,0,0,FOOD_FRUIT_INVENTORY,,,Eat,,
-food,strawberry,Food,100,0,0,FOOD_FRUIT_LAST,,,Eat,,
-food,healing herbs,Food,250,0,0,FOOD_HONEYCOMB,,,Eat,,
-food,pizza,Food,250,0,0,FOOD_PIZZA,,,Eat,,
-food,bacon,Food,250,0,0,FOOD_PIZZA_1,,,Eat,,
-food,gruel,Food,500,0,0,FOOD_RATION,,,Eat,,
-food,pork shoulder,Food,750,0,0,FOOD_RATION,,,Eat,,
-food,grilled meat,Food,250,0,0,FOOD_RATION_1,,,Eat,,
-food,cheese wedge,Food,250,0,0,FOOD_RATION_2,,,Eat,,
-ring,Ring of dexterity,Jewelry,0,0,0,RING_NORMAL_OFFSET,RING_DEXTERITY,,,,Dexterity
-ring,Ring of evasion,Jewelry,0,0,0,RING_NORMAL_OFFSET_1,RING_EVASION,,,,Evasion
-ring,Ring of fire,Jewelry,0,0,0,RING_NORMAL_OFFSET_2,RING_FIRE,,,fire:VC,
-ring,Ring of flight,Jewelry,0,0,0,RING_NORMAL_OFFSET_3,RING_FLIGHT,,,,Fly
-ring,Ring of ice,Jewelry,0,0,0,RING_NORMAL_OFFSET_4,RING_ICE,,,cold:VF,
-ring,Ring of Intelligence,Jewelry,0,0,0,RING_NORMAL_OFFSET_5,RING_INTELLIGENCE,,,,Intelligence
-ring,Ring of magical power,Jewelry,0,0,0,RING_NORMAL_OFFSET_6,RING_MAGICAL_POWER,,,,Mana
-ring,Ring of poison resistance,Jewelry,0,0,0,RING_NORMAL_OFFSET_7,RING_POISON_RESISTANCE,,,poison,
-ring,Ring of positive energy,Jewelry,0,0,0,RING_NORMAL_OFFSET_8,RING_LIFE_PROTECTION,,,necrotic,Life
-ring,Ring of protection,Jewelry,0,0,0,RING_NORMAL_OFFSET_9,RING_PROTECTION,,,,Protection
-ring,Ring of protection from cold,Jewelry,0,0,0,RING_NORMAL_OFFSET_10,RING_PROTECTION_FROM_COLD,,,cold,
-ring,Ring of protection from fire,Jewelry,0,0,0,RING_NORMAL_OFFSET_11,RING_PROTECTION_FROM_FIRE,,,fire,
-ring,Ring of resist corrosion,Jewelry,0,0,0,RING_NORMAL_OFFSET_12,RING_RESIST_CORROSION,,,acid,
-ring,Ring of slaying,Jewelry,0,0,0,RING_NORMAL_OFFSET_13,RING_SLAYING,,,,Slay
-ring,Ring of strength,Jewelry,0,0,0,RING_NORMAL_OFFSET_14,RING_STRENGTH,,,,Strength
-ring,Ring of willpower,Jewelry,0,0,0,RING_NORMAL_OFFSET_15,RING_WILLPOWER,,,,WP
-ring,Ring of wizardry,Jewelry,0,0,0,RING_NORMAL_OFFSET_16,RING_WIZARDRY,,,,Wizard
+jewelry,Ring of dexterity,Jewelry,0,0,0,RING_NORMAL_OFFSET,RING_DEXTERITY,,,,Dexterity
+jewelry,Ring of evasion,Jewelry,0,0,0,RING_NORMAL_OFFSET_1,RING_EVASION,,,,Evasion
+jewelry,Ring of fire,Jewelry,0,0,0,RING_NORMAL_OFFSET_2,RING_FIRE,,,fire:VC,
+jewelry,Ring of flight,Jewelry,0,0,0,RING_NORMAL_OFFSET_3,RING_FLIGHT,,,,Fly
+jewelry,Ring of ice,Jewelry,0,0,0,RING_NORMAL_OFFSET_4,RING_ICE,,,cold:VF,
+jewelry,Ring of Intelligence,Jewelry,0,0,0,RING_NORMAL_OFFSET_5,RING_INTELLIGENCE,,,,Intelligence
+jewelry,Ring of magical power,Jewelry,0,0,0,RING_NORMAL_OFFSET_6,RING_MAGICAL_POWER,,,,Mana
+jewelry,Ring of poison resistance,Jewelry,0,0,0,RING_NORMAL_OFFSET_7,RING_POISON_RESISTANCE,,,poison,
+jewelry,Ring of positive energy,Jewelry,0,0,0,RING_NORMAL_OFFSET_8,RING_LIFE_PROTECTION,,,necrotic,Life
+jewelry,Ring of protection,Jewelry,0,0,0,RING_NORMAL_OFFSET_9,RING_PROTECTION,,,,Protection
+jewelry,Ring of protection from cold,Jewelry,0,0,0,RING_NORMAL_OFFSET_10,RING_PROTECTION_FROM_COLD,,,cold,
+jewelry,Ring of protection from fire,Jewelry,0,0,0,RING_NORMAL_OFFSET_11,RING_PROTECTION_FROM_FIRE,,,fire,
+jewelry,Ring of resist corrosion,Jewelry,0,0,0,RING_NORMAL_OFFSET_12,RING_RESIST_CORROSION,,,acid,
+jewelry,Ring of slaying,Jewelry,0,0,0,RING_NORMAL_OFFSET_13,RING_SLAYING,,,,Slay
+jewelry,Ring of strength,Jewelry,0,0,0,RING_NORMAL_OFFSET_14,RING_STRENGTH,,,,Strength
+jewelry,Ring of willpower,Jewelry,0,0,0,RING_NORMAL_OFFSET_15,RING_WILLPOWER,,,,WP
+jewelry,Ring of wizardry,Jewelry,0,0,0,RING_NORMAL_OFFSET_16,RING_WIZARDRY,,,,Wizard
 amulet,Amulet of the acrobat,Amulet,0,0,0,AMU_NORMAL_OFFSET,AMU_ACROBAT,,,,Acrobat
 amulet,Amulet of faith,Amulet,0,0,0,AMU_NORMAL_OFFSET_1,AMU_FAITH,,,,Faith
 amulet,Amulet of guardian spirit,Amulet,0,0,0,AMU_NORMAL_OFFSET_2,AMU_GUARDIAN_SPIRIT,,,,Faith

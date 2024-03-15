@@ -5,10 +5,10 @@
     "Hit": "0",
     "Name": "poisoned dart",
     "Resistance": "",
-    "Skill": "throw",
+    "Skill": "THROW",
     "Spell": "Poisoned",
     "Tile": "MI_DART_POISONED",
-    "Tile1": "",
+    "Tile1": "BRAND_VENOM",
     "Type": "Throw",
     "Value": "4"
 }

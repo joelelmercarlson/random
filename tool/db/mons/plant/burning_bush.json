@@ -1,7 +1,6 @@
 {
     "AC": "10",
     "Base": "plant",
-    "Description": "Giant plant (P)",
     "Detail": "NoMove:NoXP",
     "EV": "0",
     "Emote": "Silent",

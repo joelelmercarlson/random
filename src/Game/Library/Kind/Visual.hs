@@ -55,4 +55,10 @@ data VisualKind
   | VTarget4
   | VTarget5
   | VTrap
+  | VLightlyDamaged
+  | VModeratelyDamaged
+  | VHeavilyDamaged
+  | VSeverlyDamaged
+  | VAlmostDead
+  | VEmpty
   deriving (Show, Eq, Generic)

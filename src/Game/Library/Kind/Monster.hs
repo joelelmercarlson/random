@@ -31,7 +31,6 @@ instance ToJSON MonsterKind
 data MonsterData = MonsterData
   { _Ac :: Text
   , _Base :: Text
-  , _Description :: Text
   , _Detail :: Text
   , _Ev :: Text
   , _Emote :: Text
@@ -59,14 +58,13 @@ instance FromJSON MonsterData where
   parseJSON (Object v) = do
     x0  <- v .: "AC"
     x1  <- v .: "Base"
-    x2  <- v .: "Description"
-    x3  <- v .: "Detail"
-    x4  <- v .: "EV"
-    x5  <- v .: "Emote"
-    x6  <- v .: "HD"
-    x7  <- v .: "HP"
-    x8  <- v .: "Habitat"
-    x9  <- v .: "Holy"
+    x2  <- v .: "Detail"
+    x3  <- v .: "EV"
+    x4  <- v .: "Emote"
+    x5  <- v .: "HD"
+    x6  <- v .: "HP"
+    x7  <- v .: "Habitat"
+    x8  <- v .: "Holy"
     x10 <- v .: "Hurt0"
     x11 <- v .: "Hurt1"
     x12 <- v .: "Hurt2"
@@ -84,14 +82,13 @@ instance FromJSON MonsterData where
       MonsterData {
           _Ac = x0
           , _Base = x1
-          , _Description = x2
-          , _Detail = x3
-          , _Ev = x4
-          , _Emote = x5
-          , _Hd = x6
-          , _Hp = x7
-          , _Habitat = x8
-          , _Holy = x9
+          , _Detail = x2
+          , _Ev = x3
+          , _Emote = x4
+          , _Hd = x5
+          , _Hp = x6
+          , _Habitat = x7
+          , _Holy = x8
           , _Hurt0 = x10
           , _Hurt1 = x11
           , _Hurt2 = x12

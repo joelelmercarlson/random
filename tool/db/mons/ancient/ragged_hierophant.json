@@ -1,8 +1,7 @@
 {
     "AC": "0",
     "Base": "ancient",
-    "Description": "Medium ancient (a)",
-    "Detail": "",
+    "Detail": "NoCorpse",
     "EV": "10",
     "Emote": "Shout",
     "HD": "9",

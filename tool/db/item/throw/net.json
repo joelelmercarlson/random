@@ -5,7 +5,7 @@
     "Hit": "0",
     "Name": "net",
     "Resistance": "",
-    "Skill": "throw",
+    "Skill": "THROW",
     "Spell": "Grappled",
     "Tile": "MI_THROWING_NET",
     "Tile1": "",

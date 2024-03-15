@@ -5,7 +5,7 @@
     "Hit": "0",
     "Name": "ice dragon scales",
     "Resistance": "cold",
-    "Skill": "armor",
+    "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_ICE_DRAGON_ARMOUR",
     "Tile1": "",

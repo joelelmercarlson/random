@@ -1,8 +1,7 @@
 {
     "AC": "1",
     "Base": "bat",
-    "Description": "Tiny bat (b)",
-    "Detail": "Feral:Fly",
+    "Detail": "Feral:Fly:NoCorpse",
     "EV": "14",
     "Emote": "Silent",
     "HD": "3",

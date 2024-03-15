@@ -1,1 +1,21 @@
 *.json
+
+# python
+.cquery_cache/
+.DS_Store
+.vscode/
+
+*.sublime-workspace
+*.sublime-project
+games.d/
+
+bin/*
+lib/*
+pyvenv.cfg
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so

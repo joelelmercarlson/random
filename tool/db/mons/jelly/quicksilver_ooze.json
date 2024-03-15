@@ -1,8 +1,7 @@
 {
     "AC": "3",
     "Base": "jelly",
-    "Description": "Giant jelly (J)",
-    "Detail": "",
+    "Detail": "NoCorpse",
     "EV": "15",
     "Emote": "Silent",
     "HD": "13",

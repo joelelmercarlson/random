@@ -1,7 +1,6 @@
 {
     "AC": "2",
     "Base": "snake",
-    "Description": "Small snake (S)",
     "Detail": "Mob:Feral",
     "EV": "17",
     "Emote": "Hiss",

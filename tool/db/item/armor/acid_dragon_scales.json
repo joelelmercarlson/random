@@ -5,7 +5,7 @@
     "Hit": "0",
     "Name": "acid dragon scales",
     "Resistance": "acid",
-    "Skill": "armor",
+    "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_ACID_DRAGON_ARMOUR",
     "Tile1": "",

@@ -55,7 +55,7 @@ type Properties = Map Text Text
 -- | eHP       : Hit Point
 -- | eLvl      : Level, HD
 -- | eMaxHP    : Max HP
--- | eName     : unique name "melee/Dagger"
+-- | eName     : unique name "+0 dagger"
 -- | eXP       : Experience
 -- | ecolor    : MiniMap color
 -- | equipment : doff/don Items
@@ -67,9 +67,11 @@ type Properties = Map Text Text
 -- | coord     : Position
 -- | 'M' data
 -- | tid          : name of tile
+-- | tid1         : name of decorator tile
 -- | eAC          : ArmorClass
 -- | eEV          : Evasion
 -- | eWP          : WillPower
+-- | eBase        : Base mons
 -- | eBlock       : Block?
 -- | eMove        : Move?
 -- | eMP          : Mana Point
@@ -100,6 +102,8 @@ type Properties = Map Text Text
 -- | iDmgType : base damage type
 -- | iType    : type of Item
 -- | iFeature : Item feature
+-- | iSkill   : Skill
+-- | iSpell   : spell list
 data EntityKind = EntityKind
   { eHP       :: !Int
   , eLvl      :: !Int
@@ -114,9 +118,11 @@ data EntityKind = EntityKind
   , status    :: !Conditions
   , coord     :: !Point
   , tid           :: Maybe Text
+  , tid1          :: Maybe Text
   , eAC           :: Maybe Int
   , eEV           :: Maybe Int
   , eWP           :: Maybe Int
+  , eBase         :: Maybe Text
   , eBlock        :: Maybe Bool
   , eMove         :: Maybe Bool
   , eHoly         :: Maybe EntityHoly
@@ -145,6 +151,8 @@ data EntityKind = EntityKind
   , iDmgType :: Maybe EntityDmg
   , iType    :: Maybe EntityType
   , iFeature :: Maybe [EntityFeat]
+  , iSkill   :: Maybe EntityST
+  , iSpell   :: Maybe Text
   } deriving (Show, Eq, Generic)
 
 instance FromJSON EntityKind
@@ -167,16 +175,18 @@ mkEntityKind x p =
   , skill     = Map.empty
   , status    = Map.empty
   , coord     = p
-  , tid = Nothing
-  , eAC = Just 0
-  , eEV = Just 0
-  , eWP = Just 0
-  , eBlock       = Just False
-  , eMove        = Just False
-  , eMP          = Nothing
-  , eMaxMP       = Nothing
-  , eName        = Nothing
-  , eSpeed       = Nothing
+  , tid  = Nothing
+  , tid1 = Nothing
+  , eAC  = Just 0
+  , eEV  = Just 0
+  , eWP  = Just 0
+  , eBase  = Nothing
+  , eBlock = Just False
+  , eMove  = Just False
+  , eMP    = Nothing
+  , eMaxMP = Nothing
+  , eName  = Nothing
+  , eSpeed = Nothing
   , eResAcid      = Just 0
   , eResCold      = Just 0
   , eResFire      = Just 0
@@ -199,6 +209,8 @@ mkEntityKind x p =
   , iDmgType = Nothing
   , iType    = Nothing
   , iFeature = Nothing
+  , iSkill   = Nothing
+  , iSpell   = Nothing
   }
 
 -- | Entity sort
@@ -295,6 +307,7 @@ data EntityFeat
   = TwoHand
   | Light
   | Finesse
+  | Stab
   | Acrobat
   | Archer
   | Blessed
@@ -339,6 +352,7 @@ data EntityFeat
   | Venom
   | Wizard
   | WP
+  | Zapper
   | NoneFeat
   deriving (Ord, Read, Show, Eq, Generic)
 
@@ -373,9 +387,8 @@ data EntityST
   = Hurt
   | Awake
   | Blinded
-  | Charmed
+  | Confused
   | Deafened
-  | Exhaustion
   | Frightened
   | Grappled
   | Incapacitated
@@ -385,6 +398,7 @@ data EntityST
   | Poisoned
   | Prone
   | Restrained
+  | Slow
   | Stunned
   | Unconscious
   | Burnt
@@ -412,18 +426,23 @@ data EntityST
   | Strong
   | Will
   | ARMOR
+  | AXE
   | DODGE
   | EVOKE
+  | HAFTED
   | INVOKE
+  | LONG_BLADE
   | MELEE
+  | POLEARM
   | SHIELD
   | SHOOT
+  | SHORT_BLADE
+  | STAFF
   | STEALTH
   | THROW
   | COIN
   | DEPTH
   | ENERGY
-  | HUNGER
   | MAXDEPTH
   | PREVDEPTH
   | REGENERATE

@@ -1,8 +1,7 @@
 {
     "AC": "0",
     "Base": "jelly",
-    "Description": "Small jelly (J)",
-    "Detail": "Mob",
+    "Detail": "Mob:NoCorpse",
     "EV": "2",
     "Emote": "Silent",
     "HD": "3",

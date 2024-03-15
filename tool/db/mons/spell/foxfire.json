@@ -1,7 +1,6 @@
 {
     "AC": "0",
     "Base": "spell",
-    "Description": "Small orb (*)",
     "Detail": "NoSpawn:Incorporeal:NoMove:NoXP",
     "EV": "10",
     "Emote": "Silent",

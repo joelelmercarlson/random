@@ -5,7 +5,7 @@
     "Hit": "0",
     "Name": "atropa dart",
     "Resistance": "",
-    "Skill": "throw",
+    "Skill": "THROW",
     "Spell": "Blinded",
     "Tile": "MI_DART_BLINDING",
     "Tile1": "",
