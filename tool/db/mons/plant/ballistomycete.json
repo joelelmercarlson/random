@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "0",
-    "Spell": "Poison4",
+    "Spell": "MST_BALLISTOMYCETE",
     "Tile": "MONS_BALLISTOMYCETE",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "plant"
 }

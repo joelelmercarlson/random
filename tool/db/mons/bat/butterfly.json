@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_BUTTERFLY",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "bat"
 }

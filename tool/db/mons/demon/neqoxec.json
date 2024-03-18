@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_SMOKE_DEMON",
     "Tile": "MONS_NEQOXEC",
     "Use": "MonDoor",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

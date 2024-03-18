@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Lightning1",
+    "Spell": "MST_VAMPIRE_MAGE",
     "Tile": "MONS_VAMPIRE_MAGE",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "vampire"
 }

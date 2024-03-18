@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ALLIGATOR_SNAPPING_TURTLE",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "testudine"
 }

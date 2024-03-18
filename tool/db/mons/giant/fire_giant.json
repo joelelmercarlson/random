@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_FIRE_GIANT",
     "Tile": "MONS_FIRE_GIANT",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "giant"
 }

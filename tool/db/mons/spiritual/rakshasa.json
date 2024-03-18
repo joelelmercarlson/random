@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Fire3",
+    "Spell": "MST_RAKSHASA",
     "Tile": "MONS_RAKSHASA",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "spiritual"
 }

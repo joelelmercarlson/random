@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_RADROACH",
     "Tile": "MONS_RADROACH",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "beetle"
 }

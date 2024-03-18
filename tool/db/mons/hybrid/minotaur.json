@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_MINOTAUR",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "hybrid"
 }

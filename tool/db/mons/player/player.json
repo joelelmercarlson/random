@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_PLAYER_GHOST",
     "Use": "MonEquipment",
-    "WP": "10"
+    "WP": "10",
+    "\ufeffBase": "player"
 }

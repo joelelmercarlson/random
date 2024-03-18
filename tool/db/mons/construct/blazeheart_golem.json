@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_BLAZEHEART_GOLEM",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "construct"
 }

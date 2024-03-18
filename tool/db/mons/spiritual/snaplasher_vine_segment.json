@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_VINE_SEGMENT_N_S",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "spiritual"
 }

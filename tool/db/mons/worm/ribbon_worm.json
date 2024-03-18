@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "8",
-    "Spell": "",
+    "Spell": "MST_RIBBON_WORM",
     "Tile": "MONS_RIBBON_WORM",
     "Use": "MonNone",
-    "WP": "10"
+    "WP": "10",
+    "\ufeffBase": "worm"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "15",
-    "Spell": "",
+    "Spell": "MST_ANGEL",
     "Tile": "MONS_ANGEL",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "angelic"
 }

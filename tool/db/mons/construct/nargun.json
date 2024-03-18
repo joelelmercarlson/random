@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_NARGUN",
     "Tile": "MONS_NARGUN",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "construct"
 }

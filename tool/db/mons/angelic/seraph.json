@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "15",
-    "Spell": "",
+    "Spell": "MST_SERAPH",
     "Tile": "MONS_SERAPH",
     "Use": "MonEquipment",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "angelic"
 }

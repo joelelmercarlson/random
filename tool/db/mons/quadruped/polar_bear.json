@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_BEAR",
     "Tile": "MONS_POLAR_BEAR",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "quadruped"
 }

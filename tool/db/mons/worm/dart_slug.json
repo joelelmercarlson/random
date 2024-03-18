@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "7",
-    "Spell": "",
+    "Spell": "MST_DART_SLUG",
     "Tile": "MONS_DART_SLUG",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "worm"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "12",
-    "Spell": "Lightning1",
+    "Spell": "MST_WIND_DRAKE",
     "Tile": "MONS_WIND_DRAKE",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "drake"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_STOKER",
     "Tile": "MONS_STOKER",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "lich"
 }

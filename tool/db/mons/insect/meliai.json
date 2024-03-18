@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "20",
-    "Spell": "",
+    "Spell": "MST_MELIAI",
     "Tile": "MONS_MELIAI",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "insect"
 }

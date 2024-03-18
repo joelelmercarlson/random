@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_CERULEAN_IMP",
     "Use": "MonDoor",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "demon"
 }

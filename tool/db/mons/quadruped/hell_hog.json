@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "14",
-    "Spell": "Fire3",
+    "Spell": "MST_HELL_HOG",
     "Tile": "MONS_HELL_HOG",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "quadruped"
 }

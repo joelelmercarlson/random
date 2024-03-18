@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force3",
+    "Spell": "MST_GREAT_ORB_OF_EYES",
     "Tile": "MONS_GREAT_ORB_OF_EYES",
     "Use": "MonNone",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "eye"
 }

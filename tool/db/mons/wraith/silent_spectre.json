@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_SILENT_SPECTRE",
     "Use": "MonDoor",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "wraith"
 }

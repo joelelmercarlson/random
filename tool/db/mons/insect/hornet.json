@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_HORNET",
     "Use": "MonNone",
-    "WP": "30"
+    "WP": "30",
+    "\ufeffBase": "insect"
 }

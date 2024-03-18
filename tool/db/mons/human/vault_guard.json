@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_VAULT_GUARD",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "human"
 }

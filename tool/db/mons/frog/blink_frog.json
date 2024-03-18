@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "14",
-    "Spell": "",
+    "Spell": "MST_BLINKER",
     "Tile": "MONS_BLINK_FROG",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "frog"
 }

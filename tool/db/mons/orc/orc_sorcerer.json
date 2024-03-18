@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Lightning3",
+    "Spell": "MST_ORC_SORCERER",
     "Tile": "MONS_ORC_SORCERER",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "orc"
 }

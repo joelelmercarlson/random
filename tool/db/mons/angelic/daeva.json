@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_DAEVA",
     "Tile": "MONS_DAEVA",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "angelic"
 }

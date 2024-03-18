@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "BASE_DRACONIAN_PURPLE",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "draconian"
 }

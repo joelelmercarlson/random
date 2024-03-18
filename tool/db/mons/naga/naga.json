@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_NAGA",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "naga"
 }

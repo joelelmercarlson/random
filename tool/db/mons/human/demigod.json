@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_DEMIGOD",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "human"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Radiant4",
+    "Spell": "MST_BURIAL_ACOLYTE",
     "Tile": "MONS_BURIAL_ACOLYTE",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "human"
 }

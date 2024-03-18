@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_DREAM_SHEEP",
     "Tile": "MONS_DREAM_SHEEP",
     "Use": "MonNone",
-    "WP": "30"
+    "WP": "30",
+    "\ufeffBase": "yak"
 }

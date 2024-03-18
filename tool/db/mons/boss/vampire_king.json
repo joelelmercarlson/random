@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_ERESHKIGAL",
     "Tile": "MONS_ERESHKIGAL",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "boss"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_DREAD_LICH",
     "Tile": "MONS_DREAD_LICH",
     "Use": "MonEquipment",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "lich"
 }

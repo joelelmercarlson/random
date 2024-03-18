@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_HOBGOBLIN",
     "Use": "MonEquipment",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "goblin"
 }

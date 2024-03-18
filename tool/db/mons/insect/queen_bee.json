@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_QUEEN_BEE",
     "Tile": "MONS_QUEEN_BEE",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "insect"
 }

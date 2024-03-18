@@ -17,8 +17,9 @@
     "Shoot": "25:Pain",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_SATYR",
     "Tile": "MONS_SATYR",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "centaur"
 }

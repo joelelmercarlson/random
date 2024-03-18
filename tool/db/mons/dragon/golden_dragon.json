@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Fire1",
+    "Spell": "MST_GOLDEN_DRAGON",
     "Tile": "MONS_GOLDEN_DRAGON",
     "Use": "MonNone",
-    "WP": "180"
+    "WP": "180",
+    "\ufeffBase": "dragon"
 }

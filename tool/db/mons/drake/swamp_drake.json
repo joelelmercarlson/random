@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Poison1",
+    "Spell": "MST_SWAMP_DRAKE",
     "Tile": "MONS_SWAMP_DRAKE",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "drake"
 }

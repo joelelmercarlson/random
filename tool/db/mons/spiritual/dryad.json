@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_DRYAD",
     "Tile": "MONS_DRYAD",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "spiritual"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_GIANT_COCKROACH",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "beetle"
 }

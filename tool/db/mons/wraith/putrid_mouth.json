@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_PUTRID_MOUTH",
     "Tile": "MONS_PUTRID_MOUTH",
     "Use": "MonDoor",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "wraith"
 }

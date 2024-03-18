@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_BLINK_CLOSE",
     "Tile": "MONS_PHANTASMAL_WARRIOR",
     "Use": "MonDoor",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "wraith"
 }

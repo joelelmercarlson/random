@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_CRYSTAL_ECHIDNA",
     "Tile": "MONS_CRYSTAL_ECHIDNA",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "rat"
 }

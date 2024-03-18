@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_DEMONIC_PLANT",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "plant"
 }

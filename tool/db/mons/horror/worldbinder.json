@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "14",
-    "Spell": "",
+    "Spell": "MST_WORLDBINDER",
     "Tile": "MONS_WORLDBINDER",
     "Use": "MonDoor",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "horror"
 }

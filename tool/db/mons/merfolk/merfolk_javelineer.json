@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_MERFOLK_JAVELINEER",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "merfolk"
 }

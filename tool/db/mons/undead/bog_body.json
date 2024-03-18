@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_BOG_BODY",
     "Tile": "MONS_BOG_BODY",
     "Use": "MonDoor",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "undead"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_PROFANE_SERVITOR",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "angelic"
 }

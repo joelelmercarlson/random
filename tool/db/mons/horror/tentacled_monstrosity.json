@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_TENTACLED_MONSTROSITY",
     "Use": "MonNone",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "horror"
 }

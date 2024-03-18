@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_HARPY",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "hybrid"
 }

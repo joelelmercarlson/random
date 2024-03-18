@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "13",
-    "Spell": "Acid3",
+    "Spell": "MST_GOLDEN_EYE",
     "Tile": "MONS_GOLDEN_EYE",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "eye"
 }

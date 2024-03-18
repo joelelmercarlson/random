@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Fire1",
+    "Spell": "MST_FIRE_DRAGON_BREATH",
     "Tile": "MONS_FIRE_DRAGON",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "dragon"
 }

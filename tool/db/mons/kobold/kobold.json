@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_KOBOLD",
     "Use": "MonEquipment",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "kobold"
 }

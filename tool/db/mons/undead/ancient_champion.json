@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_ANCIENT_CHAMPION",
     "Tile": "MONS_ANCIENT_CHAMPION",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "undead"
 }

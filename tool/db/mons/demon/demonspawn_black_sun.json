@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Cold3",
+    "Spell": "MST_DEMONSPAWN_BLACK_SUN",
     "Tile": "MONS_DEMONSPAWN_BLACK_SUN",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

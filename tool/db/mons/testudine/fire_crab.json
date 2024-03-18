@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_FIRE_CRAB",
     "Tile": "MONS_FIRE_CRAB",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "testudine"
 }

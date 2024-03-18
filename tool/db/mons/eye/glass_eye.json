@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force3",
+    "Spell": "MST_GLASS_EYE",
     "Tile": "MONS_GLASS_EYE",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "eye"
 }

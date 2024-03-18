@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_ELEMENTAL_WELLSPRING",
     "Tile": "MONS_ELEMENTAL_WELLSPRING",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "elemental"
 }

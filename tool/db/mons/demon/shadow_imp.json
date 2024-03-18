@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_SHADOW_IMP",
     "Tile": "MONS_SHADOW_IMP",
     "Use": "MonDoor",
-    "WP": "10"
+    "WP": "10",
+    "\ufeffBase": "demon"
 }

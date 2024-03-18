@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_CEREBOV",
     "Tile": "MONS_CEREBOV",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "boss"
 }

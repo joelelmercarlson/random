@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force3",
+    "Spell": "MST_DEEP_ELF_SORCERER",
     "Tile": "MONS_DEEP_ELF_SORCERER",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "elf"
 }

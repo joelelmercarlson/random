@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_DEMONSPAWN_WARMONGER",
     "Tile": "MONS_DEMONSPAWN_WARMONGER",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

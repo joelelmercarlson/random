@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force3",
+    "Spell": "MST_ARCANIST",
     "Tile": "MONS_ARCANIST",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "human"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Acid3",
+    "Spell": "MST_NAGA_MAGE",
     "Tile": "MONS_NAGA_MAGE",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "naga"
 }

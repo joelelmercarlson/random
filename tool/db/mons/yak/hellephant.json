@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Giant",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_HELLEPHANT",
     "Tile": "MONS_HELLEPHANT",
     "Use": "MonNone",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "yak"
 }

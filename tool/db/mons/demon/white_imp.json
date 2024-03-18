@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_WHITE_IMP",
     "Tile": "MONS_WHITE_IMP",
     "Use": "MonDoor",
-    "WP": "10"
+    "WP": "10",
+    "\ufeffBase": "demon"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_DEATH_YAK",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "yak"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "7",
-    "Spell": "Necrotic3",
+    "Spell": "MST_SHINING_EYE",
     "Tile": "MONS_SHINING_EYE",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "eye"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Lightning4",
+    "Spell": "MST_ZAPPER",
     "Tile": "MONS_ELECTRIC_EEL",
     "Use": "MonNone",
-    "WP": "10"
+    "WP": "10",
+    "\ufeffBase": "snake"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "14",
-    "Spell": "",
+    "Spell": "MST_WAR_GARGOYLE",
     "Tile": "MONS_WAR_GARGOYLE",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "construct"
 }

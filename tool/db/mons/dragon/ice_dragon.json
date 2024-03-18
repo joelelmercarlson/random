@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Cold1",
+    "Spell": "MST_ICE_DRAGON_BREATH",
     "Tile": "MONS_ICE_DRAGON",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "dragon"
 }

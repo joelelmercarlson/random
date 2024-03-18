@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Fire3",
+    "Spell": "MST_DEMONSPAWN_BLOOD_SAINT",
     "Tile": "MONS_DEMONSPAWN_BLOOD_SAINT",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

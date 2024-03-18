@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_LINDWURM",
     "Tile": "MONS_LINDWURM",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "drake"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_MANA_VIPER",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "snake"
 }

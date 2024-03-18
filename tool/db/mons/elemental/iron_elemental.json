@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "6",
-    "Spell": "",
+    "Spell": "MST_IRON_ELEMENTAL",
     "Tile": "MONS_IRON_ELEMENTAL",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "elemental"
 }

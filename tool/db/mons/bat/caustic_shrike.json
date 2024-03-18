@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_CAUSTIC_SHRIKE",
     "Use": "MonNone",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "bat"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "12",
-    "Spell": "Zap",
+    "Spell": "MST_ACID_SPIT",
     "Tile": "MONS_ACID_BLOB",
     "Use": "MonNone",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "jelly"
 }

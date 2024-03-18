@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_METEORAN",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "human"
 }

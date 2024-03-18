@@ -17,8 +17,9 @@
     "Shoot": "17:Pain",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Acid3",
+    "Spell": "MST_NAGA_SHARPSHOOTER",
     "Tile": "MONS_NAGA_SHARPSHOOTER",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "naga"
 }

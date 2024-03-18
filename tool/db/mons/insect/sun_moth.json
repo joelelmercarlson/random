@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_SUN_MOTH",
     "Tile": "MONS_SUN_MOTH",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "insect"
 }

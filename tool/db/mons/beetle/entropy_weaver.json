@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_ENTROPY_WEAVER",
     "Tile": "MONS_ENTROPY_WEAVER",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "beetle"
 }

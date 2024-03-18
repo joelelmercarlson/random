@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_EMPEROR_SCORPION",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "spider"
 }

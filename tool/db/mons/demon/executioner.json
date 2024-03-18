@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "20",
-    "Spell": "",
+    "Spell": "MST_EXECUTIONER",
     "Tile": "MONS_EXECUTIONER",
     "Use": "MonDoor",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "demon"
 }

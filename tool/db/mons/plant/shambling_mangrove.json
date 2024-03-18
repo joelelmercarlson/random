@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Giant",
     "Speed": "8",
-    "Spell": "",
+    "Spell": "MST_SHAMBLING_MANGROVE",
     "Tile": "MONS_TREANT",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "plant"
 }

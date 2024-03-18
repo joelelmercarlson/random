@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Acid3",
+    "Spell": "MST_NAGA_RITUALIST",
     "Tile": "MONS_NAGA_RITUALIST",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "naga"
 }

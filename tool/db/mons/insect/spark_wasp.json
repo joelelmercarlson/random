@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "15",
-    "Spell": "",
+    "Spell": "MST_SPARK_WASP",
     "Tile": "MONS_SPARK_WASP",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "insect"
 }

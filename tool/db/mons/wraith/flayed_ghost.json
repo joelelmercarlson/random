@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_FLAYED_GHOST",
     "Tile": "MONS_FLAYED_GHOST",
     "Use": "MonDoor",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "wraith"
 }

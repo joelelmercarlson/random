@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "15",
-    "Spell": "Fire1",
+    "Spell": "",
     "Tile": "MONS_FIRE_VORTEX",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "vortice"
 }

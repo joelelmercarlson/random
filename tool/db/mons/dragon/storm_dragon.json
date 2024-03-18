@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "12",
-    "Spell": "Lightning1",
+    "Spell": "MST_STORM_DRAGON",
     "Tile": "MONS_STORM_DRAGON",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "dragon"
 }

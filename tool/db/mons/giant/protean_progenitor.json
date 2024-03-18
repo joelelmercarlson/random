@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "14",
-    "Spell": "",
+    "Spell": "MST_PROTEAN_PROGENITOR",
     "Tile": "MONS_PROTEAN_PROGENITOR",
     "Use": "MonDoor",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "giant"
 }

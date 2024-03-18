@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Lighting3",
+    "Spell": "MST_RAIJU",
     "Tile": "MONS_RAIJU",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "quadruped"
 }

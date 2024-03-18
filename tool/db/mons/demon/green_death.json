@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_GREEN_DEATH",
     "Tile": "MONS_GREEN_DEATH",
     "Use": "MonDoor",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "demon"
 }

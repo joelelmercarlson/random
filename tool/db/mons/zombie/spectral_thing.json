@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_SPECTRAL_SMALL",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "zombie"
 }

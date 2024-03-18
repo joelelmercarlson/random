@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_LOROCYPROCA",
     "Use": "MonDoor",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "demon"
 }

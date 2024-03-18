@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Necrotic3",
+    "Spell": "MST_ANNIHILATOR",
     "Tile": "MONS_DEEP_ELF_ANNIHILATOR",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "elf"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Necrotic3",
+    "Spell": "MST_DEMONSPAWN_CORRUPTER",
     "Tile": "MONS_DEMONSPAWN_CORRUPTER",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

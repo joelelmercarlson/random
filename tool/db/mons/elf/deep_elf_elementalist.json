@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Fire2",
+    "Spell": "MST_DEEP_ELF_ELEMENTALIST",
     "Tile": "MONS_DEEP_ELF_ELEMENTALIST",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "elf"
 }

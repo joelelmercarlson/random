@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Radiant3",
+    "Spell": "MST_DEEP_ELF_HIGH_PRIEST",
     "Tile": "MONS_DEEP_ELF_HIGH_PRIEST",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "elf"
 }

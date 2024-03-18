@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_SPRIGGAN_DEFENDER",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "spriggan"
 }

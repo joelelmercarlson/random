@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Zap",
+    "Spell": "MST_ZAPPER",
     "Tile": "MONS_LIGHTNING_SPIRE",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "construct"
 }

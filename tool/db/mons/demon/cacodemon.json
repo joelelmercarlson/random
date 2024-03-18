@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_BALRUG",
     "Tile": "MONS_CACODEMON",
     "Use": "MonDoor",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "demon"
 }

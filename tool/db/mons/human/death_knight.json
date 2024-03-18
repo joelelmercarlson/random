@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Necrotic2",
+    "Spell": "MST_DEATH_KNIGHT",
     "Tile": "MONS_DEATH_KNIGHT",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "human"
 }

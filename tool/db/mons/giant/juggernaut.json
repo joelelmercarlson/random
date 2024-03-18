@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_JUGGERNAUT",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "giant"
 }

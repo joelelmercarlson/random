@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_KRAKEN_TENTACLE_WATER",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "horror"
 }

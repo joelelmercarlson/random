@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_GHOST",
     "Use": "MonDoor",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "wraith"
 }

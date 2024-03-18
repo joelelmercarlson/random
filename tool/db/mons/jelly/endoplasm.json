@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_ENDOPLASM",
     "Tile": "MONS_ENDOPLASM",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "jelly"
 }

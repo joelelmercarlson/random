@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_FELID",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "quadruped"
 }

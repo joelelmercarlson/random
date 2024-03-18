@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "20",
-    "Spell": "",
+    "Spell": "MST_QUICKSILVER_DRAGON",
     "Tile": "MONS_QUICKSILVER_ELEMENTAL",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "elemental"
 }

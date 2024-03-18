@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "DJINNI_1",
     "Use": "MonEquipment",
-    "WP": "30"
+    "WP": "30",
+    "\ufeffBase": "spiritual"
 }

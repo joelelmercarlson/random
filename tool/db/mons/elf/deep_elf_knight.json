@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_DEEP_ELF_KNIGHT",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "elf"
 }

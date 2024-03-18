@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_EIDOLON",
     "Tile": "MONS_EIDOLON",
     "Use": "MonDoor",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "wraith"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_WATER_NYMPH",
     "Tile": "MONS_WATER_NYMPH",
     "Use": "MonDoor",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "merfolk"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "7",
-    "Spell": "Lightning3",
+    "Spell": "MST_EYE_OF_DEVASTATION",
     "Tile": "MONS_EYE_OF_DEVASTATION",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "eye"
 }

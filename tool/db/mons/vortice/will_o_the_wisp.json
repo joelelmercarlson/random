@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_WILL_O_THE_WISP",
     "Tile": "MONS_WILL_O_THE_WISP",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "vortice"
 }

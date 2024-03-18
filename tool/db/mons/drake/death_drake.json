@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "13",
-    "Spell": "",
+    "Spell": "MST_DEATH_DRAKE",
     "Tile": "MONS_DEATH_DRAKE",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "drake"
 }

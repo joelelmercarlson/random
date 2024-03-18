@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_SKELETON_MEDIUM",
     "Use": "MonNone",
-    "WP": "-1"
+    "WP": "-1",
+    "\ufeffBase": "zombie"
 }

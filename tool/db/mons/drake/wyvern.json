@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_WYVERN",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "drake"
 }

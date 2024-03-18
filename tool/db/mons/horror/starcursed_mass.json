@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_STARCURSED_MASS",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "horror"
 }

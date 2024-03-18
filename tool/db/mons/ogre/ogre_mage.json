@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Acid2",
+    "Spell": "MST_OGRE_MAGE",
     "Tile": "MONS_OGRE_MAGE",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "ogre"
 }

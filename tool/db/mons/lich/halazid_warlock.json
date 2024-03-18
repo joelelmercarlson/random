@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_HALAZID_WARLOCK",
     "Tile": "MONS_HALAZID_WARLOCK",
     "Use": "MonEquipment",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "lich"
 }

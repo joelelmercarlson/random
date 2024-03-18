@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ANCIENT_ZYME",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "horror"
 }

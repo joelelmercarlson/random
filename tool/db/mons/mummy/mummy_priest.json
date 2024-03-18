@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "8",
-    "Spell": "Necrotic1",
+    "Spell": "MST_MUMMY_PRIEST",
     "Tile": "MONS_MUMMY_PRIEST",
     "Use": "MonEquipment",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "mummy"
 }

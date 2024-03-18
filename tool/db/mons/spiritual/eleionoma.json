@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Lightning3",
+    "Spell": "MST_ELEIONOMA",
     "Tile": "MONS_ELEIONOMA",
     "Use": "MonEquipment",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "spiritual"
 }

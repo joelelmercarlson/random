@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Cold3",
+    "Spell": "MST_MERFOLK_SIREN",
     "Tile": "MONS_MERFOLK_SIREN",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "merfolk"
 }

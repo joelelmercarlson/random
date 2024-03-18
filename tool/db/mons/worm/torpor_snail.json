@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_TORPOR_SNAIL",
     "Use": "MonNone",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "worm"
 }

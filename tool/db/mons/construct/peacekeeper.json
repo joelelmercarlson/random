@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "15",
-    "Spell": "",
+    "Spell": "MST_PEACEKEEPER",
     "Tile": "MONS_PEACEKEEPER",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "construct"
 }

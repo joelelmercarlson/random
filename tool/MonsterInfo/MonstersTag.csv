@@ -246,7 +246,6 @@ eye,great orb of eyes,Medium,Silent,Land,Natural,Human,MonNone,Fly
 eye,shining eye,Medium,Silent,Land,Natural,Mindless,MonNone,Fly
 eye,eye of devastation,Medium,Silent,Land,Natural,Mindless,MonNone,Fly
 eye,golden eye,Tiny,Silent,Land,Natural,Mindless,MonNone,Fly
-eye,orphan,Medium,Silent,Land,Holy ,Human,MonNone,Fly
 hybrid,manticore,Large,Silent,Land,Natural,Animal,MonNone,Fly
 hybrid,minotaur,Medium,Bellow,Land,Natural,Human,MonNone,
 hybrid,fenstrider witch,Giant,Shout,Land,Natural,Human,MonNone,
@@ -297,7 +296,6 @@ plant,oklob sapling,Small,Silent,Land,Plant,Mindless,MonNone,Feral
 plant,oklob plant,Small,Silent,Land,Plant,Mindless,MonNone,Feral
 plant,starflower,Medium,Silent,Land,Plant,Mindless,MonNone,Feral
 plant,bush,Giant,Silent,Land,Plant,Mindless,MonNone,NoMove:NoXP
-plant,burning bush,Giant,Silent,Land,Plant,Mindless,MonNone,NoMove:NoXP
 plant,toadstool,Tiny,Silent,Land,Plant,Mindless,MonNone,NoMove
 plant,fungus,Tiny,Silent,Land,Plant,Mindless,MonNone,NoMove
 plant,ballistomycete,Tiny,Silent,Land,Plant,Mindless,MonNone,NoMove
@@ -354,7 +352,6 @@ wraith,phantasmal warrior,Medium,Silent,Land,Undead,Human,MonDoor,Incorporeal:Fl
 horror,large abomination,Large,Silent,Land,Undead,Mindless,MonNone,Feral
 horror,thrashing horror,Large,Roar,Land,NonLiving,Animal,MonNone,Feral
 horror,tentacled monstrosity,Giant,Silent,Amphibious,Demonic,Animal,MonNone,
-horror,orb guardian,Giant,Shout,Land,Natural,Human,MonNone,NoCorpse
 horror,tentacled starspawn,Giant,Shout,Land,NonLiving,Human,MonNone,
 horror,starspawn tentacle,Large,Shout,Land,NonLiving,Human,MonNone,
 horror,starspawn tentacle segment,Giant,Shout,Land,NonLiving,Human,MonNone,NoMove
@@ -402,7 +399,6 @@ demon,shadow imp,Medium,Shout,Land,Demonic,Human,MonDoor,Feral
 demon,lemure,Medium,Shout,Land,Demonic,Human,MonDoor,
 demon,rust devil,Medium,Shout,Land,Demonic,Human,MonDoor,
 demon,orange demon,Medium,Screech,Land,Demonic,Human,MonDoor,
-demon,bone devil,Medium,Screech,Land,Demonic,Human,MonDoor,
 demon,red devil,Medium,Screech,Land,Demonic,Human,MonDoor,Fly
 demon,hellwing,Medium,Moan,Land,Demonic,Human,MonDoor,Fly
 demon,ice devil,Medium,Silent,Land,Demonic,Human,MonDoor,Fly

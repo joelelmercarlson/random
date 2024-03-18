@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Chaos",
+    "Spell": "MST_APOCALYPSE_CRAB",
     "Tile": "MONS_APOCALYPSE_CRAB",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "testudine"
 }

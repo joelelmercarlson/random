@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_DWARF",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "goblin"
 }

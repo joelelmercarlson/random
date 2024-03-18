@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_ASMODEUS",
     "Tile": "MONS_ASMODEUS",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "boss"
 }

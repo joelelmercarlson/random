@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_SOUL_EATER",
     "Tile": "MONS_SOUL_EATER",
     "Use": "MonDoor",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "demon"
 }

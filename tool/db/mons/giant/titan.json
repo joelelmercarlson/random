@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_TITAN",
     "Tile": "MONS_TITAN",
     "Use": "MonEquipment",
-    "WP": "180"
+    "WP": "180",
+    "\ufeffBase": "giant"
 }

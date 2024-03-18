@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_ICE_FIEND",
     "Tile": "MONS_ICE_FIEND",
     "Use": "MonDoor",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "demon"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force3",
+    "Spell": "MST_ORC_HIGH_PRIEST",
     "Tile": "MONS_ORC_HIGH_PRIEST",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "orc"
 }

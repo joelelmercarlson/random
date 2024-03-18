@@ -17,8 +17,9 @@
     "Shoot": "15:Pain",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_BATTLECRY",
     "Tile": "MONS_CHERUB",
     "Use": "MonEquipment",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "angelic"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_DEEP_ELF_MASTER_ARCHER",
     "Use": "MonEquipment",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "elf"
 }

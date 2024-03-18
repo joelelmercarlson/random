@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_TENGU",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "tengu"
 }

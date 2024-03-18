@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_WEEPING_SKULL",
     "Tile": "MONS_WEEPING_SKULL",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "undead"
 }

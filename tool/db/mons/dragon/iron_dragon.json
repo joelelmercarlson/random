@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "8",
-    "Spell": "Poison1",
+    "Spell": "MST_IRON_DRAGON",
     "Tile": "MONS_IRON_DRAGON",
     "Use": "MonNone",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "dragon"
 }

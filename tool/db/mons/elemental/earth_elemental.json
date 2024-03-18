@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_EARTH_ELEMENTAL",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "elemental"
 }

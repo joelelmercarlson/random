@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_GHOUL",
     "Use": "MonDoor",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "undead"
 }

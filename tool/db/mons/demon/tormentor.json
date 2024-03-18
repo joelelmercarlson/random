@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "13",
-    "Spell": "",
+    "Spell": "MST_TORMENTOR",
     "Tile": "MONS_TORMENTOR",
     "Use": "MonDoor",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

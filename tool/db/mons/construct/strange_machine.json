@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Zap",
+    "Spell": "MST_STRANGE_MACHINE",
     "Tile": "MONS_STRANGE_MACHINE",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "construct"
 }

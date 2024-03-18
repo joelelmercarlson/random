@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "6",
-    "Spell": "",
+    "Spell": "MST_BOMBARDIER_BEETLE",
     "Tile": "MONS_BOMBARDIER_BEETLE",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "beetle"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ORB_OF_DESTRUCTION",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "spell"
 }

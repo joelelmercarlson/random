@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_CENTAUR_WARRIOR",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "centaur"
 }

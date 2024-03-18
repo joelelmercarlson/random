@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "12",
-    "Spell": "Radiant1",
+    "Spell": "MST_PEARL_DRAGON",
     "Tile": "MONS_PEARL_DRAGON",
     "Use": "MonNone",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "dragon"
 }

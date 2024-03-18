@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "13",
-    "Spell": "Poison3",
+    "Spell": "MST_DOOM_HOUND",
     "Tile": "MONS_DOOM_HOUND",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "quadruped"
 }

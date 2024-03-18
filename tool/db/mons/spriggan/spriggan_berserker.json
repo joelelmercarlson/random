@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_SPRIGGAN_BERSERKER",
     "Tile": "MONS_SPRIGGAN_BERSERKER",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "spriggan"
 }

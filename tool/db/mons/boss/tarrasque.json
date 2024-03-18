@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_LERNAEAN_HYDRA_9",
     "Use": "MonNone",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "boss"
 }

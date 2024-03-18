@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Cold3",
+    "Spell": "MST_DEEP_ELF_DEMONOLOGIST",
     "Tile": "MONS_DEEP_ELF_DEMONOLOGIST",
     "Use": "MonEquipment",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "elf"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "40",
-    "Spell": "",
+    "Spell": "MST_YNOXINUL",
     "Tile": "MONS_SIXFIRHY",
     "Use": "MonDoor",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "demon"
 }

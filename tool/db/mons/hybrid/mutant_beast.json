@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MUTANT_BEAST_BASE",
     "Use": "MonNone",
-    "WP": "-3"
+    "WP": "-3",
+    "\ufeffBase": "hybrid"
 }

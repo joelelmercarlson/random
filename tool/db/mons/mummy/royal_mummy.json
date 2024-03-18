@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Cold2",
+    "Spell": "MST_ROYAL_MUMMY",
     "Tile": "MONS_ROYAL_MUMMY",
     "Use": "MonEquipment",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "mummy"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_SHADOW_DRAGON",
     "Tile": "MONS_SHADOW_DRAGON",
     "Use": "MonNone",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "dragon"
 }

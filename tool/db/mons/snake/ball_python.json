@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_BALL_PYTHON",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "snake"
 }

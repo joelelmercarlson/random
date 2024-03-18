@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "16",
-    "Spell": "",
+    "Spell": "MST_ELECTRIC_GOLEM",
     "Tile": "MONS_ELECTRIC_GOLEM",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "construct"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Fire3",
+    "Spell": "MST_SALAMANDER_TYRANT",
     "Tile": "MONS_SALAMANDER_TYRANT",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "naga"
 }

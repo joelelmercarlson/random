@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "15",
-    "Spell": "",
+    "Spell": "MST_JUMPING_SPIDER",
     "Tile": "MONS_JUMPING_SPIDER",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "spider"
 }

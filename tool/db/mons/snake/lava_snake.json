@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_LAVA_SNAKE",
     "Tile": "MONS_LAVA_SNAKE",
     "Use": "MonNone",
-    "WP": "10"
+    "WP": "10",
+    "\ufeffBase": "snake"
 }

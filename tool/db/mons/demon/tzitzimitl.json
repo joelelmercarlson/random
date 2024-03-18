@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_TZITZIMITL",
     "Tile": "MONS_TZITZIMITL",
     "Use": "MonDoor",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "demon"
 }

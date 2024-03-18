@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_BLIZZARD_DEMON",
     "Tile": "MONS_BLIZZARD_DEMON",
     "Use": "MonDoor",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "demon"
 }

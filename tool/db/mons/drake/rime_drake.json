@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "12",
-    "Spell": "Cold1",
+    "Spell": "MST_RIME_DRAKE",
     "Tile": "MONS_RIME_DRAKE",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "drake"
 }

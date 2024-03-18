@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ONI",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "ogre"
 }

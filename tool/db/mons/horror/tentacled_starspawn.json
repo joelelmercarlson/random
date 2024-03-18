@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Giant",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_TENTACLED_STARSPAWN",
     "Tile": "MONS_TENTACLED_STARSPAWN",
     "Use": "MonNone",
-    "WP": "120"
+    "WP": "120",
+    "\ufeffBase": "horror"
 }

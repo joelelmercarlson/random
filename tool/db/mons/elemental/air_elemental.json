@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "25",
-    "Spell": "",
+    "Spell": "MST_AIR_ELEMENTAL",
     "Tile": "MONS_AIR_ELEMENTAL",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "elemental"
 }

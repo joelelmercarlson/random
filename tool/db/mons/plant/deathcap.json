@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_DEATHCAP",
     "Tile": "MONS_DEATHCAP",
     "Use": "MonNone",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "plant"
 }

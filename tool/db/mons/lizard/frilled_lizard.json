@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_FRILLED_LIZARD",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "lizard"
 }

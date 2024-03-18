@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_QUICKSILVER_OOZE",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "jelly"
 }

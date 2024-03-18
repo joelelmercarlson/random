@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Cold3",
+    "Spell": "MST_IRONBOUND_PRESERVER",
     "Tile": "MONS_IRONBOUND_PRESERVER",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "human"
 }

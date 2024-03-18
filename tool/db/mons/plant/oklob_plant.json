@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Acid4",
+    "Spell": "MST_ACID_SPIT",
     "Tile": "MONS_OKLOB_PLANT",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "plant"
 }

@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ELEPHANT",
     "Use": "MonNone",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "yak"
 }

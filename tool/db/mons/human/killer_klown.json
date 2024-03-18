@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_KILLER_KLOWN",
     "Use": "MonEquipment",
-    "WP": "160"
+    "WP": "160",
+    "\ufeffBase": "human"
 }

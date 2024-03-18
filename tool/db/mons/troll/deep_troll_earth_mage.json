@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Fire2",
+    "Spell": "MST_DEEP_TROLL_EARTH_MAGE",
     "Tile": "MONS_DEEP_TROLL_EARTH_MAGE",
     "Use": "MonDoor",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "troll"
 }

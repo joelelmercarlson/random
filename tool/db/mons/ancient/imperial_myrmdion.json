@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_IMPERIAL_MYRMIDON",
     "Tile": "MONS_IMPERIAL_MYRMDION",
     "Use": "MonEquipment",
-    "WP": "60"
+    "WP": "60",
+    "\ufeffBase": "ancient"
 }

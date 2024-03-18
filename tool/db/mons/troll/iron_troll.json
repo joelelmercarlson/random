@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_IRON_TROLL",
     "Use": "MonDoor",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "troll"
 }

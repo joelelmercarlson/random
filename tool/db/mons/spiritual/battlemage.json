@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ANCESTOR_BATTLEMAGE",
     "Use": "MonEquipment",
-    "WP": "-5"
+    "WP": "-5",
+    "\ufeffBase": "spiritual"
 }

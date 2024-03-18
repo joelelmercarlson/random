@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "13",
-    "Spell": "Fire1",
+    "Spell": "",
     "Tile": "MONS_FIRE_ELEMENTAL",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "elemental"
 }

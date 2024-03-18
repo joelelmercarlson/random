@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Zap",
+    "Spell": "MST_KOBOLD_DEMONOLOGIST",
     "Tile": "MONS_KOBOLD_DEMONOLOGIST",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "kobold"
 }

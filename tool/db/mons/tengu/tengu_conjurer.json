@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force4",
+    "Spell": "MST_TENGU_CONJURER",
     "Tile": "MONS_TENGU_CONJURER",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "tengu"
 }

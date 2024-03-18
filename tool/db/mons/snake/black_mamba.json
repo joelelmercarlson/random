@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_BLACK_MAMBA",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "snake"
 }

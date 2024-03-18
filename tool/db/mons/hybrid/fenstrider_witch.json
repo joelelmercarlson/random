@@ -13,12 +13,13 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "fenstrider witch",
-    "Resistance": "poison:lightning:necrotic",
+    "Resistance": "poison:necrotic",
     "Shoot": "",
     "Size": "Giant",
     "Speed": "13",
-    "Spell": "Acid1",
+    "Spell": "MST_FENSTRIDER_WITCH",
     "Tile": "MONS_FENSTRIDER_WITCH",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "hybrid"
 }

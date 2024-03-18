@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "10",
-    "Spell": "Lightning3",
+    "Spell": "MST_SPRIGGAN_AIR_MAGE",
     "Tile": "MONS_SPRIGGAN_AIR_MAGE",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "spriggan"
 }

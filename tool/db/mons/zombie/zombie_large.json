@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_ZOMBIE_LARGE",
     "Use": "MonNone",
-    "WP": "-1"
+    "WP": "-1",
+    "\ufeffBase": "zombie"
 }

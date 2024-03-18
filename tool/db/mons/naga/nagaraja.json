@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Acid3",
+    "Spell": "MST_NAGARAJA",
     "Tile": "MONS_NAGARAJA",
     "Use": "MonEquipment",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "naga"
 }

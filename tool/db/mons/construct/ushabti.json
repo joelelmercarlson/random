@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "8",
-    "Spell": "",
+    "Spell": "MST_USHABTI",
     "Tile": "MONS_USHABTI",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "construct"
 }

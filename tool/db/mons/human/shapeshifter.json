@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_SHAPESHIFTER",
     "Use": "MonEquipment",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "human"
 }

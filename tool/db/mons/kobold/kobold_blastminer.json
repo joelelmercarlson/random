@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",
-    "Spell": "Lightning4",
+    "Spell": "MST_KOBOLD_BLASTMINER",
     "Tile": "MONS_KOBOLD_BLASTMINER",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "kobold"
 }

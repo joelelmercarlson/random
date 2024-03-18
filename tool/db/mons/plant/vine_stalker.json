@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_VINE_STALKER",
     "Use": "MonNone",
-    "WP": "40"
+    "WP": "40",
+    "\ufeffBase": "plant"
 }

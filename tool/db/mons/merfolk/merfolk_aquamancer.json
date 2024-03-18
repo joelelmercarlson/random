@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Acid3",
+    "Spell": "MST_MERFOLK_AQUAMANCER",
     "Tile": "MONS_MERFOLK_AQUAMANCER",
     "Use": "MonEquipment",
-    "WP": "80"
+    "WP": "80",
+    "\ufeffBase": "merfolk"
 }

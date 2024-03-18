@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "Acid1",
+    "Spell": "MST_STEAM_DRAGON",
     "Tile": "MONS_STEAM_DRAGON",
     "Use": "MonNone",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "dragon"
 }

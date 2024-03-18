@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_ANCIENT_LICH",
     "Tile": "MONS_ANCIENT_LICH",
     "Use": "MonEquipment",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "lich"
 }

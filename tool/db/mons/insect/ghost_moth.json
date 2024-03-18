@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "12",
-    "Spell": "",
+    "Spell": "MST_GHOST_MOTH",
     "Tile": "MONS_GHOST_MOTH",
     "Use": "MonNone",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "insect"
 }

@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "15",
-    "Spell": "Lightning1",
+    "Spell": "MST_QUICKSILVER_DRAGON",
     "Tile": "MONS_QUICKSILVER_DRAGON",
     "Use": "MonNone",
-    "WP": "140"
+    "WP": "140",
+    "\ufeffBase": "dragon"
 }

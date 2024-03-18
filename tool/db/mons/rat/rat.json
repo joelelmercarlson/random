@@ -20,5 +20,6 @@
     "Spell": "",
     "Tile": "MONS_RAT",
     "Use": "MonNone",
-    "WP": "0"
+    "WP": "0",
+    "\ufeffBase": "rat"
 }

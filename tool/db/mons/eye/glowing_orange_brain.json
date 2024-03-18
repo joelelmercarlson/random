@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Radiant3",
+    "Spell": "MST_GLOWING_ORANGE_BRAIN",
     "Tile": "MONS_GLOWING_ORANGE_BRAIN",
     "Use": "MonDoor",
-    "WP": "100"
+    "WP": "100",
+    "\ufeffBase": "eye"
 }

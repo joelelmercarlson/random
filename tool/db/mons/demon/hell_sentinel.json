@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_HELL_SENTINEL",
     "Tile": "MONS_HELL_SENTINEL",
     "Use": "MonDoor",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "demon"
 }

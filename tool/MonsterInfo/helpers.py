@@ -137,14 +137,14 @@ def run():
     run loadcsv
     """
     arr = []
-    with open(MONSTERS_CSV, "r", encoding="utf-8-sig") as csvfile:
+    with open(MONSTERS_CSV, "r", encoding="UTF-8") as csvfile:
         reader = csv.DictReader(csvfile, delimiter=",", quotechar='"')
         for row in reader:
             name = row["Name"]
             arr.append ((name, row))
 
     tag = []
-    with open(TAG_CSV, "r", encoding="utf-8-sig") as csvfile:
+    with open(TAG_CSV, "r", encoding="UTF-8") as csvfile:
         reader = csv.DictReader(csvfile, delimiter=",", quotechar='"')
         for row in reader:
             name = row["Name"]

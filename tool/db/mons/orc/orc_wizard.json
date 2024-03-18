@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",
-    "Spell": "Force4",
+    "Spell": "MST_ORC_WIZARD",
     "Tile": "MONS_ORC_WIZARD",
     "Use": "MonEquipment",
-    "WP": "20"
+    "WP": "20",
+    "\ufeffBase": "orc"
 }

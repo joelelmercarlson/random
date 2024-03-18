@@ -17,8 +17,9 @@
     "Shoot": "",
     "Size": "Giant",
     "Speed": "10",
-    "Spell": "",
+    "Spell": "MST_NAMELESS",
     "Tile": "MONS_NAMELESS_HORROR",
     "Use": "MonNone",
-    "WP": "200"
+    "WP": "200",
+    "\ufeffBase": "horror"
 }
