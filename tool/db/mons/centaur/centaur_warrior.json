@@ -1,7 +1,7 @@
 {
     "AC": "4",
     "Base": "centaur",
-    "Detail": "Archer",
+    "Detail": "Archer:Fighter",
     "EV": "8",
     "Emote": "Shout",
     "HD": "10",

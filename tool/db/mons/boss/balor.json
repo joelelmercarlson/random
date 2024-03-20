@@ -1,7 +1,7 @@
 {
     "AC": "15",
     "Base": "boss",
-    "Detail": "Fly",
+    "Detail": "Fighter:Fly",
     "EV": "6",
     "Emote": "Shout",
     "HD": "20",
