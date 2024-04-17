@@ -1,1 +1,1 @@
-g++ -O2  -g -Wall -Wextra -Wno-parentheses -Wno-unused-parameter -I/Users/jcarl16/.local/opt/libpng/include/libpng16 -DUSE_TILE           
+g++ -O2  -g -Wall -Wextra -Wno-parentheses -Wno-unused-parameter           

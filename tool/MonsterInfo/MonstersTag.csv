@@ -82,7 +82,7 @@ drake,wyvern,Large,Hiss,Land,Natural,Animal,MonNone,Fly
 drake,swamp drake,Large,Roar,Land,Natural,Animal,MonNone,Fly
 drake,rime drake,Large,Hiss,Land,Natural,Animal,MonNone,Fly
 drake,wind drake,Large,Hiss,Land,Natural,Animal,MonNone,Fly
-drake,lindwurm,Large,Roar,Land,Natural,Animal,MonNone,Tunnel
+drake,lindwurm,Large,Roar,Land,Natural,Animal,MonNone,
 drake,death drake,Large,Hiss,Land,Natural,Animal,MonNone,Fly
 lizard,frilled lizard,Small,Hiss,Amphibious,Natural,Animal,MonNone,
 lizard,iguana,Small,Hiss,Amphibious,Natural,Animal,MonNone,
@@ -216,18 +216,18 @@ giant,tainted leviathan,Large,Shout,Land,Undead,Human,MonEquipment,
 giant,protean progenitor,Large,Gurgle,Land,Natural,Human,MonDoor,
 dragon,fire dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
 dragon,hydra,Large,Roar,Amphibious,Natural,Animal,MonNone,
-dragon,ice dragon,Large,Roar,Land,Natural,Animal,MonNone,Tunnel
+dragon,ice dragon,Large,Roar,Land,Natural,Animal,MonNone,
 dragon,steam dragon,Large,Hiss,Land,Natural,Animal,MonNone,Fly
 dragon,swamp dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
 dragon,acid dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
-dragon,quicksilver dragon,Large,Roar,Land,Natural,Animal,MonNone,Tunnel
+dragon,quicksilver dragon,Large,Roar,Land,Natural,Animal,MonNone,
 dragon,iron dragon,Large,Roar,Land,Natural,Animal,MonNone,
 dragon,storm dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
 dragon,golden dragon,Large,Roar,Land,Natural,Animal,MonNone,Fly
 dragon,shadow dragon,Large,Silent,Land,Natural,Animal,MonNone,Fly
 dragon,bone dragon,Large,Silent,Land,Undead,Animal,MonNone,Fly
 dragon,pearl dragon,Large,Roar,Land,Holy ,Animal,MonNone,Fly
-elemental,earth elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,Tunnel
+elemental,earth elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,
 elemental,quicksilver elemental,Large,Silent,Land,NonLiving,Mindless,MonNone,Feral
 elemental,fire elemental,Large,Silent,AmphibiousLava,NonLiving,Mindless,MonNone,Feral
 elemental,water elemental,Large,Silent,Amphibious,NonLiving,Mindless,MonNone,Feral
@@ -270,7 +270,7 @@ lich,lich,Medium,Shout,Land,Undead,Human,MonEquipment,
 lich,ancient lich,Medium,Shout,Land,Undead,Human,MonEquipment,
 lich,dread lich,Medium,Shout,Land,Undead,Human,MonEquipment,
 lich,halazid warlock,Medium,Shout,Land,Undead,Human,MonEquipment,
-lich,stoker,Medium,Shout,AmphibiousLava,Undead,Human,MonEquipment,Tunnel
+lich,stoker,Medium,Shout,AmphibiousLava,Undead,Human,MonEquipment,
 mummy,mummy,Medium,Silent,Land,Undead,Human,MonEquipment,
 mummy,guardian mummy,Medium,Silent,Land,Undead,Human,MonEquipment,Fighter
 mummy,royal mummy,Medium,Silent,Land,Undead,Human,MonEquipment,
