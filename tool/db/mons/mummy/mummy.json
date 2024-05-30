@@ -1,7 +1,7 @@
 {
     "AC": "3",
     "Base": "mummy",
-    "Detail": "",
+    "Detail": "VulnFire",
     "EV": "6",
     "Emote": "Silent",
     "HD": "3",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "mummy",
-    "Resistance": "cold:VF",
+    "Resistance": "cold",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "6",

@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResCold",
     "En": "11",
     "Hit": "0",
     "Name": "ice dragon scales",
-    "Resistance": "cold",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_ICE_DRAGON_ARMOUR",

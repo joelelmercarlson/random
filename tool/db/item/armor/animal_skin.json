@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
     "Name": "animal skin",
-    "Resistance": "",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_ANIMAL_SKIN",

@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of curing",
-    "Resistance": "",
+    "Name": "potion of curing",
     "Skill": "potion",
     "Spell": "Cure",
     "Tile": "POTION_OFFSET_5",

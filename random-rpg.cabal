@@ -25,7 +25,6 @@ library
                    , Game.Library.Kind.Entity
                    , Game.Library.Kind.RGB
                    , Game.Library.Kind.Visual
-                   , ToHit
                    , Util
   other-modules: 
   build-depends: base
@@ -59,7 +58,6 @@ executable random-rpg
                  , Game.Library.Kind.Entity
                  , Game.Library.Kind.RGB
                  , Game.Library.Kind.Visual
-                 , ToHit
                  , Util
   build-depends: base
                  , aeson

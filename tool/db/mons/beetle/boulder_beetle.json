@@ -1,7 +1,7 @@
 {
     "AC": "20",
     "Base": "beetle",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "2",
     "Emote": "Silent",
     "HD": "12",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "boulder beetle",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",

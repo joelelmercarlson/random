@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "insect",
-    "Detail": "Fly",
+    "Detail": "Fly:VulnPoison",
     "EV": "14",
     "Emote": "Buzz",
     "HD": "7",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "meliai",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Small",
     "Speed": "20",

@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of mutation",
-    "Resistance": "",
+    "Name": "potion of mutation",
     "Skill": "potion",
     "Spell": "Mutation",
     "Tile": "POTION_OFFSET_15",

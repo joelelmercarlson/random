@@ -1,10 +1,9 @@
 {
     "Damage": "Piercing",
-    "Detail": "",
+    "Detail": "NoEgo",
     "En": "15",
     "Hit": "0",
     "Name": "javelin",
-    "Resistance": "",
     "Skill": "THROW",
     "Spell": "",
     "Tile": "MI_JAVELIN",

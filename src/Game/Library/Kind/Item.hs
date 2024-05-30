@@ -34,7 +34,6 @@ data ItemData = ItemData
   , _en     :: Text
   , _hit    :: Text
   , _name   :: Text
-  , _resistance :: Text
   , _skill  :: Text
   , _spell  :: Text
   , _tile   :: Text
@@ -51,13 +50,12 @@ instance FromJSON ItemData where
     x2 <- v .: "En"
     x3 <- v .: "Hit"
     x4 <- v .: "Name"
-    x5 <- v .: "Resistance"
-    x6 <- v .: "Skill"
-    x7 <- v .: "Spell"
-    x8 <- v .: "Tile"
-    x9 <- v .: "Tile1"
-    x10 <- v .: "Type"
-    x11 <- v .: "Value"
+    x5 <- v .: "Skill"
+    x6 <- v .: "Spell"
+    x7 <- v .: "Tile"
+    x8 <- v .: "Tile1"
+    x9 <- v .: "Type"
+    x10 <- v .: "Value"
     return (
       ItemData {
           _damage   = x0
@@ -65,13 +63,12 @@ instance FromJSON ItemData where
           , _en     = x2
           , _hit    = x3
           , _name   = x4
-          , _resistance = x5
-          , _skill  = x6
-          , _spell  = x7
-          , _tile   = x8
-          , _tile1  = x9
-          , _type   = x10
-          , _value  = x11
+          , _skill  = x5
+          , _spell  = x6
+          , _tile   = x7
+          , _tile1  = x8
+          , _type   = x9
+          , _value  = x10
           }
       )
   parseJSON _ = mempty

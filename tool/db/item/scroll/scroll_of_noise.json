@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of noise",
-    "Resistance": "",
+    "Name": "scroll of noise",
     "Skill": "scroll",
     "Spell": "Noise",
     "Tile": "SCR_NOISE",

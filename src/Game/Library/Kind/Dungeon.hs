@@ -30,21 +30,23 @@ import GHC.Generics (Generic)
 import Game.Compass
 
 data Dungeon = Dungeon
-  { dungeonWidth :: Int
+  { dungeonWidth  :: Int
   , dungeonHeight :: Int
-  , dungeonTiles :: Vector Terrain
+  , dungeonTiles  :: Vector Terrain
   }
 
 data Terrain
   = Wall
   | Light
-  | Magma
-  | Rubble
   | Door
   | Open
   | Rally
   | Stair
   | Unique
+  | Ice
+  | Lava
+  | WaterDeep
+  | WaterShallow
   | R1
   | R2
   | R3
@@ -54,13 +56,6 @@ data Terrain
   | R7
   | R8
   | R9
-  | Forest
-  | Grass
-  | Ice
-  | Lava
-  | Swamp
-  | WaterDeep
-  | WaterShallow
   deriving (Show, Eq, Generic)
 
 instance FromJSON Terrain
@@ -96,25 +91,17 @@ roll x0 y0 = do
 rogueDungeon :: RandomGen g => X -> Y -> g -> (Dungeon, g)
 rogueDungeon w h g = let
   (tileVector, g0) = runST $ flip runRandT g $ do
-    tr      <- roll 1 8
-    vec0    <- VM.replicate (w*h) Wall
-    grass   <- mkTerrain w h [Grass,Grass,Forest,Wall]
-    ice     <- mkTerrain w h [Ice,Ice,Rubble,Wall]
-    forest  <- mkTerrain w h [Grass,Forest,Forest,Wall]
-    lava    <- mkTerrain w h [Lava,Lava,Magma,Wall]
-    pasture <- mkTerrain w h [Grass,Forest,WaterShallow,Wall]
-    rocks   <- mkTerrain w h [Magma,Rubble,Rubble,Wall]
-    swamp   <- mkTerrain w h [Swamp,Swamp,WaterShallow,Wall]
-    walls   <- mkTerrain w h [Open,Wall,Open,Wall]
-    zones   <- mkZones w h
+    tr    <- roll 1 6
+    vec0  <- VM.replicate (w*h) Wall
+    ice   <- mkTerrain w h [Ice,Ice,WaterShallow,Wall]
+    lava  <- mkTerrain w h [Lava,Lava,WaterShallow,Wall]
+    sea   <- mkTerrain w h [WaterShallow,WaterShallow,WaterDeep,Wall]
+    walls <- mkTerrain w h [Open,Open,Wall,Wall]
+    zones <- mkZones w h
     let terrain = case tr of
-          1 -> grass
+          1 -> lava
           2 -> ice
-          3 -> forest
-          4 -> lava
-          5 -> pasture
-          6 -> rocks
-          7 -> swamp
+          3 -> sea
           _ -> walls
     mapM_ (\(k, v) -> setBox w vec0 k v) terrain
     mapM_ (\(k, v) -> setBox w vec0 k v) zones

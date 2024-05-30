@@ -1,7 +1,7 @@
 {
     "AC": "11",
     "Base": "testudine",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "5",
     "Emote": "Silent",
     "HD": "8",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "apocalypse crab",
-    "Resistance": "fire:cold:VP",
+    "Resistance": "fire:cold",
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",

@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of fog",
-    "Resistance": "",
+    "Name": "scroll of fog",
     "Skill": "scroll",
     "Spell": "Fog",
     "Tile": "SCR_NOISE",

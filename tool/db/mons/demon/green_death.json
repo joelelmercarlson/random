@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "green death",
-    "Resistance": "poison:necrotic:VS",
+    "Resistance": "poison:necrotic",
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",

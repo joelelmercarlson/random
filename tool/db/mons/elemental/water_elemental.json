@@ -1,7 +1,7 @@
 {
     "AC": "4",
     "Base": "elemental",
-    "Detail": "Feral",
+    "Detail": "Feral:VulnFire",
     "EV": "7",
     "Emote": "Silent",
     "HD": "6",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Mindless",
     "Name": "water elemental",
-    "Resistance": "lightning:VF",
+    "Resistance": "lightning",
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",

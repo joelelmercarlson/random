@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "demon",
-    "Detail": "Feral",
+    "Detail": "Feral:VulnFire",
     "EV": "15",
     "Emote": "Shout",
     "HD": "1",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "ufetubus",
-    "Resistance": "cold:VF",
+    "Resistance": "cold",
     "Shoot": "",
     "Size": "Small",
     "Speed": "15",

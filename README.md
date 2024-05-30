@@ -6,7 +6,7 @@ Arrow24 utilizes the Arrow roguelike engine.
 - [Abstract](#abstract)
 - [Inspiration](#inspiration)
 - [Features](#features)
-  - [Classes](#classes)
+  - [Archtypes](#archtypes)
   - [Species](#species)
   - [Elemental](#elemental)
   - [Arcane](#arcane)
@@ -14,7 +14,6 @@ Arrow24 utilizes the Arrow roguelike engine.
 - [Usage](#usage)
 - [Requirements](#requirements)
 - [Author](#author)
-
 
 ## Abstract
 Arrow24 is a roguelike developed in Haskell with SDL2. This
@@ -30,6 +29,8 @@ is to explore and have Fun!
 
 &mdash; [Crawl](https://github.com/crawl/crawl)
 
+&mdash; [RLTiles](https://rltiles.sourceforge.net)
+
 ### Screenshot
 ![Balor.png](images/Balor.png)
 
@@ -40,18 +41,24 @@ is to explore and have Fun!
 ![Dungeon.png](images/Dungeon.png)
 
 ## Features
-'@' is your character in a classic fantasy world. Arrow gameplay
+'@' is your character in a classical fantasy world. Arrow gameplay
 is focused on Melee, Shoot, and Zap. The elements of the world 
-are wielded with powerful Magic spells.
+are wielded with powerful Magic.
 
-### Classes
+### Archtypes
 &mdash; `Cleric`, `Fighter`, `Rogue`, and `Wizard`
+
+Archtypes and experience levels determine '@' skills: `Melee`,
+`Shoot`, and `Zap`.
 
 ### Species
 &mdash; `Elf`, `Dwarf`, `Halfling`, and `Human`
 
+Species determine '@' initial abilities: `Strength`, `Dexterity`,
+and `Intelligence`.
+
 ### Elemental
-&mdash; `Acid`, `Cold`, `Fire`; `Lightning` and `Thunder`
+&mdash; `Acid`, `Cold`, `Fire`; and `Lightning`
 
 ### Arcane
 &mdash; `Necrotic`, `Radiant`, and `Force`
@@ -71,7 +78,7 @@ are wielded with powerful Magic spells.
 
 &mdash; `p` to `Dig` in the `Dungeon`
 
-&mdash; `r` to `Use`, `Read`, `Eat`, and `Quaff`
+&mdash; `r` to `Use`, `Potion`, and `Scroll`
 
 &mdash; `t` to `Throw`
 
@@ -81,13 +88,13 @@ are wielded with powerful Magic spells.
 
 &mdash; `z` to `Magic`
 
-&mdash; `7` to `Portal`
+&mdash; `7` to `Portal,` `Stair`
 
-&mdash; `8` to `Store` in `Town`
+&mdash; `8` to `Store`
 
 &mdash; `9` to `Drop`
 
-&mdash; `0` to `Wield` `Armor`, `Weapon`, `Shield`
+&mdash; `0` to `Wield`
 
 ## Requirements
 &mdash; [stack](https://haskellstack.org/)

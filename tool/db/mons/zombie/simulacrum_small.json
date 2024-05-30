@@ -1,7 +1,7 @@
 {
     "AC": "10",
     "Base": "zombie",
-    "Detail": "",
+    "Detail": "VulnFire",
     "EV": "4",
     "Emote": "Silent",
     "HD": "2",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Mindless",
     "Name": "simulacrum small",
-    "Resistance": "cold:VF",
+    "Resistance": "cold",
     "Shoot": "",
     "Size": "Small",
     "Speed": "7",

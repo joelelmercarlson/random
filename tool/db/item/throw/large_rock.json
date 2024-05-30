@@ -1,10 +1,9 @@
 {
     "Damage": "Bludgeoning",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "20",
     "Hit": "0",
     "Name": "large rock",
-    "Resistance": "",
     "Skill": "THROW",
     "Spell": "",
     "Tile": "MI_LARGE_ROCK",

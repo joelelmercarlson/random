@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of amnesia",
-    "Resistance": "",
+    "Name": "scroll of amnesia",
     "Skill": "scroll",
     "Spell": "Amnesia",
     "Tile": "SCR_AMNESIA",

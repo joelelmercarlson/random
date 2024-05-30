@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoEgo",
     "En": "10",
     "Hit": "0",
     "Name": "poisoned dart",
-    "Resistance": "",
     "Skill": "THROW",
     "Spell": "Poisoned",
     "Tile": "MI_DART_POISONED",

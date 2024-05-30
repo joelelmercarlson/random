@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Mindless",
     "Name": "block of ice",
-    "Resistance": "cold:VF",
+    "Resistance": "cold",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",

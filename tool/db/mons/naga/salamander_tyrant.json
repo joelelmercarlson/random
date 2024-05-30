@@ -1,7 +1,7 @@
 {
     "AC": "5",
     "Base": "naga",
-    "Detail": "",
+    "Detail": "VulnCold",
     "EV": "7",
     "Emote": "Silent",
     "HD": "15",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "salamander tyrant",
-    "Resistance": "fire:VC",
+    "Resistance": "fire",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",

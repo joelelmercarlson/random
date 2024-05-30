@@ -234,7 +234,7 @@ data Entity
 instance FromJSON Entity
 instance ToJSON Entity
 
--- | I Damage
+-- | M Damage
 data EntityDmg
   = Pain
   | Acid
@@ -245,11 +245,9 @@ data EntityDmg
   | Necrotic
   | Poison
   | Radiant
-  | Silver
   | Bludgeoning
   | Piercing
   | Slashing
-  | Magic
   | Chaos
   | Constrict
   | Gore
@@ -297,23 +295,28 @@ data EntityEmote
   | Squeal
   | Taunt
   | Trumpet
+  | NoneEmote
   deriving (Ord, Read, Show, Eq, Generic)
 
 instance FromJSON EntityEmote
 instance ToJSON EntityEmote
 
--- | I features
+-- | M features
 data EntityFeat
   = TwoHand
   | Light
   | Finesse
+  | Range
   | Stab
   | Acrobat
+  | AntiMagic
   | Archer
   | Blessed
   | Chaotic
   | Cursed
+  | Defender
   | Dexterity
+  | Dispersal
   | Distortion
   | Drain
   | Electric
@@ -325,6 +328,7 @@ data EntityFeat
   | Flame
   | Frost
   | Fly
+  | Guardian
   | Heavy
   | Hurl
   | Incorporeal
@@ -332,24 +336,48 @@ data EntityFeat
   | Life
   | Mage
   | Mana
-  | Mob
+  | Magic
+  | NoBlind
+  | NoBrand
   | NoCorpse
+  | NoEgo
   | NoMove
   | NoSpawn
   | NoXP
+  | NoWeb
   | NPC
+  | Penetration
   | Protection
   | Ponderous
   | Rampage
   | Reflect
+  | ResAcid
+  | ResCold
+  | ResFire
+  | ResHoly
+  | ResLightning
+  | ResNecrotic
+  | ResPain
+  | ResPoison
+  | Resistance
+  | Silver
+  | SInv
   | Slay
   | Spectral
   | Speed
   | Stealth
   | Strength
-  | Tunnel
   | Vamp
   | Venom
+  | Vorpal
+  | VulnAcid
+  | VulnCold
+  | VulnFire
+  | VulnHoly
+  | VulnLightning
+  | VulnNecrotic
+  | VulnPain
+  | VulnPoison
   | Wizard
   | WP
   | Zapper
@@ -406,25 +434,10 @@ data EntityST
   | Frozen
   | Electrocuted
   | Drained
-  | Agile
   | Crippled
-  | Flight
-  | PlusAC
   | PlusCombat
-  | PlusEV
-  | PlusHP
-  | PlusMP
   | PlusMoveSpeed
-  | PlusSH
-  | PlusShootSpeed
-  | PlusSlay
   | PlusSpeed
-  | PlusSpellPower
-  | PlusSpellSpeed
-  | Smart
-  | Sneak
-  | Strong
-  | Will
   | ARMOR
   | AXE
   | DODGE
@@ -477,6 +490,7 @@ data EntitySmart
   = Mindless
   | Animal
   | Human
+  | NoneSmart
   deriving (Ord, Read, Show, Eq, Generic)
 
 instance FromJSON EntitySmart
@@ -494,11 +508,9 @@ data EntityType
   | Gloves
   | Helmet
   | Cloak
-  | Brand
   | Food
   | Jewelry
   | Potion
-  | Rune
   | Scroll
   | Wand
   | Totem
@@ -518,6 +530,7 @@ data EntityUse
   | MonDoor
   | MonStartingGear
   | MonEquipment
+  | NoneUse
   deriving (Ord, Read, Show, Eq, Generic)
 
 instance FromJSON EntityUse

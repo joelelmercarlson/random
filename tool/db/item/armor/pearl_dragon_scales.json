@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResAcid:ResFire",
     "En": "11",
     "Hit": "0",
     "Name": "pearl dragon scales",
-    "Resistance": "fire",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_PEARL_DRAGON_ARMOUR",

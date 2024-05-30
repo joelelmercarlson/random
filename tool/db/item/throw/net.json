@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "10",
     "Hit": "0",
     "Name": "net",
-    "Resistance": "",
     "Skill": "THROW",
     "Spell": "Grappled",
     "Tile": "MI_THROWING_NET",

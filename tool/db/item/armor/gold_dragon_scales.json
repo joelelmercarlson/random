@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResAcid:ResFire:ResCold",
     "En": "23",
     "Hit": "0",
     "Name": "gold dragon scales",
-    "Resistance": "fire",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_GOLD_DRAGON_ARMOUR",

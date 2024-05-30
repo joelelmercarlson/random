@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of acquirement",
-    "Resistance": "",
+    "Name": "scroll of acquirement",
     "Skill": "scroll",
     "Spell": "Acquire",
     "Tile": "SCR_ACQUIREMENT",

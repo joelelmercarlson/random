@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of teleportation",
-    "Resistance": "",
+    "Name": "scroll of teleportation",
     "Skill": "scroll",
     "Spell": "Teleport",
     "Tile": "SCR_TELEPORTATION",

@@ -1,7 +1,7 @@
 {
     "AC": "9",
     "Base": "insect",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "14",
     "Emote": "Buzz",
     "HD": "12",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "spark wasp",
-    "Resistance": "lightning:VP",
+    "Resistance": "lightning",
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "15",

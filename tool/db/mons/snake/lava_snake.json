@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "snake",
-    "Detail": "Mob:Feral",
+    "Detail": "Feral:VulnCold",
     "EV": "17",
     "Emote": "Hiss",
     "HD": "3",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "lava snake",
-    "Resistance": "fire:VC",
+    "Resistance": "fire",
     "Shoot": "",
     "Size": "Small",
     "Speed": "10",

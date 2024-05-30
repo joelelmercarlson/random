@@ -1,7 +1,7 @@
 {
     "AC": "12",
     "Base": "wraith",
-    "Detail": "Incorporeal:Fly",
+    "Detail": "Incorporeal:Fly:VulnFire",
     "EV": "10",
     "Emote": "Silent",
     "HD": "8",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "freezing wraith",
-    "Resistance": "cold:VF",
+    "Resistance": "cold",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",

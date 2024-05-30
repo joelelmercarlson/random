@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResNecrotic",
     "En": "15",
     "Hit": "0",
     "Name": "shadow dragon scales",
-    "Resistance": "necrotic",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_SHADOW_DRAGON_ARMOUR",

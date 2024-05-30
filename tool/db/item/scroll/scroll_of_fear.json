@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of fear",
-    "Resistance": "",
+    "Name": "scroll of fear",
     "Skill": "scroll",
     "Spell": "Fear",
     "Tile": "SCR_FEAR",

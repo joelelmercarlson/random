@@ -1,10 +1,9 @@
 {
     "Damage": "Slashing",
-    "Detail": "",
+    "Detail": "NoEgo",
     "En": "13",
     "Hit": "0",
     "Name": "boomerang",
-    "Resistance": "",
     "Skill": "THROW",
     "Spell": "",
     "Tile": "MI_BOOMERANG",

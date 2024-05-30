@@ -1,7 +1,7 @@
 {
     "AC": "12",
     "Base": "construct",
-    "Detail": "NoMove:NoXP",
+    "Detail": "NoMove:NoXP:VulnFire",
     "EV": "1",
     "Emote": "Silent",
     "HD": "8",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Mindless",
     "Name": "ice statue",
-    "Resistance": "cold:lightning:VF",
+    "Resistance": "cold:lightning",
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",

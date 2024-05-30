@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand",
     "En": "23",
     "Hit": "0",
     "Name": "crystal plate armor",
-    "Resistance": "",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_CRYSTAL_PLATE_ARMOUR",

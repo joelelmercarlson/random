@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of brand weapon",
-    "Resistance": "",
+    "Name": "scroll of brand weapon",
     "Skill": "scroll",
     "Spell": "BrandWeapon",
     "Tile": "SCR_BRAND_WEAPON",

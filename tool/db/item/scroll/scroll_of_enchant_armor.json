@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of enchant armor",
-    "Resistance": "",
+    "Name": "scroll of enchant armor",
     "Skill": "scroll",
     "Spell": "EnchantArmor",
     "Tile": "SCR_ENCHANT_ARMOUR",

@@ -1,7 +1,7 @@
 {
     "AC": "7",
     "Base": "demon",
-    "Detail": "Fly",
+    "Detail": "Fly:VulnCold",
     "EV": "13",
     "Emote": "Screech",
     "HD": "7",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "red devil",
-    "Resistance": "poison:fire:VC",
+    "Resistance": "poison:fire",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",

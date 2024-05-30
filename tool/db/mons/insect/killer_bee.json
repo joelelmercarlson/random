@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "insect",
-    "Detail": "Fly",
+    "Detail": "Fly:VulnPoison",
     "EV": "18",
     "Emote": "Buzz",
     "HD": "3",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "killer bee",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "20",

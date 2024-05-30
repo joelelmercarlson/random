@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResCold:ResLightning",
     "En": "15",
     "Hit": "0",
     "Name": "storm dragon scales",
-    "Resistance": "lightning",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_STORM_DRAGON_ARMOUR",

@@ -1,0 +1,30 @@
+-- | reference key maps
+case intent of
+  -- numpad
+  Action UpArrow    -> arrowTurn $ GP.actionPlayer South w
+  Action RightArrow -> arrowTurn $ GP.actionPlayer East w
+  Action DownArrow  -> arrowTurn $ GP.actionPlayer North w
+  Action LeftArrow  -> arrowTurn $ GP.actionPlayer West w
+  Action Help  -> GW.helpWorld w
+  Action Space -> arrowTurn $ GA.actionRest 0 w
+  Action Tab   -> arrowTurn $ GA.actionShoot w
+  Action Seven -> arrowTurn $ GA.actionClimb w
+  Action Eight -> arrowTurn $ GW.coinWorld w
+  Action Nine  -> arrowTurn $ GW.dropWorld w
+  Action Zero  -> arrowTurn $ GW.equipWorld w
+  -- wasd
+  Action W -> arrowTurn $ GP.actionPlayer South w
+  Action A -> arrowTurn $ GP.actionPlayer West w
+  Action S -> arrowTurn $ GP.actionPlayer North w
+  Action D -> arrowTurn $ GP.actionPlayer East w
+  -- vi keys
+  Action Y -> arrowTurn $ GP.actionPlayer SouthWest w
+  Action U -> arrowTurn $ GP.actionPlayer SouthEast w
+  Action B -> arrowTurn $ GP.actionPlayer NorthWest w
+  Action N -> arrowTurn $ GP.actionPlayer NorthEast w
+  Action K -> arrowTurn $ GP.actionPlayer South w
+  Action H -> arrowTurn $ GP.actionPlayer West w
+  Action J -> arrowTurn $ GP.actionPlayer North w
+  Action L -> arrowTurn $ GP.actionPlayer East w
+  _  -> w
+

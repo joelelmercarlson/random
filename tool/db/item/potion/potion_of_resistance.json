@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of resistance",
-    "Resistance": "acid:cold:fire:lightning",
+    "Name": "potion of resistance",
     "Skill": "potion",
     "Spell": "Resistance",
     "Tile": "POTION_OFFSET_16",

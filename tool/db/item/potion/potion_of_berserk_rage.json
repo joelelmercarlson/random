@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of berserk rage",
-    "Resistance": "",
+    "Name": "potion of berserk rage",
     "Skill": "potion",
     "Spell": "Berserk",
     "Tile": "POTION_OFFSET_2",

@@ -1,7 +1,7 @@
 {
     "AC": "5",
     "Base": "yak",
-    "Detail": "",
+    "Detail": "VulnFire",
     "EV": "10",
     "Emote": "Silent",
     "HD": "5",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "ice beast",
-    "Resistance": "poison:cold:VF",
+    "Resistance": "poison:cold",
     "Shoot": "",
     "Size": "Large",
     "Speed": "10",

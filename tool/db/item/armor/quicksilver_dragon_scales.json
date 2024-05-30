@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResAcid:ResLightning",
     "En": "7",
     "Hit": "0",
     "Name": "quicksilver dragon scales",
-    "Resistance": "lightning",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_QUICKSILVER_DRAGON_ARMOUR",

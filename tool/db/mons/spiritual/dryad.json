@@ -1,7 +1,7 @@
 {
     "AC": "6",
     "Base": "spiritual",
-    "Detail": "",
+    "Detail": "VulnFire",
     "EV": "12",
     "Emote": "Shout",
     "HD": "8",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "dryad",
-    "Resistance": "VF",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",

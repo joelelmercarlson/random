@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of silence",
-    "Resistance": "",
+    "Name": "scroll of silence",
     "Skill": "scroll",
     "Spell": "Silence",
     "Tile": "SCR_SILENCE",

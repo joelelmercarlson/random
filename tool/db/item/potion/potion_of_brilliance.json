@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of brilliance",
-    "Resistance": "",
+    "Name": "potion of brilliance",
     "Skill": "potion",
     "Spell": "Brilliance",
     "Tile": "POTION_OFFSET_3",

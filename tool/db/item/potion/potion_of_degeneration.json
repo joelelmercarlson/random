@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of degeneration",
-    "Resistance": "",
+    "Name": "potion of degeneration",
     "Skill": "potion",
     "Spell": "Degeneration",
     "Tile": "POTION_OFFSET_6",

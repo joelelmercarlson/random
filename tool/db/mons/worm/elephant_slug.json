@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "worm",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "1",
     "Emote": "Silent",
     "HD": "20",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "elephant slug",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Giant",
     "Speed": "4",

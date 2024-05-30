@@ -1,7 +1,7 @@
 {
     "AC": "4",
     "Base": "elemental",
-    "Detail": "Feral",
+    "Detail": "Feral:VulnCold",
     "EV": "12",
     "Emote": "Silent",
     "HD": "6",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Mindless",
     "Name": "fire elemental",
-    "Resistance": "fire:lightning:VC",
+    "Resistance": "fire:lightning",
     "Shoot": "",
     "Size": "Large",
     "Speed": "13",

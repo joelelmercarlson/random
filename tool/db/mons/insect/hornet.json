@@ -1,7 +1,7 @@
 {
     "AC": "6",
     "Base": "insect",
-    "Detail": "Fly",
+    "Detail": "Fly:VulnPoison",
     "EV": "14",
     "Emote": "Buzz",
     "HD": "6",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "hornet",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "15",

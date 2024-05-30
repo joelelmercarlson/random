@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResAcid:ResPoison",
     "En": "7",
     "Hit": "0",
     "Name": "swamp dragon scales",
-    "Resistance": "poison",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_SWAMP_DRAGON_ARMOUR",

@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResAcid",
     "En": "5",
     "Hit": "0",
     "Name": "acid dragon scales",
-    "Resistance": "acid",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_ACID_DRAGON_ARMOUR",

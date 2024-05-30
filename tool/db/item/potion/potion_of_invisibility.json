@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of invisibility",
-    "Resistance": "",
+    "Name": "potion of invisibility",
     "Skill": "potion",
     "Spell": "Invisible",
     "Tile": "POTION_OFFSET_11",

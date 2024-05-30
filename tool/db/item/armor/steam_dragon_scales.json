@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:ResCold:ResFire",
     "En": "0",
     "Hit": "0",
     "Name": "steam dragon scales",
-    "Resistance": "acid",
     "Skill": "ARMOR",
     "Spell": "",
     "Tile": "ARM_STEAM_DRAGON_ARMOUR",

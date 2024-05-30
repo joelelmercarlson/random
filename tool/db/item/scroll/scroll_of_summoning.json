@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of summoning",
-    "Resistance": "",
+    "Name": "scroll of summoning",
     "Skill": "scroll",
     "Spell": "Summon",
     "Tile": "SCR_UNHOLY_CREATION",

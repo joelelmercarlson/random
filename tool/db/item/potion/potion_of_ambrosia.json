@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of ambrosia",
-    "Resistance": "",
+    "Name": "potion of ambrosia",
     "Skill": "potion",
     "Spell": "Ambrosia",
     "Tile": "POTION_OFFSET",

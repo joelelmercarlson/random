@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of magic",
-    "Resistance": "",
+    "Name": "potion of magic",
     "Skill": "potion",
     "Spell": "Quaff",
     "Tile": "POTION_OFFSET_13",

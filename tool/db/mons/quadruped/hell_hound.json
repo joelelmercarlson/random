@@ -1,7 +1,7 @@
 {
     "AC": "6",
     "Base": "quadruped",
-    "Detail": "",
+    "Detail": "VulnCold",
     "EV": "13",
     "Emote": "Bark",
     "HD": "6",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "hell hound",
-    "Resistance": "fire:VC",
+    "Resistance": "fire",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "15",

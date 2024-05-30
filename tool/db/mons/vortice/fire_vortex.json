@@ -1,7 +1,7 @@
 {
     "AC": "0",
     "Base": "vortice",
-    "Detail": "Feral",
+    "Detail": "Feral:VulnCold",
     "EV": "5",
     "Emote": "Silent",
     "HD": "10",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Mindless",
     "Name": "fire vortex",
-    "Resistance": "fire:VC",
+    "Resistance": "fire",
     "Shoot": "",
     "Size": "Large",
     "Speed": "15",

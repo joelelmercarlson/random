@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of attraction",
-    "Resistance": "",
+    "Name": "potion of attraction",
     "Skill": "potion",
     "Spell": "Attraction",
     "Tile": "POTION_OFFSET_1",

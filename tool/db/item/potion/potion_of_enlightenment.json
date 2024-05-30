@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of enlightenment",
-    "Resistance": "",
+    "Name": "potion of enlightenment",
     "Skill": "potion",
     "Spell": "Enlightenment",
     "Tile": "POTION_OFFSET_7",

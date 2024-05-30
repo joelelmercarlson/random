@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "spider",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "12",
     "Emote": "Silent",
     "HD": "9",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "redback",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Tiny",
     "Speed": "15",

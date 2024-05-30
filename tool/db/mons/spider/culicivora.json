@@ -1,7 +1,7 @@
 {
     "AC": "2",
     "Base": "spider",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "16",
     "Emote": "Skitter",
     "HD": "8",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Animal",
     "Name": "culicivora",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Small",
     "Speed": "15",

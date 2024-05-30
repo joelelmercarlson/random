@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of identify",
-    "Resistance": "",
+    "Name": "scroll of identify",
     "Skill": "scroll",
     "Spell": "Identify",
     "Tile": "SCR_IDENTIFY",

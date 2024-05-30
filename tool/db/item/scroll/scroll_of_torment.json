@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Scroll of torment",
-    "Resistance": "",
+    "Name": "scroll of torment",
     "Skill": "scroll",
     "Spell": "Torment",
     "Tile": "SCR_TORMENT",

@@ -1,10 +1,9 @@
 {
     "Damage": "",
-    "Detail": "",
+    "Detail": "NoBrand:NoEgo",
     "En": "0",
     "Hit": "0",
-    "Name": "Potion of heal wounds",
-    "Resistance": "",
+    "Name": "potion of heal wounds",
     "Skill": "potion",
     "Spell": "Heal",
     "Tile": "POTION_OFFSET_10",

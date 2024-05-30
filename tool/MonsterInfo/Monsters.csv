@@ -3,9 +3,9 @@ ancient,imperial myrmdion,60,16,750,1,22,12,30:Pain,,,,MST_IMPERIAL_MYRMIDON,
 ancient,servant of whispers,60,12,800,1,12,10,10:Pain,,,,MST_SERVANT_OF_WHISPERS,
 ancient,ragged hierophant,40,9,1200,0,10,10,12:Pain,,,,MST_RAGGED_HIEROPHANT,
 bat,bat,0,1,35,1,14,30,1:Pain,,,,,
-bat,butterfly,0,1,10,0,20,25,1:Pain,,,,,VP
+bat,butterfly,0,1,10,0,20,25,1:Pain,,,,,
 bat,vampire bat,10,3,105,1,14,30,6:Pain,,,,,
-bat,fire bat,10,5,225,1,14,30,6:Fire,,,,,VC
+bat,fire bat,10,5,225,1,14,30,6:Fire,,,,,
 bat,bennu,140,14,770,6,16,16,27:Pain,24:Pain,24:Pain,,,acid:fire:poison:necrotic
 bat,caustic shrike,80,18,1080,8,18,20,36:Acid,,,,,fire:cold
 bat,shard shrike,80,21,1050,2,18,30,36:Cold,,,,,cold
@@ -46,7 +46,7 @@ elf,deep elf elementalist,120,14,630,1,13,10,12:Pain,,,,MST_DEEP_ELF_ELEMENTALIS
 plant,sleepcap,10,3,270,5,0,10,9:Spore,,,,,poison
 plant,wandering mushroom,40,8,440,5,0,10,20:Spore,,,,,poison
 plant,deathcap,80,13,520,5,0,10,33:Pain,,,,MST_DEATHCAP,cold
-plant,thorn hunter,100,15,975,9,9,12,27:Pain,23:Pain,,,MST_THORN_HUNTER,poision:VF
+plant,thorn hunter,100,15,975,9,9,12,27:Pain,23:Pain,,,MST_THORN_HUNTER,poision
 plant,shambling mangrove,100,13,910,13,3,8,41:Pain,,,,MST_SHAMBLING_MANGROVE,poison
 plant,vine stalker,40,8,360,2,12,10,10:Pain,10:Pain,,,,
 goblin,goblin,0,1,40,0,12,10,1:Pain,,,,,
@@ -64,7 +64,7 @@ quadruped,warg,10,5,325,9,12,15,25:Pounce,,,,,
 quadruped,wolf,40,4,220,4,15,17,12:Pounce,,,,,
 quadruped,inugami,20,4,55,5,13,13,14:Pain,,,,,
 quadruped,hog,40,6,330,2,9,13,14:Pain,,,,,
-quadruped,hell hound,20,6,275,6,13,15,13:Pain,,,,MST_HELL_HOUND,fire:VC
+quadruped,hell hound,20,6,275,6,13,15,13:Pain,,,,MST_HELL_HOUND,fire
 quadruped,doom hound,20,20,1100,6,13,13,45:Pain,,,,MST_DOOM_HOUND,
 quadruped,raiju,20,7,385,4,14,10,11:Lightning,,,,MST_RAIJU,lightning
 quadruped,hell hog,40,11,595,2,9,14,20:Pain,,,,MST_HELL_HOG,fire
@@ -73,7 +73,7 @@ quadruped,felid,40,5,175,2,18,10,10:Pain,,,,,
 quadruped,polar bear,20,7,455,7,8,10,20:Pain,,,,MST_BEAR,cold
 quadruped,black bear,20,6,270,2,8,10,9:Pain,,,,MST_BEAR,
 spriggan,spriggan,60,7,245,1,18,10,15:Pain,,,,,
-spriggan,spriggan rider,100,11,605,1,18,10,27:Pain,,,,,VP
+spriggan,spriggan rider,100,11,605,1,18,10,27:Pain,,,,,
 spriggan,spriggan druid,100,11,440,1,18,10,18:Pain,,,,MST_SPRIGGAN_DRUID,
 spriggan,spriggan berserker,140,12,540,2,18,10,27:Pain,,,,MST_SPRIGGAN_BERSERKER,
 spriggan,spriggan air mage,140,14,490,1,24,10,16:Pain,,,,MST_SPRIGGAN_AIR_MAGE,
@@ -136,24 +136,24 @@ rat,quokka,0,1,55,2,13,12,4:Pain,,,,,
 rat,river rat,10,2,110,5,11,10,10:Pain,,,,,
 rat,hell rat,20,3,165,7,10,12,20:Poison,,,,,
 rat,crystal echidna,200,12,640,10,10,10,20:Cold,,,,MST_CRYSTAL_ECHIDNA,fire:cold:lightning
-spider,scorpion,20,4,180,5,10,12,8:Sting,,,,,VP
+spider,scorpion,20,4,180,5,10,12,8:Sting,,,,,
 spider,emperor scorpion,60,14,1090,18,7,12,30:Sting,10:Pain,10:Pain,,,poison
-spider,tarantella,20,6,280,3,14,15,19:Touch,,,,,VP
-spider,jumping spider,20,8,320,6,12,15,20:Constrict,,,,MST_JUMPING_SPIDER,VP
-spider,wolf spider,20,11,550,3,10,15,25:Pain,15:Pain,,,,VP
-spider,redback,20,9,270,2,12,15,18:Sting,,,,,VP
+spider,tarantella,20,6,280,3,14,15,19:Touch,,,,,
+spider,jumping spider,20,8,320,6,12,15,20:Constrict,,,,MST_JUMPING_SPIDER,
+spider,wolf spider,20,11,550,3,10,15,25:Pain,15:Pain,,,,
+spider,redback,20,9,270,2,12,15,18:Sting,,,,,
 spider,demonic crawler,60,9,585,10,6,13,20:Pain,20:Pain,20:Pain,,,poison
-spider,orb spider,40,10,420,3,10,12,15:Pain,,,,MST_ORB_SPIDER,VP
+spider,orb spider,40,10,420,3,10,12,15:Pain,,,,MST_ORB_SPIDER,
 spider,broodmother,60,12,1400,2,4,12,40:Pain,,,,MST_BROODMOTHER,
-spider,culicivora,20,8,390,2,16,15,27:Poison,,,,MST_CULICIVORA,VP
+spider,culicivora,20,8,390,2,16,15,27:Poison,,,,MST_CULICIVORA,
 testudine,snapping turtle,40,10,600,16,5,8,,,,35:Reach,,
 testudine,alligator snapping turtle,60,16,1440,19,1,8,,,,50:Reach,,
-testudine,fire crab,40,8,520,9,6,10,15:Fire,15:Pain,,,MST_FIRE_CRAB,fire:VC
+testudine,fire crab,40,8,520,9,6,10,15:Fire,15:Pain,,,MST_FIRE_CRAB,fire
 testudine,ghost crab,40,9,585,6,6,10,20:Poison,15:Pain,,,MST_GHOST_CRAB,
-testudine,apocalypse crab,60,8,480,11,5,10,15:Pain,15:Pain,,,MST_APOCALYPSE_CRAB,fire:cold:VP
+testudine,apocalypse crab,60,8,480,11,5,10,15:Pain,15:Pain,,,MST_APOCALYPSE_CRAB,fire:cold
 ugly,ugly thing,40,12,660,4,10,10,17:Pain,15:Pain,,,,
 ugly,very ugly thing,40,18,990,6,10,10,27:Pain,15:Pain,,,,
-vortice,fire vortex,200,10,300,0,5,15,,,,,,fire:VC
+vortice,fire vortex,200,10,300,0,5,15,,,,,,fire
 vortice,spatial vortex,200,6,540,0,5,15,30:Pain,,,,,fire:cold:lightning
 vortice,spatial maelstrom,200,10,750,0,5,16,20:Pain,20:TentacleSlap,,,,fire:cold:lightning
 vortice,will-o-the-wisp,200,11,400,4,10,10,20:Pain,,,,MST_WILL_O_THE_WISP,fire:cold:lightning
@@ -165,19 +165,19 @@ worm,tyrant leech,40,12,600,5,15,8,35:Poison,,,,,necrotic
 worm,dart slug,0,1,100,1,1,7,3:Pain,,,,MST_DART_SLUG,
 worm,torpor snail,80,10,600,8,1,7,25:Pain,,,,,
 worm,steelbarb worm,10,10,690,11,7,12,29:Pain,,,,,fire
-worm,elephant slug,80,20,1300,2,1,4,50:Pain,,,,,VP
+worm,elephant slug,80,20,1300,2,1,4,50:Pain,,,,,
 horror,unseen horror,20,7,385,5,10,10,12:Pain,,,,,
 horror,small abomination,40,6,270,0,0,12,23:Pain,,,,,
 horror,ancient zyme,60,8,520,6,6,10,16:Pain,16:Pain,,,,
 horror,worldbinder,60,8,400,12,4,14,8:Pain,8:Pain,,,MST_WORLDBINDER,
 horror,bunyip,60,12,800,6,10,15,40:Pain,40:Pain,40:Pain,,MST_BUNYIP,poison
 octopode,octopode,10,8,560,1,5,10,24:TentacleSlap,5:Pain,,,,
-insect,killer bee,10,3,165,2,18,20,10:Sting,,,,,VP
-insect,queen bee,20,7,385,10,10,10,20:Sting,,,,MST_QUEEN_BEE,VP
+insect,killer bee,10,3,165,2,18,20,10:Sting,,,,,
+insect,queen bee,20,7,385,10,10,10,20:Sting,,,,MST_QUEEN_BEE,
 insect,vampire mosquito,20,5,275,2,15,19,13:Sting,,,,,
-insect,hornet,30,6,330,6,14,15,18:Sting,,,,,VP
-insect,meliai,20,7,245,2,14,20,14:Pain,12:Sting,,,MST_MELIAI,VP
-insect,spark wasp,40,12,660,9,14,15,33:Lightning,,,,MST_SPARK_WASP,lightning:VP
+insect,hornet,30,6,330,6,14,15,18:Sting,,,,,
+insect,meliai,20,7,245,2,14,20,14:Pain,12:Sting,,,MST_MELIAI,
+insect,spark wasp,40,12,660,9,14,15,33:Lightning,,,,MST_SPARK_WASP,lightning
 insect,ghost moth,100,13,715,8,10,12,24:Pain,18:Sting,18:Sting,,MST_GHOST_MOTH,cold:poison
 insect,moth of wrath,40,9,495,0,10,12,25:Sting,,,,MST_MOTH_OF_WRATH,
 insect,sun moth,60,9,605,6,12,12,27:Swoop,,,,MST_SUN_MOTH,fire
@@ -195,12 +195,12 @@ angelic,cherub,100,9,765,10,20,10,,8:Pain,,15:Pain,MST_BATTLECRY,fire:lightning
 angelic,seraph,160,25,2125,10,20,15,50:Radiant,20:Pain,,,MST_SERAPH,fire:lightning
 angelic,daeva,140,14,1190,10,13,10,25:Radiant,10:Pain,,,MST_DAEVA,
 angelic,profane servitor,140,18,1530,10,20,15,25:Necrotic,10:Pain,,,,cold
-beetle,giant cockroach,0,1,50,3,10,12,2:Pain,,,,,VP
-beetle,bombardier beetle,20,2,170,4,7,6,5:Pain,,,,MST_BOMBARDIER_BEETLE,VP
+beetle,giant cockroach,0,1,50,3,10,12,2:Pain,,,,,
+beetle,bombardier beetle,20,2,170,4,7,6,5:Pain,,,,MST_BOMBARDIER_BEETLE,
 beetle,radroach,60,12,800,13,5,10,20:Pain,16:Pain,,,MST_RADROACH,
 beetle,formicid,40,6,420,3,10,10,15:Pain,,,,,
 beetle,entropy weaver,60,7,715,7,13,12,17:Pain,17:Pain,17:Pain,,MST_ENTROPY_WEAVER,
-beetle,boulder beetle,40,12,765,20,2,10,27:Pain,,,,MST_BOULDER_BEETLE,VP
+beetle,boulder beetle,40,12,765,20,2,10,27:Pain,,,,MST_BOULDER_BEETLE,
 beetle,pharaoh ant,60,10,360,4,8,14,43:Pain,,,,,
 beetle,death scarab,60,8,320,7,14,30,33:Pain,,,,,
 giant,cyclops,40,9,495,5,3,7,35:Pain,,,,,
@@ -214,7 +214,7 @@ giant,iron giant,120,18,1800,18,2,10,65:Pain,,,,MST_IRON_GIANT,fire:cold:poison
 giant,cactus giant,60,9,495,1,2,10,10:Poison,,,,,poison
 giant,tainted leviathan,120,18,1500,15,2,10,50:TentacleSlap,30:TailSlap,,,MST_TAINTED_LEVIATHAN,cold
 giant,protean progenitor,120,14,820,7,8,14,55:Pain,,,,MST_PROTEAN_PROGENITOR,poison
-dragon,fire dragon,60,12,900,10,8,10,20:Pain,13:Pain,15:Trample,,MST_FIRE_DRAGON_BREATH,fire:poison:VC
+dragon,fire dragon,60,12,900,10,8,10,20:Pain,13:Pain,15:Trample,,MST_FIRE_DRAGON_BREATH,fire:poison
 dragon,hydra,60,13,715,0,5,10,18:Pain,18:Pain,18:Pain,,,poison
 dragon,ice dragon,40,12,900,10,8,10,17:Pain,17:Pain,15:Trample,,MST_ICE_DRAGON_BREATH,cold:poison
 dragon,steam dragon,20,4,300,5,10,10,12:Pain,6:Pain,,,MST_STEAM_DRAGON,fire:cold
@@ -229,8 +229,8 @@ dragon,bone dragon,100,20,1800,20,4,10,30:Pain,20:Pain,20:Trample,,,cold:fire:li
 dragon,pearl dragon,160,18,1170,10,15,12,35:Pain,20:Pain,,,MST_PEARL_DRAGON,
 elemental,earth elemental,200,6,450,14,4,6,40:Pain,,,,,fire:cold:lightning
 elemental,quicksilver elemental,200,16,800,1,20,20,30:Lightning,,,,MST_QUICKSILVER_DRAGON,fire:cold:lightning
-elemental,fire elemental,200,6,330,4,12,13,,,,,,fire:lightning:VC
-elemental,water elemental,200,6,420,4,7,10,22:Pain,,,,,lightning:VF
+elemental,fire elemental,200,6,330,4,12,13,,,,,,fire:lightning
+elemental,water elemental,200,6,420,4,7,10,22:Pain,,,,,lightning
 elemental,air elemental,200,6,330,2,18,25,15:Lightning,,,,MST_AIR_ELEMENTAL,lightning
 elemental,iron elemental,200,12,1080,20,2,6,40:Pain,,,,MST_IRON_ELEMENTAL,fire:cold:lightning
 elemental,elemental wellspring,200,18,620,8,8,10,,,,,MST_ELEMENTAL_WELLSPRING,lightning
@@ -271,7 +271,7 @@ lich,ancient lich,200,27,1080,20,10,10,20:Touch,,,,MST_ANCIENT_LICH,cold:fire:li
 lich,dread lich,200,27,1080,20,10,10,20:Touch,,,,MST_DREAD_LICH,cold:fire:lightning
 lich,halazid warlock,100,18,750,8,12,10,20:Poison,,,,MST_HALAZID_WARLOCK,cold
 lich,stoker,120,13,800,5,12,10,15:Fire,,,,MST_STOKER,fire
-mummy,mummy,20,3,195,3,6,6,20:Pain,,,,,cold:VF
+mummy,mummy,20,3,195,3,6,6,20:Pain,,,,,cold
 mummy,guardian mummy,40,7,455,6,9,8,30:Pain,,,,,cold
 mummy,royal mummy,160,15,1950,10,6,10,35:Pain,,,,MST_ROYAL_MUMMY,cold:lightning
 mummy,mummy priest,120,10,650,8,7,8,30:Pain,,,,MST_MUMMY_PRIEST,cold:lightning
@@ -281,9 +281,9 @@ naga,naga sharpshooter,80,9,720,6,10,10,,5:Constrict,,17:Pain,MST_NAGA_SHARPSHOO
 naga,naga ritualist,60,8,600,6,10,10,14:Pain,5:Constrict,,,MST_NAGA_RITUALIST,poison
 naga,naga warrior,80,10,750,6,10,10,27:Pain,5:Constrict,,,MST_NAGA_WARRIOR,poison
 naga,nagaraja,140,15,825,6,10,10,27:Pain,7:Constrict,,,MST_NAGARAJA,poison
-naga,salamander,40,8,640,5,7,10,13:Fire,,,,,fire:VC
-naga,salamander mystic,60,10,650,5,7,10,10:Fire,,,,MST_SALAMANDER_MYSTIC,fire:VC
-naga,salamander tyrant,60,15,675,5,7,10,15:Fire,,,,MST_SALAMANDER_TYRANT,fire:VC
+naga,salamander,40,8,640,5,7,10,13:Fire,,,,,fire
+naga,salamander mystic,60,10,650,5,7,10,10:Fire,,,,MST_SALAMANDER_MYSTIC,fire
+naga,salamander tyrant,60,15,675,5,7,10,15:Fire,,,,MST_SALAMANDER_TYRANT,fire
 ogre,ogre,20,5,275,1,6,10,20:Pain,,,,,
 ogre,two-headed ogre,40,10,550,3,6,10,20:Pain,15:Pain,,,,
 ogre,ogre mage,80,10,550,1,7,10,16:Pain,,,,MST_OGRE_MAGE,
@@ -304,16 +304,16 @@ tengu,tengu,20,5,225,2,17,10,10:Pain,5:Pain,5:Pain,,,
 tengu,tengu conjurer,20,7,315,2,17,10,10:Pain,5:Pain,5:Pain,,MST_TENGU_CONJURER,
 tengu,tengu warrior,40,10,600,2,17,10,16:Pain,8:Pain,8:Pain,,,
 tengu,tengu reaver,60,17,850,2,17,10,27:Pain,11:Pain,11:Pain,,MST_TENGU_REAVER,
-spiritual,djinni,30,8,400,5,5,10,10:Pain,,,,,fire:VC
+spiritual,djinni,30,8,400,5,5,10,10:Pain,,,,,fire
 spiritual,ancestor,-5,10,100,5,10,10,27:Pain,,,,,fire:cold
 spiritual,knight,-5,10,100,5,10,10,27:Pain,,,,,fire:cold
 spiritual,battlemage,-5,10,100,5,10,10,27:Pain,,,,,fire:cold
 spiritual,hexer,-5,10,100,5,10,10,27:Pain,,,,,fire:cold
-spiritual,efreet,20,7,385,10,5,10,17:Fire,,,,MST_EFREET,poison:fire:VC
+spiritual,efreet,20,7,385,10,5,10,17:Fire,,,,MST_EFREET,poison:fire
 spiritual,rakshasa,140,11,660,8,14,10,20:Fire,,,,MST_RAKSHASA,poison
 spiritual,eleionoma,100,16,800,2,10,10,25:Poison,,,,MST_ELEIONOMA,
-spiritual,wendigo,140,15,880,4,20,10,30:Cold,20:Pain,,,MST_WENDIGO,poison:cold:VF
-spiritual,dryad,80,8,520,6,12,10,10:Acid,,,,MST_DRYAD,VF
+spiritual,wendigo,140,15,880,4,20,10,30:Cold,20:Pain,,,MST_WENDIGO,poison:cold
+spiritual,dryad,80,8,520,6,12,10,10:Acid,,,,MST_DRYAD,
 spiritual,snaplasher vine,40,12,240,4,7,13,14:Constrict,14:Pain,,,,poison
 spiritual,snaplasher vine segment,40,12,360,6,0,10,,,,,,poison
 snake,ball python,0,1,35,0,11,12,3:Constrict,,,,,
@@ -326,7 +326,7 @@ snake,guardian serpent,60,8,440,6,14,15,26:Poison,,,,MST_GUARDIAN_SERPENT,poison
 snake,shock serpent,40,10,550,2,15,15,20:Lightning,,,,MST_SHOCK_SERPENT,lightning
 snake,mana viper,100,10,496,3,15,14,23:Pain,,,,,poison
 snake,electric eel,10,3,165,1,15,10,,,,,MST_ZAPPER,lightning
-snake,lava snake,10,3,165,2,17,10,7:Fire,,,,MST_LAVA_SNAKE,fire:VC
+snake,lava snake,10,3,165,2,17,10,7:Fire,,,,MST_LAVA_SNAKE,fire
 troll,troll,20,7,385,3,10,10,20:Pain,15:Pain,15:Pain,,,
 troll,iron troll,100,16,850,20,4,7,35:Pain,25:Pain,25:Pain,,,
 troll,deep troll,40,10,550,6,10,10,27:Pain,20:Pain,20:Pain,,,
@@ -346,7 +346,7 @@ wraith,drowned soul,60,13,195,0,13,12,,,,,,cold
 wraith,wraith,40,6,330,10,10,10,15:Touch,,,,,cold
 wraith,shadow wraith,100,10,550,7,7,10,27:Touch,,,,,
 wraith,putrid mouth,100,14,700,5,14,10,30:Poison,20:Touch,,,MST_PUTRID_MOUTH,
-wraith,freezing wraith,40,8,440,12,10,10,16:Touch,15:Touch,,,,cold:VF
+wraith,freezing wraith,40,8,440,12,10,10,16:Touch,15:Touch,,,,cold
 wraith,eidolon,140,13,715,12,10,10,27:Touch,17:Cold,,,MST_EIDOLON,cold
 wraith,phantasmal warrior,80,9,495,12,10,10,39:Touch,,,,MST_BLINK_CLOSE,cold
 horror,large abomination,100,11,495,0,0,10,40:TentacleSlap,,,,,
@@ -370,18 +370,18 @@ yak,elephant,60,9,675,8,2,10,20:Trample,5:TrunkSlap,,,,
 yak,dire elephant,100,15,1125,13,2,10,40:Trample,15:TrunkSlap,,,,
 yak,hellephant,140,20,1700,13,10,10,45:Trample,20:Pain,15:Gore,,MST_HELLEPHANT,
 yak,apis,100,16,1200,9,5,10,40:Trample,,,,,
-yak,ice beast,20,5,275,5,10,10,5:Cold,,,,,poison:cold:VF
+yak,ice beast,20,5,275,5,10,10,5:Cold,,,,,poison:cold
 yak,sky beast,20,5,275,3,13,10,5:Lightning,,,,,lightning
 zombie,skeleton,-1,4,130,3,10,5,10:Pain,,,,,
 zombie,zombie,-1,4,200,3,10,5,10:Pain,,,,,cold
-zombie,simulacrum,-1,2,110,10,4,7,10:Pain,,,,,cold:VF
+zombie,simulacrum,-1,2,110,10,4,7,10:Pain,,,,,cold
 zombie,zombie small,-1,4,200,3,10,5,10:Pain,,,,,cold
 zombie,zombie large,-1,6,330,8,5,5,23:Pain,,,,,cold
 zombie,skeleton small,-1,1,100,3,10,5,10:Pain,,,,,
 zombie,skeleton medium,-1,4,130,3,10,5,10:Pain,,,,,
 zombie,skeleton large,-1,6,330,8,5,5,10:Pain,,,,,
-zombie,simulacrum small,-1,2,110,10,4,7,10:Pain,,,,,cold:VF
-zombie,simulacrum large,-1,8,440,8,5,7,14:Pain,,,,,cold:VF
+zombie,simulacrum small,-1,2,110,10,4,7,10:Pain,,,,,cold
+zombie,simulacrum large,-1,8,440,8,5,7,14:Pain,,,,,cold
 zombie,spectral thing,200,8,440,8,5,7,20:Pain,,,,,cold
 zombie,bound soul,200,8,440,8,5,7,20:Pain,,,,,cold
 demon,demonspawn,40,10,925,3,12,10,20:Pain,20:Pain,20:Gore,,,
@@ -389,47 +389,47 @@ demon,demonspawn blood saint,60,15,925,6,12,10,20:Pain,,,,MST_DEMONSPAWN_BLOOD_S
 demon,demonspawn warmonger,60,15,1250,3,12,10,40:Pain,20:Pain,20:Gore,,MST_DEMONSPAWN_WARMONGER,fire
 demon,demonspawn corrupter,60,15,925,3,15,10,25:Pain,20:Pain,,,MST_DEMONSPAWN_CORRUPTER,necrotic
 demon,demonspawn black sun,60,15,925,9,12,10,25:Pain,,,,MST_DEMONSPAWN_BLACK_SUN,cold
-demon,crimson imp,40,3,135,3,14,10,4:Sting,,,,MST_BLINKER,poison:fire:VC
+demon,crimson imp,40,3,135,3,14,10,4:Sting,,,,MST_BLINKER,poison:fire
 demon,cerulean imp,40,3,135,3,14,10,4:Sting,,,,,poison:lightning
 demon,quasit,10,3,150,5,17,13,4:Pain,,,,,poison:fire:cold
-demon,white imp,10,2,110,4,10,10,4:Cold,,,,MST_WHITE_IMP,poison:cold:VF
-demon,ufetubus,10,1,90,2,15,15,5:Pain,,,,,cold:VF
+demon,white imp,10,2,110,4,10,10,4:Cold,,,,MST_WHITE_IMP,poison:cold
+demon,ufetubus,10,1,90,2,15,15,5:Pain,,,,,cold
 demon,iron imp,10,3,165,6,8,8,12:Pain,,,,,poison:lightning:fire:cold
 demon,shadow imp,10,2,110,3,11,10,6:Pain,,,,MST_SHADOW_IMP,poison:cold
 demon,lemure,20,5,275,4,12,10,10:Pain,,,,,
 demon,rust devil,60,8,440,10,8,10,12:Acid,,,,,poison:lightning:fire:cold
 demon,orange demon,60,8,520,3,7,10,15:Fire,8:Pain,,,,
-demon,red devil,60,7,315,7,13,10,19:Constrict,,,,,poison:fire:VC
+demon,red devil,60,7,315,7,13,10,19:Constrict,,,,,poison:fire
 demon,hellwing,60,7,455,16,10,10,17:Pain,10:Pain,,,,poison
-demon,ice devil,60,8,440,12,10,10,16:Cold,,,,,poison:cold:VF
+demon,ice devil,60,8,440,12,10,10,16:Cold,,,,,poison:cold
 demon,chaos spawn,60,6,300,4,12,10,19:TentacleSlap,,,,,
-demon,sun demon,80,10,550,10,12,10,30:Fire,,,,,lightning:poison:fire:VC
+demon,sun demon,80,10,550,10,12,10,30:Fire,,,,,lightning:poison:fire
 demon,soul eater,140,11,605,18,10,10,25:Pain,,,,MST_SOUL_EATER,poison:cold
 demon,smoke demon,60,7,385,5,9,10,8:Pain,,,,,poison:fire
 demon,neqoxec,60,6,330,4,12,10,15:Pain,,,,MST_SMOKE_DEMON,poison
 demon,ynoxinul,40,6,330,3,10,10,12:Pain,,,,MST_NEQOXEC,lightning:poison:cold
 demon,sixfirhy,60,9,385,2,20,40,15:Lightning,,,,MST_YNOXINUL,lightning
 demon,shadow demon,100,10,550,7,12,10,21:Pain,,,,MST_SHADOW_DEMON,poison:cold
-demon,green death,160,13,715,5,7,10,32:Pain,,,,MST_GREEN_DEATH,poison:necrotic:VS
-demon,blizzard demon,140,12,660,10,10,10,20:Cold,20:Lightning,,,MST_BLIZZARD_DEMON,poison:cold:lightning:VF
-demon,balrug,160,14,770,5,12,12,25:Fire,,,,MST_CACODEMON,poison:fire:VC:VS
-demon,cacodemon,160,13,975,11,10,10,22:Pain,22:Poison,,,MST_BALRUG,poison:lightning:necrotic:VS
+demon,green death,160,13,715,5,7,10,32:Pain,,,,MST_GREEN_DEATH,poison:necrotic
+demon,blizzard demon,140,12,660,10,10,10,20:Cold,20:Lightning,,,MST_BLIZZARD_DEMON,poison:cold:lightning
+demon,balrug,160,14,770,5,12,12,25:Fire,,,,MST_BALRUG,poison:fire
+demon,cacodemon,160,13,975,11,10,10,22:Pain,22:Poison,,,MST_CACODEMON,poison:lightning:necrotic
 demon,hell beast,20,7,840,5,14,15,28:Pain,,,,,
 demon,hellion,60,7,385,5,19,12,19:Fire,,,,MST_HELLION,poison
 demon,reaper,100,14,710,15,10,10,36:Pain,,,,,poison:cold
 demon,lorocyproca,140,14,710,15,10,10,36:Pain,,,,,poison:cold:fire:lightning
 demon,tormentor,60,7,385,12,12,13,8:Pain,,,,MST_TORMENTOR,poison:fire
-demon,Brimstone Fiend,200,18,990,15,6,10,25:Pain,15:Pain,15:Pain,,MST_BRIMSTONE_FIEND,poison:fire:VC
-demon,Ice Fiend,200,18,990,15,6,10,25:Cold,25:Pain,,,MST_ICE_FIEND,poison:cold-:VF
+demon,Brimstone Fiend,200,18,990,15,6,10,25:Pain,15:Pain,15:Pain,,MST_BRIMSTONE_FIEND,poison:fire
+demon,Ice Fiend,200,18,990,15,6,10,25:Cold,25:Pain,,,MST_ICE_FIEND,poison:fire
 demon,Tzitzimitl,200,21,1050,12,16,10,25:Poison,25:Pain,,,MST_TZITZIMITL,poison:cold:lightning
 demon,Hell Sentinel,200,19,1425,25,3,10,40:Pain,25:Pain,,,MST_HELL_SENTINEL,fire:poison:cold:lightning
 demon,Executioner,140,12,660,10,15,20,30:Fire,10:Pain,,,MST_EXECUTIONER,fire:poison:cold:lightning
-construct,ice statue,200,8,720,12,1,10,,,,,MST_ICE_STATUE,cold:lightning:VF
+construct,ice statue,200,8,720,12,1,10,,,,,MST_ICE_STATUE,cold:lightning
 construct,obsidian statue,200,10,700,12,1,10,,,,,MST_OBSIDIAN_STATUE,fire:poison:cold:lightning
 construct,orange crystal statue,200,10,700,12,1,10,,,,,MST_ORANGE_CRYSTAL_STATUE,fire:poison:cold:lightning
 construct,training dummy,200,1,60,0,0,10,,,,,,
 construct,pillar of salt,200,1,10,1,0,10,,,,,,
-construct,block of ice,200,3,285,15,0,10,,,,,,cold:VF
+construct,block of ice,200,3,285,15,0,10,,,,,,cold
 construct,diamond obelisk,200,8,96000,12,1,10,,,,,,
 construct,lightning spire,200,10,700,13,3,10,,,,,MST_ZAPPER,fire:poison:cold:lightning
 construct,strange machine,200,21,900,12,1,10,,,,,MST_STRANGE_MACHINE,fire:poison:cold:lightning

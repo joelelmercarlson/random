@@ -1,7 +1,7 @@
 {
     "AC": "4",
     "Base": "spiritual",
-    "Detail": "",
+    "Detail": "VulnFire",
     "EV": "20",
     "Emote": "Howl",
     "HD": "15",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "wendigo",
-    "Resistance": "poison:cold:VF",
+    "Resistance": "poison:cold",
     "Shoot": "",
     "Size": "Medium",
     "Speed": "10",

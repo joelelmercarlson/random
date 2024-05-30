@@ -22,12 +22,8 @@ data VisualKind
   = VActor
   | VWall
   | VLWall
-  | VMagma
-  | VRubble
   | VDoor
   | VOpen
-  | VForest
-  | VGrass
   | VWater2
   | VWater
   | VLit
@@ -39,6 +35,7 @@ data VisualKind
   | VLightning
   | VNecrotic
   | VPoison
+  | VPsychic
   | VRadiant
   | VThunder
   | VDartN

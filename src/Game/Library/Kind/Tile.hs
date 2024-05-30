@@ -98,13 +98,15 @@ addFeat :: Terrain -> [Feature]
 addFeat t
   | t == Wall   = [Dark]
   | t == Light  = [Dark,NoDig]
-  | t == Magma  = [Dark,NoDig]
-  | t == Rubble = [Dark]
   | t == Door   = [Dark]
   | t == Open   = [OftenPlayer]
   | t == Rally  = [RallyPoint,OftenMonster]
   | t == Stair  = [WayPoint,NoMonster]
   | t == Unique = [UniquePoint,NoMonster]
+  | t == Ice          = [OftenMonster,ColdPoint,Dark,NoDig]
+  | t == Lava         = [OftenLavaMonster,FirePoint,Dark,NoDig]
+  | t == WaterDeep    = [NoMonster,WaterPoint,Dark,NoDig]
+  | t == WaterShallow = [OftenWaterMonster,WaterPoint,Dark,NoDig]
   | t == R1 = [RZ1,OftenPlayer]
   | t == R2 = [RZ2,OftenMonster]
   | t == R3 = [RZ3,OftenMonster]
@@ -114,18 +116,11 @@ addFeat t
   | t == R7 = [RZ7,OftenMonster]
   | t == R8 = [RZ8,OftenMonster]
   | t == R9 = [RZ9,OftenMonster]
-  | t == Forest       = [OftenMonster,ForestPoint]
-  | t == Grass        = [OftenPlayer,GrassPoint]
-  | t == Ice          = [OftenMonster,ColdPoint,NoDig]
-  | t == Lava         = [OftenLavaMonster,FirePoint,NoDig]
-  | t == Swamp        = [OftenWaterMonster,AcidPoint,NoDig]
-  | t == WaterDeep    = [NoMonster,WaterPoint,NoDig]
-  | t == WaterShallow = [OftenWaterMonster,WaterPoint,NoDig]
   | otherwise = []
 
 addLit :: Terrain -> Bool
 addLit t
-  | t `elem` [Lava, Light, WaterDeep, WaterShallow] = True
+  | t `elem` [Light,WaterDeep] = True
   | otherwise = False
 
 -- | miniMap
@@ -133,16 +128,11 @@ addRGB :: Terrain -> RGB
 addRGB t
   | t == Wall   = RGB 255 255 255
   | t == Light  = RGB 255 255 255
-  | t == Magma  = RGB 128 0 0
-  | t == Rubble = RGB 128 128 0
   | t == Door   = RGB 192 192 192
   | t == Open   = RGB 128 128 128
   | t == Stair  = RGB 192 192 192
-  | t == Forest       = RGB 0 128 0
-  | t == Grass        = RGB 0 128 0
   | t == Ice          = RGB 0 255 255
   | t == Lava         = RGB 255 0 0
-  | t == Swamp        = RGB 0 255 0
   | t == WaterDeep    = RGB 0 0 128
   | t == WaterShallow = RGB 0 128 128
   | otherwise = RGB 128 128 128
@@ -152,13 +142,15 @@ addVis :: Terrain -> VisualKind
 addVis t
   | t == Wall   = VWall
   | t == Light  = VLWall
-  | t == Magma  = VMagma
-  | t == Rubble = VRubble
   | t == Door   = VDoor
   | t == Open   = VOpen
   | t == Rally  = VOpen
   | t == Stair  = VOpen
   | t == Unique = VOpen
+  | t == Ice          = VCold
+  | t == Lava         = VFire
+  | t == WaterDeep    = VWater2
+  | t == WaterShallow = VWater
   | t == R1 = VOpen
   | t == R2 = VOpen
   | t == R3 = VOpen
@@ -168,11 +160,4 @@ addVis t
   | t == R7 = VOpen
   | t == R8 = VOpen
   | t == R9 = VOpen
-  | t == Forest       = VForest
-  | t == Grass        = VGrass
-  | t == Ice          = VCold
-  | t == Lava         = VFire
-  | t == Swamp        = VAcid
-  | t == WaterDeep    = VWater2
-  | t == WaterShallow = VWater
   | otherwise = VWall

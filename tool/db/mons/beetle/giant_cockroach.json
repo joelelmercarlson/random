@@ -1,7 +1,7 @@
 {
     "AC": "3",
     "Base": "beetle",
-    "Detail": "",
+    "Detail": "VulnPoison",
     "EV": "10",
     "Emote": "Silent",
     "HD": "1",
@@ -13,7 +13,7 @@
     "Hurt2": "",
     "Intelligence": "Human",
     "Name": "giant cockroach",
-    "Resistance": "VP",
+    "Resistance": "",
     "Shoot": "",
     "Size": "Small",
     "Speed": "12",
