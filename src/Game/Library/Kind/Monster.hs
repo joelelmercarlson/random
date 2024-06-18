@@ -41,10 +41,10 @@ data MonsterData = MonsterData
   , _Hurt0 :: Text
   , _Hurt1 :: Text
   , _Hurt2 :: Text
+  , _Hurt3 :: Text
   , _Intelligence :: Text
   , _Name :: Text
   , _Resistance :: Text
-  , _Shoot :: Text
   , _Size :: Text
   , _Speed :: Text
   , _Spell :: Text
@@ -68,10 +68,10 @@ instance FromJSON MonsterData where
     x10 <- v .: "Hurt0"
     x11 <- v .: "Hurt1"
     x12 <- v .: "Hurt2"
-    x13 <- v .: "Intelligence"
-    x14 <- v .: "Name"
-    x15 <- v .: "Resistance"
-    x16 <- v .: "Shoot"
+    x13 <- v .: "Hurt3"
+    x14 <- v .: "Intelligence"
+    x15 <- v .: "Name"
+    x16 <- v .: "Resistance"
     x17 <- v .: "Size"
     x18 <- v .: "Speed"
     x19 <- v .: "Spell"
@@ -92,10 +92,10 @@ instance FromJSON MonsterData where
           , _Hurt0 = x10
           , _Hurt1 = x11
           , _Hurt2 = x12
-          , _Intelligence = x13
-          , _Name = x14
-          , _Resistance = x15
-          , _Shoot = x16
+          , _Hurt3 = x13
+          , _Intelligence = x14
+          , _Name = x15
+          , _Resistance = x16
           , _Size = x17
           , _Speed = x18
           , _Spell = x19

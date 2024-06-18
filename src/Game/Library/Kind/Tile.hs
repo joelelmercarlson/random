@@ -103,11 +103,11 @@ addFeat t
   | t == Rally  = [RallyPoint,OftenMonster]
   | t == Stair  = [WayPoint,NoMonster]
   | t == Unique = [UniquePoint,NoMonster]
-  | t == Ice          = [OftenMonster,ColdPoint,Dark,NoDig]
-  | t == Lava         = [OftenLavaMonster,FirePoint,Dark,NoDig]
-  | t == WaterDeep    = [NoMonster,WaterPoint,Dark,NoDig]
-  | t == WaterShallow = [OftenWaterMonster,WaterPoint,Dark,NoDig]
-  | t == R1 = [RZ1,OftenPlayer]
+  | t == Ice          = [OftenMonster,ColdPoint,NoDig]
+  | t == Lava         = [OftenLavaMonster,FirePoint,NoDig]
+  | t == WaterDeep    = [NoMonster,WaterPoint,NoDig]
+  | t == WaterShallow = [OftenWaterMonster,WaterPoint,NoDig]
+  | t == R1 = [RZ1,OftenMonster]
   | t == R2 = [RZ2,OftenMonster]
   | t == R3 = [RZ3,OftenMonster]
   | t == R4 = [RZ4,OftenMonster]
@@ -120,7 +120,7 @@ addFeat t
 
 addLit :: Terrain -> Bool
 addLit t
-  | t `elem` [Light,WaterDeep] = True
+  | t == Light = True
   | otherwise = False
 
 -- | miniMap

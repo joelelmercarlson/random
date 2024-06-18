@@ -66,17 +66,16 @@ type Properties = Map Text Text
 -- | status    : Temporary Conditions
 -- | coord     : Position
 -- | 'M' data
--- | tid          : name of tile
--- | tid1         : name of decorator tile
--- | eAC          : ArmorClass
--- | eEV          : Evasion
--- | eWP          : WillPower
--- | eBase        : Base mons
--- | eBlock       : Block?
--- | eMove        : Move?
--- | eMP          : Mana Point
--- | eMaxMP       : Max Mana Point
--- | eSpeed       : Speed
+-- | tid    : name of tile
+-- | tid1   : name of decorator tile
+-- | eAC    : ArmorClass
+-- | eEV    : Evasion
+-- | eWP    : WillPower
+-- | eBase  : Base mons
+-- | eBlock : Block?
+-- | eMP    : Mana Point
+-- | eMaxMP : Max Mana Point
+-- | eSpeed : Speed
 -- | 'M' natural resistance
 -- | eResAcid      : acid
 -- | eResCold      : cold
@@ -117,19 +116,18 @@ data EntityKind = EntityKind
   , skill     :: !Conditions
   , status    :: !Conditions
   , coord     :: !Point
-  , tid           :: Maybe Text
-  , tid1          :: Maybe Text
-  , eAC           :: Maybe Int
-  , eEV           :: Maybe Int
-  , eWP           :: Maybe Int
-  , eBase         :: Maybe Text
-  , eBlock        :: Maybe Bool
-  , eMove         :: Maybe Bool
-  , eHoly         :: Maybe EntityHoly
-  , eMP           :: Maybe Int
-  , eMaxMP        :: Maybe Int
-  , eName         :: Maybe Text
-  , eSpeed        :: Maybe Int
+  , tid       :: Maybe Text
+  , tid1      :: Maybe Text
+  , eAC       :: Maybe Int
+  , eEV       :: Maybe Int
+  , eWP       :: Maybe Int
+  , eBase     :: Maybe Text
+  , eBlock    :: Maybe Bool
+  , eHoly     :: Maybe EntityHoly
+  , eMP       :: Maybe Int
+  , eMaxMP    :: Maybe Int
+  , eName     :: Maybe Text
+  , eSpeed    :: Maybe Int
   , eResAcid      :: Maybe Int
   , eResCold      :: Maybe Int
   , eResFire      :: Maybe Int
@@ -138,12 +136,12 @@ data EntityKind = EntityKind
   , eResPoison    :: Maybe Int
   , eResHoly      :: Maybe Int
   , eResPain      :: Maybe Int
-  , eEmote        :: Maybe EntityEmote
-  , eHabitat      :: Maybe EntityHabitat
-  , eSmart        :: Maybe EntitySmart
-  , eSize         :: Maybe EntitySize
-  , eUse          :: Maybe EntityUse
-  , eWeapon       :: Maybe EntityWeapon
+  , eEmote   :: Maybe EntityEmote
+  , eHabitat :: Maybe EntityHabitat
+  , eSmart   :: Maybe EntitySmart
+  , eSize    :: Maybe EntitySize
+  , eUse     :: Maybe EntityUse
+  , eWeapon  :: Maybe EntityWeapon
   , iValue   :: Maybe Int
   , iHit     :: Maybe Int
   , iEn      :: Maybe Int
@@ -182,7 +180,6 @@ mkEntityKind x p =
   , eWP  = Just 0
   , eBase  = Nothing
   , eBlock = Just False
-  , eMove  = Just False
   , eMP    = Nothing
   , eMaxMP = Nothing
   , eName  = Nothing
@@ -236,7 +233,7 @@ instance ToJSON Entity
 
 -- | M Damage
 data EntityDmg
-  = Pain
+  = Plain
   | Acid
   | Cold
   | Fire
@@ -248,14 +245,47 @@ data EntityDmg
   | Bludgeoning
   | Piercing
   | Slashing
+  | Antimagic
+  | Barbs
+  | Bite
+  | Blink
+  | BlinkWith
+  | Blocked
   | Chaos
+  | Claw
+  | Confuse
   | Constrict
+  | DamageReduction
+  | Distort
+  | Drag
+  | Drain
+  | DrainDex
+  | DrainSpeed
+  | DrainStat
+  | Drown
+  | Engulf
+  | Ensnare
+  | FireStrong
+  | Flank
   | Gore
   | HeadButt
-  | Pounce
+  | Hit
+  | Kick
+  | Miss
+  | MissClosely
+  | Pain
+  | PoisonParalyze
+  | PoisonStrong
+  | Punch
+  | Rage
   | Reach
+  | ReachSting
   | ReachTongue
+  | Rift
+  | Scarab
+  | Sear
   | Spore
+  | Stabbing
   | Sting
   | Swoop
   | TailSlap
@@ -263,7 +293,10 @@ data EntityDmg
   | Touch
   | Trample
   | TrunkSlap
-  | VampireFang
+  | Vampiric
+  | Vuln
+  | Weakness
+  | Zerk
   | NoneDmg
   deriving (Ord, Read, Show, Eq, Generic)
 
@@ -318,7 +351,7 @@ data EntityFeat
   | Dexterity
   | Dispersal
   | Distortion
-  | Drain
+  | Draining
   | Electric
   | Evasion
   | Faith
@@ -413,7 +446,6 @@ instance ToJSON EntityHoly
 -- | M conditions, skills, counters
 data EntityST
   = Hurt
-  | Awake
   | Blinded
   | Confused
   | Deafened
@@ -426,18 +458,22 @@ data EntityST
   | Poisoned
   | Prone
   | Restrained
-  | Slow
   | Stunned
   | Unconscious
+  | Awake
   | Burnt
   | Corroded
-  | Frozen
-  | Electrocuted
-  | Drained
   | Crippled
+  | Drained
+  | Electrocuted
+  | Frozen
+  | HurtEvil
+  | Noise
   | PlusCombat
   | PlusMoveSpeed
   | PlusSpeed
+  | Silenced
+  | Slow
   | ARMOR
   | AXE
   | DODGE
@@ -454,6 +490,7 @@ data EntityST
   | STEALTH
   | THROW
   | COIN
+  | DECAUT
   | DEPTH
   | ENERGY
   | MAXDEPTH
@@ -541,7 +578,7 @@ data EntityWeapon = EntityWeapon
   { hurt0 :: Maybe (EntityDmg, Int)
   , hurt1 :: Maybe (EntityDmg, Int)
   , hurt2 :: Maybe (EntityDmg, Int)
-  , shoot :: Maybe (EntityDmg, Int)
+  , hurt3 :: Maybe (EntityDmg, Int)
   }
   deriving (Show, Eq, Generic)
 

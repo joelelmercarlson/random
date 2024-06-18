@@ -44,7 +44,6 @@ mkPlayer x n = let
   x0 = mkEntityKind "Player" originPoint
   in x0 { kind = Actor
   , eBlock = Just True
-  , eMove = Just True
   , property = Map.fromList $ mkProperty cls actor
   , status = Map.insert COIN 30 (status x0)
   , tid = Just "MONS_HALFLING" }
