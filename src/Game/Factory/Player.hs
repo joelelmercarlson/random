@@ -42,9 +42,9 @@ mkPlayer x n = let
   cls = classFmt x
   actor = abilitySort cls n
   x0 = mkEntityKind "Player" originPoint
+  pm = mkProperty cls actor
   in x0 { kind = Actor
-  , eBlock = Just True
-  , property = Map.fromList $ mkProperty cls actor
+  , property = Map.fromList pm
   , status = Map.insert COIN 30 (status x0)
   , tid = Just "MONS_HALFLING" }
 
