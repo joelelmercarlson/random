@@ -72,7 +72,6 @@ type Properties = Map Text Text
 -- | eEV    : Evasion
 -- | eWP    : WillPower
 -- | eBase  : Base mons
--- | eBlock : Block?
 -- | eMP    : Mana Point
 -- | eMaxMP : Max Mana Point
 -- | eSpeed : Speed
@@ -97,7 +96,6 @@ type Properties = Map Text Text
 -- | iHit     : plus/minus accuracy
 -- | iEn      : encumbrance
 -- | iPlus    : slay bonuses
--- | iPrice   : relative gp
 -- | iDmgType : base damage type
 -- | iType    : type of Item
 -- | iFeature : Item feature
@@ -122,7 +120,6 @@ data EntityKind = EntityKind
   , eEV       :: Maybe Int
   , eWP       :: Maybe Int
   , eBase     :: Maybe Text
-  , eBlock    :: Maybe Bool
   , eHoly     :: Maybe EntityHoly
   , eMP       :: Maybe Int
   , eMaxMP    :: Maybe Int
@@ -179,7 +176,6 @@ mkEntityKind x p =
   , eEV  = Just 0
   , eWP  = Just 0
   , eBase  = Nothing
-  , eBlock = Just False
   , eMP    = Nothing
   , eMaxMP = Nothing
   , eName  = Nothing
@@ -226,6 +222,7 @@ data Entity
   | StairDown
   | StairUp
   | Trap
+  | Arrow
   deriving (Ord, Show, Eq, Generic)
 
 instance FromJSON Entity
@@ -445,8 +442,7 @@ instance ToJSON EntityHoly
 
 -- | M conditions, skills, counters
 data EntityST
-  = Hurt
-  | Blinded
+  = Blinded
   | Confused
   | Deafened
   | Frightened
@@ -460,20 +456,27 @@ data EntityST
   | Restrained
   | Stunned
   | Unconscious
+  | Ambrosia
   | Awake
   | Burnt
   | Corroded
   | Crippled
   | Drained
+  | DrainDexterity
+  | DrainIntelligence
+  | DrainStrength
   | Electrocuted
   | Frozen
+  | Hurt
   | HurtEvil
+  | Mighty
   | Noise
   | PlusCombat
   | PlusMoveSpeed
   | PlusSpeed
   | Silenced
   | Slow
+  | Vulnerable
   | ARMOR
   | AXE
   | DODGE
